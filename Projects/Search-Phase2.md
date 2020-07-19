@@ -10,5 +10,6 @@
 
 > :warning: در مرحله‌ی یک تلاش کنید **فقط با فکر خودتان و بحث با هم تیمی** به جواب سوالات بالا از دیدگاه خودتان برسید تا ذهن شما برای مراحل بعد آماده شود، لطفا قبل از فکر کردن به این سوالات به سراغ مراحل بعدی و خواندن اسپویل نروید! 
 
-    
+1. در این مرحله در مورد دلایل اهمیت کد تمیز در صنعت در نرم افزار مطالعه کنید، مطالعه‌ی [The Importance of Clean Code](https://www.arcanys.com/blog/the-importance-of-clean-code) را در مورد سوال اول و مطالعه‌ی [Why software maintainability is crucial - TechHQ](https://techhq.com/2019/06/why-software-maintainability-is-crucial/) را در مورد سوال دوم پیشنهاد می‌کنیم.
+
 </div>
