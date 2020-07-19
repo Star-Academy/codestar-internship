@@ -32,7 +32,7 @@ get help +illness +disease -cough
 
 همچنین در مورد اولویت و جزئیات عملگر‌ها اگر ابهامی وجود داشت می‌توانید بر اساس تشخیص خودتان عمل کنید.
 
-بعد از تست‌های اولیه با چند داکیومنت محدود  حجم دیتای خود را بیشتر کنید، پیشنهاد می‌کنیم از دیتاست The 20 Newsgroups data set استفاده کنید. ([لینک دانلود](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/SampleEnglishData.zip))
+بعد از تست‌های اولیه با چند داکیومنت محدود  حجم دیتای خود را بیشتر کنید، پیشنهاد می‌کنیم از دیتاست The 20 Newsgroups data set استفاده کنید. ([لینک دانلود دیتاست](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/SampleEnglishData.zip))
     
 همچنین فراموش نکنید تمام کاراکتر‌های ورودی را lowercase کنید.
 </div>
