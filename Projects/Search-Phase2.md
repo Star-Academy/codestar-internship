@@ -22,4 +22,20 @@
     - [Temporary Field](https://refactoring.guru/smells/temporary-field)
     - [Duplicate Code](https://refactoring.guru/smells/duplicate-code)
 
+
+1. حالا برای رفع این Code Smell ها در کد فاز یک تلاش کنید. می‌توانید برای ریفکتور بخش‌های مختلف کدتان خلاقیت به خرج دهید و ایده بزنید یا سَری به مجموعه [Refactoring Techniques - refactoring.guru](https://refactoring.guru/refactoring/techniques) بزنید، اما مطالعه‌ی دقیق تمام موارد موجود در این لینک نیاز نیست همین که به فهرست آن نگاه کنید و بعضی از آن‌ها را مرور کنید کافیست. تغییرات کد در این مرحله را روی  یک برنچ غیر از مستر انجام دهید و بعد از اتمام این مرحله یک [Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) بسازید اما آن را Merge در این مرحله Merge نکنید.
+
+
+
+1. یکی از تیم‌های دیگر را انتخاب کنید و از آن‌ها بخواهید Pull Requestی که در مرحله‌ی قبل ساخته‌ای را Review کنند و بر اساس لیست Code Smellهای مرحله‌ی  4 به شما فیدبک بدهند (روی Pull Request کامنت بگذارند)، در این مرحله حتما از تیم‌های دیگر هم سراغ شما می‌آیند و می‌خواهند کدشان را Review کنید، قبل از Review کد دیگران یکی از دو راهنمای زیر را مطالعه کنید و Review خود را بر اساس این راهنما انجام دهید:
+    - نسخه خلاصه اگر وقت شما کم هست و از بقیه تیم‌ها عقب تر هستید: [Effective Code Reviews: Code Review Checklist](https://nyu-cds.github.io/effective-code-reviews/03-checklist/)
+
+    - نسخه جامع (راهنمای Review شرکت گوگل) اگر وقت شما بیشتر است و از بقیه تیم‌ها جلوتر هستید:
+    [What to look for in a code review | eng-practices](https://google.github.io/eng-practices/review/reviewer/looking-for.html)
+
+    > :warning: با توجه به این که در این فاز صحبتی در مورد انواع تست به خصوص Unit Test نکردیم قسمت‌هایی از لینک‌های بالا که در مورد تست است را نادیده بگیرید.
+
+1. فیدبک‌ها و کامنت‌های دیگران روی Pull Requestی که دو مرحله قبل ساخته بودید را با دقت مطالعه کنید و اگر با نظر تیم مقابل موافق هستید کد خود را بر اساس آن اصلاح کنید، اگر موافق نیستید تلاش کنید تیم مقابل را قانع کنید، اگر در این زمینه به مشورت نیاز داشتید می‌توانید مسئله را با راهنما (منتور) تیم خود مطرح کنید. در نهایت با اتمام تغییرات دوباره کد را به تیم مقابل نشان دهید و از آن‌ها بخواهید Pull Request را Approve کنند و در نهایت PR را روی برنچ master ببرید. (Merge کنید)
+    
+
 </div>
