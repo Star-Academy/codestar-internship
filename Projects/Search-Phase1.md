@@ -24,15 +24,13 @@
     
 
 <p dir='rtl' align='left'>    
-    مثال:
-    
-    get help +illness +disease -cough
-    
+    مثال:    
+    get help +illness +disease -cough    
     کوئری بالا به معنای داکیومنت‌هایی است که حتماً کلمه‌ی get و help هر دو را داشته باشند و حداقل یکی از کلمات illness یا disease را داشته باشند و همچنین کلمه‌ی cough را نداشته باشند.
 
-    همچنین در مورد اولویت و جزئیات عملگر‌ها اگر ابهامی وجود داشت می‌توانید بر اساس تشخیص خودتان عمل کنید.
+همچنین در مورد اولویت و جزئیات عملگر‌ها اگر ابهامی وجود داشت می‌توانید بر اساس تشخیص خودتان عمل کنید.
 
-    بعد از تست‌های اولیه با چند داکیومنت محدود  حجم دیتای خود را بیشتر کنید، پیشنهاد می‌کنیم از دیتاست The 20 Newsgroups data set استفاده کنید. ([لینک دانلود](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/SampleEnglishData.zip))
+بعد از تست‌های اولیه با چند داکیومنت محدود  حجم دیتای خود را بیشتر کنید، پیشنهاد می‌کنیم از دیتاست The 20 Newsgroups data set استفاده کنید. ([لینک دانلود](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/SampleEnglishData.zip))
     
-    همچنین فراموش نکنید تمام کاراکتر‌های ورودی را lowercase کنید.
+همچنین فراموش نکنید تمام کاراکتر‌های ورودی را lowercase کنید.
 </p>
