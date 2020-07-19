@@ -1,3 +1,6 @@
+Click on "Raw" button on right side of this page to see original markdown then create a new issue with orginal content of this tasklist:
+
+
 - [ ] Section 1: Think individually about question i & ii before starting
 - [ ] Section 2: Read individually about Inverted-Index
 - [ ] Section 3: Implement a simple inverted index with java
