@@ -1,4 +1,5 @@
 <div dir="rtl" align='right'>
+
 [لیست تسک‌های مرتبط با این بخش به صورت issue template](./issue-template-Search-Phase2.md)
 
 ## فاز دو: افزایش کیفیت کد
