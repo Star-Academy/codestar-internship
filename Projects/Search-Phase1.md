@@ -1,4 +1,4 @@
-<div dir="rtl" align="left">
+<div dir="ltr">
 
 # پروژه یک: آشنایی با full-text search
 به پروژه اول کارآموزی تابستان کداستار خوش آمدید!
