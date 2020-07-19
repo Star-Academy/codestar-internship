@@ -5,7 +5,7 @@
   - [ ] Implement an inverted-index class which contains all tokens and list of related documents per each token
   - [ ] Test your program with sample dataset mentioned in project definition
  
- - [ ] Section4: Implement basic and, or, exclude features:
+- [ ] Section4: Implement basic and, or, exclude features:
   - [ ] Support for words starting with + (or feature)
   - [ ] Support for words starting with nothing (and feature)
   - [ ] Support for words starting with - (exclude feature)
