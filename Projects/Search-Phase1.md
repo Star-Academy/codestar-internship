@@ -14,7 +14,7 @@
     1. چطور می‌شود این جستجو را از مرتبه‌ی یک یا همان  (O(1 یک انجام داد؟ 
 
 1. در مورد
-[Inverted Index](https://www.youtube.com/watch?v=bFrO8piASKg)
+[Inverted Index](https://www.youtube.com/watch?v=bnP6TsqyF30)
 جستجو و مطالعه کنید. مطالعه‌ی 
 [Inverted Index - GeeksforGeeks](https://www.geeksforgeeks.org/inverted-index/)
 را پیشنهاد می‌کنیم.
@@ -37,5 +37,9 @@
 * بعد از تست‌های اولیه با چند داکیومنت محدود  حجم دیتای خود را بیشتر کنید، پیشنهاد می‌کنیم از دیتاست  The 20 Newsgroups data set استفاده کنید. ([لینک دانلود](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/SampleEnglishData.zip))
 
 * همچنین فراموش نکنید تمام کاراکتر‌های ورودی را lowercase کنید.
+
+* برای آشنایی بیشتر با نحوه‌ی کار موتور‌های جست‌و‌جو دیدن این
+[فیلم](https://www.youtube.com/watch?v=CeGtqouT8eA)
+توصیه می‌شود.
     
 </div>
