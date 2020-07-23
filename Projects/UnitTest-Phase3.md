@@ -31,8 +31,64 @@
 
 1. نوشتن Unit Test در جاوا:
     
-    در این مرحله، در ابتدا در مورد نحوه‌ی نوشتن تست در زبان جاوا و با استفاده از کتابخانه `JUnit`
-    مطالعه کنید.
+    در این مرحله، در مورد نحوه‌ی نوشتن تست در زبان جاوا و با استفاده از کتابخانه `JUnit`
+    مطالعه کنید. برای شروع کار با این کتابخانه، پیشنهاد می‌شود [Getting started with junit](https://riptutorial.com/junit)
+    را مطالعه کنید. همچنین نحوه‌ی مشاهده‌ی code coverage
+    را از
+    [اینجا](https://www.jetbrains.com/help/idea/running-test-with-coverage.html)
+    می‌توانید بخوانید.
+
+1. اصول SOLID:
+
+    یکی از مهم‌ترین مجموعه اصول در مهندسی نرم‌افزار، اصول پنج‌گانهٔ SOLID می‌باشد.
+    این اصول عبارت‌اند از:
+
+    1. **S**ingle Responsibility
+    1. **O**pen for Extension/Closed for Modification
+    1. **L**iskov Substitution
+    1. **I**nterface Segregation
+    1. **D**ependency Inversion
+
+    در مورد هر یک از این اصول مطالعه کنید. همچنین می‌توانید از لینک‌های زیر نیز کمک بگیرید:
+
+    - [SOLID Principles in Java Application Development](https://www.jrebel.com/blog/solid-principles-in-java)
+    - [S.O.L.I.D principles in Java](https://medium.com/@karthikcsridhar/s-o-l-i-d-principles-in-java-1aaff453d7ea)
+
+1. تاثیر اصول SOLID بر Unit Tesing:
+
+    در این مرحله، درمورد تاثیر رعایت اصول SOLID
+    بر تست‌نویسی مطالعه کنید. در این مرحله می‌توانید از لینک زیر کمک بگیرید:
+
+    - [SOLID, Object Oriented Design and Unit Testing](https://huestones.co.uk/2015/06/solid-object-oriented-design-and-unit-testing/)
+
+1. آشنایی با Mock:
+
+    Mock
+    کردن، یک تکنیک تست‌نویسی است که در آن، قسمتی از کد را با یک پیاده‌سازی دلخواه جایگزین می‌کنیم و از آن برای شبیه‌سازی یک عملیات واقعی استفاده می‌شود. معمولا mock
+    کردن زمانی استفاده می‌شود که یک متد یا کلاس، وابستگی یا وابستگی‌هایی دارد که در تست ما تداخل نامطلوبی ایجاد می‌کند.
+
+    مثلا فرض کنید میخواهید سرویسی را تست کنید که در آن از یک `SmsSender`
+    استفاده شده است. در نتیجه هر بار که آن تست را اجرا کنید، یک SMS
+    نیز ارسال می‌شود، که این برای ما مطلوب نیست.
+
+    در این صورت، باید `SmsSender`
+    را mock
+    کرد که دیگر SMS
+    ارسال نکند، ولی همواره مثلا `true`
+    برگرداند، به این معنی که ارسال با موفقیت انجام شده است. در نتیجه می‌توانیم functionality
+    همان متد را تست کنیم، به جای این که بخواهیم درگیر وابستگی‌های آن نیز شویم. 
+
+    در این مرحله، در مورد این مفهوم مطالعه کنید. می‌توانید از لینک‌های زیر کمک بگیرید:
+
+    - [What is a mock and when should you use it](https://stackoverflow.com/questions/214092/what-is-a-mock-and-when-should-you-use-it)
+    - [Unit tests with Mockito - Tutorial](https://www.vogella.com/tutorials/Mockito/article.html)
+
+1. نوشتن تست برای الگوریتم جستجو:
+
+    در این مرحله، با استفاده از دانشی که در این فاز به دست آورده‌اید، برای بخش‌های مختلف کد خود تست بنویسید. سعی کنید Code Coverage
+    تست را به بالای ۹۵٪ برسانید.
+
+
 
 
 </div>
