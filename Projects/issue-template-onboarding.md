@@ -158,7 +158,7 @@ issue
   <div  dir="ltr" align='left'>
   
   1. [ ] به جلسه یک به یک با راهبر برو.
-  2. [ ] <span  dir="rtl" align='right'>زمانی که تمام کارهایی که باید در هفته اول انجام می‌دادی را انجام دادی لیبل "week 2- Complete Label" رو به ایشوت متصل کن. </span>
+  2. [ ] <span  dir="rtl" align='right'>زمانی که تمام کارهایی که باید در هفته دوم انجام می‌دادی را انجام دادی لیبل "week 2- Complete Label" رو به ایشوت متصل کن. </span>
      </div>
 </details>
 
@@ -179,7 +179,7 @@ issue
   <div  dir="ltr" align='left'>
   
   1. [ ] <span  dir="rtl" align='right'> در جلسه [AMA](https://about.gitlab.com/company/culture/all-remote/informal-communication/#ama-ask-me-anything) شرکت کن و هر چیزی که در مورد تیم ستاره، گذشته‌اش، حالش و آینده‌اش دوست داری بپرس. </span>
-  2. [ ] <span  dir="rtl" align='right'> زمانی که تمام کارهایی که باید در هفته اول انجام می‌دادی را انجام دادی لیبل "week 3- Complete Label" رو به ایشوت متصل کن. </span>
+  2. [ ] <span  dir="rtl" align='right'> زمانی که تمام کارهایی که باید در هفته سوم انجام می‌دادی را انجام دادی لیبل "week 3- Complete Label" رو به ایشوت متصل کن. </span>
      </div>
 </details>
 
