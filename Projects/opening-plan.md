@@ -37,7 +37,7 @@
 
 ## زمان بندی
 
-<div dir="rtl" align='center'>
+<div align='center'>
 
 
 | برنامه | مدت |
