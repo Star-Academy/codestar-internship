@@ -133,7 +133,7 @@ issue
   
   <div  dir="ltr" align='left'>
   
-  1. [ ] <span  dir="rtl" align='right'> با سه نفر از اعضای بقیه تیم ها جلسه Coffee Gap مشخص کن و سعی کن بیشتر با بقیه بچه‌ها در این جلسات آشنا بشی. مدت زمان پیشنهادی برای این جلسات نیم ساعته. </span>
+  1. [ ] <span  dir="rtl" align='right'> با سه نفر از اعضای بقیه تیم ها جلسه (Coffee Chat)[https://about.gitlab.com/company/culture/all-remote/informal-communication/#coffee-chats] مشخص کن و سعی کن بیشتر با بقیه بچه‌ها در این جلسات آشنا بشی. مدت زمان پیشنهادی برای این جلسات نیم ساعته. </span>
   2. [ ] <span  dir="rtl" align='right'>زمانی که تمام کارهایی که باید در هفته اول انجام می‌دادی رو انجام دادی لیبل "week 1- Complete Label" رو به ایشوت متصل کن. </span>
      </div>
 </details>
@@ -145,7 +145,7 @@ issue
   
   <div  dir="ltr" align='left'>
   
-  1. [ ] یک جلسه یک به یک با کارآموز مشخص کن و در مورد موارد مختلف جهت آشنایی بیشتر گفت و گو کنید.
+  1. [ ] یک جلسه (یک به یک)[https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/] با کارآموز مشخص کن و در مورد موارد مختلف جهت آشنایی بیشتر گفت و گو کنید.
      </div>
 </details>
 
@@ -154,7 +154,7 @@ issue
   
   <div  dir="ltr" align='left'>
   
-  1. [ ] به جلسه یک به یک با راهبر برو.
+  1. [ ] به جلسه (یک به یک)[https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/] با راهبر برو.
   2. [ ] <span  dir="rtl" align='right'>زمانی که تمام کارهایی که باید در هفته دوم انجام می‌دادی رو انجام دادی لیبل "week 2- Complete Label" رو به ایشوت متصل کن. </span>
      </div>
 </details>
@@ -166,7 +166,7 @@ issue
   
   <div  dir="ltr" align='left'>
   
-  1. [ ] <span  dir="rtl" align='right'> یک جلسه [AMA](https://about.gitlab.com/company/culture/all-remote/informal-communication/#ama-ask-me-anything) میان 4 نفر از بچه‌ها و یکی از مدیران ستاره مشخص کن و به اطلاع کارآموز برسون</spam>
+  1. [ ] <span  dir="rtl" align='right'> یک جلسه [AMA](https://about.gitlab.com/company/culture/all-remote/learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) میان 4 نفر از بچه‌ها و یکی از مدیران ستاره مشخص کن و به اطلاع کارآموز برسون</spam>
      </div>
 </details>
 
@@ -175,7 +175,7 @@ issue
   
   <div  dir="ltr" align='left'>
   
-  1. [ ] <span  dir="rtl" align='right'> در جلسه [AMA](https://about.gitlab.com/company/culture/all-remote/informal-communication/#ama-ask-me-anything) شرکت کن و هر چیزی که در مورد تیم ستاره، گذشته‌اش، حالش و آینده‌اش دوست داری بپرس. </span>
+  1. [ ] <span  dir="rtl" align='right'> در جلسه [AMA](https://about.gitlab.com/company/culture/all-remote/learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) شرکت کن و هر چیزی که در مورد تیم ستاره، گذشته‌اش، حالش و آینده‌اش دوست داری بپرس. </span>
   2. [ ] <span  dir="rtl" align='right'> زمانی که تمام کارهایی که باید در هفته سوم انجام می‌دادی رو انجام دادی لیبل "week 3- Complete Label" رو به ایشوت متصل کن. </span>
      </div>
 </details>
