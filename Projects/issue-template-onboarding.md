@@ -5,13 +5,15 @@
 # فرآیند خوش‌آمدگویی
 
 #### ورودت رو به فرآیند خوش‌آمدگویی کارآموزی مجازی کداستار تبریک می‌گیم!
-<p align="center">
-  <img width="100%"  src="https://github.com/Star-Academy/codestar-internship/blob/onboarding/Projects/onboarding_header.png">
-</p>
+
 ما خیلی خوشحالیم که در دوره‌ی ما حضور داری!
 در این دوره از ابزار Github برای مدیریت و اشتراک گذاری تسک‌هایت استفاده می‌کنی.
 همچنین از Microsoft Teams به عنوان پیام‌رسان استفاده خواهد شد.
 اگه سوال یا فیدبکی داشتی می‌تونی به اعضای تیمِ ما در این پیام‌رسان پیام بدی و مشکلت رو بر طرف کنی.
+
+<p align="center">
+  <img width="100%"  src="https://github.com/Star-Academy/codestar-internship/blob/onboarding/Projects/onboarding_header.png">
+</p>
 
 بخشی از فرآیند خوش‌آمدگوییت خودآموزه تا تو رو برای دورکاری و ارتباط برقرار کردن مجازی با سایر هم دوره‌ای‌هات، راهبرها و راهنماها آماده بکنه.
 تسک‌هایی که در این
