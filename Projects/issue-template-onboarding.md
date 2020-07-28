@@ -140,7 +140,7 @@ issue
   
   <div  dir="ltr" align='left'>
   
-  1. [ ] یک جلسه [یک به یک](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/) با کارآموز مشخص کن و در مورد موارد مختلف جهت آشنایی بیشتر گفت و گو کنید
+  1. [ ] یک جلسه [یک به یک](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/) با کارآموز برنامه‌ریزی کن و در مورد موارد مختلف جهت آشنایی بیشتر گفت و گو کنید
      </div>
 </details>
 
@@ -149,7 +149,7 @@ issue
   
   <div  dir="ltr" align='left'>
   
-  1. [ ] به جلسه [یک به یک](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/) با راهبر برو
+  1. [ ] به جلسه [یک به یک](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/) با راهبرت برو
   2. [ ] <span  dir="rtl" align='right'>وقتی تسک‌های هفته دوم انجام شد رو انجام دادی لیبل "week 2- Complete Label" رو به ایشوت متصل کن </span>
      </div>
 </details>
@@ -161,7 +161,7 @@ issue
   
   <div  dir="ltr" align='left'>
   
-  1. [ ] <span  dir="rtl" align='right'> یک جلسه [AMA](https://about.gitlab.com/company/culture/all-remote/learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) میان 4 نفر از بچه‌ها و یکی از مدیران ستاره مشخص کن و به اطلاع کارآموز برسون</spam>
+  1. [ ] <span  dir="rtl" align='right'> یک جلسه [AMA](https://about.gitlab.com/company/culture/all-remote/learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) میان 4 نفر از بچه‌ها و یکی از مدیران ستاره برنامه ریزی کن و به اطلاع کارآموز برسون</spam>
      </div>
 </details>
 
