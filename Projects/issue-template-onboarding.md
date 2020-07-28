@@ -43,7 +43,7 @@ issue
   
   <div  dir="ltr" align='left'>
   
-  1. [ ] به کارآموز پیام بده و خودت رو معرفی کن
+  1. [ ] با کارآموزت ارتباط بگیر و خودت رو معرفی کن
   2. [ ] <span  dir="rtl" align='right'> اگر در اتصال به Microsoft Teams کارآموز مشکلی داره مشکلش رو حل کن. </span>
   3. [ ] اگر کارآموز در مورد دوره یا تیم سوالی دارد به طور خلاصه جواب بده و بگو در جلسه افتتاحیه به طور مفصل بیان می‌شه.
      </div>
@@ -82,13 +82,13 @@ issue
   <div  dir="ltr" align='left'>
   
   1. [ ] `[زمان افتتاحیه]` در افتتاحیه شرکت کن.
-  2. [ ] به هم تیمیت پیام بده و با هم ارتباط برقرار کنید.
-  3. [ ] از همیارت پیگیری کن که به گیت‌هاب اضاف‌ات بکنه.
-  4. [ ] <span  dir="rtl" align='right'> به ریپو `[codestar-intern-issues]` برو و در اونجا تسک فرآیند خوش‌آمدگویی خودت رو پیدا کن و به خودت assign کن. </span>
-  5. [ ] با راهبرت یک زمان برای جلسه گزارش روزانه ست بکن که هر روز با هم تیمی‌ات با راهبر جلسه داشته باشین. پیشنهاد می‌شه این زمان بعد از ظهر و در انتهای زمان روزانه باشه.
+  2. [ ] به هم تیمیت پیام بده و با هم ارتباط برقرار کنید
+  3. [ ] از همیارت پیگیری کن که به گیت‌هاب اضاف‌ات بکنه
+  4. [ ] <span  dir="rtl" align='right'> به ریپو `[codestar-intern-issues]` برو و در اونجا تسک فرآیند خوش‌آمدگویی خودت رو پیدا کن و به خودت assign کن </span>
+  5. [ ] با راهبرت یک زمان برای جلسه گزارش روزانه ست بکن که هر روز با هم تیمی‌ات با راهبر جلسه داشته باشین. پیشنهاد می‌شه این زمان بعد از ظهر و در انتهای زمان روزانه باشه
   6. [ ] فاز اول پروژه رو با هم تیمی ات شروع کن در 9 فاز اول به ازای هر دو نفر یک ریپوی گیتهاب داریم که کد شما در آن ریپو توسعه داده می‌شه و هر فاز تغییر پیدا می کنه
 ریپو ها از قبل ساخته شده و اسم ریپو ها با شماره تیم مشخص شده (مثلا تیم 1 و تیم 2 و ...)
-  7. [ ] <span  dir="rtl" align='right'> زمانی که تمام تسک‌هایی که باید در روز اول انجام می‌دادی رو انجام دادی لیبل "Day 1- Complete Label" رو به ایشوت متصل کن. </span>
+  7. [ ] <span  dir="rtl" align='right'> زمانی که تمام تسک‌هایی که باید در روز اول انجام می‌دادی رو انجام دادی لیبل "Day 1- Complete Label" رو به ایشوت متصل کن </span>
      </div>
 </details>
 
@@ -108,8 +108,8 @@ issue
   
   <div  dir="ltr" align='left'>
   
-  * هر روز با هم تیمیت یک جلسه روزانه برگزار کرده و برای آن روز خود برنامه بریزین.
-  * عصرها به جلسه با راهبر خود برو و گزارشی از مشکلات یا اتفاقات روزانه به او بده.
+  * هر روز با هم تیمیت یک جلسه روزانه برگزار کرده و برای آن روز خود برنامه بریزین
+  * عصرها به جلسه با راهبر خود برو و گزارشی از مشکلات یا اتفاقات روزانه به او بده
      </div>
 </details>
 
@@ -120,8 +120,8 @@ issue
   
   <div  dir="ltr" align='left'>
   
-  1. [ ] <span  dir="rtl" align='right'> با سه نفر از اعضای بقیه تیم ها جلسه [Coffee Chat](https://about.gitlab.com/company/culture/all-remote/informal-communication/#coffee-chats) مشخص کن و سعی کن بیشتر با بقیه بچه‌ها در این جلسات آشنا بشی. مدت زمان پیشنهادی برای این جلسات نیم ساعته. </span>
-  2. [ ] <span  dir="rtl" align='right'>زمانی که تمام تسک‌هایی که باید در هفته اول انجام می‌دادی رو انجام دادی لیبل "week 1- Complete Label" رو به ایشوت متصل کن. </span>
+  1. [ ] <span  dir="rtl" align='right'> با سه نفر از اعضای بقیه تیم ها جلسه [Coffee Chat](https://about.gitlab.com/company/culture/all-remote/informal-communication/#coffee-chats) مشخص کن و سعی کن بیشتر با بقیه بچه‌ها در این جلسات آشنا بشی. مدت زمان پیشنهادی برای این جلسات نیم ساعته </span>
+  2. [ ] <span  dir="rtl" align='right'>زمانی که تمام تسک‌هایی که باید در هفته اول انجام می‌دادی رو انجام دادی لیبل "week 1- Complete Label" رو به ایشوت متصل کن </span>
      </div>
 </details>
 
@@ -132,7 +132,7 @@ issue
   
   <div  dir="ltr" align='left'>
   
-  1. [ ] یک جلسه [یک به یک](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/) با کارآموز مشخص کن و در مورد موارد مختلف جهت آشنایی بیشتر گفت و گو کنید.
+  1. [ ] یک جلسه [یک به یک](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/) با کارآموز مشخص کن و در مورد موارد مختلف جهت آشنایی بیشتر گفت و گو کنید
      </div>
 </details>
 
@@ -141,8 +141,8 @@ issue
   
   <div  dir="ltr" align='left'>
   
-  1. [ ] به جلسه [یک به یک](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/) با راهبر برو.
-  2. [ ] <span  dir="rtl" align='right'>زمانی که تمام تسک‌هایی که باید در هفته دوم انجام می‌دادی رو انجام دادی لیبل "week 2- Complete Label" رو به ایشوت متصل کن. </span>
+  1. [ ] به جلسه [یک به یک](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/) با راهبر برو
+  2. [ ] <span  dir="rtl" align='right'>زمانی که تمام تسک‌هایی که باید در هفته دوم انجام می‌دادی رو انجام دادی لیبل "week 2- Complete Label" رو به ایشوت متصل کن </span>
      </div>
 </details>
 
@@ -162,8 +162,8 @@ issue
   
   <div  dir="ltr" align='left'>
   
-  1. [ ] <span  dir="rtl" align='right'> در جلسه [AMA](https://about.gitlab.com/company/culture/all-remote/learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) شرکت کن و هر چیزی که در مورد تیم ستاره، گذشته‌اش، حالش و آینده‌اش دوست داری بپرس. </span>
-  2. [ ] <span  dir="rtl" align='right'> زمانی که تمام تسک‌هایی که باید در هفته سوم انجام می‌دادی رو انجام دادی لیبل "week 3- Complete Label" رو به ایشوت متصل کن. </span>
+  1. [ ] <span  dir="rtl" align='right'> در جلسه [AMA](https://about.gitlab.com/company/culture/all-remote/learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) شرکت کن و هر چیزی که در مورد تیم ستاره، گذشته‌اش، حالش و آینده‌اش دوست داری بپرس </span>
+  2. [ ] <span  dir="rtl" align='right'> زمانی که تمام تسک‌هایی که باید در هفته سوم انجام می‌دادی رو انجام دادی لیبل "week 3- Complete Label" رو به ایشوت متصل کن </span>
      </div>
 </details>
 
