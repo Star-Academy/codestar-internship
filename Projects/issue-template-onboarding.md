@@ -94,7 +94,7 @@ issue
   5. [ ] <span  dir="rtl" align='right'> با راهبرت یک زمان برای جلسه گزارش روزانه ست کن که هر روز به همراه هم گروهی‌ات با راهبر جلسه داشته باشین. پیشنهاد می‌شه این زمان بعد از ظهر و در انتهای زمان روزانه باشه</span>
   6. [ ] <span  dir="rtl" align='right'> فاز اول پروژه رو با هم گروهی‌ات شروع کن در 9 فاز اول به ازای هر دو نفر یک ریپوی Github داریم که کد شما در آن ریپو توسعه داده می‌شه و هر فاز تغییر پیدا می کنه
 ریپو ها از قبل ساخته شده و اسم ریپو ها با شماره تیم مشخص شده (مثلا گروه 1 و گروه 2 و ...) </span>
-  7. [ ] <span  dir="rtl" align='right'> زمانی که تمام تسک‌هایی که باید در روز اول انجام می‌دادی رو انجام دادی لیبل "Day 1- Complete Label" رو به ایشوت متصل کن </span>
+  7. [ ] <span  dir="rtl" align='right'> وقتی تسک‌های روز اولت انجام شد لیبل <a class="d-inline-block IssueLabel" style="background-color: #ffcf3f; color: #000000" title="having fun" href="/Star-Academy/codestar-internship/issues?q=is%3Aissue+is%3Aopen+label%3A%22having+fun%22">Day 1- Complete Label</a> رو به ایشوت متصل کن </span>
      </div>
 </details>
 
