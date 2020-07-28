@@ -128,8 +128,8 @@ issue
   
   <div  dir="ltr" align='left'>
   
-  1. [ ] <span  dir="rtl" align='right'> با سه نفر از اعضای بقیه تیم ها جلسه [Coffee Chat](https://about.gitlab.com/company/culture/all-remote/informal-communication/#coffee-chats) مشخص کن و سعی کن بیشتر با بقیه بچه‌ها در این جلسات آشنا بشی. مدت زمان پیشنهادی برای این جلسات نیم ساعته </span>
-  2. [ ] <span  dir="rtl" align='right'>زمانی که تمام تسک‌هایی که باید در هفته اول انجام می‌دادی رو انجام دادی لیبل "week 1- Complete Label" رو به ایشوت متصل کن </span>
+  1. [ ] <span  dir="rtl" align='right'> با سه نفر از اعضای بقیه تیم ها جلسه [Coffee Chat](https://about.gitlab.com/company/culture/all-remote/informal-communication/#coffee-chats) برنامه ریزی کن و سعی کن بیشتر با بقیه بچه‌ها در این جلسات آشنا بشی. مدت زمان پیشنهادی برای این جلسات نیم ساعته </span>
+  2. [ ] <span  dir="rtl" align='right'>وقتی تسک‌های روز  انجام شد رو انجام دادی لیبل "Week 1- Complete Label" رو به ایشوت متصل کن </span>
      </div>
 </details>
 
