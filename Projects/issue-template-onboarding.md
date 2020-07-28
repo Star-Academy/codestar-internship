@@ -170,7 +170,7 @@ issue
   
   <div  dir="ltr" align='left'>
   
-  1. [ ] <span  dir="rtl" align='right'> در جلسه [AMA](https://about.gitlab.com/company/culture/all-remote/learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) شرکت کن و هر چیزی که در مورد تیم ستاره، گذشته‌اش، حالش و آینده‌اش دوست داری بپرس </span>
+  1. [ ] <span  dir="rtl" align='right'> در جلسه [AMA](https://about.gitlab.com/company/culture/all-remote/learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) شرکت کن و هر چیزی که در مورد تیم ستاره، گذشته‌، حال و آینده‌اش دوست داری بپرس </span>
   2. [ ] <span  dir="rtl" align='right'> وقتی تسک‌های هفته سوم انجام شد رو انجام دادی لیبل "week 3- Complete Label" رو به ایشوت متصل کن </span>
      </div>
 </details>
