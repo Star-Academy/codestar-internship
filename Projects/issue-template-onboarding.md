@@ -129,7 +129,7 @@ issue
   <div  dir="ltr" align='left'>
   
   1. [ ] <span  dir="rtl" align='right'> با سه نفر از اعضای بقیه تیم ها جلسه [Coffee Chat](https://about.gitlab.com/company/culture/all-remote/informal-communication/#coffee-chats) برنامه ریزی کن و سعی کن بیشتر با بقیه بچه‌ها در این جلسات آشنا بشی. مدت زمان پیشنهادی برای این جلسات نیم ساعته </span>
-  2. [ ] <span  dir="rtl" align='right'>وقتی تسک‌های روز  انجام شد رو انجام دادی لیبل "Week 1- Complete Label" رو به ایشوت متصل کن </span>
+  2. [ ] <span  dir="rtl" align='right'>وقتی تسک‌های هفته اول انجام شد رو انجام دادی لیبل "Week 1- Complete Label" رو به ایشوت متصل کن </span>
      </div>
 </details>
 
@@ -150,7 +150,7 @@ issue
   <div  dir="ltr" align='left'>
   
   1. [ ] به جلسه [یک به یک](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/) با راهبر برو
-  2. [ ] <span  dir="rtl" align='right'>زمانی که تمام تسک‌هایی که باید در هفته دوم انجام می‌دادی رو انجام دادی لیبل "week 2- Complete Label" رو به ایشوت متصل کن </span>
+  2. [ ] <span  dir="rtl" align='right'>وقتی تسک‌های هفته دوم انجام شد رو انجام دادی لیبل "week 2- Complete Label" رو به ایشوت متصل کن </span>
      </div>
 </details>
 
@@ -171,7 +171,7 @@ issue
   <div  dir="ltr" align='left'>
   
   1. [ ] <span  dir="rtl" align='right'> در جلسه [AMA](https://about.gitlab.com/company/culture/all-remote/learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) شرکت کن و هر چیزی که در مورد تیم ستاره، گذشته‌اش، حالش و آینده‌اش دوست داری بپرس </span>
-  2. [ ] <span  dir="rtl" align='right'> زمانی که تمام تسک‌هایی که باید در هفته سوم انجام می‌دادی رو انجام دادی لیبل "week 3- Complete Label" رو به ایشوت متصل کن </span>
+  2. [ ] <span  dir="rtl" align='right'> وقتی تسک‌های هفته سوم انجام شد رو انجام دادی لیبل "week 3- Complete Label" رو به ایشوت متصل کن </span>
      </div>
 </details>
 
