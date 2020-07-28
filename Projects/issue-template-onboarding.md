@@ -12,7 +12,7 @@
 اگه سوال یا فیدبکی داشتی می‌تونی به اعضای تیمِ ما در این پیام‌رسان پیام بدی و مشکلت رو بر طرف کنی.
 
 <p align="center">
-  <img width="100%"  src="https://github.com/Star-Academy/codestar-internship/blob/onboarding/Projects/onboarding_header.png">
+  <img width="100%"  src="https://github.com/Star-Academy/codestar-internship/blob/master/Projects/onboarding_header.png">
 </p>
 
 بخشی از فرآیند خوش‌آمدگوییت خودآموزه تا تو رو برای دورکاری و ارتباط برقرار کردن مجازی با سایر هم دوره‌ای‌هات، راهبرها و راهنماها آماده بکنه.
