@@ -10,7 +10,7 @@
 اگه سوال یا فیدبکی داشتی می‌تونی به اعضای تیمِ ما در این پیام‌رسان پیام بدی و مشکلت رو بر طرف کنی.
 
 بخشی از فرآیند خوش‌آمدگوییت خودآموزه تا تو رو برای دورکاری و ارتباط برقرار کردن مجازی با سایر هم دوره‌ای‌هات، راهبرها و راهنماها آماده بکنه.
-کارهایی که در این
+تسک‌هایی که در این
 issue
 برات آماده شده رو لزوما نباید در روز اول انجام بدی و بیشتر این کارها برای آشناییته پس خیال نکن حتما باید همان روز اول اون‌ها رو انجام بدی.
 در صورتی که در پیشبرد این کارها با مشکلی رو به رو شدی اصلا در
@@ -27,11 +27,11 @@ issue
 ## قبل از شروع دوره
 
 <details>
-  <summary>کارهای راهبر</summary>
+  <summary>تسک‌های راهبر</summary>
   
   <div  dir="ltr" align='left'>
   
-  1. [ ] قبل از شروع دوره حتما با کارآموز ارتباط برقرار و او رو به جشن افتتاحیه دوره دعوت کن. در پیام ارسالی خودت رو معرفی کرده و ورودش رو به دوره تبریک بگو.
+  1. [ ] قبل از شروع دوره حتما با کارآموزت ارتباط بگیر و اون رو به جشن افتتاحیه دوره دعوت کن. در پیام ارسالی خودت رو معرفی کن و ورودش رو به دوره تبریک بگو.
   2. [ ] <span  dir="rtl" align='right'> از کارآموز یک ایمیل جهت دعوتش به تیم Microsoft teams دریافت و برایش دعوت نامه ارسال کن. </span>
   3. [ ] فرآیند خوش‌آمدگویی رو به صورت ایشو و به نام آن کارآموز تعریف کن ولی اساین نکن. همچنین جاهایی که نیاز به تغییر داره رو تغییر بده.
   4. [ ] یکی از راهنماها رو به عنوان همیار کارآموز انتخاب کن و اون‌ها رو به هم معرفی کن.
@@ -39,7 +39,7 @@ issue
 </details>
 
 <details>
-  <summary>کارهای همیار</summary>
+  <summary>تسک‌های همیار</summary>
   
   <div  dir="ltr" align='left'>
   
@@ -56,7 +56,7 @@ issue
 اگه یکی از تسک‌هات رو تا پایان روزی که مشخص شده انجام ندادی نگران نباش مشکلی وجود نداره، می‌تونی فرداش بهش مورد رسیدگی کنی.
 
 <details>
-  <summary>کارهای راهبر</summary>
+  <summary>تسک‌های راهبر</summary>
   
   <div  dir="ltr" align='left'>
   
@@ -67,7 +67,7 @@ issue
 </details>
 
 <details>
-  <summary>کارهای همیار</summary>
+  <summary>تسک‌های همیار</summary>
   
   <div  dir="ltr" align='left'>
   
@@ -77,7 +77,7 @@ issue
 </details>
 
 <details>
-  <summary>کارهای کارآموز</summary>
+  <summary>تسک‌های کارآموز</summary>
   
   <div  dir="ltr" align='left'>
   
@@ -88,14 +88,14 @@ issue
   5. [ ] با راهبرت یک زمان برای جلسه گزارش روزانه ست بکن که هر روز با هم تیمی‌ات با راهبر جلسه داشته باشین. پیشنهاد می‌شه این زمان بعد از ظهر و در انتهای زمان روزانه باشه.
   6. [ ] فاز اول پروژه رو با هم تیمی ات شروع کن در 9 فاز اول به ازای هر دو نفر یک ریپوی گیتهاب داریم که کد شما در آن ریپو توسعه داده می‌شه و هر فاز تغییر پیدا می کنه
 ریپو ها از قبل ساخته شده و اسم ریپو ها با شماره تیم مشخص شده (مثلا تیم 1 و تیم 2 و ...)
-  7. [ ] <span  dir="rtl" align='right'> زمانی که تمام کارهایی که باید در روز اول انجام می‌دادی رو انجام دادی لیبل "Day 1- Complete Label" رو به ایشوت متصل کن. </span>
+  7. [ ] <span  dir="rtl" align='right'> زمانی که تمام تسک‌هایی که باید در روز اول انجام می‌دادی رو انجام دادی لیبل "Day 1- Complete Label" رو به ایشوت متصل کن. </span>
      </div>
 </details>
 
 ## مسائل روزانه
 
 <details>
-  <summary>کارهای راهبر</summary>
+  <summary>تسک‌های راهبر</summary>
   
   <div  dir="ltr" align='left'>
   
@@ -104,7 +104,7 @@ issue
 </details>
 
 <details>
-  <summary>کارهای کارآموز</summary>
+  <summary>تسک‌های کارآموز</summary>
   
   <div  dir="ltr" align='left'>
   
@@ -116,19 +116,19 @@ issue
 ## هفته اول
 
 <details>
-  <summary>کارهای کارآموز</summary>
+  <summary>تسک‌های کارآموز</summary>
   
   <div  dir="ltr" align='left'>
   
   1. [ ] <span  dir="rtl" align='right'> با سه نفر از اعضای بقیه تیم ها جلسه [Coffee Chat](https://about.gitlab.com/company/culture/all-remote/informal-communication/#coffee-chats) مشخص کن و سعی کن بیشتر با بقیه بچه‌ها در این جلسات آشنا بشی. مدت زمان پیشنهادی برای این جلسات نیم ساعته. </span>
-  2. [ ] <span  dir="rtl" align='right'>زمانی که تمام کارهایی که باید در هفته اول انجام می‌دادی رو انجام دادی لیبل "week 1- Complete Label" رو به ایشوت متصل کن. </span>
+  2. [ ] <span  dir="rtl" align='right'>زمانی که تمام تسک‌هایی که باید در هفته اول انجام می‌دادی رو انجام دادی لیبل "week 1- Complete Label" رو به ایشوت متصل کن. </span>
      </div>
 </details>
 
 ## هفته دوم
 
 <details>
-  <summary>کارهای راهبر</summary>
+  <summary>تسک‌های راهبر</summary>
   
   <div  dir="ltr" align='left'>
   
@@ -137,19 +137,19 @@ issue
 </details>
 
 <details>
-  <summary>کارهای کارآموز</summary>
+  <summary>تسک‌های کارآموز</summary>
   
   <div  dir="ltr" align='left'>
   
   1. [ ] به جلسه [یک به یک](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/) با راهبر برو.
-  2. [ ] <span  dir="rtl" align='right'>زمانی که تمام کارهایی که باید در هفته دوم انجام می‌دادی رو انجام دادی لیبل "week 2- Complete Label" رو به ایشوت متصل کن. </span>
+  2. [ ] <span  dir="rtl" align='right'>زمانی که تمام تسک‌هایی که باید در هفته دوم انجام می‌دادی رو انجام دادی لیبل "week 2- Complete Label" رو به ایشوت متصل کن. </span>
      </div>
 </details>
 
 ## هفته سوم
 
 <details>
-  <summary>کارهای راهبر</summary>
+  <summary>تسک‌های راهبر</summary>
   
   <div  dir="ltr" align='left'>
   
@@ -158,12 +158,12 @@ issue
 </details>
 
 <details>
-  <summary>کارهای کارآموز</summary>
+  <summary>تسک‌های کارآموز</summary>
   
   <div  dir="ltr" align='left'>
   
   1. [ ] <span  dir="rtl" align='right'> در جلسه [AMA](https://about.gitlab.com/company/culture/all-remote/learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) شرکت کن و هر چیزی که در مورد تیم ستاره، گذشته‌اش، حالش و آینده‌اش دوست داری بپرس. </span>
-  2. [ ] <span  dir="rtl" align='right'> زمانی که تمام کارهایی که باید در هفته سوم انجام می‌دادی رو انجام دادی لیبل "week 3- Complete Label" رو به ایشوت متصل کن. </span>
+  2. [ ] <span  dir="rtl" align='right'> زمانی که تمام تسک‌هایی که باید در هفته سوم انجام می‌دادی رو انجام دادی لیبل "week 3- Complete Label" رو به ایشوت متصل کن. </span>
      </div>
 </details>
 
