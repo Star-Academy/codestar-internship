@@ -1,7 +1,7 @@
 <div dir="rtl" align='right'>
 
 <p align="center">
-  <img width="100%" height="300" src="https://github.com/Star-Academy/codestar-internship/blob/onboarding/Projects/onboarding_header.png">
+  <img width="100%"  src="https://github.com/Star-Academy/codestar-internship/blob/onboarding/Projects/onboarding_header.png">
 </p>
   
 # فرآیند خوش‌آمدگویی
