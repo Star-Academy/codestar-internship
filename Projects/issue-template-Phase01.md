@@ -4,7 +4,7 @@ Click on "Raw" button on right side of this page to see original markdown then c
 
 - [ ] Section 1: Think individually about question i & ii before starting
 - [ ] Section 2: Read individually about Inverted-Index
-- [ ] Section 3: Implement a simple inverted index with java
+- [ ] Section 3: Implement a simple inverted index with java (do pair programming)
   - [ ] Implement a fileReader class which reads all files in a folder, each file is a document in your inverted-index.
   - [ ] Implement an inverted-index class which contains all tokens and list of related documents per each token
   - [ ] Test your program with sample dataset mentioned in project definition
