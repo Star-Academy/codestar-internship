@@ -181,7 +181,7 @@ merge request
 @Star-Academy/people-experience-associate
 واگذار کن تا در بهبود سند خوش‌آمدگویی برای دوستانی که در دوره‌های آینده شرکت می‌کنن سهیم باشی.
 اگه با فرآیند
-merge request
+pull request
 آشنایی نداری و دوست داری در این کار سهیم باشی از همیارت کمک بگیر.
 
 </div>
