@@ -176,7 +176,7 @@ issue
 </details>
 
 در صورتی که برای بهبود این قالب پیشنهادی داری لطفا یک
-merge request
+pull request
 ایجاد کن و اون رو به
 @Star-Academy/people-experience-associate
 واگذار کن تا در بهبود سند خوش‌آمدگویی برای دوستانی که در دوره‌های آینده شرکت می‌کنن سهیم باشی.
