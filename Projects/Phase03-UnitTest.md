@@ -1,6 +1,6 @@
 <div dir="rtl" align='justify'>
 
-[لیست تسک‌های مرتبط با این بخش به صورت issue template](./issue-template-Phase03.md)
+[لیست تسک‌های مرتبط با این فاز به صورت issue template](./issue-template-Phase03.md)
 
 #  فاز سه: Unit Test
 
