@@ -1,4 +1,4 @@
-This issue template is based of [Search-Phase2.md](./Search-Phase2.md) contents.
+This issue template is based of [Phase02-CodeReview.md](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Phase02-CodeReview.md) contents.
 Click on "Raw" button on right side of this page to see original markdown then create a new issue with orginal content of this tasklist:
 
 
