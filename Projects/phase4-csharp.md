@@ -24,7 +24,13 @@
 2. مفهوم Solution و Project:
 
     برای شروع ساخت یک برنامه در سی شارپ لازمه اول با مفهوم Solution و Project آشنا بشی. برای همین لینک‌ زیر رو بخون.
+
+
+    <div dir="ltr" align='justify'>
+
     - [What is a C# solution and how to use it?](https://stackoverflow.com/a/40400159/7498797)
+
+    </div>
 
 3. سلام به دنیای سی شارپ:
 
