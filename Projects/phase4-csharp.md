@@ -66,7 +66,7 @@
 
 <div dir="ltr" align='justify'>
 
-```
+```C#
 using System;
 using System.Text.Json;
 
@@ -95,7 +95,7 @@ namespace HelloWorld
     اول کار سری به این [آموزش](https://softchris.github.io/pages/dotnet-core.html#resources) بزن و سعی کن تمام کارهایی که گفته رو انجام بدی.
 
     اگه هم دوست داشتی می‌تونی از آموزش‌های زیر بر حسب موضوعی که نیاز داری استفاده بکنی:
-    
+
     <div dir="ltr" align='justify'>
 
     - [Console.ReadLine() Method in C#](https://www.geeksforgeeks.org/console-readline-method-in-c-sharp/#:~:text=Console.-,ReadLine()%20Method%20in%20C%23,user%20presses%20the%20Enter%20key.)
