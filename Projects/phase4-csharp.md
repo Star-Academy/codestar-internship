@@ -112,7 +112,7 @@
     یکی از گام‌های مهم یادگیری هر زبان برنامه‌نویسی یادگیری اصول نامگذاری در اون زبانه! شاید در وهله اول مورد مهمی در نظر نیاد اما از اون نظر اهمیت داره که کدی می‌نویسی نباید تافته جدا بافته از بقیه جامعه اون زبان باشه. برای همین یه نگاهی به دو لینک زیر بنداز تا با قواعد نام گذاری در این زبان آشنا بشی.
 
     - [C# Coding Standards and Naming Conventions](https://github.com/ktaranov/naming-convention/blob/master/C%23%20Coding%20Standards%20and%20Naming%20Conventions.md)
-    - [https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines](Naming Guidelines)
+    - [Naming Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines)
 
 6. Design patterns:
 
