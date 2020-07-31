@@ -49,45 +49,47 @@
 
 4. NuGet چیست؟
 
-یه ابزار مورد نیاز برای هر دولوپری وجود داشتن بستریه که بتونه باهاش یه کد رو به اشتراک بزاره تا بقیه هم بتونن ازش به عنوان پکیج در کدهاشون استفاده بکنند.
-معمولا پکیج‌ها شامل یه سری کد کامپایل شده مثل DLL ها می‌شن به همراه بقیه چیزایی که ممکنه بهشون نیاز بشه.
+    یه ابزار مورد نیاز برای هر دولوپری وجود داشتن بستریه که بتونه باهاش یه کد رو به اشتراک بزاره تا بقیه هم بتونن ازش به عنوان پکیج در کدهاشون استفاده بکنند.
+    معمولا پکیج‌ها شامل یه سری کد کامپایل شده مثل DLL ها می‌شن به همراه بقیه چیزایی که ممکنه بهشون نیاز بشه.
 
 
-برای .NET (از جمله .NET Core) ،بستری که مایکروسافت برای به اشتراک گذاری کد آماده کرده NuGet عه که نحوه ایجاد، میزبانی و مصرف پکیج‌های مربوط به .NET را مشخص می‌کنه.
-می‌تونی به راحتی با نوشتن یه دستور در کنسول یه پکیج رو به پروژه‌ات اضافه بکنی.
+    برای .NET (از جمله .NET Core) ،بستری که مایکروسافت برای به اشتراک گذاری کد آماده کرده NuGet عه که نحوه ایجاد، میزبانی و مصرف پکیج‌های مربوط به .NET را مشخص می‌کنه.
+    می‌تونی به راحتی با نوشتن یه دستور در کنسول یه پکیج رو به پروژه‌ات اضافه بکنی.
 
-<div dir="ltr" align='justify'>
+    <div dir="ltr" align='justify'>
 
-`dotnet add package System.Text.Json`
+    `dotnet add package System.Text.Json`
 
-</div>
+    </div>
 
-دستور بالا پکیج `System.Text.Json` رو به برنامه اضافه می‌کنه. این پکیج آیتم‌ها سی‌شارپ رو به جیسون تبدیل می‌کنه. برای مثال کد زیر یه آیتم سی‌شارپ رو به جیسون تبدیل می‌کنه و در خروجی چاپ می‌کنه.
+    دستور بالا پکیج `System.Text.Json` رو به برنامه اضافه می‌کنه. این پکیج آیتم‌ها سی‌شارپ رو به جیسون تبدیل می‌کنه. برای مثال کد زیر یه آیتم سی‌شارپ رو به جیسون تبدیل می‌کنه و در خروجی چاپ می‌کنه.
 
-<div dir="ltr" align='justify'>
+    <div dir="ltr" align='justify'>
 
-```C#
-using System;
-using System.Text.Json;
+    ```C#
+    using System;
+    using System.Text.Json;
 
-namespace HelloWorld
-{
-    class Program
+    namespace HelloWorld
     {
-        static void Main(string[] args)
+        class Program
         {
-            var item = new { FirstName = "Mahdi", LastName= "Malverdi"};
-            var serializedItem = JsonSerializer.Serialize(item);
-            Console.WriteLine(serializedItem);
+            static void Main(string[] args)
+            {
+                var item = new { FirstName = "Mahdi", LastName = "Malverdi"};
+                var serializedItem = JsonSerializer.Serialize(item);
+                Console.WriteLine(serializedItem);
+            }
         }
     }
-}
-```
+    ```
 
-</div>
+    </div>
 
-در سی‌شارپ برای استفاده از یه پکیج باید از using استفاده بکنید. using کارایی مشابه با import و include در زبان‌های دیگه رو داره.
+    در سی‌شارپ برای استفاده از یه پکیج باید از using استفاده بکنید. using کارایی مشابه با import و include در زبان‌های دیگه رو داره.
+    همچنین با استفاده از کلمه var در سی شارپ میتونی یک متغیر را تعریف کنی. وقتی از این کلمه برای تعریف متغیر استفاده می‌شه نیازی نیس نوع داده‌ی متغیر نیست و کامپایلر از روی مقداردهی اولیه، نوع متغیر را مشخص می‌کنه.
 
+    اگه دوست داری بیشتر در مورد NuGet بدونی می‌تونی مقاله [An introduction to NuGet](https://docs.microsoft.com/en-us/nuget/what-is-nuget) رو بخونی.
 
 5. کمی پیشرفته‌تر:
     خب حالا وقتشه که کمی پیشرفته‌تر و منظم‌تر با سی‌شارپ برخورد کنی! توی این مرحله یاد می‌گیری چطور تست بنویسی و هم اینکه چطور با کنسول کار بکنی.
@@ -105,6 +107,12 @@ namespace HelloWorld
     - [Getting Started with xUnit.net](https://xunit.net/docs/getting-started/netcore/cmdline)
 
     </div>
+
+6. نام‌گذاری‌ها در سی‌شارپ:
+    یکی از گام‌های مهم یادگیری هر زبان برنامه‌نویسی یادگیری اصول نامگذاری در اون زبانه! شاید در وهله اول مورد مهمی در نظر نیاد اما از اون نظر اهمیت داره که کدی می‌نویسی نباید تافته جدا بافته از بقیه جامعه اون زبان باشه. برای همین یه نگاهی به دو لینک زیر بنداز تا با قواعد نام گذاری در این زبان آشنا بشی.
+
+    - [C# Coding Standards and Naming Conventions](https://github.com/ktaranov/naming-convention/blob/master/C%23%20Coding%20Standards%20and%20Naming%20Conventions.md)
+    - [https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines](Naming Guidelines)
 
 6. Design patterns:
 
