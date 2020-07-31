@@ -3,6 +3,8 @@ Click on "Raw" button on right side of this page to see original markdown then c
 
 
 - [ ] Section 1: Read about **TDD** concepts.
+    - [ ] Fill here the steps of TDD cycle:
+        1. `[FILL HERE]`
 - [ ] Section 2: Effects of applying **SOLID** principles in **TDD**.
     - [ ] Thick about that in your team, then fill here the results:
         1. `[FILL HERE]`
