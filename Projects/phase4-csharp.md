@@ -10,11 +10,16 @@
 
    - بر اساس سیستم‌عاملت نسخه مناسبت را از [سایت مایکروسافت ](https://dotnet.microsoft.com/download/dotnet-core/3.1) دانلود و نصب کن.
    - بر روی VSCode اکستنشن‌های زیر رو نصب کن:
+   
+    <div dir="ltr" align='justify'>
+
      1. [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
      2. [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
      3. [C# Extensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions)
      4. [vscode-solution-explorer](https://marketplace.visualstudio.com/items?itemName=fernandoescolar.vscode-solution-explorer)
      5. [.NET Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer)
+
+    </div>
 
 2. مفهوم Solution و Project:
 
@@ -25,12 +30,20 @@
 
     برای شروع VSCode رو باز کن و یه فولدر رو جهت شروع انتخاب کن. بعد در ترمینال دستور زیر رو وارد کن.
 
+    <div dir="ltr" align='justify'>
+
     `dotnet new console`
+
+    </div>
 
     همینطوری که می‌بینی چند فایل و یک فولدر ساخته شد. اگه به فایل `Program.cs` بری اولین برنامه‌ای که با سی‌شارپ ساختی رو می‌بینی که یه کد ساده `Hello world!` است.
     برای اجرای این برنامه درون ترمینال دستور زیر را وارد کن.
 
+    <div dir="ltr" align='justify'>
+
     `dotnet run`
+
+    </div>
 
     الان در یک خط عبارت `Hello world!` چاپ شده رو می‌بینی.
 
@@ -43,9 +56,15 @@
 برای .NET (از جمله .NET Core) ،بستری که مایکروسافت برای به اشتراک گذاری کد آماده کرده NuGet عه که نحوه ایجاد، میزبانی و مصرف پکیج‌های مربوط به .NET را مشخص می‌کنه.
 می‌تونی به راحتی با نوشتن یه دستور در کنسول یه پکیج رو به پروژه‌ات اضافه بکنی.
 
+<div dir="ltr" align='justify'>
+
 `dotnet add package System.Text.Json`
 
+</div>
+
 دستور بالا پکیج `System.Text.Json` رو به برنامه اضافه می‌کنه. این پکیج آیتم‌ها سی‌شارپ رو به جیسون تبدیل می‌کنه. برای مثال کد زیر یه آیتم سی‌شارپ رو به جیسون تبدیل می‌کنه و در خروجی چاپ می‌کنه.
+
+<div dir="ltr" align='justify'>
 
 ```
 using System;
@@ -65,6 +84,8 @@ namespace HelloWorld
 }
 ```
 
+</div>
+
 در سی‌شارپ برای استفاده از یه پکیج باید از using استفاده بکنید. using کارایی مشابه با import و include در زبان‌های دیگه رو داره.
 
 
@@ -74,11 +95,16 @@ namespace HelloWorld
     اول کار سری به این [آموزش](https://softchris.github.io/pages/dotnet-core.html#resources) بزن و سعی کن تمام کارهایی که گفته رو انجام بدی.
 
     اگه هم دوست داشتی می‌تونی از آموزش‌های زیر بر حسب موضوعی که نیاز داری استفاده بکنی:
+    
+    <div dir="ltr" align='justify'>
+
     - [Console.ReadLine() Method in C#](https://www.geeksforgeeks.org/console-readline-method-in-c-sharp/#:~:text=Console.-,ReadLine()%20Method%20in%20C%23,user%20presses%20the%20Enter%20key.)
     - [Console Class in C#](https://www.geeksforgeeks.org/console-class-in-c-sharp/#:~:text=Weekday%20in%20C%23-,Console%20Class%20in%20C%23,output%20from%20the%20computer%20end.)
     - [.NET Core CLI overview](https://docs.microsoft.com/en-us/dotnet/core/tools/)
     - [10 commands you don't want to be without in .Net Core](https://softchris.github.io/pages/dotnet-10-commands.html#_4-dotnet-run)
     - [Getting Started with xUnit.net](https://xunit.net/docs/getting-started/netcore/cmdline)
+
+    </div>
 
 6. Design patterns:
 
