@@ -2,14 +2,40 @@
 
 [لیست تسک‌های مرتبط با این فاز به صورت issue template](./issue-template-Phase06.md)
 
-#  فاز سه: Unit Test
+#  فاز شش: CI/CD
 
-در این فاز با Unit Test،
-مفاهیم code coverage
-و همچنین اصول SOLID
-آشنا خواهید شد. در این فاز، برای کدی که در فازهای قبلی به زبان جاوا نوشته‌اید، تست می‌نویسید و با استفاده از مفاهیم coverage
-و اصول SOLID،
-کیفیت کد خود را بیش از پیش افزایش می‌دهید.
+در این فاز با مفهوم CI/CD
+و اهمیت استفاده از آن آشنا خواهید شد. همچنین پروژهٔ خود را به CI
+مجهز می‌کنید.
+
+1. CI/CD چیست و چرا اهمیت دارد:
+
+    در این مرحله، در مورد مفهوم CI/CD
+    و اهمیت آن مطالعه کنید. در این بخش، مطالعه‌ی لینک‌های زیر پیشنهاد می‌شود.
+
+    <div dir="ltr">
+
+    - [What is CI/CD?](https://medium.com/tilicholabs/what-is-ci-cd-c7c047b80e6b)
+    - [What’s the Point of CI Anyway?](https://medium.com/swlh/whats-the-point-of-ci-anyway-ac3f9eaa244c)
+    - [The Journey to CI/CD](https://medium.com/driven-by-code/the-journey-to-ci-cd-b1872927c36b)
+
+    </div>
+
+1. آشنایی با GithHub Actions و اضافه کردن CI/CD Pipeline به ریپازیتوری:
+
+    یکی از ابزار CI/CD
+    مطرح، GitHub Actions
+    است که به کمک آن، می‌توانید یک Pipeline
+    شامل عملیات build،
+    اجرای unit test
+    ها و همچنین انتشار package
+    و دیگر عملیاتی که در دستهٔ CI/CD
+    می‌گنجد را به ریپازیتوری گیت‌هاب خود اضافه کنید.
+
+    1. ابتدا Pipeline
+    خود را با تسک build
+    بسازید.
+
 
 1. Unit Test و اهمیت آن:
 
