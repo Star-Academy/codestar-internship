@@ -32,6 +32,7 @@
     <div dir="ltr">
 
     - [SOLID design principles make test-driven development (TDD) faster and easier](https://medium.com/ibm-garage/solid-design-principles-makes-test-driven-development-faster-and-easier-35c9eec22ff1)
+    - [Does test-driven development force me to follow SOLID?](https://softwareengineering.stackexchange.com/a/111868)
 
     </div>
 
