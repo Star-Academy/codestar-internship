@@ -139,7 +139,7 @@
         </div>
     
         تبریک! CI
-        شما آمده‌است. فایل با commit
+        شما آمده‌است. فایل را commit
         کرده و روی master
         پوش کنید.
 
@@ -170,13 +170,13 @@
     1. افزودن مشاهده وضعیت code coverage:
 
         با اکانت GitHub
-        خود در سایت codecov.io
+        خود در سایت [codecov.io](https://codecov.io)
         وارد شوید. سپس به این آدرس بروید:
 
         <div dir="ltr">
 
         ```
-        https://codecov.io/gh/Star-Academy/<your-repo-name>
+        https://codecov.io/gh/Star-Academy/<your-repository-name>
         ```
 
         </div>
@@ -201,7 +201,7 @@
         <div dir="ltr">
 
         ```
-        https://codecov.io/gh/Star-Academy/<your-repo-name>
+        https://codecov.io/gh/Star-Academy/<your-repository-name>
         ```
 
         </div>
@@ -214,6 +214,16 @@
         شما نیز نمایش داده می‌شود:
 
         ![](Phase06_CodcovBadge.png)
+    
+    1. انتشار package در GitHub Nuget server:
+
+        Nuget،
+        پکیج منیجر معروف مایکروسافت برای انتشار پکیج‌های .Net
+        است. برای آن که بفهمید Nuget
+        چیست،
+        [این](https://docs.microsoft.com/en-us/nuget/what-is-nuget)
+        لینک را مطالعه کنید. در این مرحله، می‌خواهیم به Pipeline ریپازیتوری‌مان مرحله‌ای اضافه کنیم که به ازای هر push
+        روی ریپازیتوری، 
 
 
 
