@@ -30,119 +30,190 @@
     اجرای unit test
     ها و همچنین انتشار package
     و دیگر عملیاتی که در دستهٔ CI/CD
-    می‌گنجد را به ریپازیتوری گیت‌هاب خود اضافه کنید.
+    می‌گنجد را به ریپازیتوری گیت‌هاب خود اضافه کنید. برای این کار مراحل زیر را دنبال کنید:
 
-    1. ابتدا Pipeline
-    خود را با تسک build
-    بسازید.
+    1. فایل زیر را در دایرکتوری اصلی ریپازیتوری خود بسازید:
 
+        <div dir="ltr">
 
-1. Unit Test و اهمیت آن:
+        ```
+        .github/workflows/pipeline.yml
+        ```
 
-    در این مرحله در مورد اهمیت نوشتن Unit Test
-    در توسعه نرم‌افزار مطالعه کنید. در این مرحله مطالعه‌ی لینک‌های زیر پیشنهاد می‌شود.
+        </div>
+    1. برای pipeline خود یک نام تعریف کنید: (به فایل `workflow.yml` اضافه کنید.)
 
-    <div dir="ltr">
+        <div dir="ltr">
 
-    - [Unit Testing - Important role in Software Development](https://medium.com/nonstopio/unit-testing-important-role-in-software-development-1f52f7c810f8)
-    - [Why Is Unit Testing Important in Software Development?](https://performancelabus.com/unit-testing-importance/)
-    - [The importance of Unit Testing](https://fortegrp.com/the-importance-of-unit-testing/)
-    - [Time difference between developing with unit tests vs no tests](https://softwareengineering.stackexchange.com/questions/322256/time-difference-between-developing-with-unit-tests-vs-no-tests)
+        ```yml
+        name: .NET Core Pipeline
+        ```
 
-    </div>
+        </div>
 
-1. مفهوم Code Coverage در Unit Testing و اهمیت آن:
+    1. مشخص می‌کنیم که pipeline در هنگام push و pull request روی master اجرا شود.
 
-    پس از مطالعه و درک مفهوم Unit Testing
-    و اهمیت آن در توسعه‌ی نرم‌افزار، در مورد مفهوم Code Coverage
-    و اهمیت آن مطالعه کنید. در این مرحله مطالعه‌ی لینک‌های زیر پیشنهاد می‌شود.
+        <div dir="ltr">
 
-    <div dir="ltr">
+        ```yml
+        on:
+          push:
+            branches: [ master ]
+          pull_request:
+            branches: [ master ]
+        ```
 
-    - [Code Coverage - Wikipedia](https://en.wikipedia.org/wiki/Code_coverage)
-    - [5 Reasons You Should Care about Code Coverage](https://eldarion.com/blog/2017/07/13/5-reasons-you-should-care-about-code-coverage/)
-    - [The Importance of Code Coverage](https://blog.cloudboost.io/the-importance-of-code-coverage-9b4d513f39b4)
+        </div>
 
-    </div>
-
-1. نوشتن Unit Test در جاوا:
     
-    در این مرحله، در مورد نحوه‌ی نوشتن تست در زبان جاوا و با استفاده از کتابخانه `JUnit`
-    مطالعه کنید. برای شروع کار با این کتابخانه، پیشنهاد می‌شود [Getting started with junit](https://riptutorial.com/junit)
-    را مطالعه کنید. همچنین نحوه‌ی مشاهده‌ی code coverage
-    را از
-    [اینجا](https://www.jetbrains.com/help/idea/running-test-with-coverage.html)
-    می‌توانید بخوانید.
+    1. مراحل Pipeline را به ترتیب تعریف می‌کنیم. در ابتدا مشخص می‌کنیم که pipeline روی آخرین ورژن ubuntu اجرا شود: (می‌توان آن را تغییر داد)
 
-1. اصول SOLID:
+        <div dir="ltr">
 
-    یکی از مهم‌ترین مجموعه اصول در مهندسی نرم‌افزار، اصول پنج‌گانهٔ SOLID می‌باشد.
-    این اصول عبارت‌اند از:
+        ```yml
+        jobs:
+          build:
+            runs-on: ubuntu-latest
+        ```
 
-    <div dir="ltr">
+        </div>
+    
+    1. در این مرحله مشخص کنید که CI از agent ای به نام `actions/checkout@v2` استفاده کند: (برای مطالعه بیشتر [این](https://www.edwardthomson.com/blog/) لینک را بخوانید.)
 
-    1. **S**ingle Responsibility
-    1. **O**pen for Extension/Closed for Modification
-    1. **L**iskov Substitution
-    1. **I**nterface Segregation
-    1. **D**ependency Inversion
+        <div dir="ltr">
 
-    </div>
+        ```yml
+            steps:
+            - uses: actions/checkout@v2
+        ```
 
-    در مورد هر یک از این اصول مطالعه کنید. همچنین می‌توانید از لینک‌های زیر نیز کمک بگیرید:
+        </div>
+    
+    1. در این مرحله مشخص می‌کنیم که .Net core 3.1 نصب شود.
 
-    <div dir="ltr">
+        <div dir="ltr">
 
-    - [SOLID Principles in Java Application Development](https://www.jrebel.com/blog/solid-principles-in-java)
-    - [S.O.L.I.D principles in Java](https://medium.com/@karthikcsridhar/s-o-l-i-d-principles-in-java-1aaff453d7ea)
+        ```yml
+            - name: Setup .NET Core
+              uses: actions/setup-dotnet@v1
+              with:
+                dotnet-version: 3.1.301
+        ```
 
-    </div>
+        </div>
+    
+    1. سپس dependency های پروژه restore شوند:‌ (دقت کنید که به جای `<path to solution>` آدرس فولدر solution خود را مشخص کنید.)
 
-1. تاثیر اصول SOLID بر Unit Tesing:
+        <div dir="ltr">
 
-    در این مرحله، درمورد تاثیر رعایت اصول SOLID
-    بر تست‌نویسی مطالعه کنید. در این مرحله می‌توانید از لینک زیر کمک بگیرید:
+        ```yml
+            - name: Install dependencies
+              run: dotnet restore
+              working-directory: <path to solution>
+        ```
 
-    <div dir="ltr">
+        </div>
+    
+    1. solution را build کنید.
 
-    - [SOLID, Object Oriented Design and Unit Testing](https://huestones.co.uk/2015/06/solid-object-oriented-design-and-unit-testing/)
+        <div dir="ltr">
 
-    </div>
+        ```yml
+            - name: Build
+              run: dotnet build --configuration Release --no-restore
+              working-directory: <path to solution>
+        ```
 
-1. آشنایی با Mock:
+        </div>
+    
+    1. تست‌ها را run کنید.
 
-    Mock
-    کردن، یک تکنیک تست‌نویسی است که در آن، قسمتی از کد را با یک پیاده‌سازی دلخواه جایگزین می‌کنیم و از آن برای شبیه‌سازی یک عملیات واقعی استفاده می‌شود. معمولا mock
-    کردن زمانی استفاده می‌شود که یک متد یا کلاس، وابستگی یا وابستگی‌هایی دارد که در تست ما تداخل نامطلوبی ایجاد می‌کند.
+        <div dir="ltr">
 
-    مثلا فرض کنید میخواهید سرویسی را تست کنید که در آن از یک `SmsSender`
-    استفاده شده است. در نتیجه هر بار که آن تست را اجرا کنید، یک SMS
-    نیز ارسال می‌شود، که این برای ما مطلوب نیست.
+        ```yml
+            - name: Test
+              run: dotnet test --no-restore --verbosity normal --collect:"XPlat Code Coverage"
+              working-directory: <path to solution>
+        ```
 
-    در این صورت، باید `SmsSender`
-    را mock
-    کرد که دیگر SMS
-    ارسال نکند، ولی همواره مثلا `true`
-    برگرداند، به این معنی که ارسال با موفقیت انجام شده است. در نتیجه می‌توانیم functionality
-    همان متد را تست کنیم، به جای این که بخواهیم درگیر وابستگی‌های آن نیز شویم. 
+        </div>
+    
+        تبریک! CI
+        شما آمده‌است. فایل با commit
+        کرده و روی master
+        پوش کنید.
 
-    در این مرحله، در مورد این مفهوم مطالعه کنید. می‌توانید از لینک‌های زیر کمک بگیرید:
+        در ریپازیتوری خود وارد منوی Actions
+        شوید؛ همانطور که مشاهده می‌کنید، اولین اجرای Pipeline
+        شما در حال انجام است:
 
-    <div dir="ltr">
+        ![](Phase06_Actions.png)
 
-    - [What is a mock and when should you use it](https://stackoverflow.com/questions/214092/what-is-a-mock-and-when-should-you-use-it)
-    - [Unit tests with Mockito - Tutorial](https://www.vogella.com/tutorials/Mockito/article.html)
+        آن را باز کرده و وارد بخش build
+        شوید:
 
-    </div>
+        ![](Phase06_CI.png)
 
-1. نوشتن تست برای الگوریتم جستجو:
+    1. افزودن badge وضعیت CI به README:
 
-    در این مرحله، با استفاده از دانشی که در این فاز به دست آورده‌اید، برای بخش‌های مختلف کد خود تست بنویسید. سعی کنید Code Coverage
-    تست را به بالای ۹۵٪ برسانید.
+        از این قسمت دکمهٔ Copy status badge Markdown
+        را انتخاب کرده و متن کپی‌شده را به README
+        ریپازیتوری خود اضافه کنید.
 
-    برای این کار یک برنچ با نام `feature/unit-test`
-    بسازید و نوشتن تست را روی آن انجام دهید.
+        ![](Phase06_GetBuildBadge.png)
 
+        می‌توانید وضعیت Pipeline
+        را در هر لحظه مشاهده کنید:
+
+        ![](Phase06_BuildBadge.png)
+    
+    1. افزودن مشاهده وضعیت code coverage:
+
+        با اکانت GitHub
+        خود در سایت codecov.io
+        وارد شوید. سپس به این آدرس بروید:
+
+        <div dir="ltr">
+
+        ```
+        https://codecov.io/gh/Star-Academy/<your-repo-name>
+        ```
+
+        </div>
+    
+    1. بخش زیر را به فایل `workflow.yml` اضافه کنید:
+
+        <div dir="ltr">
+
+        ```yml
+            - name: Publish code coverage reports to codecove.io
+              uses: codecov/codecov-action@v1
+              with:
+                token: ${{ secrets.CODECOV_TOKEN }}
+                files: ./**/coverage.cobertura.xml
+                fail_ci_if_error: true
+        ```
+
+        </div>
+    
+    1. یک‌باز دیگر صفحهٔ زیر را باز کنید:
+
+        <div dir="ltr">
+
+        ```
+        https://codecov.io/gh/Star-Academy/<your-repo-name>
+        ```
+
+        </div>
+
+        وارد بخش Setting
+        شده و از سمت چپ، گزینه‌ی Badge
+        را انتخاب کنید. در صفحه‌ای که باز می‌شود، Markdown
+        را کپی کرده و در README
+        ریپازیتوری خود قرار دهید. اکنون مشاهده خواهید کرد که در هر لحظه، وضعیت code coverage
+        شما نیز نمایش داده می‌شود:
+
+        ![](Phase06_CodcovBadge.png)
 
 
 
