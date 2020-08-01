@@ -61,6 +61,10 @@ Click on "Raw" button on right side of this page to see original markdown then c
     - [ ] Go back to your own PR and correct your code according to reviewers feedback (PR comments).
 
     - [ ] After fixing all comments ask reviewers to approve your PR
+    
+    - [ ] Now after other team approval, ask your mentor (hamyar) to review your PR.
+    
+    - [ ] Now after your mentor approval, ask your manager (rahbar) to review your PR.
 
     - [ ] After they approved your PR you can merge your PR to master branch, so merge your PR!
 
