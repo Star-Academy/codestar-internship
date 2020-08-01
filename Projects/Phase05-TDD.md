@@ -38,15 +38,71 @@
 
 1. بازنویسی پروژهٔ سرچ با زبان C# و با رویکرد TDD:
 
-    در این مرحله، پروژهٔ سرچ خود را که قبلاً جاوا نوشته‌اید را به زبان C#
+    در این مرحله، پروژهٔ سرچ خود را که قبلاً جاوا نوشته‌اید را بعنوان یک library
+    سرچ به زبان C#
     بازنویسی کنید. در بازنویسی خود به طور کامل رویکرد TDD
     را به کار ببرید و آموخته‌های خود از مرحلهٔ قبل را اعمال کنید. برای نوشتن تست در C#
     از XUnit
     استفاده کنید. درمورد نحوهٔ تست در کتابخانهٔ XUnit
-    مطالعه کنید. در این مرحله می‌توانید از لینک زیر استفاده کنید:
+    مطالعه کنید.
+
+    همچنین مراحل زیر را برای ساختن پروژهٔ خود دنبال کنید.
+
+    - ساختن solution:
+    با استفاده از دستور زیر در command-line
+    یک solution
+    بسازید:
+
     <div dir="ltr">
 
-    - [Unit testing C# in .NET Core using dotnet test and xUnit](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test)
-    
+    ```Bash
+    dotnet new sln -o SampleLibrary
+    cd .\SampleLibrary\
+    ```
+
     </div>
+
+    - ساختن یک پروژهٔ Class Library:
+    در این مرحله یک پروژهٔ .Net Class Library
+    بسازید. این نوع از پروژه، executable
+    نمی‌باشد و صرفاً بعنوان یک کتابخانه در پروژهٔ های دیگر می‌تواند مورد استفاده قرار گیرد. سپس آن را به solution
+    خود اضافه کنید:
+
+    <div dir="ltr">
+
+    ```Bash
+    dotnet new classlib -o .\SampleLibrary
+    dotnet sln add .\SampleLibrary\
+    ```
+
+    </div>
+
+    - ساختن پروژه تست: در این مرحله یک پروژه تست با فریم‌ورک XUnit
+    بسازید، آن را به solution
+    اضافه کنید و همچنین یک رفرنس به پروژهٔ Class Library
+    ای که قبلاً ساخته‌اید بدهید:
+
+    <div dir="ltr">
+
+    ```Bash
+    dotnet new XUnit -o .\SampleLibrary.Test
+    dotnet sln add .\SampleLibrary.Test\
+    dotnet add .\SampleLibrary.Test\ reference .\SampleLibrary\
+    ```
+
+    </div>
+
+    - تبریک! شما ساختار پروژهٔ خود را آماده کردید. حال می‌توانید شروع به کد زدن کنید. توجه کنید که کد پروژهٔ شما، در پروژهٔ Class Library
+    ای که ساختید قرار می‌گیرد، و از طریق پروژهٔ تستی که ساختید، می‌توانید با دستور زیر تست‌های خود را اجرا کنید:
+
+    <div dir="ltr">
+
+    ```Bash
+    dotnet test
+    ```
+
+    </div>
+
+
+
 </div>
