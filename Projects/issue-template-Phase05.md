@@ -6,7 +6,7 @@ Click on "Raw" button on right side of this page to see original markdown then c
     - [ ] Fill here the steps of TDD cycle:
         1. `[FILL HERE]`
 - [ ] Section 2: Effects of applying **SOLID** principles in **TDD**.
-    - [ ] Thick about that in your team, then fill here the results:
+    - [ ] Think about that in your team, then fill here the results:
         1. `[FILL HERE]`
     - [ ] Read about above title. Now fill here what do you think about effects of **SOLID** on **TDD**:
         1. `[FILL HERE]`
