@@ -24,7 +24,7 @@
 1. آشنایی با GithHub Actions و اضافه کردن CI/CD Pipeline به ریپازیتوری:
 
     یکی از ابزار CI/CD
-    مطرح، GitHub Actions
+    معروف، GitHub Actions
     است که به کمک آن، می‌توانیم یک Pipeline
     شامل عملیات build،
     اجرای unit test
@@ -140,13 +140,13 @@
         </div>
     
         تبریک! CI
-        شما آمده‌است. فایل را commit
+        شما آماده‌است. فایل را commit
         کرده و روی master
         پوش کنید.
 
         در ریپازیتوری خود وارد منوی Actions
-        شوید؛ همانطور که مشاهده می‌کنید، اجرای Pipeline
-        شما در حال انجام است:
+        شوید؛ همانطور که مشاهده می‌کنید، Pipeline
+        شما در حال اجرا است:
 
         ![](Phase06_Actions.png)
 
@@ -197,7 +197,7 @@
 
         </div>
     
-    1. یک‌باز دیگر صفحهٔ زیر را باز کنید:
+    1. یک‌بار دیگر صفحهٔ زیر را باز کنید:
 
         <div dir="ltr">
 
@@ -265,7 +265,7 @@
         </div>
 
     
-    1. انتشار package در GitHub NuGet server:
+    1. انتشار package در [NuGet.org](https://nuget.org):
 
         NuGet،
         پکیج منیجر معروف مایکروسافت برای انتشار پکیج‌های Net.
@@ -273,11 +273,11 @@
         [این](https://docs.microsoft.com/en-us/nuget/what-is-nuget)
         لینک را مطالعه کنید. در این مرحله، می‌خواهیم یک Pipeline
         جدید بسازیم که هنگام release
-        یک ورژن در ریپازیتوری، پکیج را در [nuget.org](https://nuget.org)
+        یک ورژن در ریپازیتوری، پکیج را در [NuGet.org](https://nuget.org)
         منتشر کند.
 
         ابتدا باید مشخصات package
-        را در فایل `csprog.`
+        را در فایل `csproj.`
         مربوط به پروژهٔ خود مشخص کنید. بدین منظور، این فایل باید به صورت زیر باشد:
         (توجه کنید که در این فایل، به جای `[TeamNumber]`
         شمارهٔ تیم خود و به جای `[LibraryName]`
@@ -292,7 +292,7 @@
 
             <PropertyGroup>
                 <TargetFramework>netstandard2.0</TargetFramework>
-                <PackageId>StarAcademy.Team-[TeamNumber].[LibraryName]</PackageId>
+                <PackageId>StarAcademy.Team[TeamNumber].[LibraryName]</PackageId>
                 <Authors>[TeamMembers]</Authors>
                 <Company>Star Academy</Company>
             </PropertyGroup>
@@ -378,7 +378,7 @@
 
         - build و ساخت پکیج NuGet
         (به جای `<path to classlib project>`
-        آدرس فولدری را که فایل `csprog.`
+        آدرس فولدری را که فایل `csproj.`
         مربوط به پروژه class library
         در آن قرار دارد بنویسید.)
 

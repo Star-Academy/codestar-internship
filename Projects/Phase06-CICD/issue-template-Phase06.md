@@ -1,4 +1,4 @@
-This issue template is based of [Phase06-CICD.md](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Phase06-CICD.md) contents.
+This issue template is based of [Phase06-CICD.md](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Phase06-CICD/Phase06-CICD.md) contents.
 Click on "Raw" button on right side of this page to see original markdown then create a new issue with orginal content of this tasklist:
 
 
@@ -19,7 +19,7 @@ Click on "Raw" button on right side of this page to see original markdown then c
         - [ ] Add package configurations to your `.csproj`
         - [ ] Create and configure `publishPipeline.yml`
         - [ ] Release a version on github and check if NuGet package is pushed in nuget.org
-    - [ ] Create a search console app
-        - [ ] Create console app
-        - [ ] Add reference to your search library package
-        - [ ] Implement console app
+- [ ] Section 3: Create a search console app
+    - [ ] Create console app
+    - [ ] Add reference to your search library package
+    - [ ] Implement console app
