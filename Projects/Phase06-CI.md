@@ -32,21 +32,22 @@
     و دیگر عملیاتی که در دستهٔ CI/CD
     می‌گنجد را به ریپازیتوری گیت‌هاب خود اضافه کنید. برای این کار مراحل زیر را دنبال کنید:
 
-    1. فایل زیر را در دایرکتوری اصلی ریپازیتوری خود بسازید:
+    1. فایل زیر را در مسیر زیر در ریپازیتوری خود بسازید:
 
         <div dir="ltr">
 
         ```
-        .github/workflows/pipeline.yml
+        .github/workflows/buildPipeline.yml
         ```
 
         </div>
-    1. برای pipeline خود یک نام تعریف کنید: (به فایل `workflow.yml` اضافه کنید.)
+
+    1. برای pipeline خود یک نام تعریف کنید: (به فایل `buildPipeline.yml` اضافه کنید.)
 
         <div dir="ltr">
 
         ```yml
-        name: .NET Core Pipeline
+        name: build
         ```
 
         </div>
@@ -144,7 +145,7 @@
         پوش کنید.
 
         در ریپازیتوری خود وارد منوی Actions
-        شوید؛ همانطور که مشاهده می‌کنید، اولین اجرای Pipeline
+        شوید؛ همانطور که مشاهده می‌کنید، اجرای Pipeline
         شما در حال انجام است:
 
         ![](Phase06_Actions.png)
@@ -181,7 +182,7 @@
 
         </div>
     
-    1. بخش زیر را به فایل `workflow.yml` اضافه کنید:
+    1. بخش زیر را به فایل `buildPipeline.yml` اضافه کنید:
 
         <div dir="ltr">
 
@@ -214,16 +215,203 @@
         شما نیز نمایش داده می‌شود:
 
         ![](Phase06_CodcovBadge.png)
-    
-    1. انتشار package در GitHub Nuget server:
 
-        Nuget،
+        تا به اینجای کار، کل فایل `buildPipeline.yml`
+        باید بصورت زیر باشد:
+
+        <div dir="ltr">
+
+        ```yml
+        name: build
+
+        on:
+          push:
+            branches: [ master ]
+          pull_request:
+            branches: [ master ]
+        
+        jobs:
+          build:
+            runs-on: ubuntu-latest
+
+            steps:
+            - uses: actions/checkout@v2
+
+            - name: Setup .NET Core
+              uses: actions/setup-dotnet@v1
+              with:
+                dotnet-version: 3.1.301
+            
+            - name: Install dependencies
+              run: dotnet restore
+              working-directory: <path to solution>
+
+            - name: Build
+              run: dotnet build --configuration Release --no-restore
+              working-directory: <path to solution>
+
+            - name: Test
+              run: dotnet test --no-restore --verbosity normal --collect:"XPlat Code Coverage"
+              working-directory: <path to solution>
+
+            - name: Publish code coverage reports to codecove.io
+              uses: codecov/codecov-action@v1
+              with:
+                token: ${{ secrets.CODECOV_TOKEN }}
+                files: ./**/coverage.cobertura.xml
+                fail_ci_if_error: true
+        ```
+
+        </div>
+
+    
+    1. انتشار package در GitHub NuGet server:
+
+        NuGet،
         پکیج منیجر معروف مایکروسافت برای انتشار پکیج‌های .Net
-        است. برای آن که بفهمید Nuget
+        است. برای آن که بفهمید NuGet
         چیست،
         [این](https://docs.microsoft.com/en-us/nuget/what-is-nuget)
-        لینک را مطالعه کنید. در این مرحله، می‌خواهیم به Pipeline ریپازیتوری‌مان مرحله‌ای اضافه کنیم که به ازای هر push
-        روی ریپازیتوری، 
+        لینک را مطالعه کنید. در این مرحله، می‌خواهیم یک Pipeline
+        جدید بسازیم که فقط هنگام push
+        روی برنچ master،
+        پکیج را منتشر کند.
+
+        ابتدا باید مشخصات package
+        را در فایل `csprog.`
+        مربوط به پروژهٔ خود مشخص کنید. بدین منظور، این فایل باید به صورت زیر باشد:
+        (توجه کنید که در این فایل، به جای `[TeamNumber]`
+        شمارهٔ تیم خود و به جای `[LibraryName]`
+        نام پروژهٔ خود را قرار دهید. شماره تیم به این خاطر باید قرار داده شود که اگر نام پروژه دو تیم یکسان بود، publish
+        دچار مشکل نشود و در نهایت `PackageId`
+        یکتا باشد.)
+
+        <div dir="ltr">
+
+        ```xml
+        <Project Sdk="Microsoft.NET.Sdk">
+
+            <PropertyGroup>
+                <TargetFramework>netstandard2.0</TargetFramework>
+                <PackageId>StarAcademy.Team-[TeamNumber].[LibraryName]</PackageId>
+                <Authors>[TeamMembers]</Authors>
+                <Company>Star Academy</Company>
+            </PropertyGroup>
+
+        </Project>
+        ```
+
+        </div>
+        
+        در ادامه، برای ساخت Pipline
+        مربوط به publish،
+        فایل زیر را بسازید:
+
+        <div dir="ltr">
+
+        ```
+        .github/workflows/publishPipeline.yml
+        ```
+
+        </div>
+
+        سپس مراحل زیر را به آن اضافه کنید:
+
+        - نام و trigger را مشخص می‌کنیم:
+
+        <div dir="ltr">
+
+        ```yml
+        name: publish
+
+        on:
+          push:
+            branches: [ master ]
+
+        jobs:
+          publish:
+            runs-on: ubuntu-latest
+
+        ```
+
+        </div>
+        
+        - نصب .Net Core:
+
+        <div dir="ltr">
+
+        ```yml
+            steps:
+            - uses: actions/checkout@v2
+
+            - name: Setup .NET Core
+              uses: actions/setup-dotnet@v1
+              with:
+                dotnet-version: 3.1.301
+        ```
+
+        </div>
+
+        - build و ساخت پکیج NuGet
+        (به جای `<path to classlib project>`
+        آدرس فولدری که فایل `csprog.`
+        مربوط به پروژه class library
+        قرار دارد را بنویسید.)
+
+        <div dir="ltr">
+
+        ```yml
+            - name: Build library and generate NuGet Package
+              run: dotnet pack -c Release -o artifacts -p:PackageVersion=1.0.${{ github.run_number }}
+              working-directory: <path to classlib project>
+        ```
+
+        </div>
+
+        - انتشار پکیج NuGet
+
+        <div dir="ltr">
+
+        ```yml
+            - name: Publish NuGet Package
+              run: dotnet nuget push ./**/*.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
+        ```
+
+        </div>
+
+        پس از push
+        کردن این تغییرات، می‌توانید در منوی Actions
+        وضعیت publish
+        را مشاهده کنید. همچنین پکیج منتشر شدهٔ خود را می‌توانید در آدرس زیر مشاهده کنید:
+        
+        <div dir="ltr">
+
+        ```
+            nuget.org/packages/[PackageId]
+        ```
+
+        </div>
+
+1. ساخت یک Console App برای پروژه سرچ
+
+    در این بخش، یک solution
+    دیگر بسازید، و در آن با dotnet cli
+    یک console app
+    بسازید. در پوشه پروژه کنسول، کامند زیر را بزنید تا پکیج سرچ شما به پروژه کنسول اضافه شود:
+
+    <div dir="ltr">
+
+    ```
+        dotnet add package [packageId]
+    ```
+
+    </div>
+
+    با این پکیج به پروژه شما اضافه می‌شود و می‌توانید از کلاس‌های آن استفاده کنید. همچنین اگر پکیج خود را update
+    کرده باشید، با زدن این کامند، نسخه جدید پکیج به پروژه شما اضافه می‌شود.
+
+    حال با استفاده از پکیج کتابخانه سرچ‌تان، یک نرم‌افزار سرچ تحت کنسول پیاده‌سازی کنید.
+
 
 
 
