@@ -268,14 +268,13 @@
     1. انتشار package در GitHub NuGet server:
 
         NuGet،
-        پکیج منیجر معروف مایکروسافت برای انتشار پکیج‌های .Net
-        است. برای آن که بفهمید NuGet
-        چیست،
+        پکیج منیجر معروف مایکروسافت برای انتشار پکیج‌های Net.
+        است. برای کسب اطلاعات بیشتر،
         [این](https://docs.microsoft.com/en-us/nuget/what-is-nuget)
         لینک را مطالعه کنید. در این مرحله، می‌خواهیم یک Pipeline
-        جدید بسازیم که فقط هنگام push
-        روی برنچ master،
-        پکیج را منتشر کند.
+        جدید بسازیم که هنگام release
+        یک ورژن در ریپازیتوری، پکیج را در [nuget.org](https://nuget.org)
+        منتشر کند.
 
         ابتدا باید مشخصات package
         را در فایل `csprog.`
@@ -317,7 +316,10 @@
 
         سپس مراحل زیر را به آن اضافه کنید:
 
-        - نام و trigger را مشخص می‌کنیم:
+        - نام، trigger
+        و OS
+        مربوط به pipeline
+        را مشخص می‌کنیم.
 
         <div dir="ltr">
 
@@ -325,8 +327,9 @@
         name: publish
 
         on:
-          push:
-            branches: [ master ]
+          release:
+            types:
+              published
 
         jobs:
           publish:
@@ -351,6 +354,27 @@
         ```
 
         </div>
+        
+        - گرفتن ورژن release
+        کنونی. توجه کنید که تگ release
+        بعنوان ورژن به NuGet
+        داده می‌شود. در نتیجه، الگوهای قابل قبول ورژن را از
+        [اینجا](https://docs.microsoft.com/en-us/nuget/concepts/package-versioning)
+        بخوانید و تگ را مطابق این الگو بزنید.
+        (به جای `<repository name>`
+        نام ریپازیتوری خود را قرار دهید.)
+
+        <div dir="ltr">
+
+        ```yml
+            - name: Get current release version
+              id: version
+              uses: pozetroninc/github-action-get-latest-release@master
+              with:
+                repository: Star-Academy/<repository name>
+        ```
+
+        </div>
 
         - build و ساخت پکیج NuGet
         (به جای `<path to classlib project>`
@@ -362,7 +386,7 @@
 
         ```yml
             - name: Build library and generate NuGet Package
-              run: dotnet pack -c Release -o artifacts -p:PackageVersion=1.0.${{ github.run_number }}
+              run: dotnet pack -c Release -o artifacts -p:PackageVersion=${{ steps.version.outputs.release }}
               working-directory: <path to classlib project>
         ```
 
@@ -379,10 +403,12 @@
 
         </div>
 
-        پس از push
-        کردن این تغییرات، می‌توانید در منوی Actions
-        وضعیت publish
-        را مشاهده کنید. همچنین پکیج منتشر شدهٔ خود را می‌توانید در آدرس زیر مشاهده کنید:
+        از این پس، هر گاه در ریپازیتوری خود تگ بزنید، Pipeline
+        فوق trigger
+        می‌شود و در نتیجه پکیج شما push
+        می‌شود. همچنین در منوی Actions
+        می‌توانید وضعیت publish
+        را مشاهده کنید. پکیج منتشر شدهٔ خود را نیز می‌توانید در آدرس زیر مشاهده کنید:
         
         <div dir="ltr">
 
