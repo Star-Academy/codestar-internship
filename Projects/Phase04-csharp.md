@@ -125,16 +125,20 @@
     عبارات لامبدا (Lambda expressions) ساده شده دستور زبان متدهای بی نام هستند.
     برای اینکه با این مفهوم بیشتر آشنا بشید می‌تونید لینک‌های زیر را مطالعه کنید.
 
+    <div dir="ltr" align='justify'>
     - [Lambda Expressions in C#](https://www.geeksforgeeks.org/lambda-expressions-in-c-sharp/)
     - [Lambda Expressions in C#](https://www.c-sharpcorner.com/UploadFile/bd6c67/lambda-expressions-in-C-Sharp/)
+   </div>
 
 8.  Linq:
 
     LINQ مخفف عبارت Language-Integrated Query است توجه داشته باشید که آن را لینک (Link) تلفظ کنید. LINQ یک راه یکسان برای اتصال برقرار کردن به هر داده ساختار استاندارد را فراهم می‌کنه.
     برای درک بهتر و تمرین بیشتر می‌تونید لینک‌های زیر را مطالعه کنید:
 
+    <div dir="ltr" align='justify'>
     - [LINQ Operators and Lambda Expressions](https://www.c-sharpcorner.com/UploadFile/babu_2082/linq-operators-and-lambda-expression-syntax-examples/)
     - [LINQ Lambda Expressions](https://www.tutlane.com/tutorial/linq/linq-lambda-expressions)
+   </div>
 
 9. Entity Framework Core:
 
@@ -193,30 +197,24 @@
        <div dir="ltr" align='justify'>
 
        ```C#
-       public class Program
-       {
-           public static void Main(string[] args)
-           {
-               var list = new List<Item>(){
-                   {
-                       Text = "text1"
-                   },
-                   {
-                       Text = "text2"
-                   },
-                   {
-                       Text = "text3"
-                   },
-                   {
-                       Text = "text4"
-                   }
-               };
+        var list = new List<Item>(){
+            {
+                Text = "text1"
+            },
+            {
+                Text = "text2"
+            },
+            {
+                Text = "text3"
+            },
+            {
+                Text = "text4"
+            }
+        };
 
-               dbContext.Items.AddRange(list);
+        dbContext.Items.AddRange(list);
 
-               dbContext.SaveChanges();
-           }
-       }
+        dbContext.SaveChanges();
        ```
        </div>
 
@@ -225,15 +223,10 @@
        <div dir="ltr" align='justify'>
 
        ```C#
-       public class Program
-       {
-           public static void Main(string[] args)
-           {
-               var keywords = new List<string>(){ "Hello", "World"};
+        var keywords = new List<string>(){ "Hello", "World"};
 
-               var items = dbContext.Items.Where(i => keywords.Contains(i.Text)).ToList();
-           }
-       }
+        var items = dbContext.Items.Where(i => keywords.Contains(i.Text)).ToList();
+
        ```
        </div>
 
