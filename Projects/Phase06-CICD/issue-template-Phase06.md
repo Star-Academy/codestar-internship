@@ -35,10 +35,10 @@ Link of other PR(s) you agreed to review:
 `[FILL HERE WITH LINK OF PR(s) YOU REVIEWED.]`
 
 
-- [ ] Our PR is reviewed and approved by at least one other team.
+- [ ] Your own PR is reviewed and approved by at least one other team.
 
-- [ ] Our PR is reviewed and approved by mentor (hamyar).
+- [ ] Your own PR is reviewed and approved by mentor (hamyar).
 
-- [ ] Our PR is reviewed and approved by manager (rahbar).
+- [ ] Your own PR is reviewed and approved by manager (rahbar).
 
-- [ ] Our PR is merged.
+- [ ] Your own PR is merged.
