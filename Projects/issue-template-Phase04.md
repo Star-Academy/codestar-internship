@@ -4,7 +4,7 @@ Click on "Raw" button on right side of this page to see original markdown then c
 - [ ] Section 1: Install **Requirements**
 
   - [ ] Install **.Net Core 3.1**
-  - [ ] Install **Extensions**
+  - [ ] Install these VS Code **Extensions**:
 
     - [ ] Install **C#**
     - [ ] Install **Code Runner**
@@ -14,7 +14,7 @@ Click on "Raw" button on right side of this page to see original markdown then c
 
 - [ ] Section 2: Read about **Solution** and **Project** in C# environment
 
-- [ ] Section 3: Write your first C# app
+- [ ] Section 3: Write your first Hello World C# app
 
 - [ ] Section 4: Read about **NuGet** and learn how to use it
 
