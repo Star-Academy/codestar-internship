@@ -121,7 +121,7 @@
 
     </div>
 
-<!-- 7.  Lambda Expressions:
+7.  Lambda Expressions:
 
     عبارات لامبدا (Lambda expressions) ساده شده دستور زبان متدهای بی نام هستند.
     برای اینکه با این مفهوم بیشتر آشنا بشید می‌تونید لینک‌های زیر را مطالعه کنید.
@@ -131,7 +131,10 @@
     - [Lambda Expressions in C#](https://www.geeksforgeeks.org/lambda-expressions-in-c-sharp/)
     - [Lambda Expressions in C#](https://www.c-sharpcorner.com/UploadFile/bd6c67/lambda-expressions-in-C-Sharp/)
 
-   </div> -->
+   </div>
+
+</div>
+<div dir="rtl" align='justify'>
 
 8.  Linq:
 
