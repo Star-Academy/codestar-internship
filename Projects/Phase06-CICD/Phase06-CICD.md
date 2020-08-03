@@ -413,7 +413,7 @@
         <div dir="ltr">
 
         ```
-            nuget.org/packages/[PackageId]
+        nuget.org/packages/[PackageId]
         ```
 
         </div>
@@ -436,7 +436,7 @@
     <div dir="ltr">
 
     ```
-        dotnet add package [packageId]
+    dotnet add package [packageId]
     ```
 
     </div>
