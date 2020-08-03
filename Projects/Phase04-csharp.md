@@ -10,7 +10,7 @@
 
    - بر اساس سیستم‌عامل نسخه مناسب را از [سایت مایکروسافت ](https://dotnet.microsoft.com/download/dotnet-core/3.1) دانلود و نصب کنید.
    - بر روی VSCode اکستنشن‌های زیر رو نصب کنید:
-   
+
     <div dir="ltr" align='justify'>
 
    1. [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
@@ -34,25 +34,24 @@
 
 3. سلام به دنیای سی شارپ:
 
-    برای شروع VSCode رو باز کنید و یه فولدر رو جهت شروع انتخاب کنید. بعد در ترمینال دستور زیر رو وارد کنید.
-    
+   برای شروع VSCode رو باز کنید و یه فولدر رو جهت شروع انتخاب کنید. بعد در ترمینال دستور زیر رو وارد کنید.
 
    <div dir="ltr" align='justify'>
 
-   `dotnet new console`
+`dotnet new console`
 
    </div>
 
-   همینطوری که می‌بینی چند فایل و یک فولدر ساخته شد. اگه به فایل `Program.cs` بری اولین برنامه‌ای که با سی‌شارپ ساختی رو می‌بینی که یه کد ساده `Hello world!` است.
-   برای اجرای این برنامه درون ترمینال دستور زیر را وارد کن.
+همینطوری که می‌بینی چند فایل و یک فولدر ساخته شد. اگه به فایل `Program.cs` بری اولین برنامه‌ای که با سی‌شارپ ساختی رو می‌بینی که یه کد ساده `Hello world!` است.
+برای اجرای این برنامه درون ترمینال دستور زیر را وارد کن.
 
    <div dir="ltr" align='justify'>
 
-   `dotnet run`
+`dotnet run`
 
    </div>
 
-   الان در یک خط عبارت `Hello world!` چاپ شده رو می‌بینی.
+الان در یک خط عبارت `Hello world!` چاپ شده رو می‌بینی.
 
 4. NuGet چیست؟
 
@@ -155,11 +154,10 @@
 
        البته اصراری در استفاده از Sqlite نیست و اگر علاقه دارید از دیگر دیتابیس‌ها استفاده کنید می‌توانید از لینک‌های زیر کمک بگیرید.
 
-        - [Creating a Database with Code First in EF Core - MySql](https://docs.oracle.com/cd/E17952_01/connector-net-en/connector-net-entityframework-core-example.html#:~:text=7.2.-,1%20Creating%20a%20Database%20with%20Code%20First%20in%20EF%20Core,application%20using%20MySQL%20Connector%2FNET.)
-        - [Entity Framework Core Code First - MSSqlServe](https://entityframeworkcore.com/approach-code-first)
-        - [Entity Framework Core Code-First Tutorial for Full .NET Framework - Oracle](https://www.devart.com/dotconnect/oracle/docs/Tutorial_EFCore.html)
+       - [Creating a Database with Code First in EF Core - MySql](https://docs.oracle.com/cd/E17952_01/connector-net-en/connector-net-entityframework-core-example.html#:~:text=7.2.-,1%20Creating%20a%20Database%20with%20Code%20First%20in%20EF%20Core,application%20using%20MySQL%20Connector%2FNET.)
+       - [Entity Framework Core Code First - MSSqlServe](https://entityframeworkcore.com/approach-code-first)
+       - [Entity Framework Core Code-First Tutorial for Full .NET Framework - Oracle](https://www.devart.com/dotconnect/oracle/docs/Tutorial_EFCore.html)
 
-    
 8. Design patterns:
 
 </div>
