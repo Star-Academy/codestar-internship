@@ -92,7 +92,7 @@
 
     اگه دوست داری بیشتر در مورد NuGet بدونی می‌تونی مقاله [An introduction to NuGet](https://docs.microsoft.com/en-us/nuget/what-is-nuget) رو بخونی.
 
-5. کمی پیشرفته‌تر:
+5.  کمی پیشرفته‌تر:
 
     خب حالا وقتشه که کمی پیشرفته‌تر و منظم‌تر با سی‌شارپ برخورد کنی! توی این مرحله یاد می‌گیری چطور تست بنویسی و هم اینکه چطور با کنسول کار بکنی.
 
@@ -120,53 +120,130 @@
     - [Naming Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines)
     </div>
 
-7.  Entity Framework Core:
+7.  Lambda Expressions:
 
-    Entity Framework Core یک ORM است. اگر با مفهوم ORM آشنایی ندارین پیشنهاد می‌کنم مقالات زیر را بخوانید:
+    عبارات لامبدا (Lambda expressions) ساده شده دستور زبان متدهای بی نام هستند.
+    برای اینکه با این مفهوم بیشتر آشنا بشید می‌تونید لینک‌های زیر را مطالعه کنید.
 
-    <div dir="ltr" align='justify'>
+    - [Lambda Expressions in C#](https://www.geeksforgeeks.org/lambda-expressions-in-c-sharp/)
+    - [Lambda Expressions in C#](https://www.c-sharpcorner.com/UploadFile/bd6c67/lambda-expressions-in-C-Sharp/)
 
-    - [object-relational mapping (ORM)](https://searchwindevelopment.techtarget.com/definition/object-relational-mapping)
-    - [WHAT IS ORM?](https://www.brcline.com/blog/what-is-orm)
-    </div>
+8.  Linq:
 
-    اما به طور خلاصه می‌توان گفت ORM در واقع یک لایه مترجم بین زبان برنامه نویسی ما و پایگاه داده هست که این دو را به هم تبدیل می کند و به ما کمک میکند که بین زبان برنامه نویسی مون که سی شارپ هست و بانک اطلاعاتی مون که SQL Server هست ارتباط برقرار کنیم و تبادل اطلاعات داشته باشیم.
+    LINQ مخفف عبارت Language-Integrated Query است توجه داشته باشید که آن را لینک (Link) تلفظ کنید. LINQ یک راه یکسان برای اتصال برقرار کردن به هر داده ساختار استاندارد را فراهم می‌کنه.
+    برای درک بهتر و تمرین بیشتر می‌تونید لینک‌های زیر را مطالعه کنید:
 
-    حال مایکروسافت Entity Framework Core یا به اختصار EFCore رو برای زبان‌های .net توسعه داده تا کار با دیتابیس را برای توسعه دهندگان آسان‌تر کند.
+    - [LINQ Operators and Lambda Expressions](https://www.c-sharpcorner.com/UploadFile/babu_2082/linq-operators-and-lambda-expression-syntax-examples/)
+    - [LINQ Lambda Expressions](https://www.tutlane.com/tutorial/linq/linq-lambda-expressions)
 
-    از مزایای EFCore می‌توان به پشتیبانی از اکثر دیتابیس اشاره کرد. این سخن به این معناست که شما یک کد می‌نویسید و تنها با تغییر کانکشن استرینگ، نوع دیتابیس رو تغییر می‌دید.
+9. Entity Framework Core:
 
-    با EFCore به یکی از دو روش زیر می‌توان کد زد:
+   Entity Framework Core یک ORM است. اگر با مفهوم ORM آشنایی ندارین پیشنهاد می‌کنم مقالات زیر را بخوانید:
 
-    - Database First:
+   <div dir="ltr" align='justify'>
 
-      در این روش در ابتدا دیتابیس را آماده می‌کنیم و سپس EFCore رو بر اساس اون ایجاد می‌کنیم. برای مطالعه در مورد این روش می‌توان لینک‌های زیر را مطالعه کنید.
+   - [object-relational mapping (ORM)](https://searchwindevelopment.techtarget.com/definition/object-relational-mapping)
+   - [WHAT IS ORM?](https://www.brcline.com/blog/what-is-orm)
+   </div>
 
-      <div dir="ltr" align='justify'>
+   اما به طور خلاصه می‌توان گفت ORM در واقع یک لایه مترجم بین زبان برنامه نویسی ما و پایگاه داده هست که این دو را به هم تبدیل می کند و به ما کمک میکند که بین زبان برنامه نویسی مون که سی شارپ هست و بانک اطلاعاتی مون که SQL Server هست ارتباط برقرار کنیم و تبادل اطلاعات داشته باشیم.
 
-      - [Creating a Model for an Existing Database in Entity Framework Core](https://www.entityframeworktutorial.net/efcore/create-model-for-existing-database-in-ef-core.aspx)
-      - [Entity Framework Core Database-First Tutorial for .NET Core](https://www.devart.com/dotconnect/postgresql/docs/EFCore-Database-First-NET-Core.html)
-      - [Setup and working Entity Framework Database First](https://www.c-sharpcorner.com/article/entity-framework-database-first-in-asp-net-core2/)
-      </div>
+   حال مایکروسافت Entity Framework Core یا به اختصار EFCore رو برای زبان‌های .net توسعه داده تا کار با دیتابیس را برای توسعه دهندگان آسان‌تر کند.
 
-    - Code First:
-      روش دیگر Code First است. این روش به این معناست که در ابتدا ساختار دیتابیس رو با کد مشخص می‌کنید و سپس بر اساس آن دیتابیس پیاده‌سازی می‌شود. در این آموزش سعی داریم بر اساس Code First پیش رویم.
+   از مزایای EFCore می‌توان به پشتیبانی از اکثر دیتابیس اشاره کرد. این سخن به این معناست که شما یک کد می‌نویسید و تنها با تغییر کانکشن استرینگ، نوع دیتابیس رو تغییر می‌دید.
 
-      برای شروع پیشنهاد می‌کنیم با کمک از طریق لینک زیر یک پروژه بسازید و تمام اسنادی که در فاز‌های قبل خواندید را درون یک دیتابیس sqlite ذخیره کنید.
+   با EFCore به یکی از دو روش زیر می‌توان کد زد:
 
-      <div dir="ltr" align='justify'>
+   - Database First:
 
-      - [Getting Started with EF Core](https://docs.microsoft.com/en-us/ef/core/get-started/?tabs=netcore-cli)
-      </div>
+     در این روش در ابتدا دیتابیس را آماده می‌کنیم و سپس EFCore رو بر اساس اون ایجاد می‌کنیم. برای مطالعه در مورد این روش می‌توان لینک‌های زیر را مطالعه کنید.
 
-      البته اصراری در استفاده از Sqlite نیست و اگر علاقه دارید از دیگر دیتابیس‌ها استفاده کنید می‌توانید از لینک‌های زیر کمک بگیرید.
+     <div dir="ltr" align='justify'>
 
-      <div dir="ltr" align='justify'>
+     - [Creating a Model for an Existing Database in Entity Framework Core](https://www.entityframeworktutorial.net/efcore/create-model-for-existing-database-in-ef-core.aspx)
+     - [Entity Framework Core Database-First Tutorial for .NET Core](https://www.devart.com/dotconnect/postgresql/docs/EFCore-Database-First-NET-Core.html)
+     - [Setup and working Entity Framework Database First](https://www.c-sharpcorner.com/article/entity-framework-database-first-in-asp-net-core2/)
+     </div>
 
-      - [Creating a Database with Code First in EF Core - MySql](https://docs.oracle.com/cd/E17952_01/connector-net-en/connector-net-entityframework-core-example.html#:~:text=7.2.-,1%20Creating%20a%20Database%20with%20Code%20First%20in%20EF%20Core,application%20using%20MySQL%20Connector%2FNET.)
-      - [Entity Framework Core Code First - MSSqlServe](https://entityframeworkcore.com/approach-code-first)
-      - [Entity Framework Core Code-First Tutorial for Full .NET Framework - Oracle](https://www.devart.com/dotconnect/oracle/docs/Tutorial_EFCore.html)
-      </div>
+   - Code First:
+     روش دیگر Code First است. این روش به این معناست که در ابتدا ساختار دیتابیس رو با کد مشخص می‌کنید و سپس بر اساس آن دیتابیس پیاده‌سازی می‌شود. در این آموزش سعی داریم بر اساس Code First پیش رویم.
+
+     برای شروع پیشنهاد می‌کنیم با کمک از طریق لینک زیر یک پروژه بسازید و تمام اسنادی که در فاز‌های قبل خواندید را درون یک دیتابیس sqlite ذخیره کنید.
+
+     <div dir="ltr" align='justify'>
+
+     - [Getting Started with EF Core](https://docs.microsoft.com/en-us/ef/core/get-started/?tabs=netcore-cli)
+     </div>
+
+     البته اصراری در استفاده از Sqlite نیست و اگر علاقه دارید از دیگر دیتابیس‌ها استفاده کنید می‌توانید از لینک‌های زیر کمک بگیرید.
+
+     <div dir="ltr" align='justify'>
+
+     - [Creating a Database with Code First in EF Core - MySql](https://docs.oracle.com/cd/E17952_01/connector-net-en/connector-net-entityframework-core-example.html#:~:text=7.2.-,1%20Creating%20a%20Database%20with%20Code%20First%20in%20EF%20Core,application%20using%20MySQL%20Connector%2FNET.)
+     - [Entity Framework Core Code First - MSSqlServe](https://entityframeworkcore.com/approach-code-first)
+     - [Entity Framework Core Code-First Tutorial for Full .NET Framework - Oracle](https://www.devart.com/dotconnect/oracle/docs/Tutorial_EFCore.html)
+       </div>
+
+       برای ذخیره داده‌ها EFCore ابتدا کلاس‌هایی با ساختار مناسب برای داده‌هاتون انتخاب کنید. سپس داده‌هاتون رو درون یک داده ساختار مثل List بریزید و سپس آن‌ها را وارد دیتابیس بکنید. برای مثال می‌تونید به کد زیر توجه بکنید.
+
+       #### نکته
+
+       داده ساختار List کارایی مشابه ArrayList در جاوا دارد.
+
+       ```C#
+       public class Program
+       {
+           public static void Main(string[] args)
+           {
+               var list = new List<Item>(){
+                   {
+                       Text = "text1"
+                   },
+                   {
+                       Text = "text2"
+                   },
+                   {
+                       Text = "text3"
+                   },
+                   {
+                       Text = "text4"
+                   }
+               };
+
+               dbContext.Items.AddRange(list);
+
+               dbContext.SaveChanges();
+           }
+       }
+       ```
+
+       در مثال بعدی کدی که مشاهده می‌کنید تمام لیست تمام Item هایی که درون آن‌ها keywords وجود دارد را بر می‌گرداند.
+
+       ```C#
+       public class Program
+       {
+           public static void Main(string[] args)
+           {
+               var keywords = new List<string>(){ "Hello", "World"};
+
+               var items = dbContext.Items.Where(i => keywords.Contains(i.Text)).ToList();
+           }
+       }
+       ```
+
+       # نکته
+
+       برای اینکه کوئری‌هایی که توسط EFCore تولید می‌شوند اجرا شوند نیاز است یکی از توابع زیر صدا زده شود:
+
+       - First
+       - FirstOrDefault
+       - Last
+       - LastOrDefault
+       - Single
+       - SingleOrDefault
+       - ToList
+       - ToArray
+         ...
 
 8.  Design patterns:
 
