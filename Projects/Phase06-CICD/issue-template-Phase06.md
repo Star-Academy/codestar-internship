@@ -23,3 +23,22 @@ Click on "Raw" button on right side of this page to see original markdown then c
     - [ ] Create console app
     - [ ] Add reference to your search library package
     - [ ] Implement console app
+    
+### Review
+
+Link of your own PR:
+
+`[FILL HERE WITH LINK OF YOUR PR.]`
+
+Link of other PR(s) you agreed to review:
+
+`[FILL HERE WITH LINK OF PR(s) YOU REVIEWED.]`
+
+
+- [ ] Our PR is reviewed and approved by at least one other team.
+
+- [ ] Our PR is reviewed and approved by mentor (hamyar).
+
+- [ ] Our PR is reviewed and approved by manager (rahbar).
+
+- [ ] Our PR is merged.
