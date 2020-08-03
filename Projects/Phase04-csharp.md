@@ -252,6 +252,7 @@
       برای اینکه کوئری‌هایی که توسط EFCore تولید می‌شوند اجرا شوند نیاز است یکی از توابع زیر صدا زده شود:
 
         <div dir="ltr" align='justify'>
+        
         - First
         - FirstOrDefault
         - Last
@@ -262,6 +263,6 @@
         - ToArray
         ...
 
-      </div>
+        </div>
 
 </div>
