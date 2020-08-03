@@ -2,13 +2,13 @@
 
 # فاز چهار: #C
 
-در این فاز با زبان سی‌شارپ آشنا خواهید شد. همچنین برنامه‌ای را که به زبان جاوا نوشته‌اید را به زبان سی‌شارپ تبدیل خواهید کرد.
+در این فاز با زبان سی‌شارپ آشنا خواهید شد. همچنین چند برنامه ساده با زبان سی‌شارپ خواهید نوشت.
 
 1. نصب پیشنیازها:
 
    برای اجرا کردن کدی که به زبان سی‌شارپ می‌نویسید نیاز است چند مورد را نصب کنید.
 
-   - بر اساس سیستم‌عامل نسخه مناسب را از [سایت مایکروسافت ](https://dotnet.microsoft.com/download/dotnet-core/3.1) دانلود و نصب کنید.
+   - بر اساس سیستم‌عامل نسخه مناسب .Net Core را از [سایت مایکروسافت ](https://dotnet.microsoft.com/download) دانلود و نصب کنید.
    - بر روی VSCode اکستنشن‌های زیر رو نصب کنید:
 
     <div dir="ltr" align='justify'>
@@ -33,12 +33,13 @@
 
 3. سلام به دنیای سی شارپ:
 
-   برای شروع VSCode رو باز کنید و یه فولدر رو جهت شروع انتخاب کنید. بعد در ترمینال دستور زیر رو وارد کنید.
+   برای شروع VSCode رو باز کنید و یه فولدر رو جهت شروع انتخاب کنید. بعد در ترمینال دستور زیر رو وارد کنید. با این دستور یک پروژه‌ی سی‌شارپ با رابط کاربری کنسول ساخته می‌شود
 
    <div dir="ltr" align='justify'>
 
    `dotnet new console`
    </div>
+   
    همینطوری که می‌بینی چند فایل و یک فولدر ساخته شد. اگه به فایل `Program.cs` بری اولین برنامه‌ای که با سی‌شارپ ساختی رو می‌بینی که یه کد ساده `Hello world!` است. برای اجرای این برنامه درون ترمینال دستور زیر را وارد کن.
 
    <div dir="ltr" align='justify'>
@@ -73,11 +74,17 @@
 
     namespace HelloWorld
     {
+        public class Person
+        {
+            public string FirstName {get; set;}
+            public string LastName {get; set;}
+        }
+
         class Program
         {
             static void Main(string[] args)
             {
-                var item = new { FirstName = "Mahdi", LastName = "Malverdi"};
+                var item = new Person() { FirstName = "Mahdi", LastName = "Malverdi"};
                 var serializedItem = JsonSerializer.Serialize(item);
                 Console.WriteLine(serializedItem);
             }
@@ -96,7 +103,7 @@
 
     خب حالا وقتشه که کمی پیشرفته‌تر و منظم‌تر با سی‌شارپ برخورد کنی! توی این مرحله یاد می‌گیری چطور تست بنویسی و هم اینکه چطور با کنسول کار بکنی.
 
-    اول کار سری به این [آموزش](https://softchris.github.io/pages/dotnet-core.html#resources) بزن و سعی کن تمام کارهایی که گفته رو انجام بدی.
+    اول کار سری به این [آموزش](https://softchris.github.io/pages/dotnet-core.html#creating-a-solution) بزن و سعی کن تمام کارهایی که گفته رو انجام بدی.
 
     اگه هم دوست داشتی می‌تونی از آموزش‌های زیر بر حسب موضوعی که نیاز داری استفاده بکنی:
 
