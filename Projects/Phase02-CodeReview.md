@@ -33,7 +33,7 @@
     - اگر وقت شما کم هست و از بقیه تیم‌ها عقب تر هستید نسخه خلاصه را بخوانید: [Effective Code Reviews: Code Review Checklist](https://nyu-cds.github.io/effective-code-reviews/03-checklist/)
 
     - اگر وقت شما بیشتر است و از بقیه تیم‌ها جلوتر هستید نسخه جامع (راهنمای Review شرکت گوگل)  را بخوانید:
-    [What to look for in a code review | eng-practices](https://google.github.io/eng-practices/review/reviewer/looking-for.html)
+    [What to look for in a code review | eng-practices](https://google.github.io/eng-practices/review/reviewer/looking-for.html) (CL stands for Code Line)
 
     > :warning: با توجه به این که در این فاز صحبتی در مورد انواع تست به خصوص Unit Test نکردیم قسمت‌هایی از لینک‌های بالا که در مورد تست است را نادیده بگیرید.
 
