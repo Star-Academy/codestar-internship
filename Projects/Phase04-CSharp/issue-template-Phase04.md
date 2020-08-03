@@ -28,7 +28,7 @@ Click on "Raw" button on right side of this page to see original markdown then c
 
 - [ ] Section 8: Read about the **LINQ** in C#
 
-- [ ] Section 9: Implement requested Project in `C#`
+- [ ] Section 9: Implement requested Project in C#
 
 ### Review
 
