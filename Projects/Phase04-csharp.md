@@ -133,8 +133,6 @@
 
    </div>
 
-</div>
-<div dir="rtl" align='justify'>
 
 8.  Linq:
 
@@ -147,6 +145,10 @@
     - [LINQ Lambda Expressions](https://www.tutlane.com/tutorial/linq/linq-lambda-expressions)
 
    </div>
+
+</div>
+
+<div dir="rtl" align='justify'>
 
 9. Entity Framework Core:
 
