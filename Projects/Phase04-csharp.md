@@ -118,6 +118,7 @@
 
     - [C# Coding Standards and Naming Conventions](https://github.com/ktaranov/naming-convention/blob/master/C%23%20Coding%20Standards%20and%20Naming%20Conventions.md)
     - [Naming Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines)
+
     </div>
 
 7.  Lambda Expressions:
@@ -129,6 +130,7 @@
 
     - [Lambda Expressions in C#](https://www.geeksforgeeks.org/lambda-expressions-in-c-sharp/)
     - [Lambda Expressions in C#](https://www.c-sharpcorner.com/UploadFile/bd6c67/lambda-expressions-in-C-Sharp/)
+
    </div>
 
 8.  Linq:
@@ -137,9 +139,10 @@
     برای درک بهتر و تمرین بیشتر می‌تونید لینک‌های زیر را مطالعه کنید:
 
     <div dir="ltr" align='justify'>
-    
+
     - [LINQ Operators and Lambda Expressions](https://www.c-sharpcorner.com/UploadFile/babu_2082/linq-operators-and-lambda-expression-syntax-examples/)
     - [LINQ Lambda Expressions](https://www.tutlane.com/tutorial/linq/linq-lambda-expressions)
+
    </div>
 
 9. Entity Framework Core:
@@ -150,6 +153,7 @@
 
    - [object-relational mapping (ORM)](https://searchwindevelopment.techtarget.com/definition/object-relational-mapping)
    - [WHAT IS ORM?](https://www.brcline.com/blog/what-is-orm)
+   
    </div>
 
    اما به طور خلاصه می‌توان گفت ORM در واقع یک لایه مترجم بین زبان برنامه نویسی ما و پایگاه داده هست که این دو را به هم تبدیل می کند و به ما کمک میکند که بین زبان برنامه نویسی مون که سی شارپ هست و بانک اطلاعاتی مون که SQL Server هست ارتباط برقرار کنیم و تبادل اطلاعات داشته باشیم.
