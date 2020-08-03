@@ -133,6 +133,9 @@
 
    </div>
 
+</div>
+
+<div dir="rtl" align='justify'>
 
 8.  Linq:
 
