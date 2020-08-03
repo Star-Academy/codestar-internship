@@ -8,7 +8,7 @@
 
    برای اجرا کردن کدی که به زبان سی‌شارپ می‌نویسید نیاز است چند مورد را نصب کنید.
 
-   - بر اساس سیستم‌عامل نسخه مناسب  <span dir="ltr" align='justify'> .Net Core </span> را از [سایت مایکروسافت ](https://dotnet.microsoft.com/download) دانلود و نصب کنید.
+   - بر اساس سیستم‌عامل نسخه مناسب  <span dir="ltr" align='left'> .Net Core </span> را از [سایت مایکروسافت ](https://dotnet.microsoft.com/download) دانلود و نصب کنید.
    - بر روی VSCode اکستنشن‌های زیر رو نصب کنید:
 
     <div dir="ltr" align='justify'>
