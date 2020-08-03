@@ -15,7 +15,7 @@ Click on "Raw" button on right side of this page to see original markdown then c
     - [ ] Find out how to run unit tests and check code coverage
  
 - [ ] Section 4: Read about **SOLID** principles in software engineering:
-  - [ ] Singel Responsibility
+  - [ ] Single Responsibility
   - [ ] Open-Close
   - [ ] Liskov Substitution
   - [ ] Interface Segregation
