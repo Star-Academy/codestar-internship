@@ -153,7 +153,7 @@
 
    - [object-relational mapping (ORM)](https://searchwindevelopment.techtarget.com/definition/object-relational-mapping)
    - [WHAT IS ORM?](https://www.brcline.com/blog/what-is-orm)
-   
+
    </div>
 
    اما به طور خلاصه می‌توان گفت ORM در واقع یک لایه مترجم بین زبان برنامه نویسی ما و پایگاه داده هست که این دو را به هم تبدیل می کند و به ما کمک میکند که بین زبان برنامه نویسی مون که سی شارپ هست و بانک اطلاعاتی مون که SQL Server هست ارتباط برقرار کنیم و تبادل اطلاعات داشته باشیم.
@@ -250,7 +250,5 @@
        - ToList
        - ToArray
          ...
-
-8.  Design patterns:
 
 </div>
