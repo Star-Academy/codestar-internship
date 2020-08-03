@@ -13,11 +13,11 @@
 
     <div dir="ltr" align='justify'>
 
-   1. [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
-   2. [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
-   3. [C# Extensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions)
-   4. [vscode-solution-explorer](https://marketplace.visualstudio.com/items?itemName=fernandoescolar.vscode-solution-explorer)
-   5. [.NET Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer)
+   * [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+   * [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+   * [C# Extensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions)
+   * [vscode-solution-explorer](https://marketplace.visualstudio.com/items?itemName=fernandoescolar.vscode-solution-explorer)
+   * [.NET Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer)
 
     </div>
 
