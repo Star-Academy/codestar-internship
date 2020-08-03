@@ -158,6 +158,6 @@
 
 ## پروژه
 
-برنامه‌ای بنویسید که دو فایل [دانشجویان](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Phase04/Students.csv) و [نمرات](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Phase04/Scores.csv) را بخواند و سپس نام، نام خانوادگی و معدل سه دانشجوی اول را چاپ کند.
+برنامه‌ای بنویسید که دو فایل [دانشجویان](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Phase04-CSharp/Students.csv) و [نمرات](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Phase04-CSharp/Scores.csv) را بخواند و سپس نام، نام خانوادگی و معدل سه دانشجوی اول را چاپ کند.
 
 </div>
