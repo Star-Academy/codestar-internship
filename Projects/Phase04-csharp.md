@@ -211,26 +211,26 @@
 
         <div dir="ltr" align='justify'>
 
-            ```C#
-            var list = new List<Item>(){
-                {
-                    Text = "text1"
-                },
-                {
-                    Text = "text2"
-                },
-                {
-                    Text = "text3"
-                },
-                {
-                    Text = "text4"
-                }
-            };
+        ```C#
+        var list = new List<Item>(){
+            {
+                Text = "text1"
+            },
+            {
+                Text = "text2"
+            },
+            {
+                Text = "text3"
+            },
+            {
+                Text = "text4"
+            }
+        };
 
-            dbContext.Items.AddRange(list);
+        dbContext.Items.AddRange(list);
 
-            dbContext.SaveChanges();
-            ```
+        dbContext.SaveChanges();
+        ```
 
         </div>
 
@@ -238,12 +238,12 @@
 
         <div dir="ltr" align='justify'>
 
-            ```C#
-            var keywords = new List<string>(){ "Hello", "World"};
+        ```C#
+        var keywords = new List<string>(){ "Hello", "World"};
 
-            var items = dbContext.Items.Where(i => keywords.Contains(i.Text)).ToList();
+        var items = dbContext.Items.Where(i => keywords.Contains(i.Text)).ToList();
 
-            ```
+        ```
 
         </div>
 
