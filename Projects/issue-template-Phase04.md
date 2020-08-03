@@ -20,7 +20,7 @@ Click on "Raw" button on right side of this page to see original markdown then c
 
   - [ ] Install **System.Text.Json** and serialize an object
 
-- [ ] Section 5: Read about the **Unit Test** with **XUint** and Read data from **Console**
+- [ ] Section 5: Read about the **Unit Test** with **XUnit** and Read data from **Console**
 
 - [ ] Section 6: Read about the **Naming Guidelines** in C#
 
