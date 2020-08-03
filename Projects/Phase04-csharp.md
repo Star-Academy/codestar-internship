@@ -190,6 +190,8 @@
 
        داده ساختار List کارایی مشابه ArrayList در جاوا دارد.
 
+       <div dir="ltr" align='justify'>
+
        ```C#
        public class Program
        {
@@ -216,8 +218,11 @@
            }
        }
        ```
+       </div>
 
        در مثال بعدی کدی که مشاهده می‌کنید تمام لیست تمام Item هایی که درون آن‌ها keywords وجود دارد را بر می‌گرداند.
+
+       <div dir="ltr" align='justify'>
 
        ```C#
        public class Program
@@ -230,6 +235,7 @@
            }
        }
        ```
+       </div>
 
        # نکته
 
