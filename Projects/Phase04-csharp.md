@@ -126,6 +126,7 @@
     برای اینکه با این مفهوم بیشتر آشنا بشید می‌تونید لینک‌های زیر را مطالعه کنید.
 
     <div dir="ltr" align='justify'>
+
     - [Lambda Expressions in C#](https://www.geeksforgeeks.org/lambda-expressions-in-c-sharp/)
     - [Lambda Expressions in C#](https://www.c-sharpcorner.com/UploadFile/bd6c67/lambda-expressions-in-C-Sharp/)
    </div>
@@ -136,6 +137,7 @@
     برای درک بهتر و تمرین بیشتر می‌تونید لینک‌های زیر را مطالعه کنید:
 
     <div dir="ltr" align='justify'>
+    
     - [LINQ Operators and Lambda Expressions](https://www.c-sharpcorner.com/UploadFile/babu_2082/linq-operators-and-lambda-expression-syntax-examples/)
     - [LINQ Lambda Expressions](https://www.tutlane.com/tutorial/linq/linq-lambda-expressions)
    </div>
@@ -170,6 +172,7 @@
      </div>
 
    - Code First:
+
      روش دیگر Code First است. این روش به این معناست که در ابتدا ساختار دیتابیس رو با کد مشخص می‌کنید و سپس بر اساس آن دیتابیس پیاده‌سازی می‌شود. در این آموزش سعی داریم بر اساس Code First پیش رویم.
 
      برای شروع پیشنهاد می‌کنیم با کمک از طریق لینک زیر یک پروژه بسازید و تمام اسنادی که در فاز‌های قبل خواندید را درون یک دیتابیس sqlite ذخیره کنید.
