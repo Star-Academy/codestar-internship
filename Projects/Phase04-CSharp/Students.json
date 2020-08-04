@@ -1,42 +1,42 @@
 [
   {
-    "studentNumber": 1,
-    "firstName": "Mahdi",
-    "lastName": "Malverdi"
+    "StudentNumber": 1,
+    "FirstName": "Mahdi",
+    "LastName": "Malverdi"
   },
   {
-    "studentNumber": 2,
-    "firstName": "Mohammad",
-    "lastName": "Haghighat"
+    "StudentNumber": 2,
+    "FirstName": "Mohammad",
+    "LastName": "Haghighat"
   },
   {
-    "studentNumber": 3,
-    "firstName": "Mohammad Hossein",
-    "lastName": "Mostmand"
+    "StudentNumber": 3,
+    "FirstName": "Mohammad Hossein",
+    "LastName": "Mostmand"
   },
   {
-    "studentNumber": 4,
-    "firstName": "Hossein",
-    "lastName": "Behbodi"
+    "StudentNumber": 4,
+    "FirstName": "Hossein",
+    "LastName": "Behbodi"
   },
   {
-    "studentNumber": 5,
-    "firstName": "Ahmad",
-    "lastName": "Salimi"
+    "StudentNumber": 5,
+    "FirstName": "Ahmad",
+    "LastName": "Salimi"
   },
   {
-    "studentNumber": 6,
-    "firstName": "Hadi",
-    "lastName": "EsnaAshari"
+    "StudentNumber": 6,
+    "FirstName": "Hadi",
+    "LastName": "EsnaAshari"
   },
   {
-    "studentNumber": 7,
-    "firstName": "Alireza",
-    "lastName": "Ziaei"
+    "StudentNumber": 7,
+    "FirstName": "Alireza",
+    "LastName": "Ziaei"
   },
   {
-    "studentNumber": 8,
-    "firstName": "Mohammad Hossein",
-    "lastName": "Ghesarieh"
+    "StudentNumber": 8,
+    "FirstName": "Mohammad Hossein",
+    "LastName": "Ghesarieh"
   }
 ]
