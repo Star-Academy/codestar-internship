@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zNeu1AllGVWU6addq1imNEGIFvjAZbVcDfF1ypijiKsMIFErDdqiatY7F12g+xbYdH+gY+bJgfl//Talvt6b3w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mahdi\\Desktop\\Project\\Project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mahdi\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}

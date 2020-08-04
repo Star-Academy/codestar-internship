@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iounrlV3GHZrMkccWD9wgOkIJFwVtO892oTRZms/AiW5UbpWibifgvm4fQRjdv2OMiDkn6xQHYaAlhnJhjTl0A==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Mahdi\\Desktop\\CodeStarProject\\DAL\\DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

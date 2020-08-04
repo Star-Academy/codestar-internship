@@ -1,0 +1,16 @@
+C:\Users\Mahdi\Desktop\CodeStarProject\Console\obj\Debug\netcoreapp3.1\Console.csprojAssemblyReference.cache
+C:\Users\Mahdi\Desktop\CodeStarProject\Console\obj\Debug\netcoreapp3.1\Console.AssemblyInfoInputs.cache
+C:\Users\Mahdi\Desktop\CodeStarProject\Console\obj\Debug\netcoreapp3.1\Console.AssemblyInfo.cs
+C:\Users\Mahdi\Desktop\CodeStarProject\Console\obj\Debug\netcoreapp3.1\Console.csproj.CoreCompileInputs.cache
+C:\Users\Mahdi\Desktop\CodeStarProject\Console\bin\Debug\netcoreapp3.1\Console.exe
+C:\Users\Mahdi\Desktop\CodeStarProject\Console\bin\Debug\netcoreapp3.1\Console.deps.json
+C:\Users\Mahdi\Desktop\CodeStarProject\Console\bin\Debug\netcoreapp3.1\Console.runtimeconfig.json
+C:\Users\Mahdi\Desktop\CodeStarProject\Console\bin\Debug\netcoreapp3.1\Console.runtimeconfig.dev.json
+C:\Users\Mahdi\Desktop\CodeStarProject\Console\bin\Debug\netcoreapp3.1\Console.dll
+C:\Users\Mahdi\Desktop\CodeStarProject\Console\bin\Debug\netcoreapp3.1\Console.pdb
+C:\Users\Mahdi\Desktop\CodeStarProject\Console\obj\Debug\netcoreapp3.1\Console.dll
+C:\Users\Mahdi\Desktop\CodeStarProject\Console\obj\Debug\netcoreapp3.1\Console.pdb
+C:\Users\Mahdi\Desktop\CodeStarProject\Console\obj\Debug\netcoreapp3.1\Console.genruntimeconfig.cache
+C:\Users\Mahdi\Desktop\CodeStarProject\Console\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Mahdi\Desktop\CodeStarProject\Console\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\Mahdi\Desktop\CodeStarProject\Console\obj\Debug\netcoreapp3.1\Console.csproj.CopyComplete
