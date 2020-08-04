@@ -1,0 +1,42 @@
+[
+  {
+    "studentNumber": 1,
+    "firstName": "Mahdi",
+    "lastName": "Malverdi"
+  },
+  {
+    "studentNumber": 2,
+    "firstName": "Mohammad",
+    "lastName": "Haghighat"
+  },
+  {
+    "studentNumber": 3,
+    "firstName": "Mohammad Hossein",
+    "lastName": "Mostmand"
+  },
+  {
+    "studentNumber": 4,
+    "firstName": "Hossein",
+    "lastName": "Behbodi"
+  },
+  {
+    "studentNumber": 5,
+    "firstName": "Ahmad",
+    "lastName": "Salimi"
+  },
+  {
+    "studentNumber": 6,
+    "firstName": "Hadi",
+    "lastName": "EsnaAshari"
+  },
+  {
+    "studentNumber": 7,
+    "firstName": "Alireza",
+    "lastName": "Ziaei"
+  },
+  {
+    "studentNumber": 8,
+    "firstName": "Mohammad Hossein",
+    "lastName": "Ghesarieh"
+  }
+]
