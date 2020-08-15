@@ -823,7 +823,7 @@ Analyzerها
     <div dir='ltr'>
 
     ```json
-    PUT my-index-000001
+    PUT people-simple2
     {
         "settings": {
             "index": {
@@ -901,7 +901,7 @@ Analyzerها
     <div dir='ltr'>
 
     ```json
-    POST my-index-000001/_analyze
+    POST people-simple2/_analyze
     {
         "analyzer": "my_ngram_analyzer",
         "text": "Mohammad Reza"
@@ -940,8 +940,150 @@ Analyzerها
 
 1. انجام جستجوی زیررشته
 
+    1. حالا از
+    Analyzer
+    ساخته‌شده در قسمت قبل استفاده می‌کنیم:
 
+        <div dir='ltr'>
 
+        ```json
+        PUT people-simple2/_mapping
+        {
+            "properties":{
+                "last_name": {
+                    "type":"text",
+                    "analyzer":"my_ngram_analyzer"
+                }
+            }
+        }
+        ```
+
+        </div>
+
+        مشخص است که یک
+        Field
+        به نام
+        last_name
+        با
+        Analyzer
+        خودمان تعریف کردیم.
+
+    1. Query
+    زیر را اجرا کنید و نتیجه را ببینید:
+
+        <div dir='ltr'>
+
+        ```json
+        GET people-simple2/_search
+        {
+            "query": {
+                "match": {
+                    "last_name": "hamm"
+                }
+            }
+        }
+        ```
+
+        </div>
+
+    البته ایجاد
+    Analyzer
+    و
+    تعریف
+    Fieldهای
+    index
+    را می‌توان در یک
+    Query
+    انجام داد که البته به شرطی است که
+    index
+    با آن نام قبلاً وجود نداشته باشد:
+
+    <div dir='ltr'>
+
+    ```json
+    PUT people-simple3
+    {
+        "settings": {
+            "index": {
+                "max_ngram_diff": 7
+            },
+            "analysis": {
+                "analyzer": {
+                    "my_ngram_analyzer": {
+                        "type": "custom",
+                        "tokenizer": "standard",
+                        "filter": [
+                            "lowercase",
+                            "my_ngram_filter"
+                        ]
+                    }
+                },
+                "filter": {
+                    "my_ngram_filter": {
+                        "type": "ngram",
+                        "min_gram": 3,
+                        "max_gram": 10
+                    }
+                }
+            }
+        },
+        "mappings": {
+            "properties":{
+                "last_name": {
+                    "type":"text",
+                    "analyzer":"my_ngram_analyzer"
+                }
+            }
+        }
+    }
+    ```
+
+    </div>
+
+1. Typeهای
+دیگر
+
+    علاوه بر جنس
+    text
+    می‌توان
+    Fieldها
+    را از جنس‌های دیگر نیز تعریف کرد که مثالی از آن را در مشخصه‌ی
+    age
+    از داده‌های نمونه دیدید.
+
+    حالا تلاش کنید که با استفاده از مطالب قسمت قبل
+    Mapping
+    مناسب برای
+    [این داده‌های نمونه](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase07-Elasticsearch/people.json)
+    را در یک
+    index
+    جدید تعریف کنید و تعدادی از این داده‌ها را در آن
+    index
+    بریزید.
+
+    در
+    [این لینک](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-types.html)
+    می‌توانید انواع مختلف داده در
+    Elasticsearch
+    را مشاهده کنید و درباره‌ی آن‌ها اطلاعات بیش‌تری کسب کنید.
+
+    راهنمایی:
+    مشخصه‌های
+    latitude
+    و
+    longitude
+    در داده‌های نمونه به طور جداگانه آورده شده‌اند که برای ریخته شدن در
+    Elasticsearch
+    باید به یک
+    Field
+    تبدیل شوند که این کار را به طور دستی و یا با نوشتن یک کد به زبان دلخواه می‌توانید انجام دهید.
+
+    راهنمایی 2:
+    داده‌های از جنس تاریخ و زمان ممکن است در فرمت‌های مختلفی باشند لذا در هنگام تعریف
+    Mapping
+    علاوه بر تعریف
+    type
+    فرمت متناسب با داده‌های نمونه را منظور کنید.
 
 
 1. آشنایی با
@@ -959,9 +1101,16 @@ Bulk API
     [این لینک](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-bulk.html)
     کمک بگیرید و با
     Bulk API
-    آشنا شوید. با استفاده از آن چند سند را به طور یک‌جا در
+    آشنا شوید. با استفاده از آن 
+    [ابیاتی از حافظ](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase07-Elasticsearch/Hafez.txt)
+    را به طور یک‌جا در
     Elasticsearch
     بریزید.
+
+    راهنمایی:
+    برای ساختن
+    Bulk Query
+    نیاز دارید تا تغییراتی را در فایل داده شده اعمال کنید که به دلیل تعداد زیاد سندها به طور دستی امکان‌پذیر نیست که می‌توانید برای آن به زبان دلخواه کد بزنید.
 
 <br/><br/>
 بهترین منبع برای آشنایی بیش‌تر با
