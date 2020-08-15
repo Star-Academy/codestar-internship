@@ -386,6 +386,8 @@ Kibana
     index
     داده شده است.
 
+    <div id='indexing-documents'></div>
+
 1. بارگذاری اسناد متنی
 
     1. فایل
@@ -635,6 +637,311 @@ Kibana
     در اختیار کاربر می‌گذارد می‌توانید از لینک زیر کمک بگیرید:
 
     * [Query DSL](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html)
+
+1. Text Analysis
+
+    برای این که بتوان در اسناد متنی جستجو کرد نیاز است تا این اسناد نرمال‌سازی شوند. برای مثال باید حروف کلمات
+    lowercase
+    شوند و یا کلاً این که یک متن به کلمات شکسته شود و هم هنگام
+    index
+    کردن و هم هنگام جستجو این اتفاق بیفتد.
+
+    Elasticsearch
+    در این زمینه امکانات زیادی ارائه می‌دهد. برای استفاده از این امکانات باید هنگام تعریف
+    index
+    از
+    Analyzerها
+    و
+    Tokenizerهای
+    مناسب استفاده کرد. ابتدا به توضیحی از این مفاهیم می‌پردازیم:
+
+    * Analyzer
+
+        مجموعه‌ای از
+        Tokenizerها
+        و
+        Normalizerها
+        که برای هر
+        Field
+        در
+        Mapping
+        تعریف می‌شود و نحوه‌ی برخورد با مقادیر آن
+        Field
+        را مشخص می‌کند.
+
+    * Tokenizer
+
+        وقتی می‌خواهیم یک عبارت متنی را
+        index
+        کنیم برای این که قابل جستجو باشد باید آن را به بخش‌های کوچک‌تر به نام
+        Token
+        تجزیه کنیم.
+        Tokenizer
+        این وظیفه را بر عهده دارد. انواع
+        Tokenizer
+        وجود دارد که ساده‌ترین و متداول‌ترین نوع آن شکستن عبارت به کلمات تشکیل‌دهنده‌ی آن است.
+
+    * Normalizer
+    
+        انتظار داریم وقتی کلمه‌ی
+        'quick'
+        را جستجو می‌کنیم سندهایی که دارای کلمه‌ی
+        'Quick'
+        هستند نیز در نتایج ظاهر شوند بنابراین نیاز است تا همه‌ی کلمات را نرمال کنیم که در اینجا
+        lowercase
+        کردن کاراکترها می‌تواند مناسب باشد.
+
+    تفاوت
+    Normalizer
+    با
+    Tokenizer
+    در این است که
+    Normalizer
+    یک
+    Token
+    ورودی می‌گیرد و یک
+    Token
+    خروجی می‌دهد اما
+    Tokenizer
+    یک عبارت ورودی می‌گیرد و تعدادی
+    Token
+    خروجی می‌دهد.
+
+    برای مطالعه‌ی بیش‌تر می‌توانید از
+    [این لینک](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis.html)
+    استفاده کنید.
+
+1. استفاده از
+Analyzerها
+
+    در قسمت
+    <a href='#indexing-documents'>بارگذاری اسناد متنی</a>
+    ما
+    Analyzerی
+    تعیین نکردیم و
+    Elasticsearch
+    با توجه به ساختار سندهایی که در آن بارگذاری کردیم از
+    Analyzerهای
+    پیش‌فرض استفاده کرد.
+    با اجرای
+    Query
+    زیر می‌توانید
+    Mapping
+    پیش‌فرض ایجاد شده برای
+    هر
+    Field
+    را مشاهده کنید:
+
+    <div dir='ltr'>
+
+    ```json
+    GET people-simple/_mapping
+    ```
+
+    </div>
+
+    حال می‌خواهیم
+    Mapping
+    و
+    Analyzerها
+    را خودمان تعیین کنیم.
+
+    1. ابتدا با استفاده از
+    [Analyze API](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-analyze.html)
+    نتیجه‌ی استفاده از چند مورد از
+    Analyzerها
+    را مشاهده می‌کنیم.
+    در زیر چند
+    Query
+    آورده شده است که اجرای آن‌ها به روشن کردن قضیه کمک می‌کند:
+
+    <div dir='ltr'>
+
+    ```json
+    POST _analyze
+    {
+        "analyzer": "whitespace",
+        "text": "The quick brown fox."
+    }
+    ```
+
+    </div>
+
+    موارد استفاده شده:
+
+    * [Whitespace Analyzer](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-whitespace-analyzer.html)
+
+    <br></br>
+
+    <div dir='ltr'>
+
+    ```json
+    POST _analyze
+    {
+        "analyzer": "standard",
+        "text": "The quick brown fox."
+    }
+    ```
+
+    </div>
+
+    موارد استفاده شده:
+
+    * [Standard Analyzer](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-standard-analyzer.html)
+
+    <br></br>
+
+    <div dir='ltr'>
+
+    ```json
+    POST _analyze
+    {
+        "tokenizer": "standard",
+        "filter": [ "lowercase", "asciifolding" ],
+        "text": "Is this déja vu?"
+    }
+    ```
+
+    </div>
+
+    موارد استفاده شده:
+
+    * [Standard Tokenizer](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-standard-tokenizer.html)
+
+    * [Lowercase Token Filter](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-lowercase-tokenfilter.html)
+
+    * [ASCII Folding Token Filter](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-asciifolding-tokenfilter.html)
+
+    <br></br>
+
+    حالا می‌خواهیم یک
+    Analyzer
+    مناسب خودمان ایجاد کنیم که
+    Query
+    زیر مثالی از آن است:
+
+    <div dir='ltr'>
+
+    ```json
+    PUT my-index-000001
+    {
+        "settings": {
+            "index": {
+            "max_ngram_diff": 7
+            },
+            "analysis": {
+                "analyzer": {
+                    "my_ngram_analyzer": {
+                        "type": "custom",
+                        "tokenizer": "standard",
+                        "filter": [
+                            "lowercase",
+                            "my_ngram_filter"
+                        ]
+                    }
+                },
+                "filter": {
+                    "my_ngram_filter": {
+                        "type": "ngram",
+                        "min_gram": 3,
+                        "max_gram": 10
+                    }
+                }
+            }
+        }
+    }
+    ```
+
+    </div>
+
+    موارد استفاده شده:
+
+    * [Custom Analyzer](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-custom-analyzer.html)
+
+    * [Standard Tokenizer](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-standard-tokenizer.html)
+
+    * [Lowercase Token Filter](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-lowercase-tokenfilter.html)
+
+    * [N-gram Token Filter](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-ngram-tokenfilter.html)
+
+    در این
+    Query
+    ما یک
+    index
+    به نام
+    my-index-000001
+    ساختیم که یک
+    Custom Analyzer
+    به اسم
+    my_ngram_analyzer
+    دارد که این
+    Analyzer
+    از یک
+    Standard Tokenizer
+    همراه با
+    Lowercase Token Filter
+    و
+    my_ngram_filter
+    استفاده کرده است که
+    my_ngram_filter
+    خود یک
+    N-gram Token Filter
+    است که زیررشته‌های به طول 3 تا 10 از کلمات ایجاد می‌کند. در ابتدای کار نیز در تنظیمات این
+    index
+    تعیین شده است که اختلاف
+    min_gram
+    و
+    max_gram
+    می‌تواند حداکثر 7 باشد که پیش‌فرض آن 1 است.
+
+    حالا با اجرای کوئری زیر نتیجه‌ی استفاده از این
+    Custom Analyzer
+    من‌درآوردی رو ببینید!
+
+    <div dir='ltr'>
+
+    ```json
+    POST my-index-000001/_analyze
+    {
+        "analyzer": "my_ngram_analyzer",
+        "text": "Mohammad Reza"
+    }
+    ```
+
+    </div>
+
+    چه مشاهده می‌کنید؟ به نظر شما این
+    Analyzer
+    چه کاربردی دارد؟
+
+    <details>
+    <summary>
+    هشدار لوث‌سازی
+    (Spoiler Alert)
+    </summary>
+    
+    `اگر بخواهیم زیررشته‌ی عبارات را جستجو کنیم می‌توانیم از این
+    Analyzer
+    استفاده کنیم مثلاً اگر عبارت
+    «محمد»
+    را جستجو کنیم و بخواهیم سندی که عبارت
+    «محمدی»
+    دارد نیز در نتایج ظاهر شود.`
+    
+    </details>
+
+    برای آشنایی با انواع مختلف
+    Tokenizerها
+    و
+    Token Filterها
+    می‌توانید از لینک زیر استفاده کنید:
+
+    [https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis.html)
+
+1. انجام جستجوی زیررشته
+
+
+
 
 
 1. آشنایی با
