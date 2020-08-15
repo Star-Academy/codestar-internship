@@ -1102,7 +1102,7 @@ Bulk API
     کمک بگیرید و با
     Bulk API
     آشنا شوید. با استفاده از آن 
-    [ابیاتی از حافظ](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase07-Elasticsearch/Hafez.txt)
+    [ابیاتی از شعرای گران‌قدر پارسی‌زبان](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase07-Elasticsearch/poems.txt)
     را به طور یک‌جا در
     Elasticsearch
     بریزید.
@@ -1112,6 +1112,43 @@ Bulk API
     Bulk Query
     نیاز دارید تا تغییراتی را در فایل داده شده اعمال کنید که به دلیل تعداد زیاد سندها به طور دستی امکان‌پذیر نیست که می‌توانید برای آن به زبان دلخواه کد بزنید.
 
+
+1. Aggregations
+
+    از هر کدام از شاعرها چند بیت در داده‌های بارگذاری شده در قسمت قبل وجود دارد؟
+
+    برای پاسخ به این سؤال می‌توانید از
+    [Terms Aggregation](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-bucket-terms-aggregation.html)
+    استفاده کنید.
+
+    با اجرای
+    Query
+    زیر به پاسخ پرسش بالا برسید:
+
+    <div dir='ltr'>
+
+    ```json
+    GET poems/_search
+    {
+        "aggs": {
+            "poets": {
+                "terms": { "field": "poet.keyword" } 
+            },
+            "size": 0
+        }
+    }
+    ```
+
+    </div>
+
+    Queryهای
+    Aggregation
+    در
+    Elasticsearch
+    خود دنیایی دارد که بیان همه‌ی انواع آن در این مقال نمی‌گنجد. برای آشنایی می‌توانید به
+    [Aggregations](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations.html)
+    مراجعه کنید.
+
 <br/><br/>
 بهترین منبع برای آشنایی بیش‌تر با
 Elasticsearch
@@ -1120,6 +1157,17 @@ Doumentation
 آن است که در زیر لینک آن آمده است:
 
 * [Elasticsearch Reference](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)
+
+
+اشعار از
+API
+[وبسایت گنجور](http://ganjoor.net/)
+به دست آمده است.
+
+<br></br>
+</div>
+
+موفق باشید
 
 
 
