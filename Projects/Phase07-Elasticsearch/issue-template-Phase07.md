@@ -1,4 +1,4 @@
-This issue template is based of [Phase07-Elasticsearch.md](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Phase07-Elasticsearch/Phase07-Elasticsearch.md) contents.
+This issue template is based of [Phase07-Elasticsearch.md](./Phase07-Elasticsearch.md) contents.
 Click on "Raw" button on right side of this page to see original markdown then create a new issue with orginal content of this tasklist:
 
 
