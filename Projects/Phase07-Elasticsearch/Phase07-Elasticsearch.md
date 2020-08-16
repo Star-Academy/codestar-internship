@@ -1,6 +1,6 @@
 <div dir="rtl" align='justify'>
 
-[لیست تسک‌های مرتبط با این فاز به صورت issue template](./issue-template-Phase07.md)
+[لیست تسک‌های مرتبط با این فاز به صورت issue template](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Phase07-Elasticsearch/issue-template-Phase07.md)
 
 # فاز هفت: Elasticsearch
 
