@@ -27,14 +27,14 @@ Click on "Raw" button on right side of this page to see original markdown then c
     - [ ] Run `Match` query.
     - [ ] Run `Fuzzy` query.
     - [ ] Write down the difference between `Match` and `Fuzzy` queries:
-        - `[Fill Here (feel free to write in Persian)]
+        - `[Fill Here (feel free to write in Persian)]`
     - [ ] Run `Term` query.
     - [ ] What's the difference between `Match` and `Term` queries?
-        - `[Fill Here (feel free to write in Persian)] 
+        - `[Fill Here (feel free to write in Persian)]`
     - [ ] Run `Range` query.
     - [ ] Run `Multi-match` query.
     - [ ] What's the difference between `Match` and `Multi-match`?
-        - `[Fill Here (feel free to write in Persian)] 
+        - `[Fill Here (feel free to write in Persian)]`
     - [ ] Run `Bool` queries:
         - [ ] Run 1st bool query.
         - [ ] Run 2nd bool query.
@@ -49,7 +49,7 @@ Click on "Raw" button on right side of this page to see original markdown then c
     - [ ] Create custom analyzer.
     - [ ] Run analyze API query against the custom analyzer.
     - [ ] What can be the usage of this custom analyzer?
-        - `[Fill Here (feel free to write in Persian)]
+        - `[Fill Here (feel free to write in Persian)]`
 - [ ] Section 10: Search for substrings
     - [ ] Define mapping for `last_name` field using the custom analyzer.
     - [ ] Run the search query over that field and pay attention to the result.
@@ -63,23 +63,3 @@ Click on "Raw" button on right side of this page to see original markdown then c
 - [ ] Section 13: Aggregations
     - [ ] Run the query to get number of poems available from each poet.
     - [ ] (Optional) Read about different kinds of aggregation queries and try them out.
-
-
-### Review
-
-Link of your own PR:
-
-`[FILL HERE WITH LINK OF YOUR PR.]`
-
-Link of other PR(s) you agreed to review:
-
-`[FILL HERE WITH LINK OF PR(s) YOU REVIEWED.]`
-
-
-- [ ] Your own PR is reviewed and approved by at least one other team.
-
-- [ ] Your own PR is reviewed and approved by mentor (hamyar).
-
-- [ ] Your own PR is reviewed and approved by manager (rahbar).
-
-- [ ] Your own PR is merged.
