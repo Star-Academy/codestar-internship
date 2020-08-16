@@ -21,7 +21,7 @@
 
     </div>
 
-1. آشنایی با GithHub Actions و اضافه کردن CI/CD Pipeline به ریپازیتوری:
+1. آشنایی با GitHub Actions و اضافه کردن CI/CD Pipeline به ریپازیتوری:
 
     یکی از ابزار CI/CD
     معروف، GitHub Actions
