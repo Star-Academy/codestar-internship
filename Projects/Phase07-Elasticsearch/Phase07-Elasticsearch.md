@@ -366,7 +366,7 @@ Kibana
     زیر یک
     index
     به نام 
-    hafez
+    `people-simple`
     در 
     Elasticsearch
     ایجاد کنید:
@@ -396,7 +396,7 @@ Kibana
     JSON
     آورده شده است.
 
-    1. تعدادی از این ابیات را در
+    1. این اشخاص را در
     index
     ایجاد شده بریزید. 
     برای این کار می‌توانید از
@@ -515,6 +515,25 @@ Kibana
 
     </div> 
 
+    * [Multi-match Query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-multi-match-query.html)
+
+    <div dir="ltr">
+
+    ```json
+    GET /people-simple/_search
+    {
+        "query": {
+            "multi_match": {
+                "query": "mohammad",
+                "fields": ["name", "last_name"],
+                "fuzziness": 1
+            }
+        }
+    }
+    ```
+
+    </div> 
+
     * [Bool Query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html)
 
     <div dir="ltr">
@@ -604,25 +623,6 @@ Kibana
                         }
                     }
                 ]
-            }
-        }
-    }
-    ```
-
-    </div> 
-
-    * [Multi-match Query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-multi-match-query.html)
-
-    <div dir="ltr">
-
-    ```json
-    GET /people-simple/_search
-    {
-        "query": {
-            "multi_match": {
-                "query": "mohammad",
-                "fields": ["name", "last_name"],
-                "fuzziness": 1
             }
         }
     }
@@ -869,11 +869,11 @@ Analyzerها
     ما یک
     index
     به نام
-    my-index-000001
+    `people-simple2`
     ساختیم که یک
     Custom Analyzer
     به اسم
-    my_ngram_analyzer
+    `my_ngram_analyzer`
     دارد که این
     Analyzer
     از یک
@@ -881,9 +881,9 @@ Analyzerها
     همراه با
     Lowercase Token Filter
     و
-    my_ngram_filter
+    `my_ngram_filter`
     استفاده کرده است که
-    my_ngram_filter
+    `my_ngram_filter`
     خود یک
     N-gram Token Filter
     است که زیررشته‌های به طول 3 تا 10 از کلمات ایجاد می‌کند. در ابتدای کار نیز در تنظیمات این
