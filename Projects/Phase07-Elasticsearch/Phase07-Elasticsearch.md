@@ -1135,9 +1135,9 @@ Bulk API
         "aggs": {
             "poets": {
                 "terms": { "field": "poet.keyword" } 
-            },
-            "size": 0
-        }
+            }
+        },
+        "size": 0
     }
     ```
 
