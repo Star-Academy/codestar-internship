@@ -396,7 +396,7 @@ Elasticsearch
 
 <br></br>
 یک نمونه کد در
-[این‌جا](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase08-NEST/NestSampleCode)
+[این‌جا](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase08-Nest/NestSampleCode)
 موجود است.
 </div>
 
