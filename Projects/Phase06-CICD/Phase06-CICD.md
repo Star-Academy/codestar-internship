@@ -147,8 +147,8 @@
         در ریپازیتوری خود وارد منوی Actions
         شوید؛ همانطور که مشاهده می‌کنید، Pipeline
         شما در حال اجرا است:
-
-        ![](Phase06_Actions.png)
+        <img src="Phase06_Actions.png" alt="alt text" width="250" height="250">
+        
 
         آن را باز کرده و وارد بخش build
         شوید:
