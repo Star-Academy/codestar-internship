@@ -15,9 +15,9 @@ namespace NestSampleCode
 
         public void CreateIndex(string index)
         {
-            var response = client.Indices.Create(index,
-                s => s.Settings(CreateSettings)
-                    .Map<Person>(CreateMapping));
+            var response = client.Indices.Create(index, s => s
+                .Settings(CreateSettings)
+                .Map<Person>(CreateMapping));
         }
 
         private IPromise<IIndexSettings> CreateSettings(IndexSettingsDescriptor settingsDescriptor)
@@ -36,8 +36,8 @@ namespace NestSampleCode
         private IAnalysis CreateAnalysis(AnalysisDescriptor analysisDescriptor)
         {
             return analysisDescriptor
-                        .TokenFilters(CreateTokenFilters)
-                        .Analyzers(CreateAnalyzers);
+                .TokenFilters(CreateTokenFilters)
+                .Analyzers(CreateAnalyzers);
         }
 
         private static IPromise<IAnalyzers> CreateAnalyzers(AnalyzersDescriptor analyzersDescriptor)
