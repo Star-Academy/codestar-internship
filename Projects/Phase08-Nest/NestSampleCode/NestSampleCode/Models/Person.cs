@@ -44,9 +44,6 @@ namespace NestSampleCode.Models
         [JsonPropertyName("longitude")]
         public double Longitude {get;set;}
 
-        public string Location {get
-        {
-            return $"{Latitude},{Longitude}";
-        }}
+        public string Location => $"{Latitude},{Longitude}";
     }
 }
