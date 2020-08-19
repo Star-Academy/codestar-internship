@@ -44,6 +44,19 @@ namespace NestSampleCode.Models
         [JsonPropertyName("longitude")]
         public double Longitude {get;set;}
 
-        public string Location => $"{Latitude},{Longitude}";
+        private string location = null;
+        public string Location
+        {
+            get
+            {
+                if (location is null)
+                    return $"{Latitude},{Longitude}";
+                return location;
+            }
+            set
+            {
+                location = value;
+            }
+        } 
     }
 }
