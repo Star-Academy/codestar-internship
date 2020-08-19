@@ -245,7 +245,7 @@ NEST
         {
             bulkDescriptor.Index<Person>(x => x
                 .Index(index)
-                .Document(document)
+                .Document(person)
             );
         }
         client.Bulk(bulkDescriptor);
