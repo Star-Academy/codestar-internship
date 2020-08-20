@@ -59,33 +59,33 @@
 <div dir="ltr">
   
     {
-    "nodes" :{
-        "Person":{
-            "Name": "string",
-            "FamilyName": "string",
-            "NationalCod" : "string",
-            "Birthday" : "date"   
-        },
+        "nodes" :{
+            "Person":{
+                "Name": "string",
+                "FamilyName": "string",
+                "NationalCod" : "string",
+                "Birthday" : "date"   
+            },
         
-        "Bank":{
-            "Name": "string",
-            "BranchID": "string",
-            "Adress": "string"
-        }
-    },
+            "Bank":{
+                "Name": "string",
+                "BranchID": "string",
+                "Adress": "string"
+            }
+        },
 
-    "links":{
-        "Transaction":{
-            "SourceAccount": "string",
-            "DestinationAccount": "string",
-            "Date": "date",
-            "Value": "integer"
+        "links":{
+            "Transaction":{
+                "SourceAccount": "string",
+                "DestinationAccount": "string",
+                "Date": "date",
+                "Value": "integer"
+            }
         }
-    }
-    }         
-در این فایل مشخصه شده که نودهای گراف ما و لینک‌های گراف ما چه هستند و هرکدام چه ویژگی‌هایی دارند.
-
-</div>
+    }  
+</div>           
+در این فایل مشخصه شده که نودهای گراف ما و لینک‌های گراف ما کدام یک از موجودیت‌ها هستنپ و هرکدام از موجودیت‌ها چه ویژگی‌هایی دارند.
+<br><br>
 
 پلت‌فرم باید طوری طراحی شود که کاربر بتواند به تعداد دلخواه برای هرکدام از اجزای گراف مشخصه تعریف کند.
 هم‌چنین بدیهی است که ما بتوانیم چندین موجودیت از جنس نود و چندین موجودیت از جنس لینک داشته‌باشیم و تناقضی ندارد. 
