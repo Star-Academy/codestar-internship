@@ -49,19 +49,33 @@
 نمونه این تکست به شرح زیر است:
 
  <div dir='ltr'>
-
-    ```csharp
-    var uri = new Uri ("http://localhost:9200");
-    var connectionSettings = new ConnectionSettings (uri);
-    // DebugMode gives you the request in each request to make debuging easier
-    // But don't forget to only use it in debugging, because its usage has some overhead
-    // and should not be used in production
-    connectionSettings.EnableDebugMode();
-    var client = new ElasticClient (connectionSettings);
-    ```
-
-    </div>
     
+    Person: "node"
+        {
+            Name: "string"
+            FamilyName: "string"
+            NationalCode: "string"
+            Birthday: "date"
+        }
+    Transaction: "link" 
+        {
+            SourceAccount: "string"
+            DestinationAccount: "string"
+            Date: "date"
+            Value: "integer"
+        }
+    ‌Bank: "node"
+        {
+            Name: "string"
+            BranchId: "string"
+            Adresss: "string"
+        }    
+</div>      
+
+سیستم باید طوری طراحی شود که کاربر بتواند به تعداد دلخواه برای هرکدام از اجزای گراف مشخصه تعریف کند. منظور از مشخصه همان attributeهایی است که داخل آکولاد قرار می‌گیرند.
+
+هم‌چنین بدیهی است که ما بتوانیم چندین موجودیت از جنس نود و چندین موجودیت از جنس لینک داشته‌باشیم و تناقضی ندارد.
+
 ## چرا به نگاشت نیاز داریم؟
 توضیحات لازم رو اینجا بنویس
 
