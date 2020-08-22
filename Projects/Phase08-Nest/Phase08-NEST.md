@@ -150,7 +150,7 @@ NEST
             public string About {get;set;}
 
             [JsonPropertyName("registration_date")]
-            public DateTime RegistrationDate {get;set;}
+            public string RegistrationDate {get;set;}
 
             [Ignore]
             [JsonPropertyName("latitude")]
@@ -160,10 +160,20 @@ NEST
             [JsonPropertyName("longitude")]
             public double Longitude {get;set;}
 
-            public string Location {get
+            private string location = null;
+            public string Location
             {
-                return $"{Latitude},{Longitude}";
-            }}
+                get
+                {
+                    if (location is null)
+                        return $"{Latitude},{Longitude}";
+                    return location;
+                }
+                set
+                {
+                    location = value;
+                }
+            } 
         }
         ```
 
