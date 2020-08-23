@@ -170,7 +170,7 @@
 
 در عکس زیر بهتر متوجه خواهید شد که با دادن این فایل json چه چیزی مشخص می‌شود.
 
-<p align="center" style="text-align:center; "><img src="damble.jpg" alt="Logo"  align="cneter"  width="310" height="218.5"></p>
+<p align="center" style="width:70%;"><img src="damble.jpg" alt="Logo"  align="cneter"></p>
 
 
 ## سازگار کردن گسترش قبلی با آنتولوژی پویا و نگاشت 
