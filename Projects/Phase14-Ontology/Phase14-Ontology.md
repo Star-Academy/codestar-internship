@@ -76,19 +76,17 @@
             "Account":{
                 "AccountNum": "string"
                 "OpenningDate": "date"
-                "OwnerName": "string"
-                "OwnerFamilyName: "string"
-                "OwnerNationalCard": "string"
             }
         },
 
         "links":{
             "Transaction":{
-                "SourceAccount": "string",
-                "DestinationAccount": "string",
                 "Date": "date",
-                "Value": "integer"
-            }
+                "amount": "integer"
+            },
+        "accountOwnerShip":{
+            
+        }
         }
     }  
 </div>           
@@ -112,7 +110,7 @@
 برای حل این مشکل به چیزی به اسم "نگاشت" لازم داریم که در بخش بعد به آن می‌پردازیم.
 
 ## ۶- نگاشت چیست و چرا به آن نیاز داریم؟
-دربخش قبل، مثال 50 دیتابیس مختلف بانک مرکزی را آوردیم و یک مشکل  آن را بررسی کردیم.با کارهایی که تاکنون انجام داده‌ایم، سیستم ما می‌داند تراکنش چیست ولی باید به آن بفهمانیم که کدام ستون دیتابیس اطلاعات تراکنش را نشان می‌دهد.این فهمانیدن در پروژه ما "نگاشت" نامیده می‌شود. در واقع نگاشت عملیاتی است که هرکدام از اجزای آنتلوژی ما به یکی از ستون‌های آنتولوژی نگاشت می‌شود. در واقعی نگاشت تابعی است از جزء آنتولوژی به ستون دیتابیس. ما در پروژه خود زیرساخت تعریف آنتولوژی را فراهم می‌کنیم و ادمینی که با محصول نهایی کار می‌کند باید برای هر دیتابیس عملیات نگاشت را انجام دهد.
+دربخش قبل، مثال 50 دیتابیس مختلف بانک مرکزی را آوردیم و یک مشکل  آن را بررسی کردیم.با کارهایی که تاکنون انجام داده‌ایم، سیستم ما می‌داند تراکنش چیست ولی باید به آن بفهمانیم که کدام ستون دیتابیس اطلاعات تراکنش را نشان می‌دهد.این فهمانیدن در پروژه ما "نگاشت" نامیده می‌شود. در واقع نگاشت عملیاتی است که هرکدام از اجزای آنتلوژی ما به یکی از ستون‌های آنتولوژی نگاشت می‌شود. ما در پروژه خود زیرساخت تعریف آنتولوژی را فراهم می‌کنیم و ادمینی که با محصول نهایی کار می‌کند باید برای هر دیتابیس عملیات نگاشت را انجام دهد.
 
 
 ## ۷- اجزای نگاشت و تعریف آن توسط ادمین در فایل
@@ -121,7 +119,7 @@
 <b>"هر عضوی که در نگاشت تعریف می‌شود باید در آنتولوژی وجود داشته‌باشد اما لزومی ندارد به ازای هرعضو آنتولوژی یا دیتابیس، نگاشتی وجود داشته‌باشد."</b>
 <br><br>
 به یک مثال ساده برای دیتابیس تراکنش‌ها توجه بفرمایید.
-<p align="center" style="width:70%;"><img src="dataBase2.jpg" alt="Logo"  align="cneter" style="width:70%;"></p>
+<p align="center" style="text-align:center;"><img src="dataBase.jpg" alt="Logo"  align="cneter" style="width:70%;"></p>
 مثالی که در زیربخش ۴ ارائه شد، آنتولوژی سیستم فرضی ما را مشخص کرده‌بود. در عکس بالا هم یکی از دیتابیس‌هایی را که قراراست در سیستم ما به کار گرفته‌شود مشاهده می‌کنید. حالا نوبت آن را رسیده که ادمین در یک فایل json. دیگر، نگاشت سیستم را طبق قواعدی که توضیح دادیم مشخص کند
 او در این  فایل مشخص می‌کند که قرار است از کدام ستون‌های دیتابیس استفاده‌کند و این ستون‌ها به کدام‌یک از اجزای آنتولوژی ما مپ می‌شوند.
 <br>
@@ -141,13 +139,13 @@
             "mappingSourceAccount":{
                 "primaryKey":"acccountNum",
                 "attributeMapping":[
-                    {"acccountNum":"excleColumn1"}
+                    {"acccountNum":"excelColumn1"}
                 ]   
         },
             "mappingDestinationAccount":{
                 "primaryKey":"acccountNum",
                 "attributeMapping":[
-                    {"accountNum":"excleColumn2"}
+                    {"accountNum":"excelColumn2"}
                 ]
             }
         },    
@@ -157,10 +155,10 @@
                 "fromNode":"sourceAccount",
                 "toNode":"destinationAccount",
                 "attributeMapping":[
-                    {"sourceAccount":"excleColumn1"},
-                    {"destinationAccount":"excleColumn2"},
-                    {"transactionAmmount":"excleColumn4"},
-                    {"transactionDate":"excleColumn4"}
+                    {"sourceAccount":"excelColumn1"},
+                    {"destinationAccount":"excelColumn2"},
+                    {"transactionAmmount":"excelColumn4"},
+                    {"transactionDate":"excelColumn4"}
                 ]
             }   
         }
@@ -170,7 +168,7 @@
 
 در عکس زیر بهتر متوجه خواهید شد که با دادن این فایل json چه چیزی مشخص می‌شود.
 
-<p align="center" style="width:70%;"><img src="damble.jpg" alt="Logo"  align="cneter" width="620" height="423.5"></p>
+<p align="center" style="width:70%;"><img src="damble.jpg" alt="Logo"  align="cneter"  style=""></p>
 
 
 ## سازگار کردن گسترش قبلی با آنتولوژی پویا و نگاشت 
