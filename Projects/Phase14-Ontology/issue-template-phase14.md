@@ -33,16 +33,16 @@ Click on "Raw" button on right side of this page to see original markdown then c
 - [ ] Section 6: **Mapping**
     - [ ] Find out what's Mapping.
     - [ ] In our project, mapping is an operation between ... ? Choose the answer!
-        - [] Database and ontology.
-        - [] different parts of ontology.
-        - [] different parts of database.
-        - [] different ontolgies.
+        - [ ] Database and ontology.
+        - [ ] different parts of ontology.
+        - [ ] different parts of database.
+        - [ ] different ontolgies.
     
 
 - [ ] Section 7: Read about how can an admin import **mapping** into the system.
     - [ ] Choose the answer. In which step we define primary Key for objects?
-        - [] Defining ontology.
-        - [] Defining mapping.
+        - [ ] Defining ontology.
+        - [ ] Defining mapping.
     - [ ] Focus at the picture that explains about the shape of mapping for a minute.
     
 - [ ] Section 8:
