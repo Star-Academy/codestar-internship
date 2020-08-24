@@ -84,9 +84,9 @@
                 "Date": "date",
                 "amount": "integer"
             },
-        "accountOwnerShip":{
+            "accountOwnerShip":{
             
-        }
+             }
         }
     }  
 </div>           
