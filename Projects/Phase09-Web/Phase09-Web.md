@@ -151,7 +151,46 @@ namespace Example.Controllers
 
    - [ASP.NET Core - Dependency Injection](https://www.tutorialsteacher.com/core/dependency-injection-in-aspnet-core)
    - [Dependency injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-3.1)
+
+9. Http Methods
+
+ با استفاده از اتریبیوت‌های Http Methods شما می‌توانید مشخص کنید اکشن شما با استفاده از کدام Http method کال شود. برای اطلاع بیشتر می‌توانید لینک زیر را مطالعه کنید.
+
+ - [Using HTTP Methods (GET, POST, PUT, etc.) in Web API](https://exceptionnotfound.net/using-http-methods-correctly-in-asp-net-web-api/)
+ - [Attribute Routing, HTTP Request Methods & Best Practices in .NET Core Web API](https://dev.to/_patrickgod/net-core-3-1-web-api-entity-framework-jumpstart-part-2-58gp)
+
+10. Parameter Binding
+ 
+ در `Asp.net Core` برای بایند کردن محتویات ریکوئست Http به آرگومان‌های ورودی اکشن از Parameter Binding کمک می‌گیریم. به وسیله این مفهوم مشخص می‌کنیم داده از Body یا قسمت‌های دیگر ریکوئست خوانده شود. برای آشنایی بیشتر با این مفهوم لینک زیر را مطالعه کنید.
+
+ - [Parameter Binding in ASP.NET Web API](https://docs.microsoft.com/en-us/aspnet/web-api/overview/formats-and-model-binding/parameter-binding-in-aspnet-web-api)
+
 </div>
+
+
+<div dir="rtl">
+
+## `Postman`
+
+
+Postman یک افزونه گوگل کروم است که با استفاده از آن میشود براحتی متد های یک Web API را اجرا، تست یا بررسی کرد.
+
+این ابزار به ما کمک میکند تا به سرعت یک درخواست HTTP ایجاد و ارسال کنیم.
+
+ذخیره درخواست ها برای استفاده های بعدی، تجزیه و تحلیل پاسخ ها، تغییر سریع محتوای یک درخواست، احراز هویت کاربر با ارسال اطلاعات، سفارشی کردن و... از امکانات خوب این افزونه است که باعث میشود در هنگام توسعه یک API زمان بسیار زیادی را صرفه جویی کنید.
+
+پست‌من در ارتباط با برنامه هایی مانند Azure بسیار مفید است.
+
+Postman ابزاری بسیار سبک بر مبنای وب است که از آن برای تست کردن سایر API ها استفاده می شود. کاربرد این ابزار زمانی مشهود است که برنامه نویس قبل از استفاده از یک مدل API آنرا با Postman بررسی کند. درخواست های API (حتی درخواست های پیچیده) را می توان با Postman به راحتی ایجاد کرد و جواب آنها را به شکل ها و فرمت های مختلف در مرورگر دریافت نمود. همین کارایی باعث می شود که برنامه نویس بداند که API مورد نظرش چگونه رفتار می کند و برنامه نویس در تصمیم گیری برای استفاده از آن راحت تر باشد.
+
+
+- [Postman Tutorial for Beginners with API Testing Example](https://www.guru99.com/postman-tutorial.html)
+
+</div>
+
+
+
+
 
 <div dir="rtl">
 
