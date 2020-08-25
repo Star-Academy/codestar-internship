@@ -14,7 +14,7 @@ Click on "Raw" button on right side of this page to see original markdown then c
         1. To increase the efficiency of the system.
         1. Different applications.
         1. To set a common definition for every object in our system.
-        - `[FILL HERE WITH THE NUMBER OF ANSWER]`
+        - `[FILL HERE WITH THE LETTER OF ANSWER]`
 
     - [ ] Fill here with two effects that what will happen if we don't define ontology :
         - `[FILL HERE]`
@@ -38,13 +38,13 @@ Click on "Raw" button on right side of this page to see original markdown then c
         1. different parts of ontology.
         1. different parts of database.
         1. different ontolgies.
-        - `[FILL HERE WITH THE NUMBER OF ANSWER]`
+        - `[FILL HERE WITH THE LETTER OF ANSWER]`
 
 - [ ] Section 7: Read about how can an admin import **Mapping** into the system.
     - [ ] Choose the answer. In which step we define primary Key for objects?
         1. Defining ontology.
         1. Defining mapping.
-        - `[FILL HERE WITH THE NUMBER OF ANSWER]`
+        - `[FILL HERE WITH THE LETTER OF ANSWER]`
     - [ ] Focus at the picture that explains about the shape of mapping for a minute.
     
 - [ ] Section 8:
