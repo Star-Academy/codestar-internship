@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Example.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]/[Action]")]
     public class SimpleController : ControllerBase
     {
         [HttpGet]
