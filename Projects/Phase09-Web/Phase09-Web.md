@@ -1,4 +1,125 @@
+
+<div dir="rtl">
+
+# فاز 9 : وب مقدماتی
+
+در این فاز ابتدا با فریم‌ورک `Asp.net Core` آشنا خواهید شد. سپس به سراغ مفاهیمی  همچون `UI/UX`، `Html` و `Css` خواهیم رفت و در انتها شما با `Angular` برخورد خواهید داشت.
+
+## Asp.net Core
+
+قبل از آنکه به سراغ `Asp.net Core` برویم بهتر به مفاهیم `Http` و `Rest` پرداخته شود.
+</div>
+<div dir="rtl">
+
+1. `Http` چیست؟
+   
+   پروتکل `HTTP` مخفف عبارت `Hyper Text Transfer Protocol` است و به ارتباط میان سرویس‌دهنده (server) و سرویس‌گیرنده (client) در وب می‌پردازد.
+
+    ارتباط بین سیستم‌های سرویس‌گیرنده و سرورها از طریق ارسال درخواست‌های http و دریافت پاسخ‌های http انجام می‌شود.
+    به زبان ساده‌تر، http یک نوع قانون است که ارسال و دریافت اطلاعات بین client وserver  بر اساس آن انجام می‌شود.
+
+    برای آشنایی بهتر با `Http` لینک‌های زیر می‌تواند به شما کمک کند.
+
+    - [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+    - [Hypertext Transfer Protocol (HTTP)](https://www.extrahop.com/resources/protocols/http/)
+  
+</div>
+<div dir="rtl">
+
+2. RESTful Api
+   
+   `API` یا `Application Programming Interface` که با رابط برنامه‌نویسی کاربردی ترجمه می‌شود یک مجموعه از قواعد و مکانیزم‌ها است که از طریق آن اپلیکیشن‌ها و یا کامپوننت‌های مختلف یک برنامه با همدیگر ارتباط برقرار می‌کنند. نام خود این مکانیزم بیانگر همه چیز است. منظور از رابط چیزی‌ست که دو شئ یا دو موجودیت مختلف را به همدیگر ربط می‌دهد. اما بیایید کمی با جزئیات بیشتر از این موضوع صحبت کنیم. API می‌تواند داده‌هایی که شما برای اپلیکیشن‌تان نیاز دارید را از طریق یک فرمت مناسب به خروجی بفرستد و یا آن‌ را برگشت دهد. فرمت JSON و XML از این دست فرمت‌ها هستند. در این مطلب ما قصد داریم روی JSON تمرکز بکنیم.
+
+
+    <img style="margin: auto;" src="images/pic8.png" />
+
+    برای آشنایی بیشتر با `RESTful api` مطالب زیر به شما کمک خواهد کرد.
+
+    - [Learn REST: A RESTful Tutorial](https://www.restapitutorial.com/)
+    - [RESTful API به زبان ساده چیست؟](https://roocket.ir/articles/a-beginners-tutorial-for-understanding-restful-api)
+    - [What Is a REST API?](https://www.sitepoint.com/developers-rest-api/)
+
+</div>
+<div dir="rtl">
+
+3. سلام به دنیای `Asp.net Core`
+   
+   `Asp.net Core` یک کتابخانه به زبان سی‌شارپ است که به وسیله آن می‌تواند یک سرور `RESTful api` راه اندازی کنید. 
+
+   برای ساخت یک پروژه `Asp.net Core` کافی است در خط فرمان دستور زیر را وارد کنید.
+
+    </div>
+    <div dir="ltr">
+
+   ```
+    dotnet new webapi
+   ```
+
+    </div>
+    <div dir="rtl">
+
+    برای اجرا شدن اولین پروژه `Asp.net Core` خود در خط فرمان دستور زیر  را وارد کنید. 
+
+
+
+    </div>
+    <div dir="ltr">
+
+   ```
+    dotnet run
+   ```
+
+    </div>
+    <div dir="rtl">
+
+    حال برای مشاهده خروجی کار این [آدرس](https://localhost:5001/WeatherForecast) زیر را در مرورگر خود مشاهده کنید. همانگونه که مشاهده می‌کنید در خروجی یک لیست از داده‌های آب و هوایی وجود دارد که در پروژه پیش فرض Asp.net core وجود دارد.
+
+    </div>
+
+<div dir="rtl">
+
+ 4. Controller و Action Method
+   
+   در یک پروژه `ASP.NET Core` درخواست‌های رسیده به سایت یا `Web Application` توسط کنترلرها پاسخ داده می‌شوند. پس به زبان خیلی ساده ، کنترلرها به درخواست هایی که توسط کاربران ارسال می‌شود پاسخ می‌دهند. کنترلرها کلاس‌هایی هستند که در فولدر `Controllers` قرار دارند. این کلاس‌ها با کلمه Controller به اتمام می‌رسند و از کلاس `Controller` یا `ControllerBase` ارث بری می‌کنند.
+
+   هر متدی با دسترسی عمومی (Public) در کنترلر ، به عنوان یک متد عملیاتی (Action Method) شناخته می‌شود، پس به متدهایی که درون کلاس کنترلر تعریف می‌کنیم اکشن متد گفته می‌شود. هر درخواست کاربر به اکشن متد مربوطه ارسال می‌شود و اکشن متد به درخواست کاربر پاسخ می‌دهد.
+
+</div>
+
+<div dir="rtl">
+
+5. ساخت یک کنترلر ساده
+
+    در فولدر `Controllers` خود یک فایل به نام `SimpleController` ایجاد کنید و کدهای زیر را درون آن قرار دهید.
+
+
+</div>
+<div dir="ltr">
+
+```CSharp
+using Microsoft.AspNetCore.Mvc;
+
+namespace Example.Controllers
+{
+    [ApiController]
+    [Route("[controller]/[Action]")]
+    public class SimpleController : ControllerBase
+    {
+        [HttpGet]
+        public string Get()
+        {
+            return "Hello world!";
+        }
+    }
+}
+```
+</div>
+<div dir="rtl">
+
+در کد بالا شما یک کنترلر به نام Simple ساختید که یک اکشن متد به نام Get دارد. مسیر دسترسی به آن را هم به صورتی تعریف شده که برای دسترسی به آن ابتدا باید نام کنترلر و سپس نام اکشن متد بیاید. برای تست کد خود در 
+</div>
 <hr>
+
 <h3 dir="rtl">UI/UX</h3>
 ‌<p dir="rtl">
     در این بخش هدف آشنایی با طراحی صفحات وبسایت است. در ابتدا در مورد نحوه‌ی طراحی و مسائلی از قبیل UI/UX صحبت
