@@ -1,4 +1,4 @@
-This issue template is based of [Phase14-Ontology.md](https://github.com/Star-Academy/codestar-internship/blob/Phase14/Projects/Phase14-Ontology/Phase14-Ontology.md) contents.
+This issue template is based of [Phase03-Ontology.md](https://github.com/Star-Academy/codestar-internship/blob/Phase14/Projects/Phase14-Ontology/Phase14-Ontology.md) contents.
 Click on "Raw" button on right side of this page to see original markdown then create a new issue with orginal content of this tasklist:
 
 
@@ -11,9 +11,10 @@ Click on "Raw" button on right side of this page to see original markdown then c
 
 - [ ] Section 2: Read about **importance of ontology**
     - [ ] What is the main reason of defining ontology for the project? Choose the answer!
-        - [ ] To increase the efficiency of the system.
-        - [ ] Different applications.
-        - [ ] To set a common definition for every object in our system.
+        1. To increase the efficiency of the system.
+        1. Different applications.
+        1. To set a common definition for every object in our system.
+        `[FILL HERE WITH THE NUMBER OF ANSWER]`
 
     - [ ] Fill here with two effects that what will happen if we don't define ontoloy :
         - `[FILL HERE]`
@@ -33,20 +34,21 @@ Click on "Raw" button on right side of this page to see original markdown then c
 - [ ] Section 6: **Mapping**
     - [ ] Find out what's Mapping.
     - [ ] In our project, mapping is an operation between ... ? Choose the answer!
-        - [ ] Database and ontology.
-        - [ ] different parts of ontology.
-        - [ ] different parts of database.
-        - [ ] different ontolgies.
-    
+        1. Database and ontology.
+        1. different parts of ontology.
+        1. different parts of database.
+        1. different ontolgies.
+        `[FILL HERE WITH THE NUMBER OF ANSWER]`
 
 - [ ] Section 7: Read about how can an admin import **mapping** into the system.
     - [ ] Choose the answer. In which step we define primary Key for objects?
-        - [ ] Defining ontology.
-        - [ ] Defining mapping.
+        1. Defining ontology.
+        1. Defining mapping.
+        `[FILL HERE WITH THE NUMBER OF ANSWER]`
     - [ ] Focus at the picture that explains about the shape of mapping for a minute.
     
 - [ ] Section 8:
-    - [ ] Develope the process in way that this section wants.
+    - [] Develope the process in way that this section wants.
 ### Review
 
 Link of your own PR:
