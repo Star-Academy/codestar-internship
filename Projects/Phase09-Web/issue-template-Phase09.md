@@ -1,7 +1,7 @@
 This issue template is based of [Phase09-Web.md](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Phase09-Web/Phase09-Web.md) contents.
 Click on "Raw" button on right side of this page to see original markdown then create a new issue with orginal content of this tasklist:
 
-# Phase9-Part1
+# Phase 9 First Part
 
 - [ ] Before starting: Read the link about history and purpose of creating & developing Web, then answer this questions:
   - [ ] How did developers provide server-client softwares for users before creation of web technologies?
