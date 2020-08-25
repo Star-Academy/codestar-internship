@@ -36,6 +36,12 @@ Click on "Raw" button on right side of this page to see original markdown then c
   - [ ] What is the most interesting aspect of HTTP in your opinion? 
   
     `[FILL HERE WITH YOUR ANSWER. (feel free to write in persian)]`
+
+- [ ] Getting Started with REST:
+  - [ ] Read mentioned links.
+  - [ ] Why do we need RESTful APIs?
+  
+    `[FILL HERE WITH YOUR ANSWER. (feel free to write in persian)]`
     
 - [ ] Section x: Project
 
