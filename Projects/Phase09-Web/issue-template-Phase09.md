@@ -28,7 +28,6 @@ Click on "Raw" button on right side of this page to see original markdown then c
     `[FILL HERE WITH YOUR ANSWER. (feel free to write in persian)]`
     
   - [ ] Try to get familier with HTTP by reading links.
-  
   - [ ] Why HTTP is most popular protocol in web technologies?
     
     `[FILL HERE WITH YOUR ANSWER. (feel free to write in persian)]`
@@ -41,6 +40,14 @@ Click on "Raw" button on right side of this page to see original markdown then c
   - [ ] Read mentioned links.
   - [ ] Why do we need RESTful APIs?
   
+    `[FILL HERE WITH YOUR ANSWER. (feel free to write in persian)]`
+
+- [ ] Getting Started with Asp.net Core:
+  - [ ] Read mentioned links.
+  - [ ] Create a hello world API.
+  - [ ] Call your api from browser.
+  - [ ] Play with routing options!
+  - [ ] Why do we need configurable routings in web development?
     `[FILL HERE WITH YOUR ANSWER. (feel free to write in persian)]`
     
 - [ ] Section x: Project
