@@ -46,11 +46,23 @@ Click on "Raw" button on right side of this page to see original markdown then c
   - [ ] Read mentioned links.
   - [ ] Create a hello world API.
   - [ ] Call your api from browser.
-  - [ ] Play with routing options!
+  - [ ] Play with routing options! (Try to use it & enjoy it!)
   - [ ] Why do we need configurable routings in web development?
+  
     `[FILL HERE WITH YOUR ANSWER. (feel free to write in persian)]`
-    
-- [ ] Section x: Project
+  
+  - [ ] Play with dependency injection! (Define an interface & inject interface implementation to code)
+  - [ ] Why do we need dependency injection?
+  
+    `[FILL HERE WITH YOUR ANSWER. (feel free to write in persian)]`
+  - [ ] Play with parameter binding! (use different modes)
+  - [ ] Install postman.
+  - [ ] Call your APIs with postman.
+  
+- [ ] Implement Asp.net Core Project:
+  - [ ] Design your search API
+  - [ ] Implement & Test your API
+
 
 
 ## Angular
