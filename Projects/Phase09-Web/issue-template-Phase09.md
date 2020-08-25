@@ -16,8 +16,27 @@ Click on "Raw" button on right side of this page to see original markdown then c
   
       `[FILL HERE WITH YOUR ANSWER. (feel free to write in persian)]`
 
-## Asp.net
+## Asp.net core
 
+- [ ] Getting Started with HTTP:
+  - [ ] What does a protocol mean?
+  
+    `[FILL HERE WITH YOUR ANSWER. (feel free to write in persian)]`
+
+  - [ ] Why designing a protocol for communication is important prerequirement of all other web related technologies?
+  
+    `[FILL HERE WITH YOUR ANSWER. (feel free to write in persian)]`
+    
+  - [ ] Try to get familier with HTTP by reading links.
+  
+  - [ ] Why HTTP is most popular protocol in web technologies?
+    
+    `[FILL HERE WITH YOUR ANSWER. (feel free to write in persian)]`
+    
+  - [ ] What is the most interesting aspect of HTTP in your opinion? 
+  
+    `[FILL HERE WITH YOUR ANSWER. (feel free to write in persian)]`
+    
 - [ ] Section x: Project
 
 
