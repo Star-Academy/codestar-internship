@@ -60,14 +60,8 @@ Click on "Raw" button on right side of this page to see original markdown then c
   - [ ] Call your APIs with postman.
   
 - [ ] Implement Asp.net Core Project:
-  - [ ] Design your search API
-  - [ ] Implement & Test your API
-
-
-
-## Angular
-
-
+  - [ ] Design your search API.
+  - [ ] Implement & Test your API.
 
 
 # Review
