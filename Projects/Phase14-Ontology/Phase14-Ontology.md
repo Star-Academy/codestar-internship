@@ -176,34 +176,52 @@
 <div dir="ltr">
 
     {
-        "nodes":{
-            "mappingSourceAccount":{
-                "primaryKey":"acccountNum",
-                "attributeMapping":[
-                    {"acccountNum":"excelColumn1"}
-                ]   
-        },
-            "mappingDestinationAccount":{
-                "primaryKey":"acccountNum",
-                "attributeMapping":[
-                    {"accountNum":"excelColumn2"}
+        "nodes": [
+            {
+                "_target": "MappingSourceAccount",
+                "attributeMapping": [
+                    {
+                        "attributeName": "AccountID",
+                        "mappingColumn": "excelColumn1"
+                    }
+                ]
+            },
+            {
+                "_target": "MappingDestinationAccount",
+                "mappingattributes": [
+                    {
+                        "attributeName": "AccountID",
+                        "mappingColumn": "excelColumn2"
+                    }
                 ]
             }
-        },    
-
-        "links":{
-            "mappingTransaction":{
-                "fromNode":"sourceAccount",
-                "toNode":"destinationAccount",
-                "attributeMapping":[
-                    {"sourceAccount":"excelColumn1"},
-                    {"destinationAccount":"excelColumn2"},
-                    {"transactionAmmount":"excelColumn4"},
-                    {"transactionDate":"excelColumn4"}
+        ],
+        "links": [
+            {
+                "_target": "MappingSourceAccount",
+                "fromNode": "SourceAccount",
+                "toNode": "DestinationAccount",
+                "attributeMapping": [
+                    {
+                        "attributeName": "SourceAccount",
+                        "columnName": "excelColumn1"
+                    },
+                    {
+                        "attributeName": "DestinationAccount",
+                        "columnName": "excelColumn2"
+                    },
+                    {
+                        "attributeName": "TransactionDate",
+                        "columnName": "excelColumn3"
+                    },
+                    {
+                        "attributeName": "TransactionAmmount",
+                        "columnName": "excelColumn4"
+                    }
                 ]
-            }   
-        }
-    }   
+            }
+        ]
+    }
 
 </div>
 
