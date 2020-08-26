@@ -57,36 +57,77 @@
 <div dir="ltr">
   
     {
-        "nodes" :{
-            "Person":{
-                "Name": "string",
-                "FamilyName": "string",
-                "NationalCod" : "string",
-                "Birthday" : "date"   
+        "nodes": [
+            {
+                "_type": "Person",
+                "attributes": [
+                    {
+                        "attributeName": "Name",
+                        "attributeType": "string"
+                    },
+                    {
+                        "attributeName": "FamilyName",
+                        "attributeType": "string"
+                    },
+                    {
+                        "NationalCod": "string"
+                    },
+                    {
+                        "Birthday": "date"
+                    }
+                ]
             },
-        
-            "Bank":{
-                "Name": "string",
-                "BranchID": "string",
-                "Adress": "string"
-            }
-
-            "Account":{
-                "AccountNum": "string"
-                "OpenningDate": "date"
-            }
-        },
-
-        "links":{
-            "Transaction":{
-                "Date": "date",
-                "amount": "integer"
+            {
+                "_type": "Bank",
+                "attributes": [
+                    {
+                        "attributeName": "Name",
+                        "attributeType": "string"
+                    },
+                    {
+                        "attributeName": "Adress",
+                        "attributeType": "string"
+                    }
+                ]
             },
-            "accountOwnerShip":{
-            
-             }
-        }
-    }  
+            {
+                "_type": "Account",
+                "attributes": [
+                    {
+                        "attributeName": "AccountID",
+                        "attributeType": "string"
+                    },
+                    {
+                        "attributeName": "Date",
+                        "attributeType": "date"
+                    }
+                ]
+            }
+        ],
+        "links": [
+            {
+                "_type": "Transaction",
+                "fromNode": "Account",
+                "toNode": "Account",
+                "attributes": [
+                    {
+                        "attributeName": "Date",
+                        "attributeType": "date"
+                    },
+                    {
+                        "attributeName": "Amount",
+                        "attributeType": "integer"
+                    }
+                ]
+            },
+            {
+                "_type": "OwnerShip",
+                "fromNode": "Person",
+                "toNode": "Account",
+                "attributes": []
+            }
+        ]
+    }
 </div>           
 در این فایل مشخص شده که نودهای گراف ما و لینک‌های گراف ما کدام یک از موجودیت‌ها هستند و هرکدام از موجودیت‌ها چه ویژگی‌هایی دارند.
 <br><br>
