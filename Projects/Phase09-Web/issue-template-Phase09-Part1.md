@@ -64,7 +64,6 @@ Click on "Raw" button on right side of this page to see original markdown then c
   - [ ] Design your search API.
   - [ ] Implement & Test your API.
 
-
 # Review
 Link of your own PR:
 
