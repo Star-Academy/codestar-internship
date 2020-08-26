@@ -48,7 +48,7 @@ Click on "Raw" button on right side of this page to see original markdown then c
     - [ ] Focus at the picture that explains about the shape of mapping for a minute.
     
 - [ ] Section 8:
-    - [ ] Develope the process in way that this section wants.
+    - [ ] Develop the process in way that this section wants.
 ### Review
 
 Link of your own PR:
