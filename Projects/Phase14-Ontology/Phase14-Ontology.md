@@ -70,10 +70,12 @@
                         "attributeType": "string"
                     },
                     {
-                        "NationalCod": "string"
+                        "attributeName": "NationalCode",
+                        "attributeType": "string"
                     },
                     {
-                        "Birthday": "date"
+                        "attributeName": "Birthday",
+                        "attributeType": "date"
                     }
                 ]
             },
