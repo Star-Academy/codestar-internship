@@ -16,7 +16,7 @@ Click on "Raw" button on right side of this page to see original markdown then c
   
     `[FILL HERE WITH YOUR ANSWER. (feel free to write in persian)]`
   - [ ] Play at least easy part of can't unsee game 
-- [ ] Design a website for searching in your current search engine.
+- [ ] Design a simple website for your current console-based search engine.
 
 
 ## HTML
@@ -35,12 +35,12 @@ Click on "Raw" button on right side of this page to see original markdown then c
   - [ ] Write a form with following fields. Name which is string, gender which is a radio button, age which is number and a check box for reading the privacy policy. 
   
     `[FILL HERE WITH YOUR ANSWER.]`
-- [ ] Implement your website using only HTML. It has static content and does not connect to server. (You need two page one for home page and another for result page like google)
+- [ ] Implement your search engine website using only HTML. It has static content and does not connect to server. (You need two page one for home page and another for result page like google)
 
 ## CSS
 
 - [ ] Read CSS part of document and answer questions below:
-  - [ ] Why we need css?
+  - [ ] Why do we need css?
     
       `[FILL HERE WITH YOUR ANSWER. (feel free to write in persian)]`
       
@@ -49,10 +49,15 @@ Click on "Raw" button on right side of this page to see original markdown then c
     `[FILL HERE WITH YOUR ANSWER.]`
   - [ ] What would following selector selects.(check all the correct answers) input.name-field :
     - [ ] `<input type="text" />`
+
     - [ ] `<span class="name-field"></span>`
+
     - [ ] `<span class="name-field"><input type="text" /></span>`
+
     - [ ] `<input type="number" class="name-field" />`
+
     - [ ] `<input type="text" class="name-field" />`
+
     - [ ] `<input type="text" name="name-field" />`
   - [ ] What css property we can use, to make our menu appear always on top even when we scrolling to bottom of the page. (use <a target="_blank" href="https://www.w3schools.com/css/css_positioning.asp">this link</a> for help)
   
@@ -60,7 +65,7 @@ Click on "Raw" button on right side of this page to see original markdown then c
   - [ ] What is a block display and by defalut which display does a span tag has?
   
     `[FILL HERE WITH YOUR ANSWER. (feel free to write in persian)]`
-- [ ] Add css styles to your pure html website.
+- [ ] Add css styles to your search engine pure html website.
 
 ## Javascript
 
@@ -81,7 +86,7 @@ Click on "Raw" button on right side of this page to see original markdown then c
   - [ ] Write the code for sending an AJAX post request to server. The server will get name and age as parameters.
   
     `[FILL HERE WITH YOUR ANSWER.]`
-- [ ] Connect your website to server api and fill the html content with your server result.
+- [ ] Connect your search engine website to server api and fill the html content with your server result.
 
 ## Angular
 
@@ -108,7 +113,7 @@ Click on "Raw" button on right side of this page to see original markdown then c
   - [ ] What is a service and how do we provide them?
   
     `[FILL HERE WITH YOUR ANSWER. (feel free to write in persian)]`
-- [ ] Rewrite your code and use Angular for your website.
+- [ ] Rewrite your search website code and use Angular for your website.
 
 # Review
 Link of your own PR:
