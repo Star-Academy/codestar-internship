@@ -141,6 +141,7 @@ namespace Example.Controllers
 
  برای مسیردهی در Asp.net core از دو روش می‌توان این کار را انجام داد. یکی ست کردن تنظیمات در فایل Startup.cs و دیگری استفاده از اتریبیوت Route. برای آشنایی بیشتر با این موضوع پیشنهاد می‌کنم لینک زیر را مشاهده کنید.
 
+  - [Routing in ASP.NET Core MVC](https://code-maze.com/routing-asp-net-core-mvc/)
   - [Routing to controller actions in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/routing?view=aspnetcore-3.1#:~:text=In%20this%20article&text=ASP.NET%20Core%20controllers%20use,paths%20are%20matched%20to%20actions.)
 
 8. Dependency Injection
@@ -163,6 +164,7 @@ namespace Example.Controllers
  
  در `Asp.net Core` برای بایند کردن محتویات ریکوئست Http به آرگومان‌های ورودی اکشن از Parameter Binding کمک می‌گیریم. به وسیله این مفهوم مشخص می‌کنیم داده از Body یا قسمت‌های دیگر ریکوئست خوانده شود. برای آشنایی بیشتر با این مفهوم لینک زیر را مطالعه کنید.
 
+ - [Understand parameter binding in ASP.Net Web API](https://www.infoworld.com/article/3133728/understand-parameter-binding-in-aspnet-web-api.html)
  - [Parameter Binding in ASP.NET Web API](https://docs.microsoft.com/en-us/aspnet/web-api/overview/formats-and-model-binding/parameter-binding-in-aspnet-web-api)
 
 </div>
