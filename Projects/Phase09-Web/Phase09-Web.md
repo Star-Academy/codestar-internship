@@ -167,13 +167,13 @@ namespace Example.Controllers
 
 11. Configuration
 
-در `Asp.net Core` تنظیمات برنامه میتواند از منابع مختلفی بیاید. یکی از پرکاربرد ترین آن ها فایل است. تغییر تنظیمات ذخیره شده در فایل نیاز به `Build` مجدد ندارد. از این رو استفاده از آن متداول است. با استفاده از لینک های زیر با این فایل ها در `Asp.net Core` آشنا شوید و تفاوت فایل های `launchSetting.json, appsetting.json, appsetting.{Environment}.json` را درک کنید. ( `{Environment}` محیط کنونی برنامه است که مقادیر `Development, Staging, Production` را میتواند داشته باشد)
+در `Asp.net Core` تنظیمات برنامه می‌تواند از منابع مختلفی بیاید. یکی از پرکاربرد‌ترین آن‌ها فایل است. تغییر تنظیمات ذخیره شده در فایل نیاز به `Build` مجدد ندارد. از این رو استفاده از آن متداول است. با استفاده از لینک‌های زیر با این فایل‌ها در `Asp.net Core` آشنا شوید و تفاوت فایل‌های `launchSetting.json, appsetting.json, appsetting.{Environment}.json` را درک کنید. ( `{Environment}` محیط کنونی برنامه است که مقادیر `Development, Staging, Production` را می‌تواند داشته باشد)
 
 
 - [ASP.NET Core launchSettings.json file](https://dotnettutorials.net/lesson/asp-net-core-launchsettings-json-file/)
 - [ASP.NET Core appsettings.json file](https://dotnettutorials.net/lesson/asp-net-core-appsettings-json-file/)
 
-در لینک های بالا مطالعه بخش های مربوط به `Visual Studio` نیاز نیست.
+در لینک‌های بالا مطالعه بخش‌های مربوط به `Visual Studio` نیاز نیست.
 
 </div>
 
