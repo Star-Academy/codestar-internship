@@ -173,6 +173,8 @@ namespace Example.Controllers
 - [ASP.NET Core launchSettings.json file](https://dotnettutorials.net/lesson/asp-net-core-launchsettings-json-file/)
 - [ASP.NET Core appsettings.json file](https://dotnettutorials.net/lesson/asp-net-core-appsettings-json-file/)
 
+در لینک های بالا مطالعه بخش های مربوط به `Visual Studio` نیاز نیست.
+
 </div>
 
 
