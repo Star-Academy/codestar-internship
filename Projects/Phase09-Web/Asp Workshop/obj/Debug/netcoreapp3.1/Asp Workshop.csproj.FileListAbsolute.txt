@@ -1,0 +1,20 @@
+C:\Users\Mahdi\Desktop\Asp Workshop\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Mahdi\Desktop\Asp Workshop\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Mahdi\Desktop\Asp Workshop\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Mahdi\Desktop\Asp Workshop\bin\Debug\netcoreapp3.1\Asp Workshop.exe
+C:\Users\Mahdi\Desktop\Asp Workshop\bin\Debug\netcoreapp3.1\Asp Workshop.deps.json
+C:\Users\Mahdi\Desktop\Asp Workshop\bin\Debug\netcoreapp3.1\Asp Workshop.runtimeconfig.json
+C:\Users\Mahdi\Desktop\Asp Workshop\bin\Debug\netcoreapp3.1\Asp Workshop.runtimeconfig.dev.json
+C:\Users\Mahdi\Desktop\Asp Workshop\bin\Debug\netcoreapp3.1\Asp Workshop.dll
+C:\Users\Mahdi\Desktop\Asp Workshop\bin\Debug\netcoreapp3.1\Asp Workshop.pdb
+C:\Users\Mahdi\Desktop\Asp Workshop\obj\Debug\netcoreapp3.1\Asp Workshop.csprojAssemblyReference.cache
+C:\Users\Mahdi\Desktop\Asp Workshop\obj\Debug\netcoreapp3.1\Asp Workshop.AssemblyInfoInputs.cache
+C:\Users\Mahdi\Desktop\Asp Workshop\obj\Debug\netcoreapp3.1\Asp Workshop.AssemblyInfo.cs
+C:\Users\Mahdi\Desktop\Asp Workshop\obj\Debug\netcoreapp3.1\Asp Workshop.csproj.CoreCompileInputs.cache
+C:\Users\Mahdi\Desktop\Asp Workshop\obj\Debug\netcoreapp3.1\Asp Workshop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mahdi\Desktop\Asp Workshop\obj\Debug\netcoreapp3.1\Asp Workshop.RazorTargetAssemblyInfo.cache
+C:\Users\Mahdi\Desktop\Asp Workshop\obj\Debug\netcoreapp3.1\staticwebassets\Asp Workshop.StaticWebAssets.Manifest.cache
+C:\Users\Mahdi\Desktop\Asp Workshop\obj\Debug\netcoreapp3.1\staticwebassets\Asp Workshop.StaticWebAssets.xml
+C:\Users\Mahdi\Desktop\Asp Workshop\obj\Debug\netcoreapp3.1\Asp Workshop.dll
+C:\Users\Mahdi\Desktop\Asp Workshop\obj\Debug\netcoreapp3.1\Asp Workshop.pdb
+C:\Users\Mahdi\Desktop\Asp Workshop\obj\Debug\netcoreapp3.1\Asp Workshop.genruntimeconfig.cache
