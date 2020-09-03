@@ -178,11 +178,11 @@
     {
         "nodes": [
             {
-                "_target": "MappingSourceAccount",
+                "_type": "MappingSourceAccount",
                 "attributeMapping": [
                     {
                         "attributeName": "AccountID",
-                        "mappingColumn": "excelColumn1"
+                        "columnName": "excelColumn1"
                     }
                 ]
             },
@@ -191,14 +191,14 @@
                 "mappingattributes": [
                     {
                         "attributeName": "AccountID",
-                        "mappingColumn": "excelColumn2"
+                        "columnName": "excelColumn2"
                     }
                 ]
             }
         ],
         "links": [
             {
-                "_target": "MappingSourceAccount",
+                "_type": "MappingTransaction",
                 "fromNode": "SourceAccount",
                 "toNode": "DestinationAccount",
                 "attributeMapping": [
