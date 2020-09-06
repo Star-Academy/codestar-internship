@@ -5,11 +5,7 @@
 <br>
 در واقع قرار است چیزی شبیه به آن چه در زیر مشاهده می‌کنید را پیاده‌سازی کنیم.
 
-
-![](expand3.gif)
-
-
-
+<p align="center" style="text-align:center;"><img src="expand3.gif" alt="Logo"  align="cneter"></p>
 
 ## 1- چرا به صورت گراف تراکنش‌ها را نشان دهیم؟
 
