@@ -42,7 +42,7 @@
 <br><br>
 [transactionsData](https://github.com/Star-Academy/codestar-internship/blob/Phase10/Projects/Phase10-TransactionVisualizer/transactions.csv)
 
-<a href="http://s14.picofile.com/file/8407674200/transactions.csv.html" download>Click to Download</a>
+<a href="transactions.zip" download>Click to Download</a>
 
 ## 4- Visualize
 
