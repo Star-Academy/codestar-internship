@@ -42,6 +42,9 @@
 <br>
 [transactionsData](https://github.com/Star-Academy/codestar-internship/blob/Phase10/Projects/Phase10-TransactionVisualizer/transactions.csv)
 
+<br>
+<a href="transactions.csv" download>Click to Download</a>
+
 ## 4- Visualize
 
 با آموزش‌هایی که در ادامه داک آورده می‌شود، باید بتوانیم هر سطر موجود در دیتابیس را که معادل یک تراکنش بانکی است، به صورت یک دمبل نشان دهیم. با پیاده‌سازی این ویژگی، امکان فراهم‌کردن بسیاری از فیچرهای پرکاربرد و ارزشمند  فراهم می‌شود.
