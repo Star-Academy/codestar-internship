@@ -39,10 +39,9 @@
 دراین فاز یک فایل csv
 سبک، حاوی تعدادی تراکنش با ساختار یاد شده در اختیار شما قرار می‌گیرد که بتوانید کار خود را روی آن امتحان کنید.
 می‌توانید این فایل را از لینک زیر دریافت کنید.
-<br>
+<br><br>
 [transactionsData](https://github.com/Star-Academy/codestar-internship/blob/Phase10/Projects/Phase10-TransactionVisualizer/transactions.csv)
 
-<br>
 <a href="http://s14.picofile.com/file/8407674200/transactions.csv.html" download>Click to Download</a>
 
 ## 4- Visualize
