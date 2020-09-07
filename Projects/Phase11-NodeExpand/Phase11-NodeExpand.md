@@ -71,7 +71,12 @@
 
 <p align="center" style="text-align:center;"><img src="curve.jpg" alt="Logo"  align="cneter"></p>
 
-</div>
+
 
 
 # پیاده‌سازی
+
+
+
+
+</div>
