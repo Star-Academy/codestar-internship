@@ -7,7 +7,7 @@
 
 <p><span style="font-size:18px">&lt;div&nbsp;id="graph-container"&gt;&lt;/div&gt;</span></p>
 
-<p dir="rtl"><span style="font-size:18px">2- فایل لایبرری <strong>ogma </strong>را دانلود کنید و در پوشه پروزه خود قرار دهید تا بتوانید کلاس <strong>Ogma </strong>را از آن برداشت کنید. (فایل <strong>ogma.min.js</strong> را در همین ریپو گذاشته ام.)</span></p>
+<p dir="rtl"><span style="font-size:18px">2- فایل لایبرری <strong>ogma </strong>را دانلود کنید و در پوشه پروزه خود قرار دهید تا بتوانید کلاس <strong>Ogma </strong>را از آن برداشت کنید. (فایل <strong><a href="https://github.com/Star-Academy/codestar-internship/raw/Phase10/Projects/Phase10-TransactionVisualizer/ogma.min.rar">ogma.min.js</a></strong> را در همین ریپو گذاشته ام.)</span></p>
 
 <p dir="rtl"><span style="font-size:18px">3- در بالای صفخه تایپ اسکریپت خود <strong>Ogma </strong>را تعریف کنید:</span></p>
 
