@@ -39,12 +39,10 @@
 ## 3- ایمپورت دیتاست
 دراین فاز یک فایل csv
 سبک، حاوی تعدادی تراکنش با ساختار یاد شده در اختیار شما قرار می‌گیرد که بتوانید کار خود را روی آن امتحان کنید. هم‌چنین یک دیتاست دیگر حاوی اطلاعات حساب‌ها در اخیتارتان قرار می‌گیرد.
-می‌توانید این فایل‌ها را از لینک‌های زیر دریافت کنید.
-<br><br>
+می‌توانید این فایل‌ها را که زیپ شده‌اند از لینک‌ زیر دریافت کنید.
+<br>
 
-<a href="transactions.zip" download>Click to Download Transactions Data</a>
-
-<a href="transactions.zip" download>Click to Download Accounts Data</a>
+<a href="TestDB.zip" download>Click to Download</a>
 
 ## 4- Visualize
 
