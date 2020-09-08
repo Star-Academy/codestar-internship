@@ -88,7 +88,7 @@
 <h3 dir="rtl"><span style="font-size:18px">لایبرری های زیادی برای نمایش گراف وجود دارد، شما میتوانید برای مطالعه بیشتر به این <a href="https://medium.com/@Elise_Deux/the-list-of-graph-visualization-libraries-7a7b89aab6a6">صفحه</a> بروید.&nbsp;<br>
 طبق تحقیقی که تیم فرانت ما داشته بهترین لایبرری موجود برای پیاده سازی اهداف تیم ستاره لایبرری <strong>ogma </strong>است. برای آشنایی بیشتر با&nbsp;این محصول میتوانید به این <a href="https://doc.linkurio.us/ogma/latest/quickstart.html">سایت</a> مراجعه کنید.</span></h3>
 
-<h3 dir="rtl"><span style="font-size:24px"><img src="/media/uploads/2020/09/08/screenshot-32.png" style="height:351px; width:800px"></span></h3>
+<h3 dir="rtl"><span style="font-size:24px"><img src="https://i1.wp.com/linkurio.us/wp-content/uploads/2016/10/Ogma-example-customization.png?ssl=1" style="height:351px; width:800px"></span></h3>
 
 <h3 dir="rtl"><span style="font-size:18px">تصویر بالا یک گراف کوچک است که به کمک اگما نمایش داده شده است. شاید برای شما سوال پیش بیاید که نمایش گراف چه اهمیتی دارد، و چرا نرم افزار هایی نظیر <strong>Gephi </strong>برای زیبا کشیدن گراف بوجود آمده است؟(توصیه میشود این نرم افزار را نصب کنید و چیدمان های مختلف آن را امتحا کنید از جمله چیدمان های circular آن را که پیچیدگی زیادی دارند.)</span></h3>
 
@@ -108,9 +108,9 @@
 
 <h3>&nbsp;</h3>
 
-<h3><code>&lt;script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"&gt;&lt;/script&gt;<br>
-&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"&gt;<br>
-&lt;script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"&gt;&lt;/script&gt;</code></h3>
+<h3><code><script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script></code></h3>
 
 <h3 dir="rtl"><span style="font-size:18px">شما باید بعد از پیاده سازی اگما بتوانید کارهای زیر را انجام دهید:</span></h3>
 
