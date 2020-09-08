@@ -111,13 +111,9 @@
 
 <h3>&nbsp;</h3>
 
-<h4>
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
-    <br>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
-    <br>
-  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
-</h4>
+<h3><code>&lt;script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"&gt;&lt;/script&gt;<br>
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"&gt;<br>
+&lt;script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"&gt;&lt;/script&gt;</code></h3>
 
 <h3 dir="rtl"><span style="font-size:18px">شما باید بعد از پیاده سازی اگما بتوانید کارهای زیر را انجام دهید:</span></h3>
 
