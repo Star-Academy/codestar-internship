@@ -99,7 +99,7 @@
 <h3 dir="rtl"><span style="font-size:18px">در ابتدا <strong>ogma </strong>را داخل انگولار امتحان کنید و برای پیاده سازی آن به providing-ogma مراجعه کنید.</span></h3>
 
 
-<a href="testData.zip" download>لینک  providing-ogma</a>
+<a href="providing-ogma.md" download>لینک  providing-ogma</a>
 
 <h3 dir="rtl"><span style="font-size:18px">سپس یک گراف دلخواه را در آن نمایش دهید و توصیه میکنم برای اطمینان از صحت پیاده سازی خود یک <strong>Button </strong>بگذارید که با فشرده شدن آن یک گراف رندوم جدید در صفحه گراف بوجود بیاید.</span></h3>
 
