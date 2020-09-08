@@ -13,7 +13,7 @@
 
 <p><span style="font-size:18px">import&nbsp;*&nbsp;as&nbsp;Ogma&nbsp;from&nbsp;'../../assets/ogma.min.js';</span></p>
 
-<p dir="rtl"><span style="font-size:18px">4- داخل تابع&nbsp;<strong>ngOnInit </strong>کامپوننت خود آبجکت <strong>ogma </strong>خود را بسازید. (داخل فایل <strong>ogma.example.ts</strong> من یک مثال آورده ام.) برای استفاده از خود داک اگما به این <strong><a href="https://doc.linkurio.us/ogma/latest/quickstart.html">صفحه</a></strong>&nbsp;بروید.</span></p>
+<p dir="rtl"><span style="font-size:18px">4- داخل تابع&nbsp;<strong>ngOnInit </strong>کامپوننت خود آبجکت <strong>ogma </strong>خود را بسازید. (داخل فایل <strong>ogma.example.ts</strong> من یک مثال آورده ام.) برای مطالعه از خود داک اگما به این <strong><a href="https://doc.linkurio.us/ogma/latest/quickstart.html">صفحه</a></strong>&nbsp;بروید.</span></p>
 
 <p>&nbsp;</p>
 
