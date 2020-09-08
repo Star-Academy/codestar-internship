@@ -98,6 +98,9 @@
 
 <h3 dir="rtl"><span style="font-size:18px">در ابتدا <strong>ogma </strong>را داخل انگولار امتحان کنید و برای پیاده سازی آن به providing-ogma مراجعه کنید.</span></h3>
 
+
+<a href="testData.zip" download>لینک  providing-ogma</a>
+
 <h3 dir="rtl"><span style="font-size:18px">سپس یک گراف دلخواه را در آن نمایش دهید و توصیه میکنم برای اطمینان از صحت پیاده سازی خود یک <strong>Button </strong>بگذارید که با فشرده شدن آن یک گراف رندوم جدید در صفحه گراف بوجود بیاید.</span></h3>
 
 <h3 dir="rtl"><span style="font-size:18px"><strong>پیشنهاد</strong>: برای زیبا تر شدن المنت های <strong>html </strong>خود و زیبایی <strong>template </strong>خود از لایبرری های css مانند <strong>semantic ui</strong> , <strong>bootstrapt </strong>استفاده کنید و با توجه به سادگی که <strong>semantic </strong>دارد، آن را بیشتر توصیه میکنیم.</span></h3>
