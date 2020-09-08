@@ -107,13 +107,7 @@
 
 <h3 dir="rtl"><span style="font-size:18px">برای اضافه شدن این لایبرری ها به پروژه انگولار خود <strong>cdn </strong>آن را از اینترنت بگیرید و در <strong>head </strong>فایل index.html پروژه انگولار خود قرار دهید.</span></h3>
 
-<h3 dir="rtl"><span style="font-size:18px">به طور مثال <strong>cdn </strong>سمنتیک این است:</span></h3>
-
-<h3>&nbsp;</h3>
-
-<h3><code>&lt;script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"&gt;&lt;/script&gt;<br>
-&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"&gt;<br>
-&lt;script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"&gt;&lt;/script&gt;</code></h3>
+<h3 dir="rtl"><span style="font-size:18px">به طور مثال شما میتوانید&nbsp;<strong>cdn </strong>سمنتیک را از <a href="https://stackoverflow.com/questions/30281258/how-to-use-semantic-ui-cdn"><strong>اینجا </strong></a>بگیرید.</span></h3>
 
 <h3 dir="rtl"><span style="font-size:18px">شما باید بعد از پیاده سازی اگما بتوانید کارهای زیر را انجام دهید:</span></h3>
 
