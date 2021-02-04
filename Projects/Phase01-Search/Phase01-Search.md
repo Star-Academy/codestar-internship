@@ -37,7 +37,7 @@ Inverted Index
 
 ### نکات تکمیلی
 
-* بعد از تست‌های اولیه با چند داکیومنت محدود  حجم دیتای خود را بیشتر کنید، پیشنهاد می‌کنیم از دیتاست  The 20 Newsgroups data set استفاده کنید. ([لینک دانلود](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/SampleEnglishData.zip))
+* بعد از تست‌های اولیه با چند داکیومنت محدود  حجم دیتای خود را بیشتر کنید، پیشنهاد می‌کنیم از دیتاست  The 20 Newsgroups data set استفاده کنید. ([لینک دانلود](./SampleEnglishData.zip))
 
 * همچنین فراموش نکنید تمام کاراکتر‌های ورودی را lowercase کنید.
 
