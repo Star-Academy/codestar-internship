@@ -154,19 +154,23 @@
     - [LINQ Lambda Expressions](https://www.tutlane.com/tutorial/linq/linq-lambda-expressions)
 
     </div>
+    
+<div dir="rtl" align='justify'>
 
-9. Functional programming and C#:   
+9. Functional programming and C#:
    در رویکرد imprative یا procedural کدی نوشته می‌شود که مراحل کار در آن برای رسیدن به هدفی معین مشخص شده است. 
    اکثر زبان‌های برنامه‌نویسی مورد استفاده(شامل زبان‌های شئ‌گرا)برای پشتیبانی از رویکرد imperative(procedural) طراحی شد‌اند.
-   در مقاب، رویکرد functional با اجرا کردن تابع‌های مختلف بر روی داده به هدف مشخص شده می‌رسد.
+   در مقابل، رویکرد functional با اجرا کردن تابع‌های مختلف بر روی داده به هدف مشخص شده می‌رسد.
    
    زبان C# امکان استفاده از برنامه نویسی imperative را با به وسیله مفاهیم شئ‌گرایی به ما می‌دهد، اما می‌توانیم از برنامه نویسی declarative هم استفاده کنیم. برای مثال LINQ که در قسمت قبل با آن آشنا شدید، کتاب‌خانه‌ای است که مفاهیم برنامه نویسی functional را پیاده سازی کرده، و امکان استفاده از آن را به ما داده است.
    به کمک لینک زیر می‌توانید بیشتر با این مفهوم آشنا شوید. در آینده نمونه‌های بیشتری از برنامه نویسی functional را در C# خواهید دید.
 
     <div dir="ltr" align='justify'>
 
-    - [Functional programming in C# ](https://dev.to/shimmer/functional-programming-in-c-3h6e)
+    - [Functional programming in C#](https://dev.to/shimmer/functional-programming-in-c-3h6e)
 
+    </div>
+    
     </div>
 
 ## پروژه
