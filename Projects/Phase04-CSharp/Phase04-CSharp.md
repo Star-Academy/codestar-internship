@@ -145,6 +145,7 @@
 <div dir="rtl" align='justify'>
 
 8.  LINQ:
+
     LINQ مخفف عبارت Language-Integrated Query است توجه داشته باشید که آن را لینک (Link) تلفظ کنید. LINQ یک راه یکسان برای اتصال برقرار کردن به هر داده ساختار استاندارد را فراهم می‌کنه.
     برای درک بهتر و تمرین بیشتر می‌تونید لینک‌های زیر را مطالعه کنید:
 
@@ -153,11 +154,14 @@
     - [LINQ Operators and Lambda Expressions](https://www.c-sharpcorner.com/UploadFile/babu_2082/linq-operators-and-lambda-expression-syntax-examples/)
     - [LINQ Lambda Expressions](https://www.tutlane.com/tutorial/linq/linq-lambda-expressions)
 
+
+    </div>
     </div>
     
 <div dir="rtl" align='justify'>
 
 9. Functional programming and C#:
+
    در رویکرد imprative یا procedural کدی نوشته می‌شود که مراحل کار در آن برای رسیدن به هدفی معین مشخص شده است. 
    اکثر زبان‌های برنامه‌نویسی مورد استفاده(شامل زبان‌های شئ‌گرا)برای پشتیبانی از رویکرد imperative(procedural) طراحی شد‌اند.
    در مقابل، رویکرد functional با اجرا کردن تابع‌های مختلف بر روی داده به هدف مشخص شده می‌رسد.
