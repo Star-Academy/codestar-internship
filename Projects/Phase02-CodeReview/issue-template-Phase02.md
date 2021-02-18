@@ -1,5 +1,5 @@
-This issue template is based of [Phase02-CodeReview.md](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Phase02-CodeReview.md) contents.
-Click on "Raw" button on right side of this page to see original markdown then create a new issue with orginal content of this tasklist:
+This issue template is based of [Phase02-CodeReview.md](./Phase02-CodeReview.md) contents.
+Click on "Raw" button on right side of this page to see original markdown then create a new issue with original content of this tasklist:
 
 
 - [ ] Section 1: Think on question i & ii and discuss your answers with your teammate.

@@ -1,5 +1,5 @@
-This issue template is based of [Phase06-CICD.md](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Phase06-CICD/Phase06-CICD.md) contents.
-Click on "Raw" button on right side of this page to see original markdown then create a new issue with orginal content of this tasklist:
+This issue template is based of [Phase06-CICD.md](./Phase06-CICD.md) contents.
+Click on "Raw" button on right side of this page to see original markdown then create a new issue with original content of this tasklist:
 
 
 - [ ] Section 1: Read about **CI/CD**

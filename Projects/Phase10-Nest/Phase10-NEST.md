@@ -1,8 +1,8 @@
 <div dir="rtl" align='justify'>
 
-[لیست تسک‌های مرتبط با این فاز به صورت issue template](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Phase07-Elasticsearch/issue-template-Phase08.md)
+[لیست تسک‌های مرتبط با این فاز به صورت issue template](./issue-template-Phase10.md)
 
-# فاز هشت: Nest
+# فاز ده: Nest
 
 در این فاز با کتاب‌خانه‌ی
 [NEST](https://www.elastic.co/guide/en/elasticsearch/client/net-api/current/nest.html)
