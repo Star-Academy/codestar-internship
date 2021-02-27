@@ -58,8 +58,25 @@ query
 
 1. آشنایی با مفاهیم اولیه
 
-    - Instance
     - SSMS و ADS
+
+        هر دو نرم‌افزارهایی برای مدیریت دیتابیس هستند. 
+        SSMS (SQL Server Management Studio) 
+        اولین بار سال 2005 توسط مایکروسافت منتشر شد. 
+        SSMS 
+        امکانات مدیریت زیادی در اختیار ما قرار می‌دهد و در اکثر محیط‌های عملیاتی از آن استفاده می‌شود. 
+        ADS (Azure Data Studio)
+        نیز توسط مایکروسافت در سال 2018 به صورت 
+        Open Source 
+        برای سیستم‌عامل‌های متفاوت عرضه شد. امکانات مدیریتی 
+        ADS 
+        کمتر است اما در مقابل محیط بهتری برای نوشتن و اجرای 
+        Query 
+        ارائه می‌دهد. در اینجا ما از 
+        ADS 
+        استفاده می‌کنیم.
+        
+
     - Database در SQL Server
     
         یک 
@@ -574,10 +591,6 @@ query
     - [SQL Variables: Basics and usage](https://www.sqlshack.com/sql-variables-basics-and-usage/)
     - [SQL Server IF ELSE](https://www.sqlservertutorial.net/sql-server-stored-procedures/sql-server-if-else/)
 
-
-1. تابع‌ها
-
-
 1. Joins
 
     Join
@@ -617,4 +630,52 @@ query
     <img src="./Resource/FullOuterJoin.png" alt="Full Outer Join" width="80%">
     </div>
 
+1. تابع‌ها
+    SQL 
+    توابع زیادی برای انجام محاسبات بر روی داده‌ها دارد که به صورت کلی در دو دسته قرار می‌گیرند.
+    1. Aggregate Functions : ورودی تابع مقادیر موجود در جدول می‌باشد. چند نمونه از این توابع رو در زیر مشاهده می‌کنید.
+        - [AVG](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/sql/sql_func_avg.asp.html)
+        - [COUNT](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/sql/sql_func_count.asp.html)
+        - [MIN](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/sql/sql_func_min.asp.html)
+
+    1. Scalar Functions : ورودی تابع در زمان صدا زدن به آن داده می‌شود. چند نمونه از این توابع نیز در ادامه آمده است.
+        - [ROUND](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/sql/sql_func_round.asp.html)
+        - [SUBSTRING](https://www.guru99.com/sql-server-substring.html)
+
+    **GROUP BY**
+
+    <div dir="ltr">
+
+    ``` 
+    SELECT column_name, aggregate_function(column_name)
+    FROM table_name
+    WHERE column_name operator value
+    GROUP BY column_name; 
+    ```
+    </div>
+
+    با استفاده از دستور 
+    GROUP BY
+    می‌توان ستون‌ها را دسته بندی کرد. این دستور با 
+    Aggregate Funcitons 
+    به کار می‌رود. برای مثال دستور زیر تعداد آقایان و خانم‌ها را خروجی می‌دهد.
+
+    <div dir="ltr">
+
+    ``` 
+    SELECT IsMale, COUNT(IsMale) FROM Student GROUP BY IsMale;
+    ```
+    </div>
+
+    دستور زیر تعداد دروس ثبت‌نام شده هز دانشجو را نشان می‌دهد.
+
+    <div dir="ltr">
+
+    ``` 
+    SELECT ParticipantStudentNumber, COUNT(ParticipantStudentNumber)
+    FROM Enrollment 
+    GROUP BY ParticipantStudentNumber;
+    ```
+    </div>
+    
 </div>
