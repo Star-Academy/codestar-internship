@@ -516,7 +516,43 @@ query
             REFERENCES Student(StudentNumber)
         );
         ```
-        </div>        
+        </div>
+
+        حال رفتار 
+        Foreign Key 
+        را با افزودن 3 داده جدید بررسی می‌کنیم.
+
+        <div dir="ltr">
+
+        ``` 
+        INSERT INTO Enrollment VALUES
+        ('Data Structures', '98100200');
+
+        INSERT INTO Enrollment VALUES
+        ('Advance Programming', NULL);
+
+        INSERT INTO Enrollment VALUES
+        ('Advance Programming', '97100200');
+        ```
+        </div>
+
+        <div dir="ltr"><img src="./Resource/ADSForeignKeyError.png" alt="ADS Foreign Key Error" width="80%"></div>
+
+        همانطور که در تصویر مشاهده می‌کنید، دستور اول که مقدار 
+        Foreign Key
+        آن در جدول 
+        Student 
+        موجود بود و دستور دوم که 
+        Foreign Key 
+        در آن 
+        NULL 
+        بود با موفقیت اجرا شده‌اند. اما دستور سوم که 
+        Foreign Key 
+        آن در جدول 
+        Student 
+        موجود نبود با خطا مواجه شده است.
+
+    
 
 1. آشنایی با T-SQL
 
@@ -543,7 +579,42 @@ query
 
 1. Joins
 
+    Join
+    ها از مهم‌ترین دستورات 
+    SQL 
+    تلقی می‌شوند. با استفاده از 
+    Join
+    ها می‌توانیم داده را از چند جدول به کمک 
+    Key 
+    و با یک دستور دریافت کنیم. در 
+    SQL 
+    هفت نوع 
+    Join 
+    وجود دارد که مشاهده عملکرد هر یک از آن‌ها در نمودار 
+    Venn 
+    راحت‌تر است. پس شکل زیر را به دقت بررسی کنید.
 
+    <div dir="ltr"><img src="./Resource/SQLJoins.png" alt="SQL Joins" width="80%"></div>
+
+    حال نمونه‌ی هر 
+    Join 
+    را در دستورات زیر مشاهده می‌کنید. مقادیر اولیه جدول 
+    Enrollment (Child)
+    و 
+    Student (Parent)
+    نیر در ابتدا نشان داده شده است.
+
+    <div dir="ltr">
+    <img src="./Resource/JoinExamplePrimaryTables.png" alt="SQL Join Primary Tables" width="80%">
+
+    <img src="./Resource/InnerJoin.png" alt="Inner Join" width="80%">
+
+    <img src="./Resource/LeftJoin.png" alt="Left Join" width="80%">
+
+    <img src="./Resource/RightJoin.png" alt="Right Join" width="80%">
+
+    <img src="./Resource/FullOuterJoin.png" alt="Full Outer Join" width="80%">
+    </div>
 1. ساختن کاربر و مدیریت دسترسی‌ها
 
 
