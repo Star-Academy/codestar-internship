@@ -99,10 +99,8 @@ query
     Database Engine Service 
     برای کار ما کافی است. به تنظیمات زیر هم توجه کنید.
 
-        <!-- ![Feature Selection](./Resource/FeatureSelection.png) -->
-        <center><img src="./Resource/FeatureSelection.png" alt="Feature Selection" width="60%"></center>
-        <!-- ![Administrator](./Resource/Admin.png) -->
-        <center><img src="./Resource/Admin.png" alt="Administrator" width="60%"></center>
+        <div dir="ltr"><img src="./Resource/FeatureSelection.png" alt="Feature Selection" width="60%"></div>
+        <div dir="ltr"><img src="./Resource/Admin.png" alt="Administrator" width="60%"></div>
 
     1. حال نوبت به نصب ابزار مدیریت 
     SQL Server 
@@ -155,7 +153,7 @@ query
     Query 
     اجرا شده چاپ می‌کند. در صورت مواجه شدن با خطا، پیغام مربوط به خطا نیز چاپ می‌شود که به رفع خطا کمک می‌کند.
 
-    <center><img src="./Resource/ADSMessage.png" alt="ADS Message" width="80%"></center>
+    <div dir="ltr"><img src="./Resource/ADSMessage.png" alt="ADS Message" width="80%"></div>
 
     برای حذف یک دیتابیس نیز از دستور زیر استفاده می‌شود.
 
@@ -189,7 +187,7 @@ query
     Data Type
     ها نیز در جدول زیر قابل مشاهده هستند.
 
-    <center><div dir="ltr">
+    <div dir="ltr">
 
     | Data Type | توضیحات | Range/Limit | Storage Size |
     | :---: | :---: | :---: | :---: |
@@ -200,7 +198,7 @@ query
     | decimal | Used for scale and fixed precision numbers | −10^38+1 to 10^38−1 | 5 to 17 bytes |
     | float(n) | Used for a floating precision number | −1.79E+308 to 1.79E+308 | Depends on the value of n |
     | bit | It can take 0, 1, or NULL values. | 0 to 1 | 1 byte/8bit column |
-    </div></center>
+    </div>
 
 1. جدول 
 
@@ -361,7 +359,7 @@ query
 
     در هر دو صورت خروجی به شکل زیر خواهد بود.
 
-    <center><img src="./Resource/ADSSelect.png" alt="ADS Select" width="80%"></center>
+    <div dir="ltr"><img src="./Resource/ADSSelect.png" alt="ADS Select" width="80%"></div>
 
     در جدول زیر 
     Operator
@@ -373,7 +371,7 @@ query
     `OR`
     کنید.
 
-    <center><div dir="ltr">
+    <div dir="ltr">
 
     | Operator | توضیحات | Example |
     | :---: | :---: | :---: |
@@ -385,7 +383,7 @@ query
     | LIKE | Search for a pattern | StudentNumber LIKE '98%' |
     | IN | To specify multiple possible values for a column | LastName IN ('Ahmadi', N'احمدی') |
 
-    </div></center>
+    </div>
 
     پس از ساختن جدول، با دستورات زیر می‌توانیم ستون‌های آن را ویرایش کنیم. 
 
