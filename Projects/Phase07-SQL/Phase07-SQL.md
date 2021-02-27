@@ -416,11 +416,112 @@ query
 
 1. کلیدها
 
+    - Primary Key
+
+        Primary Key 
+        یک ستون یا ترکیبی از ستون‌ها است که یک داده را به صورت منحصر بفرد مشخص می‌کند. قوانین زیر بر 
+        Primary Key
+        حاکم هستند : 
+
+        1. هر جدول فقط می‌تواند یک Primary Key داشته باشد.
+        1. تمامی مقادیر موجود برای Primary Key منحصر بفرد هستند.
+        1. DBMS اجازه‌ی اضافه کردن داده‌ای که Primary Key آن از قبل موجود است را نمی‌دهد.
+        1. Primary Key نمی‌تواند NULL باشد.
+
+        برای ساختن Primary Key می‌توانیم جدولی که از قبل موجود است را با دستور زیر تغییر دهیم.
+
+        <div dir="ltr">
+
+        ```
+        ALTER TABLE tableName
+        ADD CONSTRAINT constraintName PRIMARY KEY (column_1, column_2, ..., column_n);
+        ```
+        </div>
+
+        برای مثال جدول Student موجود را به این صورت تغییر می‌دهیم : 
+
+        <div dir="ltr">
+
+        ``` 
+        ALTER TABLE Student
+        ADD CONSTRAINT studentPK PRIMARY KEY (StudentNumber);
+        ```
+        </div>
+
+        اضافه شدن کلید جدید را می‌توان در پنل سمت چپ هم مشاهده کرد.
+
+        <div dir="ltr"><img src="./Resource/ADSPrimaryKey.png" alt="ADS Primary Key" width="80%"></div>
+
+        در واقع 
+        Constraint 
+        برای مشخص کردن قانون برای داده‌های جدول استفاده می‌شود. عبارت 
+        NOT NULL 
+        که قبلا با آن در ساختن جدول آشنا شدید نیز یک 
+        Constraint 
+        است. حال در اینجا دریافتید که 
+        Primary Key 
+        هم  
+        Constraint 
+        است.
+
+        همچنین می‌توان جدول Student را از نوع و به شکل زیر ایجاد کرد : 
+
+        <div dir="ltr">
+
+        ``` 
+        CREATE TABLE Student2
+        (
+            StudentNumber VARCHAR(8) NOT NULL PRIMARY KEY,
+            Grade FLOAT(2),
+            FirstName NVARCHAR(20) NOT NULL,
+            LastName NVARCHAR(20) NOT NULL,
+            IsMale BIT NOT NULL,
+            DateOfBirth DATETIME NOT NULL,
+            LeftUnitsCount INT NOT NULL
+        );
+        ```
+        </div>
+
+    - Foreign Key
+        Foreign Key 
+        کلیدی برای ارتباط جداول است. در واقع 
+        Foreign Key 
+        ستونی است که به 
+        Primary Key 
+        سایر جداول همان پایگاه داده ارجاع می‌دهد. قوانین 
+        Foreign Key 
+        عبارتند از : 
+
+        1. Foreign Key می‌تواند NULL باشد.
+        1. جدولی که Foreign Key دارد را فرزند(Child)، و جدولی که به آن ارجاع داده می‌شود را والد(Parent) می‌نامیم.
+
+        برای ایجاد یک 
+        Foreign Key
+        در هنگام ایجاد جدول یا پس از ایجاد آن، یک 
+        Constraint 
+        اضافه می‌کنیم. 
+
+        برای مثال جدولی جدید برای ثبت‌نام در هر درس می‌سازیم. در این جدول نام درس و شماره دانشجویی فرد ثبت‌نام شده را به صورت 
+        Foreign Key 
+        نگه می‌داریم. برای ساختن این جدول از دستور زیر استفاده می‌کنیم.
+
+        <div dir="ltr">
+
+        ``` 
+        CREATE TABLE Enrollment
+        (
+            CourseName NVARCHAR(20),
+            ParticipantStudentNumber VARCHAR(8),
+            CONSTRAINT studentNumberFK FOREIGN KEY (ParticipantStudentNumber)
+            REFERENCES Student(StudentNumber)
+        );
+        ```
+        </div>        
 
 1. آشنایی با T-SQL
 
     **T-SQL(Transact-SQL)** 
-    زبان توسعه داده شده توسط ماکروسافت است که قابلیت‌هایی مثل متغییر، مدیریت استثنا 
+    زبان توسعه داده شده توسط مایکروسافت است که قابلیت‌هایی مثل متغییر، مدیریت استثنا 
     (Exception)
     ، رویه‌ی ذخیره شده 
     (Stored Procedure) 
