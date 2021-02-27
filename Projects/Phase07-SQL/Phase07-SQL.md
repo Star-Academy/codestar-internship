@@ -552,8 +552,6 @@ query
         Student 
         موجود نبود با خطا مواجه شده است.
 
-    
-
 1. آشنایی با T-SQL
 
     **T-SQL(Transact-SQL)** 
@@ -569,9 +567,12 @@ query
     SQL 
     قرار دارد و 
     SQL Server
-    به صورت کامل از 
+    از 
     SQL 
-    استاندارد پشتیبانی می‌کند. در ادامه با برخی از ویژگی‌های T-SQL آشنا می‌شوید.
+    استاندارد پشتیبانی می‌کند. برای مثال به کمک لینک‌های زیر، می‌توانید با متغییرها و عبارات شرطی آشنا شوید. نیاز نیست این مبحث را عمیق بخوانید.
+
+    - [SQL Variables: Basics and usage](https://www.sqlshack.com/sql-variables-basics-and-usage/)
+    - [SQL Server IF ELSE](https://www.sqlservertutorial.net/sql-server-stored-procedures/sql-server-if-else/)
 
 
 1. تابع‌ها
@@ -615,7 +616,5 @@ query
 
     <img src="./Resource/FullOuterJoin.png" alt="Full Outer Join" width="80%">
     </div>
-1. ساختن کاربر و مدیریت دسترسی‌ها
-
 
 </div>
