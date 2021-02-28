@@ -126,11 +126,11 @@ query
     یکی از ابزارهای قدیمی برای این کار است که تنها برای ویندوز موجود است و در محیط‌های محصول اکثرا از آن استفاده می‌شود. 
 
     1. حال 
-    SSMS (SQL Server Management Studio)
+    ADS (Azure Data Studio)
     که ابزاری رایگان برای پیکربندی، مدیریت و اداره کردن تمامی اجزا 
     SQL Server 
     است را از 
-    [سایت مایکروسافت](https://docs.microsoft.com/en-us/sql/ssms/)
+    [سایت مایکروسافت](https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio)
     دانلود و نصب کنید.
 
 
