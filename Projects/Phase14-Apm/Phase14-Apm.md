@@ -1,8 +1,8 @@
 <div dir="rtl" align='justify'>
 
-[لیست تسک‌های مرتبط با این بخش به صورت issue template](./issue-template-Phase12.md)
+[لیست تسک‌های مرتبط با این بخش به صورت issue template](./issue-template-Phase14.md)
 
-#  فاز دوازده : Logging & APM
+#  فاز چهارده : Logging & APM
 
 در این فاز با مفاهیم
 Logging

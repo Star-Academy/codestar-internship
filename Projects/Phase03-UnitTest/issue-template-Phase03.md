@@ -1,5 +1,5 @@
-This issue template is based of [Phase03-UnitTest.md](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Phase03-UnitTest.md) contents.
-Click on "Raw" button on right side of this page to see original markdown then create a new issue with orginal content of this tasklist:
+This issue template is based of [Phase03-UnitTest.md](./Phase03-UnitTest.md) contents.
+Click on "Raw" button on right side of this page to see original markdown then create a new issue with original content of this tasklist:
 
 
 - [ ] Section 1: Read about **Unit Test** and its importance

@@ -1,7 +1,7 @@
 
 <div dir="rtl">
 
-# فاز 9 : آشنایی با وب 
+# فاز یازده : آشنایی با وب 
 
 در این فاز ابتدا با فریم‌ورک `Asp.net Core` آشنا خواهید شد. سپس به سراغ مفاهیمی  همچون `UI/UX`، `Html` و `Css` خواهیم رفت و در انتها شما با `Angular` آشنا خواهید داشت. در ابتدا لازم هست با تاریخچه و دلیل محبویت وب و مزایای آن نسبت به مدل‌های قدیمی ارتباط client-server آشنا شوید که در این زمینه مطالعه‌ی [From History of Web Application Development](https://www.devsaran.com/blog/history-web-application-development) را پیشنهاد می‌کنیم.
 
