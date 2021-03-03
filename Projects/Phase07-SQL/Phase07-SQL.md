@@ -133,6 +133,45 @@ query
     [سایت مایکروسافت](https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio)
     دانلود و نصب کنید.
 
+    1. پس از نصب و اجرای 
+    ADS 
+    برای وصل شدن به 
+    SQL Server 
+    باید یک 
+    Conncection 
+    بسازید. همانند شکل زیر می‌توانید در صفحه شروع این کار را انجام دهید.
+            <div dir="ltr"><img src="./Resource/ADSNewConnection.png" alt="ADS New Connection" width="80%"></div>
+    برای متصل شدن به 
+    SQL Server 
+    باید آدرس کامپیوتری را که 
+    SQL Server 
+    بر روی آن در حال اجرا هست را در بخش 
+    Server 
+    وارد کنیم. در اینجا اگر 
+    SQL Server 
+    را بر روی کامپیوتر خودتان نصب کرده‌اید،  
+    `localhost`
+    را به عنوان 
+    Server 
+    وارد کنید.
+
+        <div dir="ltr"><img src="./Resource/ADSLocalhost.png" alt="ADS Localhost" width="80%"></div>
+
+    1. پس از آنکه به 
+    SQL Server 
+    متصل شدید، صفحه‌ی مربوط به 
+    Connection 
+    نمایان می‌شود که وضعیت سرور را نشان می‌دهد. در این صفحه با انتخاب گزینه 
+    Query 
+    می‌توانید دستوراتی را به زبان 
+    SQL 
+    به سرور بفرستید و پاسخ خود را دریافت کنید.
+            <div dir="ltr"><img src="./Resource/ADSStatus.png" alt="ADS Status" width="80%"></div>
+    در این صفحه جدید دستورات خود را بنویسید و با کلید 
+    F5 
+    یا کلیک بر روی دکمه اجرا، آن‌ها را اجرا کنید. سعی کنید از اینجا به بعد هر دستوری که در داک مشاهده می‌کنید را برای خودتان اجرا کنید. 
+
+        <div dir="ltr"><img src="./Resource/ADSQuery.png" alt="ADS Query" width="80%"></div>
 
 1. ایجاد و حذف Database
 
