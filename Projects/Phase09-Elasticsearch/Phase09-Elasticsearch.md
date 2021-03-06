@@ -393,7 +393,7 @@ Kibana
 1. بارگذاری اسناد متنی
 
     1. فایل
-    [people-simple.json](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase07-Elasticsearch/people-simple.json)
+    [people-simple.json](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase09-Elasticsearch/people-simple.json)
     را دریافت کنید که در آن مشخصات چند شخص در قالب 
     JSON
     آورده شده است.
@@ -1056,7 +1056,7 @@ Analyzerها
     حالا تلاش کنید که با استفاده از مطالب قسمت قبل
     Mapping
     مناسب برای
-    [این داده‌های نمونه](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase07-Elasticsearch/people.json)
+    [این داده‌های نمونه](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase09-Elasticsearch/people.json)
     را در یک
     index
     جدید تعریف کنید و تعدادی از این داده‌ها را در آن
@@ -1104,7 +1104,7 @@ Bulk API
     کمک بگیرید و با
     Bulk API
     آشنا شوید. با استفاده از آن 
-    [ابیاتی از شعرای گران‌قدر پارسی‌زبان](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase07-Elasticsearch/poems.txt)
+    [ابیاتی از شعرای گران‌قدر پارسی‌زبان](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase09-Elasticsearch/poems.txt)
     را به طور یک‌جا در
     Elasticsearch
     بریزید.
