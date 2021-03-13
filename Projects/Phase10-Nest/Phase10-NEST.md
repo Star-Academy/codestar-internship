@@ -398,12 +398,6 @@ Elasticsearch
     Response Validatorی
     که در قسمت قبل نوشتید در این اپلیکیشن استفاده کنید.
 
-1. برای علاقه‌مندان
-
-    اگر علاقه‌مندید درباره‌ی کتاب‌خانه‌ی 
-    [FluentNest](https://www.nuget.org/packages/FluentNest)
-    نیز مطالعه کنید.
-
 <br></br>
 یک نمونه کد در
 [این‌جا](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase10-Nest/NestSampleCode)
