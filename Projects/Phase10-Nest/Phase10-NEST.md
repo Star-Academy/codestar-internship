@@ -35,7 +35,7 @@
     Elasticsearch
     متصل شوید و ضمن ساخت یک
     index
-    [این اشخاص](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase10-Elasticsearch/people.json)
+    [این اشخاص](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase09-Elasticsearch/people.json)
     را به صورت یکی یکی
     (بدون استفاده از
     Bulk API)
