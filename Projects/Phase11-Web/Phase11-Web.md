@@ -735,6 +735,7 @@ myId.innerText = "my text"
     یکی از مهم‌ترین ویژگی‌های زبان جاوااسکریپت، وجود AJAX یا Asynchronous JavaScript And XML است. از ajax برای ارسال درخواست‌های http به سرور استفاده می‌شود. انواع متدهای http از قبیل post و get نیز به این وسیله قابل ارسال است. برای ارسال یک درخواست get ساده به شکل زیر عمل می‌شود:
     </p>
 <span dir="ltr">
+
 ```javascript
 xhttp.open("GET", "ajax_info.txt", true);
 xhttp.send();
