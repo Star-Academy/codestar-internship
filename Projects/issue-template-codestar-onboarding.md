@@ -112,7 +112,7 @@
     </p>
     
   
-    [این لینک هم برای اطلاعات بیشتر میتونی مطالعه کنی.](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/
+  [این لینک هم برای اطلاعات بیشتر میتونی مطالعه کنی.](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/)
   
     
   </div>
