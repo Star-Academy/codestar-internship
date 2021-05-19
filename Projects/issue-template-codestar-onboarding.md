@@ -123,9 +123,9 @@
   </div>
 </details>
   
- <details>
+<details>
   <summary>جلسات یک به یک </summary>
-
+  
   <div dir="rtl" align="right">
     <p>
                 جلسات یک به یک یا one-on-one یک سری جلسات دیگس که ما برات در نظر گرفتیم. توی این جلسات شما با
