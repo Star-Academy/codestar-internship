@@ -127,7 +127,7 @@
     
 
    
-    [این لینک هم برای اطلاعات بیشتر میتونی مطالعه کنی.](https://arrivein.com/career-ca/coffee-chats-what-questions-should-you-ask-to-network-better/#:~:text=A%20coffee%20chat%2C%20also%20known,individual's%20career%20path%20and%20role.)
+  [این لینک هم برای اطلاعات بیشتر میتونی مطالعه کنی.](https://arrivein.com/career-ca/coffee-chats-what-questions-should-you-ask-to-network-better/#:~:text=A%20coffee%20chat%2C%20also%20known,individual's%20career%20path%20and%20role.)
     
       یک آپشن دیگه که برات در نظر گرفتیم اینه که تو میتونی خودت یکی از اعضای تیم ستاره رو انتخاب کنی و باهاش
       این جلسه رو بری یا که از طریق بات -ایدی بات- به صورت رندوم به یک نفر وصل شی و توی اون جلسه با هم صحبت
