@@ -111,9 +111,9 @@
     راهبرت راجب خودتون و مشکلاتی که دارین یا که هرچی صحبت کنی و این در این جلسات شما میتونین فیدبک هاتون راجب کارآموزی تون به راهبرتون بدین .  
     </p>
     
-    <p>
-      [این لینک هم برای اطلاعات بیشتر میتونی مطالعه کنی.](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/
-    </p>
+  <p>
+    [این لینک هم برای اطلاعات بیشتر میتونی مطالعه کنی.](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/
+  </p>
     
   </div>
 </details>
