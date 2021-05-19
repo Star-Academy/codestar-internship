@@ -92,7 +92,7 @@
     راهبرت راجبش صحبت کنی.
     <br>
     
-    [این لینک هم برای اطلاعات بیشتر میتونی مطالعه کنی](https://worldofwork.io/2019/07/ask-me-anything-sessions/)
+  [این لینک هم برای اطلاعات بیشتر میتونی مطالعه کنی](https://worldofwork.io/2019/07/ask-me-anything-sessions/)
     
     <br>
     <p>
