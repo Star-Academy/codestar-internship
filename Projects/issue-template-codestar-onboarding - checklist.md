@@ -8,17 +8,21 @@ This issue is based on (codestar none-technical sessions)[https://github.com/Sta
     - [ ] Read about contests.
 
 
-- [ ] Section 2: go to the sessions.
+- [ ] Section 2: first package.
     - [ ] Go to the first gathering session.
     - [ ] Go to the first One-on-One session with your leader.
     - [ ] Go to the first Coffee Chats session.
+
+
+- [ ] Section 3: second package.
     - [ ] Go to the second gathering session.
-    <br>
     - [ ] Go to the second One-on-One session with your leader.
     - [ ] Go to the first AMA session.
     - [ ] Go to the second Coffee Chats session.
+
+
+- [ ] Section 4: third package.
     - [ ] Go to the first contest.
     - [ ] Go to the third Coffee Chats session.
     - [ ] Go to the second AMA session.
-    <br>
     - [ ] Go to the third gathering session.
