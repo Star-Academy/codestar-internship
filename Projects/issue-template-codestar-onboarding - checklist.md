@@ -1,153 +1,23 @@
-<div dir="rtl" align='right'>
+This issue is based on (codestar none-technical sessions)[https://github.com/Star-Academy/codestar-internship/blob/codestar-soft-issues/Projects/issue-template-codestar-onboarding.md]. Click on "Raw" button on right side of this page to see original markdown then create a new issue with orginal content of this tasklist:
+
+- [ ] Section 1: Read about sessions.
+    - [ ] Read about gathering sessions.
+    - [ ] Read about AMA sessions.
+    - [ ] Read about One-on-One sessions.
+    - [ ] Read about Coffee Chats sessions.
+    - [ ] Read about contests.
 
 
-## کد استار در زمان کرونا
-
-متاسفانه این روزا با شیوع بیماری کرونا باعث شده از هم دور باشیم، اما ما یک سری برنامه چیدیم که بتونیم در همین دوران هم ارتباطات مونو حفظ کنیم و با بقیه بیشتر آشنا شیم و بتونیم اوقات خوشی داشته باشیم تا از کار خسته نشیم، چون کارمون تک بعدی نیست و جدا از اون باید تو این شرایط روی روحیه خودمون هم کار کنیم.
-  
-<details>
-  <summary>جلسات دورهمی </summary>
-  
-  <div  dir="rtl" align='right'>
-  <br>
-
-این جلسات رو ما برای این گذاشتیم که بیشتر با همدیگه صحبت کنیم و تو یک فضای غیر کاری و بیشتر توی یک فضای دوستانه بهم دیگه صحبت کنیم.
-همونطور که میدونین ما تو کداستار دو تا تیم مختلف داریم، ممکنه همو تا حدودی بشناسین، اما میخوایم که بیشتر
-دور هم جمع شیم و با هم بیشتر صحبت کنیم.
-حالا این صحبت ها قراره حول یک سری موضوع های خاصی بچرخه که از قبل هم بتونیم راجبش فکر کنیم و توی جلسه حرف
-برای گفتن داشته باشیم.
-
-  </div>
-  
-  <ul>
-   <li>
-     <details>
-       <summary>
-         فیلم
-       </summary>
-       <p>
-         این جلسه ها میتونه راجب موضوع یه فیلمی باشه که بچه ها دیده باشن، یا ببینن، یا با هم استریم
-         کنن و ببینن و راجبش با هم دیگه صحبت کنیم و نقد کنیم.
-       </p>
-     </details>
-   </li>
-    
-   <li>
-     <details>
-       <summary>
-         موسیقی
-       </summary>
-       <p>
-         موضوع این جلسه ها میتونه راجب موسیقی باشه و بشینیم با هم راجب خواننده ها و سلیقه موسیقی و
-         این طور چیز ها صحبت کنیم.
-       </p>
-     </details>
-   </li>
-    
-   <li>
-    <details>
-      <summary>
-         کتاب خوانی
-      </summary>
-      <p>
-        میتونیم با هم دیگه قرار بزاریم و یه کتاب بخونیم و هر آخر هفته راجبش صحبت کنیم، انواع اقسام
-        کتاب ها از رمان گرفته تا کتاب های انگیزشی و ...
-      </p>
-    </details>
-   </li>
-        
-   <li>
-    <details>
-      <summary>
-        مطالب علمی و غیر علمی
-      </summary>
-      <p>
-        یک سری از بچه ها مهارتی رو بلدن میتونن راجبش باهامون صحبت کنن و ازشون چیز میز یاد بگیریم،
-        مثلا یک نفر راجب شیرینی صحبت کنه، راجب نجوم و ستاره ها، راجب تجربه تی ای بودن و ...
-      </p>
-    </details>
-  </li>
-    
-  <li>
-    <details>
-      <summary>
-        English gathering
-      </summary>
-      <p>
-        توی این جلسه ها میتونیم یه سری دورهمی هایی داشته باشیم که باهم راجب یه مسئله ای با زبان
-        انگلیسی صحبت کنیم که علاوه بر اون مهارت زبانمون هم قوی شه.
-      </p>
-    </details>
-  </li>
-</details>
-  
-  
-<details>
-  <summary>جلسات AMA</summary>
-  
-  <div dir="rtl" align="right">
-    <br>
-    جلسه AMA یا همون Ask Me Anything یک سری جلساته که توی اون جلسه شما با راهبرتون یا یک سری افراد با تجربه در شرکت یک جلسه میذارید و توی اون
-    جلسه هرچی که دلت بخواد میتونی راجب کار، شرکت، گذشته و آینده ستاره و هرچیزی که نیاز داشتی بپرسی و با
-    راهبرت راجبش صحبت کنی.
-    <br>
-    
-  [این لینک هم برای اطلاعات بیشتر میتونی مطالعه کنی](https://worldofwork.io/2019/07/ask-me-anything-sessions/)
-    
-  <p>
-    در طول دوره کارآموزی شما دوتا از این جلسه ها داری که یکیش اوایل دوره کاراموزیت و بعدیش اواخر اون برگزار
-    میشه.
-  </p>
-    
-  </div>
-</details>
-  
-<details>
-  <summary>جلسات یک به یک </summary>
-
-  <div dir="rtl" align="right">
-    <p>
-    جلسات یک به یک یا one-on-one یک سری جلسات دیگس که ما برات در نظر گرفتیم. توی این جلسات شما با
-    راهبرت راجب خودتون و مشکلاتی که دارین یا که هرچی صحبت کنی و این در این جلسات شما میتونین فیدبک هاتون راجب کارآموزی تون به راهبرتون بدین .  
-    </p>
-    
-  
-  [این لینک هم برای اطلاعات بیشتر میتونی مطالعه کنی.](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/)
-  
-    
-  </div>
-</details>
-  
-<details>
-  <summary>جلسات coffee chats </summary>
-  
-  <div dir="rtl" align="right">
-  
-  این جلسات برای این هست که شما با دوستان هم کارآموز خودتون بیشتر آشنا شید، به این شکل که شما میتونین طبق یه قراری با هم بزارین و با هم توی یه میتینگ صحبت کنین  همدیگر رو بیشتر بشناسین، جدای از این شما میتونین با افراد با تجربه تر شرکت هم همینکار رو کنید و یا حتی اگر خواستید به صورت رندوم با یک نفر وصل شید و یه جلسه coffee chats برید.
-    
-
-   
-  [این لینک هم برای اطلاعات بیشتر میتونی مطالعه کنی.](https://arrivein.com/career-ca/coffee-chats-what-questions-should-you-ask-to-network-better/#:~:text=A%20coffee%20chat%2C%20also%20known,individual's%20career%20path%20and%20role.)
-    
-  یک آپشن دیگه که برات در نظر گرفتیم اینه که تو میتونی خودت یکی از اعضای تیم ستاره رو انتخاب کنی و باهاش
-  این جلسه رو بری یا که از طریق بات -ایدی بات- به صورت رندوم به یک نفر وصل شی و توی اون جلسه با هم صحبت
-  کنین. 
-    
-  </div>
-</details>
-  
-<details>
-  <summary>مسابقات</summary>
-
-  <div dir="rtl" align="right">
-    <p>
-      جدای از همه این جلسات یه سری مسابقه و بازی هم داریم که با هم انجام میدیم.
-      بازی های کامپیوتری مثل کانتر، اسم فامیلی، اولون، پانتومیم، اسکریبل و ...
-      و همینجور یه سری مسابقات برنامه نویسی داریم که توش قراره کد بزنیم و اول شیم و هم یک سری مسابقه های
-      معمایی و پازلی که به لول آخر برسیم تا برنده شیم.
-    </p>
-  </div>
-</details>
-
-  علاوه بر این ها نیز ما براتون یک سرور توی اپ دیسکورد زدیم که میتونید اگر دلتون خواست موقع کار کردن برید اونجا و با دوستاتون توی شرکت صحبت کنید و آهنگ گوش کنید و ...
-</div>
+- [ ] Section 2: go to the sessions.
+    - [ ] Go to the first gathering session.
+    - [ ] Go to the first One-on-One session with your leader.
+    - [ ] Go to the first Coffee Chats session.
+    - [ ] Go to the second gathering session.
+    - [ ] Go to the second One-on-One session with your leader.
+    - [ ] Go to the first AMA session.
+    - [ ] Go to the second Coffee Chats session.
+    - [ ] Go to the first contest.
+    - [ ] Go to the third Coffee Chats session.
+    - [ ] Go to the second AMA session.
+    - [ ] Go to the third gathering session.
+    - [ ] Go to the second contest.
