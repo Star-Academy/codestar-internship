@@ -12,12 +12,13 @@ This issue is based on (codestar none-technical sessions)[https://github.com/Sta
     - [ ] Go to the first gathering session.
     - [ ] Go to the first One-on-One session with your leader.
     - [ ] Go to the first Coffee Chats session.
+
     - [ ] Go to the second gathering session.
     - [ ] Go to the second One-on-One session with your leader.
     - [ ] Go to the first AMA session.
     - [ ] Go to the second Coffee Chats session.
+
     - [ ] Go to the first contest.
     - [ ] Go to the third Coffee Chats session.
     - [ ] Go to the second AMA session.
     - [ ] Go to the third gathering session.
-    - [ ] Go to the second contest.
