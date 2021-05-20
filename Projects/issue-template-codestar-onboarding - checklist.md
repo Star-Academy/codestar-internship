@@ -20,4 +20,5 @@ This issue is based on (codestar none-technical sessions)[https://github.com/Sta
     - [ ] Go to the first contest.
     - [ ] Go to the third Coffee Chats session.
     - [ ] Go to the second AMA session.
+    <br>
     - [ ] Go to the third gathering session.
