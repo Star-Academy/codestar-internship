@@ -13,6 +13,7 @@ This issue is based on (codestar none-technical sessions)[https://github.com/Sta
     - [ ] Go to the first One-on-One session with your leader.
     - [ ] Go to the first Coffee Chats session.
     - [ ] Go to the second gathering session.
+    <br>
     - [ ] Go to the second One-on-One session with your leader.
     - [ ] Go to the first AMA session.
     - [ ] Go to the second Coffee Chats session.
