@@ -35,7 +35,7 @@
     Elasticsearch
     متصل شوید و ضمن ساخت یک
     index
-    [این اشخاص](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase07-Elasticsearch/people.json)
+    [این اشخاص](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase09-Elasticsearch/people.json)
     را به صورت یکی یکی
     (بدون استفاده از
     Bulk API)
@@ -398,15 +398,9 @@ Elasticsearch
     Response Validatorی
     که در قسمت قبل نوشتید در این اپلیکیشن استفاده کنید.
 
-1. برای علاقه‌مندان
-
-    اگر علاقه‌مندید درباره‌ی کتاب‌خانه‌ی 
-    [FluentNest](https://www.nuget.org/packages/FluentNest)
-    نیز مطالعه کنید.
-
 <br></br>
 یک نمونه کد در
-[این‌جا](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase08-Nest/NestSampleCode)
+[این‌جا](https://github.com/Star-Academy/codestar-internship/raw/master/Projects/Phase10-Nest/NestSampleCode)
 موجود است.
 </div>
 
