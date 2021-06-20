@@ -15,6 +15,7 @@
 
         <div dir="ltr">
 
+        - [What is CI/CD?(redhat) video](https://www.redhat.com/en/topics/devops/what-is-ci-cd)
         - [What is CI/CD?](https://medium.com/tilicholabs/what-is-ci-cd-c7c047b80e6b)
         - [What’s the Point of CI Anyway?](https://medium.com/swlh/whats-the-point-of-ci-anyway-ac3f9eaa244c)
         - [The Journey to CI/CD](https://medium.com/driven-by-code/the-journey-to-ci-cd-b1872927c36b)
@@ -38,7 +39,7 @@
 
         - [What is AWS](https://www.dideo.ir/v/yt/a9__D53WsUs/%D8%AA%D9%85%D8%A7%D8%B4%D8%A7%DB%8C-%D9%88%DB%8C%D8%AF%D8%A6%D9%88-%D8%A7%D8%B2-%D8%AF%DB%8C%D8%AF%D8%A6%D9%88-watch-video-from-dideo)
 
-        </div>    
+        </div>
 
 
 1. آشنایی با GitHub Actions و اضافه کردن CI/CD Pipeline به ریپازیتوری:
