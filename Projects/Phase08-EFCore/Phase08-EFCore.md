@@ -60,5 +60,11 @@ ORM مخفف Object Reletional Mapping است که مترجم میان زبان�
 
 * [Delete Records in Entity Framework Core
 ](https://www.yogihosting.com/delete-records-entity-framework-core/)
+  
+### Video
+
+اگر فرصت داشته باشید استفاده از ویدیو های دوره آموزشی زیر پیشنهاد میشود
+
+* [Entity Framework Core - The Complete Guide (.NET Core 5)](https://p30download.ir/fa/entry/93481/)
 
 </div>
