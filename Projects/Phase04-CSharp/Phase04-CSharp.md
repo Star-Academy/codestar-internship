@@ -182,8 +182,6 @@
     - [Functional programming in C#](https://dev.to/shimmer/functional-programming-in-c-3h6e)
 
     </div>
-    
-    </div>
 
 ## پروژه
 
