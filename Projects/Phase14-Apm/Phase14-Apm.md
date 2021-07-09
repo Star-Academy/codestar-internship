@@ -108,7 +108,7 @@ Apm
 Kibana
 را نصب کنید. 
 (مراحل نصب در 
-[فاز ۷](../Phase07-Elasticsearch/Phase07-Elasticsearch.md)
+[فاز ۹](../Phase09-Elasticsearch/Phase09-Elasticsearch.md)
 قرار دارد.)
     
 1. سپس 
