@@ -33,6 +33,14 @@
 
 3. سلام به دنیای سی شارپ:
 
+   ابتدا توصیه می‌کنیم لینک زیر را برای آشنایی اولیه با زبان سی‌شارپ بخوانید.
+   
+    <div dir="ltr" align='justify'>
+
+    - [C# Crash Course for Java Developers](https://nerdparadise.com/programming/csharpforjavadevs)
+
+    </div>
+   
    برای شروع VSCode را باز کنید و یک فولدر را جهت شروع انتخاب کنید. بعد در ترمینال دستور زیر را وارد کنید. با این دستور یک پروژه‌ی سی‌شارپ با رابط کاربری کنسول ساخته می‌شود
 
    <div dir="ltr" align='justify'>
