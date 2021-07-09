@@ -717,5 +717,11 @@ query
     GROUP BY ParticipantStudentNumber;
     ```
     </div>
+1. ویدیو
+
+اگر فرصت داشته باشید دیدن ویدیو های دوره آموزشی زیر پیشنهاد میشود.
+
+- [SQL And Database Design A-Z: Learn MS SQL Server + PostgreSQL](https://download.ir/sql-and-database-design-a-z-learn-ms-sql-server-postgresql/)
+
     
 </div>
