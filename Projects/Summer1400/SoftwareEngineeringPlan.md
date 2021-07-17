@@ -16,7 +16,7 @@
 -  [Phase07-SQL](../Phase07-SQL/Phase07-SQL.md)
 -  [Phase08-EFCore](../Phase08-EFCore/Phase08-EFCore.md)
    *  (Optional for fast teams) => [Phase09-Elasticsearch](../Phase09-Elasticsearch/Phase09-Elasticsearch.md)
-   *   (Optional for fast teams) => [Phase14-Apm.md](../Phase14-Apm/Phase14-Apm.md)
+   *   (Optional for fast teams) => [Phase14-Apm](../Phase14-Apm/Phase14-Apm.md)
 
 ## Project 1 (SQL based ETL)
 
@@ -27,16 +27,16 @@
 
 - Project One Definition
 
-    - Console Based Scenario Executer (YAML file as scenario design)
+    - Console based scenario executer (YAML file as scenario design)
   
-    - Web Based Scenario Executer
+    - Web based scenario executer
 
 
 ## Project 2 (Spark based ETL)
-- Getting Started with Python
-- Getting Started with Colab
-- Getting Started with Spark & Map Reduce
-- Getting Started with pySpark
+- Getting started with Python
+- Getting started with Colab
+- Getting started with Spark & Map Reduce
+- Getting started with PySpark
   
 - Project Two Definition
 
