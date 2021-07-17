@@ -1,5 +1,6 @@
 @use "./colors";
 @use "./typography";
+@use "./utils";
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
 
@@ -48,12 +49,10 @@ ul {
 
 a {
   color: inherit;
-
-  text-decoration: none;
 }
 
 /************ PAGE LAYOUT *************/
-#root {
+body {
   display: flex;
   flex-direction: column;
 
@@ -62,50 +61,52 @@ a {
 
 main {
   flex: 1;
-
-  height: 0;
 }
 
 /*************** TAGS *****************/
 h1 {
-  @include typography.apply(h1);
+  @include typography.apply('h1');
 }
 
 h2 {
-  @include typography.apply(h2);
+  @include typography.apply('h2');
 }
 
 h3 {
-  @include typography.apply(h3);
+  @include typography.apply('h3');
 }
 
 h4 {
-  @include typography.apply(h4);
+  @include typography.apply('h4');
 }
 
 h5 {
-  @include typography.apply(h5);
+  @include typography.apply('h5');
 }
 
 h6 {
-  @include typography.apply(h6);
+  @include typography.apply('h6');
 }
 
 p {
-  @include typography.apply(body1);
+  @include typography.apply('body1');
 }
 
 button {
-  @include typography.apply(button);
+  @include utils.ellipse;
+
+  padding: var(--density--small) var(--density--normal);
+
+  @include typography.apply('button');
 }
 
 label {
-  @include typography.apply(subtitle2);
+  @include typography.apply('subtitle2');
 }
 
 input,
 textarea {
-  @include typography.apply(body2);
+  @include typography.apply('body2');
 }
 
 /************* UTILITIES **************/

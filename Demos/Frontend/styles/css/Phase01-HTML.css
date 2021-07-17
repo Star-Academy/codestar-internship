@@ -1,0 +1,119 @@
+:root {
+  --font-size-h1: 7.2rem;
+  --font-weight-h1: 300;
+  --font-size-h2: 6rem;
+  --font-weight-h2: 300;
+  --font-size-h3: 4.8rem;
+  --font-weight-h3: 400;
+  --font-size-h4: 3.4rem;
+  --font-weight-h4: 400;
+  --font-size-h5: 2.4rem;
+  --font-weight-h5: 400;
+  --font-size-h6: 2rem;
+  --font-weight-h6: 700;
+  --font-size-subtitle1: 1.6rem;
+  --font-weight-subtitle1: 400;
+  --font-size-subtitle2: 1.4rem;
+  --font-weight-subtitle2: 700;
+  --font-size-body1: 1.6rem;
+  --font-weight-body1: 400;
+  --font-size-body2: 1.4rem;
+  --font-weight-body2: 400;
+  --font-size-button: 1.4rem;
+  --font-weight-button: 700;
+  --font-size-caption: 1.2rem;
+  --font-weight-caption: 400;
+  --font-size-overline: 1rem;
+  --font-weight-overline: 400;
+}
+
+:root {
+  --rounded-corner-border-radius--small: 0.5rem;
+  --rounded-corner-border-radius--large: 1rem;
+}
+
+/**************** SHAPES **************/
+/************** VARIABLES *************/
+/*************** BUTTONS **************/
+body {
+  display: grid;
+  grid-template-areas: "header header" "main aside" "footer footer";
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  max-width: 120rem;
+  margin: auto;
+}
+body > * {
+  padding: var(--density--normal);
+}
+body header {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--density--normal);
+}
+body header nav ul li a {
+  padding: var(--density--small) var(--density--normal);
+  border-radius: 999rem;
+  font-size: var(--font-size-subtitle1);
+  font-weight: var(--font-weight-subtitle1);
+  text-decoration: none;
+}
+body header nav ul li a:hover {
+  background-color: var(--color-primary--fade);
+}
+body header .cta {
+  font-size: var(--font-size-button);
+  font-weight: var(--font-weight-button);
+  background: var(--color-primary--idle);
+  color: var(--color-white);
+  min-width: 10rem;
+  padding: var(--density--small) var(--density--normal);
+  border-radius: 999rem;
+  text-align: center;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 0.1s ease-in-out;
+}
+body header .cta:hover {
+  background: var(--color-primary--hover);
+}
+body main {
+  grid-area: main;
+}
+body aside {
+  grid-area: aside;
+  background-color: var(--color-secondary--fade);
+  min-width: 16rem;
+  height: fit-content;
+  border-radius: var(--rounded-corner-border-radius--small);
+}
+body aside .title {
+  margin-bottom: var(--density--small);
+}
+body aside nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--density--smaller);
+  padding-left: var(--density--normal);
+}
+body aside nav ul li a {
+  font-size: var(--font-size-caption);
+  font-weight: var(--font-weight-caption);
+}
+body footer {
+  grid-area: footer;
+  background-color: var(--color-gray-10);
+  color: var(--color-gray-98);
+  font-size: var(--font-size-caption);
+  font-weight: var(--font-weight-caption);
+  text-align: center;
+}
+
+/*# sourceMappingURL=Phase01-HTML.css.map */

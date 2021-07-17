@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap");
 :root {
-  --color-primary--fade: hsl(220, 100%, 87%);
+  --color-primary--fade: hsl(220, 100%, 90%);
   --color-primary--idle: hsl(220, 100%, 55%);
   --color-primary--hover: hsl(220, 100%, 47%);
   --color-secondary--fade: hsl(30, 100%, 87%);
@@ -81,6 +81,12 @@
   --font-weight-overline: 400;
 }
 
+:root {
+  --rounded-corner-border-radius--small: 0.5rem;
+  --rounded-corner-border-radius--large: 1rem;
+}
+
+/**************** SHAPES **************/
 /************* VARIABLES **************/
 :root {
   --density--smallest: 0.1rem;
@@ -122,11 +128,10 @@ ul {
 
 a {
   color: inherit;
-  text-decoration: none;
 }
 
 /************ PAGE LAYOUT *************/
-#root {
+body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -134,7 +139,6 @@ a {
 
 main {
   flex: 1;
-  height: 0;
 }
 
 /*************** TAGS *****************/
@@ -174,6 +178,8 @@ p {
 }
 
 button {
+  border-radius: 999rem;
+  padding: var(--density--small) var(--density--normal);
   font-size: var(--font-size-button);
   font-weight: var(--font-weight-button);
 }
