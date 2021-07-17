@@ -11,12 +11,12 @@
 -  [Phase04-CSharp](../Phase04-CSharp/Phase04-CSharp.md)
 -  [Phase05-TDD](../Phase05-TDD/Phase05-TDD.md)
 
-   *  (Optional for fast teams) => [Phase06-CI/CD](../Phase06-CICD/Phase06-CICD.md)
+   *  (Optional, just for fast teams) => [Phase06-CI/CD](../Phase06-CICD/Phase06-CICD.md)
 
 -  [Phase07-SQL](../Phase07-SQL/Phase07-SQL.md)
 -  [Phase08-EFCore](../Phase08-EFCore/Phase08-EFCore.md)
-   *  (Optional for fast teams) => [Phase09-Elasticsearch](../Phase09-Elasticsearch/Phase09-Elasticsearch.md)
-   *   (Optional for fast teams) => [Phase14-Apm](../Phase14-Apm/Phase14-Apm.md)
+   *  (Optional, just for fast teams) => [Phase09-Elasticsearch](../Phase09-Elasticsearch/Phase09-Elasticsearch.md)
+   *   (Optional, just for fast teams) => [Phase14-Apm](../Phase14-Apm/Phase14-Apm.md)
 
 ## Project 1 (SQL based ETL)
 
