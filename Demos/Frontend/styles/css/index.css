@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap");
+:root {
+  --color-primary--fade: hsl(220, 100%, 87%);
+  --color-primary--idle: hsl(220, 100%, 55%);
+  --color-primary--hover: hsl(220, 100%, 47%);
+  --color-secondary--fade: hsl(30, 100%, 87%);
+  --color-secondary--idle: hsl(30, 100%, 55%);
+  --color-secondary--hover: hsl(30, 100%, 47%);
+  --color-success--fade: hsl(120, 100%, 87%);
+  --color-success--idle: hsl(120, 100%, 25%);
+  --color-success--hover: hsl(120, 100%, 20%);
+  --color-danger--fade: hsl(0, 100%, 87%);
+  --color-danger--idle: hsl(0, 100%, 35%);
+  --color-danger--hover: hsl(0, 100%, 30%);
+  --color-white: #ffffff;
+  --color-gray-98: #fafafa;
+  --color-gray-95: #f2f2f2;
+  --color-gray-92: #ebebeb;
+  --color-gray-90: #e6e6e6;
+  --color-gray-85: #d9d9d9;
+  --color-gray-80: #cccccc;
+  --color-gray-75: #bfbfbf;
+  --color-gray-70: #b3b3b3;
+  --color-gray-65: #a6a6a6;
+  --color-gray-60: #999999;
+  --color-gray-55: #8c8c8c;
+  --color-gray-50: #808080;
+  --color-gray-45: #737373;
+  --color-gray-40: #666666;
+  --color-gray-35: #595959;
+  --color-gray-30: #4d4d4d;
+  --color-gray-25: #3f3f3f;
+  --color-gray-20: #333333;
+  --color-gray-15: #262626;
+  --color-gray-10: #1a1a1a;
+  --color-gray-08: #141414;
+  --color-gray-05: #0c0c0c;
+  --color-gray-02: #050505;
+  --color-black: #000000;
+  --shade-90: rgba(26, 26, 26, 0.1);
+  --shade-80: rgba(26, 26, 26, 0.2);
+  --shade-70: rgba(26, 26, 26, 0.3);
+  --shade-60: rgba(26, 26, 26, 0.4);
+  --shade-50: rgba(26, 26, 26, 0.5);
+  --shade-40: rgba(26, 26, 26, 0.6);
+  --shade-30: rgba(26, 26, 26, 0.7);
+  --shade-20: rgba(26, 26, 26, 0.8);
+  --shade-10: rgba(26, 26, 26, 0.9);
+  --shadow-subtle: 0 0 0.2rem var(--shade-90);
+  --shadow-subtle-larger: 0 0 2rem var(--shade-90);
+  --shadow-less-subtle: 0 0 0.5rem -0.1rem var(--shade-70);
+  --shadow-less-subtle-larger: 0 0 2rem -0.1rem var(--shade-70);
+}
+
+:root {
+  --font-size-h1: 7.2rem;
+  --font-weight-h1: 300;
+  --font-size-h2: 6rem;
+  --font-weight-h2: 300;
+  --font-size-h3: 4.8rem;
+  --font-weight-h3: 400;
+  --font-size-h4: 3.4rem;
+  --font-weight-h4: 400;
+  --font-size-h5: 2.4rem;
+  --font-weight-h5: 400;
+  --font-size-h6: 2rem;
+  --font-weight-h6: 700;
+  --font-size-subtitle1: 1.6rem;
+  --font-weight-subtitle1: 400;
+  --font-size-subtitle2: 1.4rem;
+  --font-weight-subtitle2: 700;
+  --font-size-body1: 1.6rem;
+  --font-weight-body1: 400;
+  --font-size-body2: 1.4rem;
+  --font-weight-body2: 400;
+  --font-size-button: 1.4rem;
+  --font-weight-button: 700;
+  --font-size-caption: 1.2rem;
+  --font-weight-caption: 400;
+  --font-size-overline: 1rem;
+  --font-weight-overline: 400;
+}
+
+/************* VARIABLES **************/
+:root {
+  --density--smallest: 0.1rem;
+  --density--smaller: 0.2rem;
+  --density--small: 0.5rem;
+  --density--normal: 1rem;
+  --density--large: 2rem;
+  --density--larger: 4rem;
+  --density--largest: 8rem;
+}
+
+/*************** RESET ****************/
+*,
+*:before,
+*:after {
+  background: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+*:focus {
+  outline: none;
+}
+
+/************** DEFAULTS **************/
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/************ PAGE LAYOUT *************/
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  height: 0;
+}
+
+/*************** TAGS *****************/
+h1 {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-h2);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-h3);
+}
+
+h4 {
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weight-h4);
+}
+
+h5 {
+  font-size: var(--font-size-h5);
+  font-weight: var(--font-weight-h5);
+}
+
+h6 {
+  font-size: var(--font-size-h6);
+  font-weight: var(--font-weight-h6);
+}
+
+p {
+  font-size: var(--font-size-body1);
+  font-weight: var(--font-weight-body1);
+}
+
+button {
+  font-size: var(--font-size-button);
+  font-weight: var(--font-weight-button);
+}
+
+label {
+  font-size: var(--font-size-subtitle2);
+  font-weight: var(--font-weight-subtitle2);
+}
+
+input,
+textarea {
+  font-size: var(--font-size-body2);
+  font-weight: var(--font-weight-body2);
+}
+
+/************* UTILITIES **************/
+/*********** MEDIA QUERIES ************/
+
+/*# sourceMappingURL=index.css.map */
