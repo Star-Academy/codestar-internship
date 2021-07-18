@@ -102,6 +102,16 @@ textarea {
   @include typography.apply('body2');
 }
 
+details {
+  @include typography.apply('body1');
+}
+
+summary {
+  @include typography.apply('subtitle2');
+
+  cursor: pointer;
+}
+
 /************* UTILITIES **************/
 
 /*********** MEDIA QUERIES ************/

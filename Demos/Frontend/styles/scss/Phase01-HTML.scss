@@ -87,10 +87,22 @@ body {
         p {
           text-align: justify;
         }
+
+        details {
+          margin-top: var(--density--normal);
+
+          summary {
+          }
+
+          p {
+            padding-left: var(--density--larger);
+          }
+        }
       }
     }
 
     blockquote {
+      //noinspection CssInvalidPropertyValue
       quotes: "\201C''\201D''\2018''\2019";
 
       position: relative;

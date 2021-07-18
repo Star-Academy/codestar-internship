@@ -108,6 +108,12 @@ body > main article header img {
 body > main article section p {
   text-align: justify;
 }
+body > main article section details {
+  margin-top: var(--density--normal);
+}
+body > main article section details p {
+  padding-left: var(--density--larger);
+}
 body > main blockquote {
   quotes: "“''”''‘''’";
   position: relative;
