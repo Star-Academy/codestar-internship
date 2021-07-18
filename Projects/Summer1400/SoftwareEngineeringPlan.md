@@ -16,9 +16,9 @@
 -  [Phase07-SQL](../Phase07-SQL/Phase07-SQL.md)
 -  [Phase08-EFCore](../Phase08-EFCore/Phase08-EFCore.md)
    *  (Optional, just for fast teams) => [Phase09-Elasticsearch](../Phase09-Elasticsearch/Phase09-Elasticsearch.md)
-   *   (Optional, just for fast teams) => [Phase14-Apm](../Phase14-Apm/Phase14-Apm.md)
   
 -  [Phase11-Web](../Phase11-Web/Phase11-Web.md)
+   *   (Optional, just for fast teams) => [Phase14-Apm](../Phase14-Apm/Phase14-Apm.md)
 
 ## Project 1 (SQL based ETL)
 
