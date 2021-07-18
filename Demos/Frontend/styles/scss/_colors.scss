@@ -1,0 +1,55 @@
+:root {
+  --color-primary--fade: hsl(221, 100%, 93%);
+  --color-primary--idle: hsl(220, 100%, 55%);
+  --color-primary--hover: hsl(220, 100%, 47%);
+  --color-secondary--fade: hsl(28, 100%, 93%);
+  --color-secondary--idle: hsl(30, 100%, 55%);
+  --color-secondary--hover: hsl(30, 100%, 47%);
+  --color-success--fade: hsl(120, 100%, 93%);
+  --color-success--idle: hsl(120, 100%, 25%);
+  --color-success--hover: hsl(120, 100%, 20%);
+  --color-danger--fade: hsl(0, 100%, 93%);
+  --color-danger--idle: hsl(0, 100%, 35%);
+  --color-danger--hover: hsl(0, 100%, 30%);
+
+  --color-white: #ffffff;
+  --color-gray-98: #fafafa;
+  --color-gray-95: #f2f2f2;
+  --color-gray-92: #ebebeb;
+  --color-gray-90: #e6e6e6;
+  --color-gray-85: #d9d9d9;
+  --color-gray-80: #cccccc;
+  --color-gray-75: #bfbfbf;
+  --color-gray-70: #b3b3b3;
+  --color-gray-65: #a6a6a6;
+  --color-gray-60: #999999;
+  --color-gray-55: #8c8c8c;
+  --color-gray-50: #808080;
+  --color-gray-45: #737373;
+  --color-gray-40: #666666;
+  --color-gray-35: #595959;
+  --color-gray-30: #4d4d4d;
+  --color-gray-25: #3f3f3f;
+  --color-gray-20: #333333;
+  --color-gray-15: #262626;
+  --color-gray-10: #1a1a1a;
+  --color-gray-08: #141414;
+  --color-gray-05: #0c0c0c;
+  --color-gray-02: #050505;
+  --color-black: #000000;
+
+  --shade-90: #{transparentize(#1a1a1a, 0.9)};
+  --shade-80: #{transparentize(#1a1a1a, 0.8)};
+  --shade-70: #{transparentize(#1a1a1a, 0.7)};
+  --shade-60: #{transparentize(#1a1a1a, 0.6)};
+  --shade-50: #{transparentize(#1a1a1a, 0.5)};
+  --shade-40: #{transparentize(#1a1a1a, 0.4)};
+  --shade-30: #{transparentize(#1a1a1a, 0.3)};
+  --shade-20: #{transparentize(#1a1a1a, 0.2)};
+  --shade-10: #{transparentize(#1a1a1a, 0.1)};
+
+  --shadow-subtle: 0 0 0.2rem var(--shade-90);
+  --shadow-subtle-larger: 0 0 2rem var(--shade-90);
+  --shadow-less-subtle: 0 0 0.5rem -0.1rem var(--shade-70);
+  --shadow-less-subtle-larger: 0 0 2rem -0.1rem var(--shade-70);
+}
