@@ -33,6 +33,8 @@ $defaults-transition-scale: 1.02;
 
   padding: var(--density--small) var(--density--normal);
 
+  border: none;
+
   @if $ellipse {
     @include utils.ellipse;
   } @else {

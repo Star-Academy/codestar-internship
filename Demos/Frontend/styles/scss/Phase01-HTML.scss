@@ -1,6 +1,6 @@
-@use './components';
-@use './typography';
-@use './utils';
+@use "./components";
+@use "./typography";
+@use "./utils";
 
 body {
   display: grid;
@@ -12,11 +12,19 @@ body {
 
   margin: auto;
 
-  > * {
-    padding: var(--density--normal);
+  * {
+    scroll-margin-top: var(--density--large);
+
+    &:target {
+      outline: 0.5rem dashed var(--color-primary--idle);
+    }
   }
 
-  header {
+  > * {
+    padding: var(--density--normal) var(--density--large);
+  }
+
+  > header {
     grid-area: header;
 
     display: flex;
@@ -55,42 +63,118 @@ body {
     }
   }
 
-  main {
+  > main {
     grid-area: main;
-  }
 
-  aside {
-    grid-area: aside;
+    article {
+      display: flex;
+      flex-direction: column;
+      gap: var(--density--large);
 
-    background-color: var(--color-secondary--fade);
+      header {
+        h1 {
+        }
 
-    min-width: 16rem;
-    height: fit-content;
+        img {
+          width: 100%;
+          height: auto;
 
-    @include utils.rounded-corners('small');
+          object-fit: contain;
+        }
+      }
 
-    .title {
-      margin-bottom: var(--density--small);
+      section {
+        p {
+          text-align: justify;
+        }
+      }
     }
 
-    nav {
-      ul {
-        display: flex;
-        flex-direction: column;
-        gap: var(--density--smaller);
+    blockquote {
+      quotes: "\201C''\201D''\2018''\2019";
 
-        padding-left: var(--density--normal);
+      position: relative;
 
-        li {
-          a {
-            @include typography.apply('caption');
+      max-width: 50ch;
+
+      margin: auto;
+      padding: var(--density--largest) 0;
+
+      @include typography.apply('h6');
+      text-align: justify;
+
+      &::before,
+      &::after {
+        color: var(--shade-80);
+
+        position: absolute;
+
+        height: fit-content;
+
+        font-family: sans-serif;
+        font-size: 10.8rem;
+        line-height: 100%;
+      }
+
+      &::before {
+        content: open-quote;
+
+        top: 0;
+        left: 0;
+
+        transform: translate(-150%, 40%);
+      }
+
+      &::after {
+        content: close-quote;
+
+        right: 0;
+        bottom: 0;
+
+        transform: translate(160%, 0%);
+      }
+    }
+  }
+
+  > aside {
+    grid-area: aside;
+
+    position: sticky;
+    top: var(--density--large);
+
+    min-width: 24rem;
+    width: max-content;
+    max-width: 28rem;
+    height: fit-content;
+
+    section {
+      background-color: var(--color-secondary--fade);
+
+      padding: var(--density--normal);
+
+      .title {
+        margin-bottom: var(--density--small);
+      }
+
+      nav {
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: var(--density--small);
+
+          padding-left: var(--density--normal);
+
+          li {
+            a {
+              @include typography.apply('body2');
+            }
           }
         }
       }
     }
   }
 
-  footer {
+  > footer {
     grid-area: footer;
 
     background-color: var(--color-gray-10);

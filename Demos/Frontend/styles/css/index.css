@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap");
 :root {
-  --color-primary--fade: hsl(220, 100%, 90%);
+  --color-primary--fade: hsl(221, 100%, 93%);
   --color-primary--idle: hsl(220, 100%, 55%);
   --color-primary--hover: hsl(220, 100%, 47%);
-  --color-secondary--fade: hsl(30, 100%, 87%);
+  --color-secondary--fade: hsl(28, 100%, 93%);
   --color-secondary--idle: hsl(30, 100%, 55%);
   --color-secondary--hover: hsl(30, 100%, 47%);
-  --color-success--fade: hsl(120, 100%, 87%);
+  --color-success--fade: hsl(120, 100%, 93%);
   --color-success--idle: hsl(120, 100%, 25%);
   --color-success--hover: hsl(120, 100%, 20%);
-  --color-danger--fade: hsl(0, 100%, 87%);
+  --color-danger--fade: hsl(0, 100%, 93%);
   --color-danger--idle: hsl(0, 100%, 35%);
   --color-danger--hover: hsl(0, 100%, 30%);
   --color-white: #ffffff;
@@ -102,23 +102,17 @@
 *,
 *:before,
 *:after {
-  background: none;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: none;
-  outline: none;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 150%;
 }
 
-*:focus {
-  outline: none;
-}
-
 /************** DEFAULTS **************/
 html {
+  scroll-behavior: smooth;
   font-size: 62.5%;
 }
 
