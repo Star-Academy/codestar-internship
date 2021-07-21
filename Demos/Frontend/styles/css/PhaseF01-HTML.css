@@ -105,6 +105,9 @@ body > main article header img {
   height: auto;
   object-fit: contain;
 }
+body > main article section p + p {
+  margin-top: var(--density--normal);
+}
 body > main article section p {
   text-align: justify;
 }
