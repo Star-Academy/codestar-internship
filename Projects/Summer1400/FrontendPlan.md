@@ -9,21 +9,21 @@
 ## Learning
 
 ### Basics
--  [Phase01-HTML](../Frontend/Phase01-HTML/Phase01-HTML.md)
--  [Phase02-CSS](../Frontend/Phase02-CSS/Phase02-CSS.md)
--  [Phase03-SCSS](../Frontend/Phase03-SCSS/Phase03-SCSS.md)
--  [Phase04-JavaScript](../Frontend/Phase04-JavaScript/Phase04-JavaScript.md)
--  [Phase05-Best-Practices](../Frontend/Phase05-Best-Practices/Phase05-Best-Practices.md)
+-  [PhaseF01-HTML](../Frontend/PhaseF01-HTML/PhaseF01-HTML.md)
+-  [PhaseF02-CSS](../Frontend/PhaseF02-CSS/PhaseF02-CSS.md)
+-  [PhaseF03-SCSS](../Frontend/PhaseF03-SCSS/PhaseF03-SCSS.md)
+-  [PhaseF04-JavaScript](../Frontend/PhaseF04-JavaScript/PhaseF04-JavaScript.md)
+-  [PhaseF05-Best-Practices](../Frontend/PhaseF05-Best-Practices/PhaseF05-Best-Practices.md)
 
 ### Advanced
--  [Phase06-Advanced-JavaScript](../Frontend/Phase06-Advanced-JavaScript/Phase06-Advanced-JavaScript.md)
--  [Phase07-Testing](../Frontend/Phase07-Testing/Phase07-Testing.md)
--  [Phase08-CI-CD](../Frontend/Phase08-CI-CD/Phase08-CI-CD.md)
+-  [PhaseF06-Advanced-JavaScript](../Frontend/PhaseF06-Advanced-JavaScript/PhaseF06-Advanced-JavaScript.md)
+-  [PhaseF07-Testing](../Frontend/PhaseF07-Testing/PhaseF07-Testing.md)
+-  [PhaseF08-CI-CD](../Frontend/PhaseF08-CI-CD/PhaseF08-CI-CD.md)
 
 ### Angular
--  [Phase09-Angular](../Frontend/Phase09-Angular/Phase09-Angular.md)
--  [Phase10-Advanced-Angular](../Frontend/Phase10-Advanced-Angular/Phase10-Advanced-Angular.md)
--  [Phase11-Graphs-And-Charts](../Frontend/Phase11-Graphs-And-Charts/Phase11-Graphs-And-Charts.md)
+-  [PhaseF09-Angular](../Frontend/PhaseF09-Angular/PhaseF09-Angular.md)
+-  [PhaseF10-Advanced-Angular](../Frontend/PhaseF10-Advanced-Angular/PhaseF10-Advanced-Angular.md)
+-  [PhaseF11-Graphs-And-Charts](../Frontend/PhaseF11-Graphs-And-Charts/PhaseF11-Graphs-And-Charts.md)
 
 ---
 
