@@ -141,7 +141,7 @@ alt در اینجا مخفف عبارت Alternate Text یا متن جایگزی�
 <div dir="ltr">
 
 ```html
-<img href="https://totally-real-website.com/some-picture.png" alt="" />
+<img src="https://totally-real-website.com/some-picture.png" alt="" />
 ```
 
 </div>
