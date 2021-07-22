@@ -17,7 +17,7 @@
 در پایان این فاز امیدواریم بتوانیم به ابهاماتی مانند سوالات بالا پاسخ دهیم.
 
 توصیه می‌کنیم همزمان با خواندن این مطلب،
-[صفحۀ دمو](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/Phase01-HTML/index.html)
+[صفحۀ دمو](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/PhaseF01-HTML/index.html)
 را نیز مشاهده کنید تا به صورت دیداری و کاربردی با مفاهیم آشنا شوید.
 
 ---
@@ -29,28 +29,28 @@
 در HTML تگ‌هایی وجود دارند که صرفاً برای یک کار خاص طراحی شده‌اند و با دیدن نام آن‌ها می‌توان کاربردشان را متوجه شد. به
 این تگ‌ها، **تگ‌های معنایی** گفته می‌شود که لیستی از آن‌ها را به همراه توضیحات مختصری در اینجا مشاهده می‌کنید:
 
-- [header](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/Phase01-HTML/index.html#header)
+- [header](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/PhaseF01-HTML/index.html#header)
   - معمولاً در بالاترین بخش صفحه یا المان مورد نظر قرار می‌گیرد و در اکثر مواقع شامل لوگو، nav و دکمه‌های
     Call-to-Action می‌باشد.
-- [nav](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/Phase01-HTML/index.html#nav)
+- [nav](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/PhaseF01-HTML/index.html#nav)
   - شامل لینک‌هایی به قسمت‌های مختلف صفحۀ اصلی یا سایت می‌باشد.
-- [main](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/Phase01-HTML/index.html#main)
+- [main](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/PhaseF01-HTML/index.html#main)
   - شامل محتوای اصلی سایت می‌باشد و در اکثر موقع بیشترین حجم از صفحه را اشغال می‌کند.
-- [aside](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/Phase01-HTML/index.html#aside)
+- [aside](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/PhaseF01-HTML/index.html#aside)
   - شامل محتوایی غیر از محتوای اصلی می‌باشد به طوری که نمی‌توان آن را در main قرار داد. به عنوان مثال تبلیغات یا لینک
     به قسمت‌های مختلف مقاله.
-- [footer](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/Phase01-HTML/index.html#footer)
+- [footer](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/PhaseF01-HTML/index.html#footer)
   - معمولاً در پایین‌ترین بخش صفحه یا المان مورد نظر قرار می‌گیرد و در اکثر مواقع شامل Copyright، توضیحات مختصری در
     مورد سایت و شخص/گروه سازنده می‌باشد.
-- [article](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/Phase01-HTML/index.html#article)
+- [article](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/PhaseF01-HTML/index.html#article)
   - بخشی از محتواست که کاملاً از بخش‌های دیگر مستقل می‌باشد به گونه‌ای که می‌توان آن را به طور جداگانه استفاده یا
     منتشر کرد. به عنوان مثال می‌توان به مقاله‌ای از یک مجله یا پستی از یک وبلاگ اشاره کرد.
-- [section](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/Phase01-HTML/index.html#results)
+- [section](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/PhaseF01-HTML/index.html#results)
   - بخشی از محتوای اصلی سایت را مشخص می‌کند. معمولاً از این تگ برای ایجاد تمایز بینِ قسمت‌های مختلف استفاده می‌شود.
     معمولاً در ابتدای هر بخش از heading یعنی تگ‌های h1 تا h6 استفاده می‌شود.
-- [details](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/Phase01-HTML/index.html#details)
+- [details](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/PhaseF01-HTML/index.html#details)
   - شامل بخشی از محتواست که کاربر می‌تواند در صورت نیاز آن را show یا hide کند.
-- [summary](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/Phase01-HTML/index.html#summary)
+- [summary](https://star-academy.github.io/codestar-internship/Demos/Frontend/pages/PhaseF01-HTML/index.html#summary)
   - همیشه داخل المان details استفاده می‌شود و باید شامل توضیحاتی دربارۀ آن باشد.
 
 البته موارد بالا تنها بخشی از تگ‌های معنایی HTML می‌باشند. برای آشنایی بیشتر با این مفهوم می‌توانید از لینک‌های زیر
