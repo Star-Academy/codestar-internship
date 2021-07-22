@@ -54,7 +54,7 @@
 منتور در مورد تیم خودتون و مشکلاتی که دارین یا که هرچی صحبت کنی و این در این جلسات شما میتونین فیدبک هاتون در مورد کارآموزی تون به راهبرتون بدین .  
     
   
-[این لینک هم برای اطلاعات بیشتر مطالعه کن.](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/)
+[این لینک هم برای اطلاعات بیشتر مطالعه کن](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/)
   
     
 ## جلسات Coffee Chats
@@ -63,7 +63,7 @@
     
 
    
-  [این لینک هم برای اطلاعات بیشتر مطالعه کن.](https://arrivein.com/career-ca/coffee-chats-what-questions-should-you-ask-to-network-better/#:~:text=A%20coffee%20chat%2C%20also%20known,individual's%20career%20path%20and%20role.)
+  [این لینک هم برای اطلاعات بیشتر مطالعه کن](https://arrivein.com/career-ca/coffee-chats-what-questions-should-you-ask-to-network-better/#:~:text=A%20coffee%20chat%2C%20also%20known,individual's%20career%20path%20and%20role.)
     
   و همچنین [این لینک](https://about.gitlab.com/company/culture/all-remote/informal-communication/#coffee-chats)
 
