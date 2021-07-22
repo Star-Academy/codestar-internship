@@ -7,7 +7,7 @@
 #### به کداستار خوش آمدی!
 
 ما خیلی خوشحالیم که در کداستار هستی!
-در این دوره از ابزار Github برای مدیریت و اشتراک گذاری تسک‌هایت استفاده می‌کنی.
+در این دوره از ابزار Github برای مدیریت و اشتراک گذاری کار‌هایت استفاده می‌کنی.
 همچنین از Microsoft Teams به عنوان پیام‌رسان استفاده میشه.
 اگه سوال یا فیدبکی داشتی می‌تونی به اعضای تیمِ ما در این پیام‌رسان پیام بدی و مشکلت رو بر طرف کنی.
 
@@ -58,7 +58,7 @@ mention
 </details>
 
 
-## مقدمات
+## کار‌های روز اول
 
 حتما این بخش رو در 4 روز اول دوره تکمیل کن.
 ممکنه این موارد بیشتر از 4 روز طول بکشه اما امیدواریم که همتون تو هفته اول روی تمام مواردش وقت گذاشته باشین.
@@ -87,7 +87,7 @@ mention
   6. [ ]  <span  dir="rtl" align='right'>هماهنگ کنین هر روز ساعت ۱۰ صبح (یا زودتر) با هم‌تیمی‌ات جلسه روزانه داشته باشی و کار رو به صورت pair programming با هم شروع کنین.</span>
   7. [ ] <span  dir="rtl" align='right'>بر اساس این که توی کدوم دوره پذیرفته شدی، [برنامه مهندسی نرم‌افزار](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Summer1400/SoftwareEngineeringPlan.md) یا [برنامه فرانت‌اند](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Summer1400/FrontendPlan.md) رو باز کن و این صفحه رو توی مرورگرت بوک‌مارک کن چون از این به بعد خیلی به این صفحه میای.</span>
   8. [ ] با هم تیمی ات فاز اول مهندسی نرم‌افزار یا فرانت‌اند رو بر اساس برنامه شروع کن.
-  9. [ ] <span  dir="rtl" align='right'> وقتی تسک‌های روز  انجام شد رو انجام دادی لیبل "Day 1- Complete Label" رو به ایشوت بزن </span>
+  9. [ ] <span  dir="rtl" align='right'> وقتی کار‌هایی روز اول رو انجام دادی لیبل "Day 1- Complete Label" رو به ایشوت بزن </span>
      </div>
 </details>
 
@@ -115,19 +115,38 @@ mention
   
   <div  dir="ltr" align='left'>
   
-  1. [ ] <span  dir="rtl" align='right'> با سه نفر از اعضای بقیه تیم ها جلسه [Coffee Chat](https://about.gitlab.com/company/culture/all-remote/informal-communication/#coffee-chats) برنامه ریزی کن و سعی کن بیشتر با بقیه بچه‌ها در این جلسات آشنا بشی. مدت زمان پیشنهادی برای این جلسات نیم ساعته </span>
-     1. [ ] <span  dir="rtl" align='right'>جلسه اول Coffee Chat برگزار شد</span>
-     2. [ ] <span  dir="rtl" align='right'>جلسه دوم Coffee Chat برگزار شد</span>
-     3. [ ] <span  dir="rtl" align='right'>جلسه سوم Coffee Chat برگزار شد</span>
+  1. [ ] برنامه جلسات غیر‌فنی و کارکرد هر یک را از [اینجا](./non-tech-sessions.md) مطالعه کن
+     1. [ ] بخش جلسات دورهمی رو مطالعه کن
+     2. [ ] <span  dir="rtl" align='right'>بخش جلسات AMA رو مطالعه کن</span>
+     3. [ ] <span  dir="rtl" align='right'>بخش جلسات یک به یک رو مطالعه کن</span>
+     4. [ ] <span  dir="rtl" align='right'>بخش جلسات Coffee Chats رو مطالعه کن</span>
    
-  2. [ ] <span  dir="rtl" align='right'>وقتی تسک‌های هفته اول انجام شد رو انجام دادی لیبل "Week 1- Complete Label" رو به ایشوت متصل کن </span>
+  2. [ ] <span  dir="rtl" align='right'>وقتی کار‌های هفته اول رو انجام دادی لیبل "Week 1- Complete Label" رو به ایشوت متصل کن </span>
      </div>
 </details>
 
 ## هفته دوم
 
 <details>
-  <summary>تسک‌های منتور‌ها</summary>
+  <summary>کارهای کارآموز</summary>
+  
+  <div  dir="ltr" align='left'>
+
+  1. [ ] <span  dir="rtl" align='right'> در این هفته و هفته‌های آینده با سه نفر از اعضای بقیه تیم ها جلسه [Coffee Chat](https://about.gitlab.com/company/culture/all-remote/informal-communication/#coffee-chats) برنامه ریزی کن و سعی کن بیشتر با بقیه بچه‌ها در این جلسات آشنا بشی. مدت زمان پیشنهادی برای این جلسات نیم ساعته </span>
+       1. [ ] <span  dir="rtl" align='right'>جلسه اول Coffee Chat برگزار شد</span>
+       2. [ ] <span  dir="rtl" align='right'>جلسه دوم Coffee Chat برگزار شد</span>
+       3. [ ] <span  dir="rtl" align='right'>جلسه سوم Coffee Chat برگزار شد</span>
+
+
+  2. [ ] به جلسه [یک به یک](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/) با منتور برو
+   
+  3. [ ] <span  dir="rtl" align='right'>وقتی کار‌های هفته دوم رو انجام دادی لیبل "week 2- Complete Label" رو به ایشوت متصل کن </span>
+     </div>
+</details>
+
+
+<details>
+  <summary>کارهای منتور‌ها</summary>
   
   <div  dir="ltr" align='left'>
   
@@ -135,20 +154,24 @@ mention
    </div>
 </details>
 
-<details>
-  <summary>تسک‌های کارآموز</summary>
-  
-  <div  dir="ltr" align='left'>
-  
-  1. [ ] به جلسه [یک به یک](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/) با منتور برو
-  2. [ ] <span  dir="rtl" align='right'>وقتی تسک‌های هفته دوم انجام شد رو انجام دادی لیبل "week 2- Complete Label" رو به ایشوت متصل کن </span>
-     </div>
-</details>
-
 ## هفته سوم
 
 <details>
-  <summary>تسک‌های منتور اول</summary>
+  <summary>کارهای کارآموز</summary>
+  
+  <div  dir="ltr" align='left'>
+  
+  1. [ ] <span  dir="rtl" align='right'>نمی‌خوایم توی کارآموزی تک‌بعدی باشی و فقط کار کنی، حداقل پس حداقل در دو مورد از دورهمی‌ها و مسابقه‌ها شرکت کن.</span>
+     1. [ ] در یکی از دورهمی ها شرکت کردم
+     2. [ ] در یکی از بازی‌ها/مسابقه‌ها شرکت کردم
+  2. [ ] <span  dir="rtl" align='right'> وقتی کار‌های هفته سوم رو انجام دادی لیبل "week 3- Complete Label" رو به ایشوت متصل کن </span>
+     </div>
+</details>
+
+## هفته چهارم
+
+<details>
+  <summary>کارهای منتور اول</summary>
   
   <div  dir="ltr" align='left'>
   
@@ -157,12 +180,12 @@ mention
 </details>
 
 <details>
-  <summary>تسک‌های کارآموز</summary>
+  <summary>کارهای کارآموز</summary>
   
   <div  dir="ltr" align='left'>
   
   1. [ ] <span  dir="rtl" align='right'> در جلسه [AMA](https://about.gitlab.com/company/culture/all-remote/learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) شرکت کن و هر چیزی که در مورد تیم ستاره، گذشته‌، حال و آینده‌اش دوست داری بپرس </span>
-  2. [ ] <span  dir="rtl" align='right'> وقتی تسک‌های هفته سوم انجام شد رو انجام دادی لیبل "week 3- Complete Label" رو به ایشوت متصل کن </span>
+  2. [ ] <span  dir="rtl" align='right'>خسته نباشی، کارای این ایشو تموم شد پس این ایشو رو  Close کن</span>
      </div>
 </details>
 
@@ -171,8 +194,5 @@ pull request
 ایجاد کن و اون رو به
 @Star-Academy/people-experience-associate
 واگذار کن تا در بهبود سند خوش‌آمدگویی برای دوستانی که در دوره‌های آینده شرکت می‌کنن سهیم باشی.
-اگه با فرآیند
-pull request
-آشنایی نداری و دوست داری در این کار سهیم باشی از همیارت کمک بگیر.
 
 </div>
