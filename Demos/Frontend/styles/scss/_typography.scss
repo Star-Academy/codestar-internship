@@ -1,0 +1,25 @@
+@mixin generate($name, $size, $weight) {
+  --font-size-#{$name}: #{$size};
+  --font-weight-#{$name}: #{$weight};
+}
+
+@mixin apply($name) {
+  font-size: var(--font-size-#{$name});
+  font-weight: var(--font-weight-#{$name});
+}
+
+:root {
+  @include generate(h1, 7.2rem, 300);
+  @include generate(h2, 6rem, 300);
+  @include generate(h3, 4.8rem, 400);
+  @include generate(h4, 3.4rem, 400);
+  @include generate(h5, 2.4rem, 400);
+  @include generate(h6, 2rem, 700);
+  @include generate(subtitle1, 1.6rem, 400);
+  @include generate(subtitle2, 1.4rem, 700);
+  @include generate(body1, 1.6rem, 400);
+  @include generate(body2, 1.4rem, 400);
+  @include generate(button, 1.4rem, 700);
+  @include generate(caption, 1.2rem, 400);
+  @include generate(overline, 1rem, 400);
+}
