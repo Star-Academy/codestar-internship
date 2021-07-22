@@ -65,7 +65,7 @@
    
   [این لینک هم برای اطلاعات بیشتر مطالعه کن.](https://arrivein.com/career-ca/coffee-chats-what-questions-should-you-ask-to-network-better/#:~:text=A%20coffee%20chat%2C%20also%20known,individual's%20career%20path%20and%20role.)
     
-  و همچنین [این لینک]((https://about.gitlab.com/company/culture/all-remote/informal-communication/#coffee-chats) )
+  و همچنین [این لینک](https://about.gitlab.com/company/culture/all-remote/informal-communication/#coffee-chats)
 
   یک آپشن دیگه که برات در نظر گرفتیم اینه که تو میتونی خودت یکی از اعضای تیم ستاره رو انتخاب کنی و باهاش
   این جلسه رو بری یا که از طریق معرفی منتور به صورت رندوم به یک نفر وصل شی و توی اون جلسه با هم صحبت
