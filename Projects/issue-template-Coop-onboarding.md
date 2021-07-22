@@ -1,3 +1,5 @@
+This issue is old & deprecated (it is for winter99), for new version (1400) go to [../Non-Tech/issue-template-onboarding.md](../Non-Tech/issue-template-onboarding.md)
+
 <div dir="rtl" align='right'>
 
 
