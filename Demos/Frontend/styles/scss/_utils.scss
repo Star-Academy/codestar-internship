@@ -1,0 +1,17 @@
+:root {
+  --rounded-corner-border-radius--small: 0.5rem;
+  --rounded-corner-border-radius--large: 1rem;
+}
+
+/**************** SHAPES **************/
+@mixin rounded-corners($size) {
+  @if $size == small {
+    border-radius: var(--rounded-corner-border-radius--small);
+  } @else if $size == large {
+    border-radius: var(--rounded-corner-border-radius--large);
+  }
+}
+
+@mixin ellipse {
+  border-radius: 999rem;
+}

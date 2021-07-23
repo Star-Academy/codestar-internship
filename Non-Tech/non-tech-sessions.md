@@ -54,20 +54,21 @@
 منتور در مورد تیم خودتون و مشکلاتی که دارین یا که هرچی صحبت کنی و این در این جلسات شما میتونین فیدبک هاتون در مورد کارآموزی تون به راهبرتون بدین .  
     
   
-[این لینک هم برای اطلاعات بیشتر مطالعه کن.](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/)
+[این لینک هم برای اطلاعات بیشتر مطالعه کن](https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/)
   
     
 ## جلسات Coffee Chats
     
-  این جلسات برای این هست که شما با دوستان هم کارآموز خودتون بیشتر آشنا شین، به این شکل که شما میتونین طبق یه قراری با هم بذارین و با هم توی یه میتینگ صحبت کنین  همدیگر رو بیشتر بشناسین، جدای از این شما میتونین با افراد با تجربه تر شرکت هم همینکار رو کنین و یا حتی اگر خواستین به صورت رندوم به یک نفر وصل شین و یه جلسه Coffee Chats برین.
+  این جلسات برای این هست که شما با دوستان هم دوره خودتون و داستان زندگی‌شون بیشتر آشنا بشین، به این شکل که شما میتونین از قبل با هم قرار بگذارین و با هم توی یه جلسه صحبت کنین همدیگر رو بیشتر بشناسین، جدای از این شما میتونین با افراد با تجربه تر و قدیمی تر هم این جلسه رو داشته باشین و یا حتی اگر خواستین به صورت تصادفی به یک نفر وصل بشین و یه جلسه Coffee Chats برین.
     
 
    
-  [این لینک هم برای اطلاعات بیشتر مطالعه کن.](https://arrivein.com/career-ca/coffee-chats-what-questions-should-you-ask-to-network-better/#:~:text=A%20coffee%20chat%2C%20also%20known,individual's%20career%20path%20and%20role.)
+  [این لینک هم برای اطلاعات بیشتر مطالعه کن](https://arrivein.com/career-ca/coffee-chats-what-questions-should-you-ask-to-network-better/#:~:text=A%20coffee%20chat%2C%20also%20known,individual's%20career%20path%20and%20role.)
     
-  و همچنین [این لینک]((https://about.gitlab.com/company/culture/all-remote/informal-communication/#coffee-chats) )
+  و همچنین [این لینک](https://about.gitlab.com/company/culture/all-remote/informal-communication/#coffee-chats)
 
   یک آپشن دیگه که برات در نظر گرفتیم اینه که تو میتونی خودت یکی از اعضای تیم ستاره رو انتخاب کنی و باهاش
+  این جلسه رو بری یا که از طریق معرفی منتور به صورت رندوم به یک نفر وصل شی و توی اون جلسه با هم صحبت
   این جلسه رو بری یا که از طریق بات -ایدی بات- به صورت رندوم به یک نفر وصل شی و توی اون جلسه با هم صحبت
   کنین. 
     

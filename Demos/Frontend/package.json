@@ -1,0 +1,13 @@
+{
+  "name": "frontend-demos",
+  "scripts": {
+    "start": "sass --watch styles/scss:styles/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.3.2",
+    "sass": "^1.35.2"
+  }
+}

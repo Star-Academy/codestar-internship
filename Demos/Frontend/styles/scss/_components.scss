@@ -1,0 +1,74 @@
+@use "./typography";
+@use "./utils";
+
+/************** VARIABLES *************/
+$defaults-button-ellipse: true;
+$defaults-button-background--idle: transparent;
+$defaults-button-color--idle: var(--color-body-foreground);
+$defaults-button-background--hover: same;
+$defaults-button-color--hover: same;
+$defaults-button-min-width: 10rem;
+$defaults-button-scale-transition: false;
+$defaults-button-icon-margin: var(--density--normal);
+
+$defaults-transition-duration: 0.1s;
+$defaults-transition-scale: 1.02;
+
+/*************** BUTTONS **************/
+@mixin button-base(
+  $ellipse: $defaults-button-ellipse,
+  $background--idle: $defaults-button-background--idle,
+  $color--idle: $defaults-button-color--idle,
+  $background--hover: $defaults-button-background--hover,
+  $color--hover: $defaults-button-color--hover,
+  $min-width: $defaults-button-min-width,
+  $scale-transition: $defaults-button-scale-transition
+) {
+  @include typography.apply('button');
+
+  background: $background--idle;
+  color: $color--idle;
+
+  min-width: $min-width;
+
+  padding: var(--density--small) var(--density--normal);
+
+  border: none;
+
+  @if $ellipse {
+    @include utils.ellipse;
+  } @else {
+    @include utils.rounded-corners(small);
+  }
+
+  text-align: center;
+
+  cursor: pointer;
+
+  transform: scale(1);
+
+  transition: all 0.1s ease-in-out;
+
+  &:hover {
+    @if $background--hover != same {
+      background: $background--hover;
+    }
+
+    @if $color--hover != same {
+      color: $color--hover;
+    }
+
+    @if $scale-transition != false {
+      transform: scale(#{$defaults-transition-scale});
+    }
+  }
+}
+
+@mixin button--colorful($color, $scale-transition: $defaults-button-scale-transition) {
+  @include button-base(
+    $background--idle: var(--color-#{$color}--idle),
+    $color--idle: var(--color-white),
+    $background--hover: var(--color-#{$color}--hover),
+    $scale-transition: $scale-transition
+  );
+}
