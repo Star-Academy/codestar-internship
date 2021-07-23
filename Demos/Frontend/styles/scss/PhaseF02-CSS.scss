@@ -10,9 +10,25 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--density--larger);
+
+  padding-bottom: var(--density--larger);
+
   > article {
+    box-shadow: 0 0 1rem hsla(0, 0, 0, 10%);
+
+    padding: var(--density--normal) var(--density--large);
+
+    > section {
+      border-top: 0.1rem solid var(--color-gray-80);
+
+      padding: var(--density--larger) 0;
+    }
+
     &.box-model {
-      section {
+      > section {
         &.figure {
           display: grid;
           place-items: center;
@@ -118,6 +134,93 @@ body {
 
             .content-box {
               box-sizing: content-box;
+            }
+          }
+        }
+      }
+    }
+
+    &.selectors {
+      > section {
+        form {
+          display: flex;
+          flex-direction: column;
+
+          max-width: 60rem;
+
+          margin: auto;
+        }
+
+        &.attribute-selectors {
+          form {
+            gap: var(--density--large);
+
+            label {
+              display: flex;
+              flex-direction: column;
+
+              input[type='text'] {
+                border-color: var(--color-secondary--idle);
+                border-width: 1rem;
+                border-style: groove;
+              }
+            }
+          }
+        }
+
+        &.positional-selectors {
+          ul {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: var(--density--normal);
+
+            li {
+              background-color: var(--color-gray-80);
+
+              display: grid;
+              place-items: center;
+
+              width: 20rem;
+              height: 20rem;
+
+              @include typography.apply('button');
+
+              cursor: pointer;
+
+              &:nth-child(2n + 1) {
+                &:hover {
+                  background-color: var(--color-primary--hover);
+                  color: var(--color-gray-98);
+                }
+              }
+
+              &:nth-child(2n) {
+                &:hover {
+                  background-color: var(--color-secondary--hover);
+                }
+              }
+            }
+          }
+        }
+
+        &.pseudo-selectors {
+          form {
+            gap: var(--density--normal);
+
+            .choice {
+              display: flex;
+              align-items: center;
+              gap: var(--density--small);
+
+              label {
+                color: gray;
+              }
+
+              input:checked + label {
+                color: var(--color-primary--hover);
+              }
             }
           }
         }

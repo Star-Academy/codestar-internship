@@ -128,9 +128,11 @@ a {
 body {
   display: flex;
   flex-direction: column;
+  box-sizing: content-box;
   min-height: 100vh;
   max-width: 120rem;
   margin: auto;
+  padding: 0 var(--density--larger);
 }
 
 main {
@@ -183,10 +185,12 @@ button {
 label {
   font-size: var(--font-size-subtitle2);
   font-weight: var(--font-weight-subtitle2);
+  cursor: pointer;
 }
 
 input,
 textarea {
+  padding: var(--density--small) var(--density--normal);
   font-size: var(--font-size-body2);
   font-weight: var(--font-weight-body2);
 }
