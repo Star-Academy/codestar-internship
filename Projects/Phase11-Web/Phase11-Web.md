@@ -143,7 +143,8 @@ namespace Example.Controllers
 
   - [Routing in ASP.NET Core MVC](https://code-maze.com/routing-asp-net-core-mvc/)
   - [Routing to controller actions in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/routing?view=aspnetcore-3.1#:~:text=In%20this%20article&text=ASP.NET%20Core%20controllers%20use,paths%20are%20matched%20to%20actions.)
-
+  - [بررسی و فهم مسیرها](https://mizfa.com/blog/routing-core-mvc/)
+   
 8. Dependency Injection
    
  تزریق وابستگی یا ( Dependency Injection) فرآیندی می‌باشد که در آن وابستگی های ما به یک کلاس با استفاده از یک رابط کاربری یا همان  (Interface) حذف می شود. در `Asp.net Core` به صورت پیش فرض این امکان به ما داده شده است که بتوانیم بدون نیاز به در گیری با مورد خاصی از این ویژگی استفاده بکنیم.
