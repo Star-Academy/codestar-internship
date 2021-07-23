@@ -164,4 +164,5 @@ href="https://stackoverflow.com/questions/30281258/how-to-use-semantic-ui-cdn"><
 </strong>از سرور <strong>backend</strong> بگیرید و با اگما نمایش دهید، پس حواستان به نحوه پیاده‌سازی باشد
 تا بعدا&nbsp;به مشکل نخورید. در فاز‌های بعدی هم سعی می‌کنم کتاب‌خانه‌های دیگری را که مفید هستند را معرفی
 کنیم.
+
  </div>
