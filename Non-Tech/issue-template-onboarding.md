@@ -71,9 +71,9 @@ mention
   3. [ ] از منتور پیگیری کن که به گیت‌هاب اضافه بشی
   4. [ ] <span  dir="rtl" align='right'> به ریپو [codestar-intern-issues](https://github.com/Star-Academy/codestar-intern-issues) برو و در اونجا ایشوی فرآیند خوش‌آمدگویی به نام خودت رو پیدا و به خودت assign کن </span>
   5. [ ] <span  dir="rtl" align='right'>هماهنگ کنین هر روز ساعت ۶ عصر با منتور‌ها جلسه روزانه داشته باشین، مهم‌ترین چیزایی که توی جلسه روزانه مطرح می‌شه اینه که امروز چه پیشرفت‌ها و چه مشکلاتی داشتین و برنامه‌تون برای فردا چیه</span>
-  6. [ ]  <span  dir="rtl" align='right'>هماهنگ کنین هر روز ساعت ۱۰ صبح (یا زودتر) با هم‌تیمی‌ات جلسه روزانه داشته باشی و کار رو به صورت pair programming با هم شروع کنین.</span>
-  7. [ ] <span  dir="rtl" align='right'>بر اساس این که توی کدوم دوره پذیرفته شدی، [برنامه مهندسی نرم‌افزار](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Summer1400/SoftwareEngineeringPlan.md) یا [برنامه فرانت‌اند](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Summer1400/FrontendPlan.md) رو باز کن و این صفحه رو توی مرورگرت بوک‌مارک کن چون از این به بعد خیلی به این صفحه میای.</span>
-  8. [ ] با هم تیمی ات فاز اول مهندسی نرم‌افزار یا فرانت‌اند رو بر اساس برنامه شروع کن.
+  6. [ ]  <span  dir="rtl" align='right'>هماهنگ کنین هر روز ساعت ۱۰ صبح (یا زودتر) با هم‌تیمی‌ات جلسه روزانه داشته باشی و کار رو به صورت pair programming با هم شروع کنین</span>
+  7. [ ] <span  dir="rtl" align='right'>بر اساس این که توی کدوم دوره پذیرفته شدی، [برنامه مهندسی نرم‌افزار](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Summer1400/SoftwareEngineeringPlan.md) یا [برنامه فرانت‌اند](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Summer1400/FrontendPlan.md) رو باز کن و این صفحه رو توی مرورگرت بوک‌مارک کن چون از این به بعد خیلی به این صفحه میای</span>
+  8. [ ] با هم تیمی ات فاز اول مهندسی نرم‌افزار یا فرانت‌اند رو بر اساس برنامه شروع کن
 
   9. [ ] <span  dir="rtl" align='right'> وقتی کار‌های روز اول رو انجام دادی لیبل "Day 1- Complete Label" رو به ایشوت بزن </span>
      </div>
