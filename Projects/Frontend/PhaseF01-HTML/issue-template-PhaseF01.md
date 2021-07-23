@@ -3,11 +3,9 @@ Click on "Raw" button on right side of this page to see original markdown then c
 
 - [ ] Introduction
 - [ ] Learning
-
   - [ ] Semantic Elements
   - [ ] Text Formatting Elements
   - [ ] Images
-
 - [ ] Project
   - [ ] Landing
   - [ ] Signup

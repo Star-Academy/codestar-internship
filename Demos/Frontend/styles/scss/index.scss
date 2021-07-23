@@ -49,7 +49,13 @@ body {
   display: flex;
   flex-direction: column;
 
+  box-sizing: content-box;
+
   min-height: 100vh;
+  max-width: 120rem;
+
+  margin: auto;
+  padding: 0 var(--density--larger);
 }
 
 main {
@@ -95,10 +101,14 @@ button {
 
 label {
   @include typography.apply('subtitle2');
+
+  cursor: pointer;
 }
 
 input,
 textarea {
+  padding: var(--density--small) var(--density--normal);
+
   @include typography.apply('body2');
 }
 
