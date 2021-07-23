@@ -1,4 +1,4 @@
-This issue template is based of [Phase08-csharp.md](./Phase08-CSharp.md) contents.
+This issue template is based of [Phase08-EFCore.md](./Phase08-EFCore.md) contents.
 Click on "Raw" button on right side of this page to see original markdown then create a new issue with original content of this tasklist:
 
 - [ ] Implement Past project with EfCore in C#

@@ -1,4 +1,4 @@
-This issue template is based of [Phase10-Elasticsearch.md](./Phase10-NEST.md) contents.
+This issue template is based of [Phase10-NEST.md](./Phase10-NEST.md) contents.
 Click on "Raw" button on right side of this page to see original markdown then create a new issue with original content of this tasklist:
 
 
