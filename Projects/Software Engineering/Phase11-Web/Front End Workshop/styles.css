@@ -1,0 +1,119 @@
+@font-face {
+    font-family: IranSans;
+    src: url("./fonts/IRANSansWeb.woff");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Yekan;
+    src: url("./fonts/yekan.eot");
+    src: url("./fonts/yekan.eot?#iefix") format("embedded-opentype"),
+        url("./fonts/yekan.woff") format("woff"),
+        url("./fonts/yekan.ttf") format("truetype");
+    font-weight: normal;
+    unicode-range: U+30-39;
+}
+
+@font-face {
+    font-family: Nastaligh;
+    src: url("./fonts/Far_Nastaliq.ttf");
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: Yekan, IranSans, Arial, Helvetica, sans-serif;
+}
+
+.site-name {
+    font-family: Nastaligh, Arial, Helvetica, sans-serif;
+    color: #F78577;
+    font-size: 38px;
+    padding: 0 10px;
+    float: right;
+}
+
+body {
+    direction: rtl;
+}
+
+img.icon {
+    float: right;
+}
+
+.menu {
+    height: 40px;
+    line-height: 40px;
+    background: #283E49;
+}
+
+.menu>.menu-item {
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    margin: 0 5px;
+    color: #E4E3DF;
+    border-left: 1px solid #E4E3DF;
+    border-right: 1px solid #E4E3DF;
+    padding: 0 10px;
+}
+
+.menu>.menu-item:hover {
+    background: #E4E3DF;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.search-wrapper {
+    text-align: center;
+    background: #627077;
+    padding: 10px 0;
+}
+
+.search-input {
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 15px;
+    padding: 0 10px;
+    outline: none;
+}
+
+.slider-photo {
+    width: 100%;
+    height: 663px;
+    background-position: center;
+    background-size: cover;
+    transition: background-image 1s ease-in;
+}
+
+.tour-card {
+    width: 334px;
+    height: 400px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(218, 218, 218);
+}
+
+.tour-card>img {
+    width: 100%;
+    height: 250px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.price-tag {
+    background: #516B39;
+    color: white;
+    padding: 5px;
+}

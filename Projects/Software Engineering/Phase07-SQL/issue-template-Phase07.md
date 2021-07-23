@@ -1,0 +1,45 @@
+This issue template is based of [Phase07-SQL.md](./Phase07-SQL.md) contents.
+Click on "Raw" button on right side of this page to see original markdown then create a new issue with original content of this tasklist:
+
+
+- [ ] Section 1: Read the introduction to SQL.
+- [ ] Section 2: Understand basic concepts.
+- [ ] Section 3: Install required softwares
+    - [ ] Download SQL Server
+    - [ ] Download Azure Data Studio
+    - [ ] Install SQL Server using guidance in the document
+    - [ ] Install ADS
+    - [ ] Run ADS and create connection to the SQL Server instance
+    - [ ] Check if SQL Server is running by connecting through ADS
+- [ ] Section 4: Create your own database
+- [ ] Section 5: Get familiar with different data types in SQL Server
+    - [ ] Write a suitable data type for each of the fields below:
+        - `[FILL HERE]` for flight time
+        - `[FILL HERE]` for email address
+        - `[FILL HERE]` for a boolean variable
+        - `[FILL HERE]` for stature 
+- [ ] Section 6: Store some data
+    - [ ] Create a table with arbitrary columns with data types you learned in previous section
+    - [ ] Insert some sample data into your table
+    - [ ] Retrieve your data with different `SELECT` statement and different conditions
+    - [ ] Try to change at least one of your table columns attributes using `ALTER` statement
+- [ ] Section 7: Perceive the importance and usage of each keys
+    - [ ] Add primary key constraint to your table
+    - [ ] Try inserting different values for primary key and check whether it produces error or not
+        - Try inserting duplicate primary key. Error [ ]
+        - Try inserting `NULL` primary key. Error [ ]
+    - [ ] Create a new table which is related to your existing table with a foreign key
+    - [ ] Try inserting different values for foreign key to produce different errors
+        - Try inserting none existing foreign key. Error [ ]
+        - Try inserting duplicate foreign key. Error [ ]
+        - Try inserting `NULL` foreign key. Error [ ]
+- [ ] Section 8: Try writing a if clause using a variable
+- [ ] Section 9: Perceive different types of join
+    - [ ] Write the corresponding sets operation for each join like the given example
+        - A Inner Join B : A ∩ B
+        - A Left Outer Join B : `[FILL HERE]`
+        - A Right Outer Join B : `[FILL HERE]`
+        - A Full Outer Join B : `[FILL HERE]`
+    - [ ] Test different joins on you tables
+- [ ] Section 10: Work with functions
+    - [ ] Write a query for each present function in the document

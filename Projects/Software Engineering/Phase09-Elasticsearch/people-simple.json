@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Ali",
+        "last_name": "Mohammad",
+        "age": 50  
+    },
+    {
+        "name": "Reza",
+        "last_name": "Rezaei",
+        "age": 12  
+    },
+    {
+        "name": "Mohamad Reza",
+        "last_name": "Mohammadi",
+        "age": 32 
+    },
+    {
+        "name": "Mohammad Hossein",
+        "last_name": "Mostmand",
+        "age": 23  
+    },
+    {
+        "name": "Ahmad",
+        "last_name": "Salimi",
+        "age": 20
+    }
+]
