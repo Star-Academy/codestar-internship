@@ -1,0 +1,124 @@
+:root {
+  --font-size-h1: 7.2rem;
+  --font-weight-h1: 300;
+  --font-size-h2: 6rem;
+  --font-weight-h2: 300;
+  --font-size-h3: 4.8rem;
+  --font-weight-h3: 400;
+  --font-size-h4: 3.4rem;
+  --font-weight-h4: 400;
+  --font-size-h5: 2.4rem;
+  --font-weight-h5: 400;
+  --font-size-h6: 2rem;
+  --font-weight-h6: 700;
+  --font-size-subtitle1: 1.6rem;
+  --font-weight-subtitle1: 400;
+  --font-size-subtitle2: 1.4rem;
+  --font-weight-subtitle2: 700;
+  --font-size-body1: 1.6rem;
+  --font-weight-body1: 400;
+  --font-size-body2: 1.4rem;
+  --font-weight-body2: 400;
+  --font-size-button: 1.4rem;
+  --font-weight-button: 700;
+  --font-size-caption: 1.2rem;
+  --font-weight-caption: 400;
+  --font-size-overline: 1rem;
+  --font-weight-overline: 400;
+}
+
+:root {
+  --rounded-corner-border-radius--small: 0.5rem;
+  --rounded-corner-border-radius--large: 1rem;
+}
+
+/**************** SHAPES **************/
+/************** VARIABLES *************/
+/*************** BUTTONS **************/
+:root {
+  --color-margin: #ad8052;
+  --color-border: #e3c381;
+  --color-padding: #b7c47f;
+  --color-content: #87b2bc;
+}
+
+body > article.box-model section.figure {
+  display: grid;
+  place-items: center;
+}
+body > article.box-model section.figure h3 {
+  width: 100%;
+}
+body > article.box-model section.figure .model {
+  --size: 32rem;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+body > article.box-model section.figure .model,
+body > article.box-model section.figure .model > * {
+  box-sizing: content-box;
+  width: var(--size);
+  height: var(--size);
+  padding: var(--density--normal);
+}
+body > article.box-model section.figure .model > * {
+  position: absolute;
+  font-size: var(--font-size-body1);
+  font-weight: var(--font-weight-body1);
+}
+body > article.box-model section.figure .model .margin {
+  background-color: var(--color-margin);
+}
+body > article.box-model section.figure .model .margin::after {
+  content: "margin";
+}
+body > article.box-model section.figure .model .border {
+  --size: 24rem;
+  background-color: var(--color-border);
+}
+body > article.box-model section.figure .model .border::after {
+  content: "border";
+}
+body > article.box-model section.figure .model .padding {
+  --size: 16rem;
+  background-color: var(--color-padding);
+}
+body > article.box-model section.figure .model .padding::after {
+  content: "padding";
+}
+body > article.box-model section.figure .model .content {
+  --size: 8rem;
+  background-color: var(--color-content);
+}
+body > article.box-model section.figure .model .content::after {
+  content: "content";
+}
+body > article.box-model section.box-sizing .boxes {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+body > article.box-model section.box-sizing .boxes .box {
+  --size: 20rem;
+  background-color: var(--color-content);
+  box-shadow: inset 0 0 0 2rem var(--color-padding);
+  display: grid;
+  place-items: center;
+  width: var(--size);
+  height: var(--size);
+  margin: auto;
+  padding: 2rem;
+  border: 0.5rem solid var(--color-border);
+  font-size: var(--font-size-body1);
+  font-weight: var(--font-weight-body1);
+}
+body > article.box-model section.box-sizing .boxes .border-box {
+  box-sizing: border-box;
+}
+body > article.box-model section.box-sizing .boxes .content-box {
+  box-sizing: content-box;
+}
+
+/*# sourceMappingURL=PhaseF02-CSS.css.map */
