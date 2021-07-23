@@ -1,5 +1,4 @@
-This issue template is based of [Phase01-Search.md](./Phase01-Search.md) contents.
-Click on "Raw" button on right side of this page to see original markdown then create a new issue per team (two interns) in [this repo](https://github.com/Star-Academy/codestar-intern-issues/issues) with original content of tasklist below. Your issue title should be like this: `SE-Phase01-Team5`
+This issue template is based of [Phase01-Search.md](./Phase01-Search.md) contents. Go to [Issue Repo](https://github.com/Star-Academy/codestar-intern-issues/issues/new/choose) and click on Get started for this phase.
 
 
 - [ ] Section 1: Think individually about question i & ii before starting

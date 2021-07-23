@@ -1,5 +1,4 @@
-This issue template is based of [Phase04-csharp.md](./Phase04-CSharp.md) contents.
-Click on "Raw" button on right side of this page to see original markdown then create a new issue with original content of this tasklist:
+This issue template is based of [Phase04-csharp.md](./Phase04-CSharp.md) contents. Go to [Issue Repo](https://github.com/Star-Academy/codestar-intern-issues/issues/new/choose) and click on Get started for this phase.
 
 - [ ] Section 1: Install **Requirements**
 

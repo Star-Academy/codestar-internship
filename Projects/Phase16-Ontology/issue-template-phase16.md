@@ -1,5 +1,4 @@
-This issue template is based of [Phase16-Ontology.md](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Phase16-Ontology/Phase16-Ontology.md) contents.
-Click on "Raw" button on right side of this page to see original markdown then create a new issue with orginal content of this tasklist:
+This issue template is based of [Phase16-Ontology.md](./Phase16-Ontology.md) contents.  Go to [Issue Repo](https://github.com/Star-Academy/codestar-intern-issues/issues/new/choose) and click on Get started for this phase.
 
 
 - [ ] Section 1: Read about **Ontology**
