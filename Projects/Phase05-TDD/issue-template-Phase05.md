@@ -28,8 +28,8 @@ Link of other PR(s) you agreed to review:
 
 - [ ] Your own PR is reviewed and approved by at least one other team.
 
-- [ ] Your own PR is reviewed and approved by mentor (hamyar).
+- [ ] Your own PR is reviewed and approved by mentor (mentor 2).
 
-- [ ] Your own PR is reviewed and approved by manager (rahbar).
+- [ ] Your own PR is reviewed and approved by manager (mentor 1).
 
 - [ ] Your own PR is merged.
