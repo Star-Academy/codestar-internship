@@ -30,7 +30,7 @@
 
 
 1. یکی از تیم‌های دیگر را انتخاب کنید و از آن‌ها بخواهید Pull Requestی که در مرحله‌ی قبل ساخته‌اید را Review کنند و بر اساس لیست Code Smellهای مرحله‌ی  4 به شما فیدبک بدهند (روی Pull Request کامنت بگذارند)، در این مرحله حتما از تیم‌های دیگر هم سراغ شما می‌آیند و می‌خواهند کدشان را Review کنید، قبل از Review کد دیگران یکی از دو راهنمای زیر را مطالعه کنید و Review خود را بر اساس این راهنما انجام دهید:
-    - اگر وقت شما کم هست و از بقیه تیم‌ها عقب تر هستید نسخه خلاصه را بخوانید: [Effective Code Reviews: Code Review Checklist](https://nyu-cds.github.io/effective-code-reviews/03-checklist/)
+    - اگر وقت شما کم هست و از بقیه تیم‌ها عقب تر هستید نسخه خلاصه را بخوانید: [Effective Code Reviews: Code Review Checklist](https://github.com/nyu-cds/effective-code-reviews/blob/master/_episodes/03-checklist.md)
 
     - اگر وقت شما بیشتر است و از بقیه تیم‌ها جلوتر هستید نسخه جامع (راهنمای Review شرکت گوگل)  را بخوانید:
     [What to look for in a code review | eng-practices](https://google.github.io/eng-practices/review/reviewer/looking-for.html) (CL stands for Code Line)
