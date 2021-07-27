@@ -425,12 +425,6 @@ git checkout <branch-name>
 
 عموماً از برنچ‌ها برای مدیریت دسترسی و حفاظت از شاخۀ اصلی استفاده می‌شود.
 
-<div dir=ltr align="center">
-
-![multiple branches relationship](https://github.com/Star-Academy/codestar-internship/blob/general/git/Projects/General/PhaseG01-Git/Images/multiple-branches-relationship.png)
-
-</div>
-
 #### ادغام برنچ‌ها
 
 برای ادغام `first-branch` با `second-branch` ابتدا به `second-branch` میرویم و سپس با استفاده از دستور `merge`، محتویات شاخۀ `first-branch` را به شاخۀ `second-branch` نیز منتقل می‌کنیم:
