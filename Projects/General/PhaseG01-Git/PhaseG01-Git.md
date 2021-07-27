@@ -38,7 +38,7 @@ VCS به شما این امکان را می‌دهد که فایل‌های ان
 
 ---
 
-##نصب
+## نصب
 
 برای استفاده از امکانات Git در محیط Terminal یا CMD، باید برنامه‌ی
 [Git](https://git-scm.com/downloads)
@@ -62,7 +62,7 @@ VCS به شما این امکان را می‌دهد که فایل‌های ان
 
 ## یادگیری
 
-###وضعیت داده‌ها در گیت
+### وضعیت داده‌ها در گیت
 
 اطلاعات درون گیت می‌توانند سه وضعیت داشته باشند: ویرایش شده، استیج شده و کامیت شده.
 
@@ -72,7 +72,7 @@ VCS به شما این امکان را می‌دهد که فایل‌های ان
 
  <div dir=ltr align="center">
 
-![The lifecycle of the status of your files](https://github.com/Star-Academy/codestar-internship/tree/master/Projects/General/PhaseG01-Git/Images/status-lifecycle.png)
+![The lifecycle of the status of your files](https://github.com/Star-Academy/codestar-internship/blob/general/git/Projects/General/PhaseG01-Git/Images/status-lifecycle.png)
 
 </div>
 
@@ -90,11 +90,11 @@ VCS به شما این امکان را می‌دهد که فایل‌های ان
 
 ---
 
-###ایجاد پروژه
+### ایجاد پروژه
 
 برای ایجاد پروژه می‌توان یکی از دو مسیر زیر را دنبال کرد:
 
-####تبدیل یک پوشه محلی به مخزن گیت
+#### تبدیل یک پوشه محلی به مخزن گیت
 
 1. یک پوشۀ جدید ایجاد کنید
 2. Terminal یا CMD را باز کرده و به پوشه مورد نظر وارد شوید
@@ -103,13 +103,13 @@ VCS به شما این امکان را می‌دهد که فایل‌های ان
 <div dir=ltr>
 
 ```shell
-cd /your/project/path
+cd "/your/project/path"
 git init
 ```
 
 </div>
 
-####نسخه برداری(clone) از یک مخزن موجود
+#### نسخه برداری(clone) از یک مخزن موجود
 
 1. وارد یکی از سرورهای گیت (Github، Gitlab، Microsoft Azure یا ...) شوید
 2. لینک یک مخزن را کپی کنید
@@ -120,7 +120,7 @@ git init
 <div dir=ltr>
 
 ```shell
-cd /your/project/path
+cd "/your/project/path"
 git clone https://example.come/repository
 ```
 
@@ -136,7 +136,7 @@ git clone https://example.come/repository
 
 ---
 
-###اعمال تغییرات
+### اعمال تغییرات
 
 برای آگاهی از وضعیت فایل‌ها از دستور زیر استفاده می‌شود که فایل‌های ویرایش شده و استیج شده را به شما نمایش می‌دهد:
 
@@ -153,7 +153,7 @@ git status
 <div dir=ltr>
 
 ```shell
-git add "some-file-name.ext"
+git add <some-file-name.ext>
 git add .
 ```
 
@@ -197,7 +197,7 @@ git log --oneline
 
 </div>
 
-###بازگرداندن تغییرات
+### بازگرداندن تغییرات
 
 همانگونه که پیشتر گفته شد یکی از مزایای استفاده از ابزارهای کنترل نسخه امکان بازگشت به عقب و اصلاح اشتباهات است، در این قسمت به راه‌حل‌های موجود می‌پردازیم.
 
@@ -222,7 +222,7 @@ git commit -m "new description" --amend
 <div dir=ltr>
 
 ```bash
-git restore --staged "some-file-name.ext"
+git restore --staged <some-file-name.ext>
 ```
 
 </div>
@@ -233,7 +233,7 @@ git restore --staged "some-file-name.ext"
 <div dir=ltr>
 
 ```shell
-git restore "some-file-name.ext"
+git restore <some-file-name.ext>
 ```
 
 </div>
@@ -268,7 +268,7 @@ git restore "some-file-name.ext"
 
 </div>
 
-###ریموت
+### ریموت
 
 برای اینکه بتوانید در هر پروژهٔ گیت همکاری کنید، دانستن شیوهٔ مدیریت مخزن‌های ریموت لازم است.
 مخازن ریموت یک نسخه از پروژهٔ شما هستند که در اینترنت یا جایی دیگر در شبکه قرار دارند.
@@ -356,17 +356,17 @@ git remote remove <name>
 
 </div>
 
-###شاخه
+### شاخه
 
 شاخه (branch) یا شعبه‌سازی (Branching) به این معناست که شما از مسیر اصلی توسعه جدا شده و بدون ایجاد تغییر در مسیر اصلی، به ادامهٔ کار بپردازید.
 
 <div dir=ltr align="center">
 
-![commit tree](https://github.com/Star-Academy/codestar-internship/tree/master/Projects/General/PhaseG01-Git/Images/commit-tree.png)
+![commit tree](https://github.com/Star-Academy/codestar-internship/blob/general/git/Projects/General/PhaseG01-Git/Images/commit-tree.png)
 
 </div>
 
-####دستور کامیت چه کاری انجام می‌دهد؟
+#### دستور کامیت چه کاری انجام می‌دهد؟
 
 وقتی یک کامیت می‌سازید، گیت یک آبجکت کامیت را که شامل یک نشانگری به اسنپ‌شات دربرگیرندهٔ اطلاعات صحنهٔ شماست، ذخیره می‌کند.
 این آبجکت همچنین شامل نام نویسنده، آدرس ایمیل او، پیغامی که وارد کرده
@@ -377,18 +377,18 @@ git remote remove <name>
 گیت تمام زیرپوشه‌ها را چک‌سام می‌کند و آن‌ها را به عنوان یک آبجکت درخت در مخزنش ذخیره می‌کند.
 سپس یک کامیت آبجکت، شامل متادیتا و نشانگری به ریشۀ درخت پروژه، می‌سازد تا بتواند اسنپ‌شات پروژه را هنگامی که نیاز بود بازسازی کند.
 
-####برنچ در عمل چیست؟
+#### برنچ در عمل چیست؟
 
 برنچ یک نشانگر سبک‌وزن قابل انتقال به یکی از کامیت‌هاست.
 نام پیش‌‌فرض برنچ در گیت master یا main است.
 همچنان که کامیت می‌سازید، یک برنچ master برایتان ساخته می‌شود که به آخرین کامیتی که ساخته‌اید اشاره می‌کند.
 هر بار که کامیت می‌کنید نشانگر برنچ master به طور خودکار به جلو حرکت می‌کند.
 
-####چگونه گیت می‌داند که روی چه شاخه‌ای کار می‌کنید؟
+#### چگونه گیت می‌داند که روی چه شاخه‌ای کار می‌کنید؟
 
 گیت نشانگر خاصی به نام HEAD را در خود دارد. هد نشانگری است که به برنچ محلی که روی آن هستید اشاره می‌کند.
 
-####ساختن برنچ جدید
+#### ساختن برنچ جدید
 
 برای ساخت یک برنچ جدید (اشاره‌گر به مکان کنونی HEAD) کافی است از دستور زیر استفاده کنید
 تا یک برنچ جدید با نام دلخواه برای شما ساخته شود:
@@ -401,7 +401,7 @@ git branch <branch-name>
 
 </div>
 
-####تعویض برنچ‌ها
+#### تعویض برنچ‌ها
 
 برای تعویض یا جابه‌جایی به یک برنچ از پیش ساخته شده، می‌توانید دستور زیر را اجرا کنید:
 
@@ -413,17 +413,17 @@ git checkout <branch-name>
 
 </div>
 
-####مزیت استفاده از برنچ‌ها
+#### مزیت استفاده از برنچ‌ها
 
 عموماً از برنچ‌ها برای مدیریت دسترسی و حفاظت از شاخۀ اصلی استفاده می‌شود.
 
 <div dir=ltr align="center">
 
-![multiple branches relationship](https://github.com/Star-Academy/codestar-internship/tree/master/Projects/General/PhaseG01-Git/Images/multiple-branches-relationship.png)
+![multiple branches relationship](https://github.com/Star-Academy/codestar-internship/blob/general/git/Projects/General/PhaseG01-Git/Images/multiple-branches-relationship.png)
 
 </div>
 
-####ادغام برنچ‌ها
+#### ادغام برنچ‌ها
 
 برای ادغام `first-branch` با `second-branch` ابتدا به `second-branch` میرویم و سپس با استفاده از دستور `merge`، محتویات شاخۀ `first-branch` را به شاخۀ `second-branch` نیز منتقل می‌کنیم:
 
