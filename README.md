@@ -9,4 +9,8 @@
 * برای شروع انجام فاز جدید پروژه به [ریپوی ایشو ها](https://github.com/Star-Academy/codestar-intern-issues) بروید
 
 
+* جدید: اگر با گیت آشنا نیستید [این مستند](./Projects/General/PhaseG01-Git/PhaseG01-Git.md) را بخوانید
+
+* برای بهتر کردن مستندات کداستار می‌توانید بر اساس [راهنمای مشارکت کنندگان](CONTRIBUTING.md) به بهبود مستندات کمک کنید
+
 </div>
