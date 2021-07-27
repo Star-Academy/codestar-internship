@@ -197,6 +197,8 @@ git log --oneline
 
 </div>
 
+---
+
 ### بازگرداندن تغییرات
 
 همانگونه که پیشتر گفته شد یکی از مزایای استفاده از ابزارهای کنترل نسخه امکان بازگشت به عقب و اصلاح اشتباهات است، در این قسمت به راه‌حل‌های موجود می‌پردازیم.
@@ -246,6 +248,8 @@ git restore <some-file-name.ext>
 
 </div>
 
+---
+
 ### gitignore
 
 در بسیاری از تکنولوژی‌ها برای نگهداری اطلاعات حساس
@@ -267,6 +271,8 @@ git restore <some-file-name.ext>
 - [Create useful .gitignore files for your project](https://www.toptal.com/developers/gitignore)
 
 </div>
+
+---
 
 ### ریموت
 
@@ -355,6 +361,8 @@ git remote remove <name>
 - [Git Basics - Working with Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
 
 </div>
+
+---
 
 ### شاخه
 
