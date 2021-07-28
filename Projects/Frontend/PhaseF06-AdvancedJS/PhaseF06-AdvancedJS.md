@@ -17,7 +17,7 @@
 <div dir="ltr">
   
   ```javascript
-  Document.cookies = "username=codestar; password=1234; expires=Wed, 25 Aug 2021 21:08:53 GMT; path=/link.html"
+  document.cookies = "username=codestar; password=1234; expires=Wed, 25 Aug 2021 21:08:53 GMT; path=/link.html"
   ```
   
   </div>
