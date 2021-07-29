@@ -1,6 +1,6 @@
 <div dir="rtl" align='justify'>
 
-[لیست تسک‌های مرتبط با این فاز به صورت issue template](./issue-template-Phase03.md)
+[لیست تسک‌های مرتبط با این فاز به صورت issue template](./issue-template-PhaseF07.md)
 
 # فاز هفتم: Unit Test
 
@@ -200,6 +200,27 @@ karma ابزاری node-base است که میتوانید با استفاده ا
     karma start
     ```
     </div>
+### ابزارهای تست نویسی
+تا اینجا با مفاهیم تست‌نویسی آشنا شدید و پس از آن یک محیط توسعه برای آموزش تست نویسی ایجاد کردید. در ادامه میخواهیم با ابزارهای تست نویسی آشنا شویم و آنها را دقیق تر بررسی کنیم. در ابتدا درباره `Building Blocks of Test` مطالعه نمایید.
+
+میتوانید [این مستند](https://www.tutorialspoint.com/jasminejs/jasminejs_building_blocks_of_test.htm) را مطالعه نمایید.
+
+حالا که با `Suite Block` آشنا شدید درباره `Matchers` تحقیق نمایید.
+
+میتوانید [این مستند](https://www.tutorialspoint.com/jasminejs/jasminejs_matchers.htm) را مطالعه نمایید.
+
+انوع مختلف `Matcher` وجود دارد. میتوانید برای آشنایی بیشتر با آنها مجموعه سندهای زیر را مطالعه نمایید:
+
+<div dir="ltr">
+
+- [Equality Check](https://www.tutorialspoint.com/jasminejs/jasminejs_equality_check.htm)
+- [Boolean Check](https://www.tutorialspoint.com/jasminejs/jasminejs_boolean_check.htm)
+- [Sequential Check](https://www.tutorialspoint.com/jasminejs/jasminejs_sequential_check.htm)
+- [Null Check](https://www.tutorialspoint.com/jasminejs/jasminejs_null_check.htm)
+- [Inequality Check](https://www.tutorialspoint.com/jasminejs/jasminejs_inequality_check.htm)
+- [Not a Number Check](https://www.tutorialspoint.com/jasminejs/jasminejs_not_number_check.htm)
+- [Exception Check](https://www.tutorialspoint.com/jasminejs/jasminejs_exception_check.htm)
+</div>
 
 
 </div>
