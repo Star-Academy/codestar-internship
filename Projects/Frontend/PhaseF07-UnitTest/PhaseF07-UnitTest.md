@@ -222,5 +222,11 @@ karma ابزاری node-base است که میتوانید با استفاده ا
 - [Exception Check](https://www.tutorialspoint.com/jasminejs/jasminejs_exception_check.htm)
 </div>
 
+درباره `beforeEach` و `afterEach` مطالعه نمایید. میتوانید از مجموعه لینک زیر استفاده نمایید:
+<div dir="ltr">
+
+- [beforeEach](https://www.tutorialspoint.com/jasminejs/jasminejs_beforeeach.htm)
+- [afterEach](https://www.tutorialspoint.com/jasminejs/jasminejs_aftereach.htm)
+</div>
 
 </div>
