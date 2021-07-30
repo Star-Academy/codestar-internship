@@ -169,7 +169,7 @@ karma ابزاری node-base است که میتوانید با استفاده ا
     1. در این قسمت فایل هایی که نمیخواهید در karma استفاده کنید را انتخاب کنید.
     1. در آخرین سوالی که از شما پرسیده میشود باید مشخص کنید آیا مایل هستید درصورتی که فایل هایتان تغییر کرد، تست‌ها به صورت خودکار دوباره اجرا شوند یا خیر. گزینه `yes` را انتخاب نمایید.
     
-    میتوانید برای کسب اطلاعات بیشتر درباره نصب و راه‌اندازی karma [این مستند](https://www.softwaretestinghelp.com/karma-test-runner-tutorial/) را مطالعه نمایید.
+    میتوانید برای کسب اطلاعات بیشتر درباره نصب و راه‌اندازی karma [این سند](https://www.softwaretestinghelp.com/karma-test-runner-tutorial/) را مطالعه نمایید.
 
 ### اجرای نمونه تست
 در این قسمت یک فایل `javascript` مینویسیم و برای آن تست طراحی میکنیم.
@@ -201,13 +201,13 @@ karma ابزاری node-base است که میتوانید با استفاده ا
     ```
     </div>
 ### ابزارهای تست نویسی
-تا اینجا با مفاهیم تست‌نویسی آشنا شدید و پس از آن یک محیط توسعه برای آموزش تست نویسی ایجاد کردید. در ادامه میخواهیم با ابزارهای تست نویسی آشنا شویم و آنها را دقیق تر بررسی کنیم. در ابتدا درباره `Building Blocks of Test` مطالعه نمایید.
+تا اینجا با مفاهیم تست‌نویسی آشنا شدید و پس از آن یک محیط توسعه برای آموزش تست نویسی ایجاد کردید. در ادامه میخواهیم با ابزارهای تست نویسی آشنا شویم و آنها را دقیق‌تر بررسی کنیم. در ابتدا درباره `Building Blocks of Test` مطالعه نمایید.
 
-میتوانید [این مستند](https://www.tutorialspoint.com/jasminejs/jasminejs_building_blocks_of_test.htm) را مطالعه نمایید.
+میتوانید [این سند](https://www.tutorialspoint.com/jasminejs/jasminejs_building_blocks_of_test.htm) را مطالعه نمایید.
 
 حالا که با `Suite Block` آشنا شدید درباره `Matchers` تحقیق نمایید.
 
-میتوانید [این مستند](https://www.tutorialspoint.com/jasminejs/jasminejs_matchers.htm) را مطالعه نمایید.
+میتوانید [این سند](https://www.tutorialspoint.com/jasminejs/jasminejs_matchers.htm) را مطالعه نمایید.
 
 انوع مختلف `Matcher` وجود دارد. میتوانید برای آشنایی بیشتر با آنها مجموعه سندهای زیر را مطالعه نمایید:
 
@@ -229,4 +229,17 @@ karma ابزاری node-base است که میتوانید با استفاده ا
 - [afterEach](https://www.tutorialspoint.com/jasminejs/jasminejs_aftereach.htm)
 </div>
 
+در بخش اول درباره مفهوم `Mock` آشنا شدید. حال درباره `Spies` مطالعه کنید و سعی کنید از آن در پروژه خود استفاده نمایید. همچنین میتوانید برای آشنایی با `Spies` [این سند](https://www.tutorialspoint.com/jasminejs/jasminejs_spies.htm) را مطالعه نمایید.
+
+حال که با مفاهیم تست‌نویسی و ابزارهای آن آشنا شده‌اید سعی کنید برای پروژه `spotify` تست‌نویسی کنید. همچنین سعی کنید تست‌های خود را با `code coverage` بالای 90 درصد بنویسید.
+
+برای بررسی `code coverage` ابتدا کامند زیر را وارد کنید:
+<div dir="ltr">
+
+```
+npm install karma-coverage --save-dev
+```
+</div>
+
+و سپس فایل `karma.conf.js` را با استفاده از [این سند](https://karma-runner.github.io/0.8/config/coverage.html) تغییر دهید.
 </div>
