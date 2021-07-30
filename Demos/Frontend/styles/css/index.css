@@ -128,7 +128,6 @@ a {
 body {
   display: flex;
   flex-direction: column;
-  box-sizing: content-box;
   min-height: 100vh;
   max-width: 120rem;
   margin: auto;
@@ -180,6 +179,7 @@ button {
   padding: var(--density--small) var(--density--normal);
   font-size: var(--font-size-button);
   font-weight: var(--font-weight-button);
+  cursor: pointer;
 }
 
 label {

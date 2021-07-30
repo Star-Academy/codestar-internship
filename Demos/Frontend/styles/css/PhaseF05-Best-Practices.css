@@ -1,0 +1,365 @@
+:root {
+  --font-size-h1: 7.2rem;
+  --font-weight-h1: 300;
+  --font-size-h2: 6rem;
+  --font-weight-h2: 300;
+  --font-size-h3: 4.8rem;
+  --font-weight-h3: 400;
+  --font-size-h4: 3.4rem;
+  --font-weight-h4: 400;
+  --font-size-h5: 2.4rem;
+  --font-weight-h5: 400;
+  --font-size-h6: 2rem;
+  --font-weight-h6: 700;
+  --font-size-subtitle1: 1.6rem;
+  --font-weight-subtitle1: 400;
+  --font-size-subtitle2: 1.4rem;
+  --font-weight-subtitle2: 700;
+  --font-size-body1: 1.6rem;
+  --font-weight-body1: 400;
+  --font-size-body2: 1.4rem;
+  --font-weight-body2: 400;
+  --font-size-button: 1.4rem;
+  --font-weight-button: 700;
+  --font-size-caption: 1.2rem;
+  --font-weight-caption: 400;
+  --font-size-overline: 1rem;
+  --font-weight-overline: 400;
+}
+
+:root {
+  --rounded-corner-border-radius--small: 0.5rem;
+  --rounded-corner-border-radius--large: 1rem;
+}
+
+/**************** SHAPES **************/
+/************** VARIABLES *************/
+/*************** BUTTONS **************/
+* {
+  transition: all 0.5s ease-out;
+}
+
+body {
+  padding-bottom: var(--density--larger);
+}
+body > nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--density--large);
+}
+body > nav ul li {
+  display: contents;
+}
+body > nav ul li a {
+  background-color: var(--color-gray-95);
+  flex: 1 0 25rem;
+  padding: var(--density--large);
+  font-size: var(--font-size-subtitle1);
+  font-weight: var(--font-weight-subtitle1);
+}
+body > nav ul li a:hover {
+  background-color: var(--color-gray-90);
+}
+body > button {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+}
+body article.white-space ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+body article.white-space ul li {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+body article.white-space ul li button {
+  background-color: var(--color-primary--idle);
+  color: var(--color-gray-98);
+  margin-top: auto;
+  border: none;
+  border-radius: 0;
+}
+body article.white-space ul li button:hover {
+  background-color: var(--color-primary--hover);
+}
+body article.white-space:not(.fixed) * {
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
+}
+body article.white-space.fixed ul {
+  gap: var(--density--larger);
+}
+body article.white-space.fixed ul li {
+  gap: var(--density--normal);
+  padding: var(--density--large);
+}
+body article.white-space.fixed ul li h3 {
+  line-height: 100%;
+}
+body article.white-space.fixed ul li button {
+  padding: var(--density--normal);
+}
+body article.color {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  padding: var(--density--large);
+}
+body article.color form {
+  --gap: var(--density--large);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+body article.color form .fields {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap);
+}
+body article.color form .fields label {
+  flex: 1 0 40rem;
+  display: flex;
+  flex-direction: column;
+}
+body article.color form button {
+  align-self: flex-end;
+  width: max-content;
+}
+body article.color:not(.fixed) {
+  background-color: olive;
+}
+body article.color:not(.fixed) form button {
+  font-size: var(--font-size-button);
+  font-weight: var(--font-weight-button);
+  background: var(--color-danger--idle);
+  color: var(--color-white);
+  min-width: 10rem;
+  padding: var(--density--small) var(--density--normal);
+  border: none;
+  border-radius: 0;
+  text-align: center;
+  cursor: pointer;
+  transform: scale(1);
+}
+body article.color.fixed form button {
+  font-size: var(--font-size-button);
+  font-weight: var(--font-weight-button);
+  background: var(--color-primary--idle);
+  color: var(--color-white);
+  min-width: 10rem;
+  padding: var(--density--small) var(--density--normal);
+  border: none;
+  border-radius: 0;
+  text-align: center;
+  cursor: pointer;
+  transform: scale(1);
+}
+body article.contrast {
+  display: flex;
+}
+body article.contrast .left,
+body article.contrast .right {
+  padding: var(--density--large);
+}
+body article.contrast .left {
+  background-color: #293d3a;
+}
+body article.contrast .right {
+  flex: 1;
+  background-color: #1b322e;
+}
+body article.contrast .right nav {
+  display: grid;
+  grid-template-areas: "header header header" "list list list";
+}
+body article.contrast .right nav h4 {
+  grid-area: header;
+}
+body article.contrast .right nav ul {
+  grid-area: list;
+  display: flex;
+  flex-direction: column;
+  gap: var(--density--small);
+}
+body article.contrast:not(.fixed) .left h3 {
+  color: #3b5954;
+  line-height: 7rem;
+  vertical-align: baseline;
+}
+body article.contrast:not(.fixed) .left address {
+  color: #105046;
+  font-size: var(--font-size-body1);
+  font-weight: var(--font-weight-body1);
+}
+body article.contrast:not(.fixed) .right nav h4 {
+  color: #3b5954;
+  line-height: 7rem;
+  vertical-align: baseline;
+}
+body article.contrast:not(.fixed) .right nav ul li {
+  color: #105046;
+  font-size: var(--font-size-body1);
+  font-weight: var(--font-weight-body1);
+}
+body article.contrast.fixed .left h3 {
+  color: #e6fffb;
+  line-height: 7rem;
+  vertical-align: baseline;
+}
+body article.contrast.fixed .left address {
+  color: #9ba6a4;
+  font-size: var(--font-size-body1);
+  font-weight: var(--font-weight-body1);
+}
+body article.contrast.fixed .right nav h4 {
+  color: #e6fffb;
+  line-height: 7rem;
+  vertical-align: baseline;
+}
+body article.contrast.fixed .right nav ul li {
+  color: #9ba6a4;
+  font-size: var(--font-size-body1);
+  font-weight: var(--font-weight-body1);
+}
+body article.visual-hierarchy .card {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: var(--density--larger);
+  padding: var(--density--large);
+}
+body article.visual-hierarchy .card img {
+  max-width: 100%;
+  object-fit: contain;
+}
+body article.visual-hierarchy .card .info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--density--large);
+}
+body article.visual-hierarchy .card .info h2 {
+  line-height: 1;
+}
+body article.visual-hierarchy .card .info .field {
+  display: flex;
+  flex-direction: column;
+}
+body article.visual-hierarchy:not(.fixed) .card img {
+  max-width: 5rem;
+}
+body article.visual-hierarchy:not(.fixed) .card .info * {
+  font-size: var(--font-size-subtitle1);
+  font-weight: var(--font-weight-subtitle1);
+}
+body article.visual-hierarchy.fixed .card img {
+  background-color: var(--color-gray-98);
+  max-width: 20rem;
+}
+body article.visual-hierarchy.fixed .card .info .field .label {
+  color: var(--color-gray-40);
+  font-size: var(--font-size-body1);
+  font-weight: var(--font-weight-body1);
+}
+body article.visual-hierarchy.fixed .card .info .field .content {
+  color: var(--color-gray-30);
+  font-size: var(--font-size-h6);
+  font-weight: var(--font-weight-h6);
+}
+body article.alignment {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  padding: var(--density--large);
+}
+body article.alignment form {
+  --gap: var(--density--large);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+body article.alignment form .fields {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap);
+}
+body article.alignment form .fields label {
+  display: flex;
+  flex-direction: column;
+}
+body article.alignment form button {
+  font-size: var(--font-size-button);
+  font-weight: var(--font-weight-button);
+  background: var(--color-primary--idle);
+  color: var(--color-white);
+  min-width: 10rem;
+  padding: var(--density--small) var(--density--normal);
+  border: none;
+  border-radius: 0;
+  text-align: center;
+  cursor: pointer;
+  transform: scale(1);
+  align-self: flex-end;
+  width: max-content;
+}
+body article.alignment:not(.fixed) form {
+  margin-left: var(--density--larger);
+}
+body article.alignment:not(.fixed) form .fields label:nth-of-type(1) {
+  width: 40rem;
+}
+body article.alignment:not(.fixed) form .fields label:nth-of-type(2) {
+  width: 30rem;
+  margin-left: var(--density--larger);
+}
+body article.alignment:not(.fixed) form .fields label:nth-of-type(3) {
+  width: 45rem;
+  margin-left: var(--density--larger);
+}
+body article.alignment:not(.fixed) form .fields label:nth-of-type(4) {
+  width: 25rem;
+}
+body article.alignment:not(.fixed) form button {
+  margin-right: 50%;
+}
+body article.alignment.fixed form .fields label {
+  flex: 1 0 40rem;
+  width: auto;
+}
+body article.alignment.fixed form button {
+  margin-right: 0;
+}
+body article.typography {
+  display: flex;
+  flex-direction: column;
+}
+body article.typography:not(.fixed) {
+  gap: 0;
+}
+body article.typography:not(.fixed) * {
+  font-family: fantasy;
+  line-height: 100%;
+}
+body article.typography:not(.fixed) h2 {
+  letter-spacing: 5rem;
+}
+body article.typography:not(.fixed) section h3 {
+  letter-spacing: -0.2rem;
+}
+body article.typography:not(.fixed) section p {
+  max-width: 120ch;
+  letter-spacing: 0.5rem;
+  line-height: 100%;
+}
+body article.typography.fixed {
+  gap: var(--density--large);
+}
+body article.typography.fixed section h3 {
+  line-height: 100%;
+}
+body article.typography.fixed section p {
+  max-width: 60ch;
+}
+
+/*# sourceMappingURL=PhaseF05-Best-Practices.css.map */
