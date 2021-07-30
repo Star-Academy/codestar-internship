@@ -30,4 +30,5 @@ This issue template is based of [PhaseF05-Best-Practices.md](./PhaseF05-Best-Pra
     - [ ] Simplicity
 - [ ] Project
   - [ ] Code Smells
+  - [ ] Design
   - [ ] Pull Request and Code Review
