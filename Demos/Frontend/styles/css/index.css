@@ -180,6 +180,7 @@ button {
   padding: var(--density--small) var(--density--normal);
   font-size: var(--font-size-button);
   font-weight: var(--font-weight-button);
+  cursor: pointer;
 }
 
 label {

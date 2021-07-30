@@ -38,7 +38,7 @@ $defaults-transition-scale: 1.02;
   @if $ellipse {
     @include utils.ellipse;
   } @else {
-    @include utils.rounded-corners(small);
+    border-radius: 0;
   }
 
   text-align: center;
@@ -64,8 +64,13 @@ $defaults-transition-scale: 1.02;
   }
 }
 
-@mixin button--colorful($color, $scale-transition: $defaults-button-scale-transition) {
+@mixin button--colorful(
+  $color,
+  $ellipse: $defaults-button-ellipse,
+  $scale-transition: $defaults-button-scale-transition
+) {
   @include button-base(
+    $ellipse: $ellipse,
     $background--idle: var(--color-#{$color}--idle),
     $color--idle: var(--color-white),
     $background--hover: var(--color-#{$color}--hover),

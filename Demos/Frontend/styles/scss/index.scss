@@ -97,6 +97,8 @@ button {
   padding: var(--density--small) var(--density--normal);
 
   @include typography.apply('button');
+
+  cursor: pointer;
 }
 
 label {

@@ -1,0 +1,236 @@
+:root {
+  --font-size-h1: 7.2rem;
+  --font-weight-h1: 300;
+  --font-size-h2: 6rem;
+  --font-weight-h2: 300;
+  --font-size-h3: 4.8rem;
+  --font-weight-h3: 400;
+  --font-size-h4: 3.4rem;
+  --font-weight-h4: 400;
+  --font-size-h5: 2.4rem;
+  --font-weight-h5: 400;
+  --font-size-h6: 2rem;
+  --font-weight-h6: 700;
+  --font-size-subtitle1: 1.6rem;
+  --font-weight-subtitle1: 400;
+  --font-size-subtitle2: 1.4rem;
+  --font-weight-subtitle2: 700;
+  --font-size-body1: 1.6rem;
+  --font-weight-body1: 400;
+  --font-size-body2: 1.4rem;
+  --font-weight-body2: 400;
+  --font-size-button: 1.4rem;
+  --font-weight-button: 700;
+  --font-size-caption: 1.2rem;
+  --font-weight-caption: 400;
+  --font-size-overline: 1rem;
+  --font-weight-overline: 400;
+}
+
+:root {
+  --rounded-corner-border-radius--small: 0.5rem;
+  --rounded-corner-border-radius--large: 1rem;
+}
+
+/**************** SHAPES **************/
+/************** VARIABLES *************/
+/*************** BUTTONS **************/
+* {
+  transition: all 0.5s ease-out;
+}
+
+body {
+  padding-bottom: var(--density--larger);
+}
+body > nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--density--large);
+}
+body > nav ul li {
+  display: contents;
+}
+body > nav ul li a {
+  background-color: var(--color-gray-95);
+  flex: 1 0 25rem;
+  padding: var(--density--large);
+  font-size: var(--font-size-subtitle1);
+  font-weight: var(--font-weight-subtitle1);
+}
+body > nav ul li a:hover {
+  background-color: var(--color-gray-90);
+}
+body > button {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+}
+body article.white-space ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+body article.white-space ul li {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+body article.white-space ul li button {
+  background-color: var(--color-primary--idle);
+  color: var(--color-gray-98);
+  margin-top: auto;
+  border: none;
+  border-radius: 0;
+}
+body article.white-space ul li button:hover {
+  background-color: var(--color-primary--hover);
+}
+body article.white-space:not(.fixed) * {
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
+}
+body article.white-space.fixed ul {
+  gap: var(--density--larger);
+}
+body article.white-space.fixed ul li {
+  gap: var(--density--normal);
+  padding: var(--density--large);
+}
+body article.white-space.fixed ul li h3 {
+  line-height: 100%;
+}
+body article.white-space.fixed ul li button {
+  padding: var(--density--normal);
+}
+body article.color {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  padding: var(--density--large);
+}
+body article.color form {
+  --gap: var(--density--large);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+body article.color form .fields {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap);
+}
+body article.color form .fields label {
+  flex: 1 0 40rem;
+  display: flex;
+  flex-direction: column;
+}
+body article.color form button {
+  align-self: flex-end;
+  width: max-content;
+}
+body article.color:not(.fixed) {
+  background-color: olive;
+}
+body article.color:not(.fixed) form button {
+  font-size: var(--font-size-button);
+  font-weight: var(--font-weight-button);
+  background: var(--color-danger--idle);
+  color: var(--color-white);
+  min-width: 10rem;
+  padding: var(--density--small) var(--density--normal);
+  border: none;
+  border-radius: 0;
+  text-align: center;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 0.1s ease-in-out;
+}
+body article.color:not(.fixed) form button:hover {
+  background: var(--color-danger--hover);
+}
+body article.color.fixed form button {
+  font-size: var(--font-size-button);
+  font-weight: var(--font-weight-button);
+  background: var(--color-primary--idle);
+  color: var(--color-white);
+  min-width: 10rem;
+  padding: var(--density--small) var(--density--normal);
+  border: none;
+  border-radius: 0;
+  text-align: center;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 0.1s ease-in-out;
+}
+body article.color.fixed form button:hover {
+  background: var(--color-primary--hover);
+}
+body article.contrast {
+  display: flex;
+}
+body article.contrast .left,
+body article.contrast .right {
+  padding: var(--density--large);
+}
+body article.contrast .left {
+  background-color: #29363d;
+}
+body article.contrast .right {
+  flex: 1;
+  background-color: #1b2a32;
+}
+body article.contrast .right nav {
+  display: grid;
+  grid-template-areas: "header header header" "list list list";
+}
+body article.contrast .right nav h4 {
+  grid-area: header;
+}
+body article.contrast .right nav ul {
+  grid-area: list;
+  display: flex;
+  flex-direction: column;
+  gap: var(--density--small);
+}
+body article.contrast:not(.fixed) .left h3 {
+  color: #3b5059;
+  line-height: 7rem;
+  vertical-align: baseline;
+}
+body article.contrast:not(.fixed) .left address {
+  color: #104350;
+  font-size: var(--font-size-body1);
+  font-weight: var(--font-weight-body1);
+}
+body article.contrast:not(.fixed) .right nav h4 {
+  color: #3b5059;
+  line-height: 7rem;
+  vertical-align: baseline;
+}
+body article.contrast:not(.fixed) .right nav ul li {
+  color: #104350;
+  font-size: var(--font-size-body1);
+  font-weight: var(--font-weight-body1);
+}
+body article.contrast.fixed .left h3 {
+  color: #e6f7ff;
+  line-height: 7rem;
+  vertical-align: baseline;
+}
+body article.contrast.fixed .left address {
+  color: #9ba2a6;
+  font-size: var(--font-size-body1);
+  font-weight: var(--font-weight-body1);
+}
+body article.contrast.fixed .right nav h4 {
+  color: #e6f7ff;
+  line-height: 7rem;
+  vertical-align: baseline;
+}
+body article.contrast.fixed .right nav ul li {
+  color: #9ba2a6;
+  font-size: var(--font-size-body1);
+  font-weight: var(--font-weight-body1);
+}
+
+/*# sourceMappingURL=PhaseF05-Best-Practices.css.map */
