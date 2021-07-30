@@ -143,10 +143,6 @@ body article.color:not(.fixed) form button {
   text-align: center;
   cursor: pointer;
   transform: scale(1);
-  transition: all 0.1s ease-in-out;
-}
-body article.color:not(.fixed) form button:hover {
-  background: var(--color-danger--hover);
 }
 body article.color.fixed form button {
   font-size: var(--font-size-button);
@@ -160,10 +156,6 @@ body article.color.fixed form button {
   text-align: center;
   cursor: pointer;
   transform: scale(1);
-  transition: all 0.1s ease-in-out;
-}
-body article.color.fixed form button:hover {
-  background: var(--color-primary--hover);
 }
 body article.contrast {
   display: flex;
@@ -275,6 +267,68 @@ body article.visual-hierarchy.fixed .card .info .field .content {
   color: var(--color-gray-30);
   font-size: var(--font-size-h6);
   font-weight: var(--font-weight-h6);
+}
+body article.alignment {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  padding: var(--density--large);
+}
+body article.alignment form {
+  --gap: var(--density--large);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+body article.alignment form .fields {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap);
+}
+body article.alignment form .fields label {
+  display: flex;
+  flex-direction: column;
+}
+body article.alignment form button {
+  font-size: var(--font-size-button);
+  font-weight: var(--font-weight-button);
+  background: var(--color-primary--idle);
+  color: var(--color-white);
+  min-width: 10rem;
+  padding: var(--density--small) var(--density--normal);
+  border: none;
+  border-radius: 0;
+  text-align: center;
+  cursor: pointer;
+  transform: scale(1);
+  align-self: flex-end;
+  width: max-content;
+}
+body article.alignment:not(.fixed) form {
+  margin-left: var(--density--larger);
+}
+body article.alignment:not(.fixed) form .fields label:nth-of-type(1) {
+  width: 40rem;
+}
+body article.alignment:not(.fixed) form .fields label:nth-of-type(2) {
+  width: 30rem;
+  margin-left: var(--density--larger);
+}
+body article.alignment:not(.fixed) form .fields label:nth-of-type(3) {
+  width: 45rem;
+  margin-left: var(--density--larger);
+}
+body article.alignment:not(.fixed) form .fields label:nth-of-type(4) {
+  width: 25rem;
+}
+body article.alignment:not(.fixed) form button {
+  margin-right: 50%;
+}
+body article.alignment.fixed form .fields label {
+  flex: 1 0 40rem;
+  width: auto;
+}
+body article.alignment.fixed form button {
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=PhaseF05-Best-Practices.css.map */

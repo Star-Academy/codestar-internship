@@ -8,6 +8,7 @@ $defaults-button-color--idle: var(--color-body-foreground);
 $defaults-button-background--hover: same;
 $defaults-button-color--hover: same;
 $defaults-button-min-width: 10rem;
+$defaults-button-transition: true;
 $defaults-button-scale-transition: false;
 $defaults-button-icon-margin: var(--density--normal);
 
@@ -22,6 +23,7 @@ $defaults-transition-scale: 1.02;
   $background--hover: $defaults-button-background--hover,
   $color--hover: $defaults-button-color--hover,
   $min-width: $defaults-button-min-width,
+  $transition: $defaults-button-transition,
   $scale-transition: $defaults-button-scale-transition
 ) {
   @include typography.apply('button');
@@ -47,19 +49,21 @@ $defaults-transition-scale: 1.02;
 
   transform: scale(1);
 
-  transition: all 0.1s ease-in-out;
+  @if $transition {
+    transition: all 0.1s ease-in-out;
 
-  &:hover {
-    @if $background--hover != same {
-      background: $background--hover;
-    }
+    &:hover {
+      @if $background--hover != same {
+        background: $background--hover;
+      }
 
-    @if $color--hover != same {
-      color: $color--hover;
-    }
+      @if $color--hover != same {
+        color: $color--hover;
+      }
 
-    @if $scale-transition != false {
-      transform: scale(#{$defaults-transition-scale});
+      @if $scale-transition != false {
+        transform: scale(#{$defaults-transition-scale});
+      }
     }
   }
 }
@@ -67,6 +71,7 @@ $defaults-transition-scale: 1.02;
 @mixin button--colorful(
   $color,
   $ellipse: $defaults-button-ellipse,
+  $transition: $defaults-button-transition,
   $scale-transition: $defaults-button-scale-transition
 ) {
   @include button-base(
@@ -74,6 +79,7 @@ $defaults-transition-scale: 1.02;
     $background--idle: var(--color-#{$color}--idle),
     $color--idle: var(--color-white),
     $background--hover: var(--color-#{$color}--hover),
+    $transition: $transition,
     $scale-transition: $scale-transition
   );
 }

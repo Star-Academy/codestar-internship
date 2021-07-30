@@ -138,7 +138,7 @@ body {
 
         form {
           button {
-            @include components.button--colorful('danger', false);
+            @include components.button--colorful('danger', false, $transition: false);
           }
         }
       }
@@ -146,7 +146,7 @@ body {
       &.fixed {
         form {
           button {
-            @include components.button--colorful('primary', false);
+            @include components.button--colorful('primary', false, $transition: false);
           }
         }
       }
@@ -350,6 +350,104 @@ body {
                 @include typography.apply('h6');
               }
             }
+          }
+        }
+      }
+    }
+
+    &.alignment {
+      box-shadow: 0 0 1rem hsla(0, 0%, 0%, 10%);
+
+      padding: var(--density--large);
+
+      form {
+        --gap: var(--density--large);
+
+        display: flex;
+        flex-direction: column;
+        gap: var(--gap);
+
+        .fields {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: var(--gap);
+
+          label {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+
+        button {
+          @include components.button--colorful('primary', false, $transition: false);
+
+          align-self: flex-end;
+
+          width: max-content;
+        }
+      }
+
+      &:not(.fixed) {
+        form {
+          margin-left: var(--density--larger);
+
+          .fields {
+            label {
+            }
+
+            label {
+              &:nth-of-type(1) {
+                width: 40rem;
+              }
+            }
+
+            label {
+              &:nth-of-type(2) {
+                width: 30rem;
+
+                margin-left: var(--density--larger);
+              }
+            }
+
+            label {
+              &:nth-of-type(3) {
+                width: 45rem;
+
+                margin-left: var(--density--larger);
+              }
+            }
+
+            label {
+              &:nth-of-type(4) {
+                width: 25rem;
+              }
+            }
+          }
+
+          button {
+            margin-right: 50%;
+          }
+        }
+      }
+
+      &.fixed {
+        form {
+          .fields {
+            label {
+              flex: 1 0 40rem;
+
+              width: auto;
+            }
+
+            label {
+              &:nth-of-type(3) {
+              }
+            }
+          }
+
+          button {
+            margin-right: 0;
           }
         }
       }
