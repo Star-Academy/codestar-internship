@@ -330,5 +330,36 @@ body article.alignment.fixed form .fields label {
 body article.alignment.fixed form button {
   margin-right: 0;
 }
+body article.typography {
+  display: flex;
+  flex-direction: column;
+}
+body article.typography:not(.fixed) {
+  gap: 0;
+}
+body article.typography:not(.fixed) * {
+  font-family: fantasy;
+  line-height: 100%;
+}
+body article.typography:not(.fixed) h2 {
+  letter-spacing: 5rem;
+}
+body article.typography:not(.fixed) section h3 {
+  letter-spacing: -0.2rem;
+}
+body article.typography:not(.fixed) section p {
+  max-width: 120ch;
+  letter-spacing: 0.5rem;
+  line-height: 100%;
+}
+body article.typography.fixed {
+  gap: var(--density--large);
+}
+body article.typography.fixed section h3 {
+  line-height: 100%;
+}
+body article.typography.fixed section p {
+  max-width: 60ch;
+}
 
 /*# sourceMappingURL=PhaseF05-Best-Practices.css.map */

@@ -452,5 +452,53 @@ body {
         }
       }
     }
+
+    &.typography {
+      display: flex;
+      flex-direction: column;
+
+      &:not(.fixed) {
+        gap: 0;
+
+        * {
+          font-family: fantasy;
+          line-height: 100%;
+        }
+
+        h2 {
+          letter-spacing: 5rem;
+        }
+
+        section {
+          h3 {
+            letter-spacing: -0.2rem;
+          }
+
+          p {
+            max-width: 120ch;
+
+            letter-spacing: 0.5rem;
+            line-height: 100%;
+          }
+        }
+      }
+
+      &.fixed {
+        gap: var(--density--large);
+
+        h2 {
+        }
+
+        section {
+          h3 {
+            line-height: 100%;
+          }
+
+          p {
+            max-width: 60ch;
+          }
+        }
+      }
+    }
   }
 }
