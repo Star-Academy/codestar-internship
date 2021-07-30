@@ -173,11 +173,11 @@ body article.contrast .right {
   padding: var(--density--large);
 }
 body article.contrast .left {
-  background-color: #29363d;
+  background-color: #293d3a;
 }
 body article.contrast .right {
   flex: 1;
-  background-color: #1b2a32;
+  background-color: #1b322e;
 }
 body article.contrast .right nav {
   display: grid;
@@ -193,44 +193,88 @@ body article.contrast .right nav ul {
   gap: var(--density--small);
 }
 body article.contrast:not(.fixed) .left h3 {
-  color: #3b5059;
+  color: #3b5954;
   line-height: 7rem;
   vertical-align: baseline;
 }
 body article.contrast:not(.fixed) .left address {
-  color: #104350;
+  color: #105046;
   font-size: var(--font-size-body1);
   font-weight: var(--font-weight-body1);
 }
 body article.contrast:not(.fixed) .right nav h4 {
-  color: #3b5059;
+  color: #3b5954;
   line-height: 7rem;
   vertical-align: baseline;
 }
 body article.contrast:not(.fixed) .right nav ul li {
-  color: #104350;
+  color: #105046;
   font-size: var(--font-size-body1);
   font-weight: var(--font-weight-body1);
 }
 body article.contrast.fixed .left h3 {
-  color: #e6f7ff;
+  color: #e6fffb;
   line-height: 7rem;
   vertical-align: baseline;
 }
 body article.contrast.fixed .left address {
-  color: #9ba2a6;
+  color: #9ba6a4;
   font-size: var(--font-size-body1);
   font-weight: var(--font-weight-body1);
 }
 body article.contrast.fixed .right nav h4 {
-  color: #e6f7ff;
+  color: #e6fffb;
   line-height: 7rem;
   vertical-align: baseline;
 }
 body article.contrast.fixed .right nav ul li {
-  color: #9ba2a6;
+  color: #9ba6a4;
   font-size: var(--font-size-body1);
   font-weight: var(--font-weight-body1);
+}
+body article.visual-hierarchy .card {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: var(--density--larger);
+  padding: var(--density--large);
+}
+body article.visual-hierarchy .card img {
+  max-width: 100%;
+  object-fit: contain;
+}
+body article.visual-hierarchy .card .info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--density--large);
+}
+body article.visual-hierarchy .card .info h2 {
+  line-height: 1;
+}
+body article.visual-hierarchy .card .info .field {
+  display: flex;
+  flex-direction: column;
+}
+body article.visual-hierarchy:not(.fixed) .card img {
+  max-width: 5rem;
+}
+body article.visual-hierarchy:not(.fixed) .card .info * {
+  font-size: var(--font-size-subtitle1);
+  font-weight: var(--font-weight-subtitle1);
+}
+body article.visual-hierarchy.fixed .card img {
+  background-color: var(--color-gray-98);
+  max-width: 20rem;
+}
+body article.visual-hierarchy.fixed .card .info .field .label {
+  color: var(--color-gray-40);
+  font-size: var(--font-size-body1);
+  font-weight: var(--font-weight-body1);
+}
+body article.visual-hierarchy.fixed .card .info .field .content {
+  color: var(--color-gray-30);
+  font-size: var(--font-size-h6);
+  font-weight: var(--font-weight-h6);
 }
 
 /*# sourceMappingURL=PhaseF05-Best-Practices.css.map */

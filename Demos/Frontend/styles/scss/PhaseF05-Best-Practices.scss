@@ -155,9 +155,9 @@ body {
     &.contrast {
       @mixin header($fixed) {
         @if ($fixed) {
-          color: hsl(200, 100%, 95%);
+          color: hsl(170, 100%, 95%);
         } @else {
-          color: hsl(198, 20%, 29%);
+          color: hsl(170, 20%, 29%);
         }
 
         line-height: 7rem;
@@ -166,9 +166,9 @@ body {
 
       @mixin item($fixed) {
         @if ($fixed) {
-          color: hsl(205, 6%, 63%);
+          color: hsl(170, 6%, 63%);
         } @else {
-          color: hsl(193, 66%, 19%);
+          color: hsl(170, 66%, 19%);
         }
 
         @include typography.apply('body1');
@@ -182,13 +182,13 @@ body {
       }
 
       .left {
-        background-color: hsl(200, 20%, 20%);
+        background-color: hsl(170, 20%, 20%);
       }
 
       .right {
         flex: 1;
 
-        background-color: hsl(200, 30%, 15%);
+        background-color: hsl(170, 30%, 15%);
 
         nav {
           display: grid;
@@ -254,6 +254,100 @@ body {
             ul {
               li {
                 @include item(true);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.visual-hierarchy {
+      .card {
+        box-shadow: 0 0 1rem hsla(0, 0%, 0%, 10%);
+
+        display: flex;
+        gap: var(--density--larger);
+
+        padding: var(--density--large);
+
+        img {
+          max-width: 100%;
+
+          object-fit: contain;
+        }
+
+        .info {
+          flex: 1;
+
+          display: flex;
+          flex-direction: column;
+          gap: var(--density--large);
+
+          h2 {
+            line-height: 1;
+          }
+
+          .field {
+            display: flex;
+            flex-direction: column;
+
+            .label {
+            }
+
+            .content {
+            }
+          }
+        }
+      }
+
+      &:not(.fixed) {
+        .card {
+          img {
+            max-width: 5rem;
+          }
+
+          .info {
+            * {
+              @include typography.apply('subtitle1');
+            }
+
+            h2 {
+            }
+
+            .field {
+              .label {
+              }
+
+              .content {
+              }
+            }
+          }
+        }
+      }
+
+      &.fixed {
+        .card {
+          img {
+            background-color: var(--color-gray-98);
+
+            max-width: 20rem;
+          }
+
+          .info {
+            h2 {
+            }
+
+            .field {
+              .label {
+                color: var(--color-gray-40);
+
+                @include typography.apply('body1');
+              }
+
+              .content {
+                color: var(--color-gray-30);
+
+                @include typography.apply('h6');
               }
             }
           }
