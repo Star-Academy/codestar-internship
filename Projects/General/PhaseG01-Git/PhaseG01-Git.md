@@ -72,7 +72,7 @@
 
  <div dir=ltr align="center">
 
-![The lifecycle of the status of your files](https://github.com/Star-Academy/codestar-internship/blob/general/git/Projects/General/PhaseG01-Git/Images/status-lifecycle.png)
+![The lifecycle of the status of your files](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/General/PhaseG01-Git/Images/status-lifecycle.png)
 
 </div>
 
@@ -370,7 +370,7 @@ git remote remove <name>
 
 <div dir=ltr align="center">
 
-![commit tree](https://github.com/Star-Academy/codestar-internship/blob/general/git/Projects/General/PhaseG01-Git/Images/commit-tree.png)
+![commit tree](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/General/PhaseG01-Git/Images/commit-tree.png)
 
 </div>
 
