@@ -11,11 +11,11 @@ This issue template is based of [PhaseF05-Best-Practices.md](./PhaseF05-Best-Pra
       1. `[FILL HERE WITH REASON ONE FOR SECOND QUESTION]`
       1. `[FILL HERE WITH REASON TWO FOR SECOND QUESTION]`
       1. `[FILL HERE WITH REASON THREE FOR SECOND QUESTION]`
-    - [ ] Fill here again with three main reason for first question after reading section 2:
+    - [ ] Fill here again with three main reason for first question after reading the articles:
       1. `[FILL HERE WITH REASON ONE FOR FIRST QUESTION]`
       1. `[FILL HERE WITH REASON TWO FOR FIRST QUESTION]`
       1. `[FILL HERE WITH REASON THREE FOR FIRST QUESTION]`
-    - [ ] Fill here with three main reason for second question after reading section 2:
+    - [ ] Fill here with three main reason for second question after reading the articles:
       1. `[FILL HERE WITH REASON ONE FOR SECOND QUESTION]`
       1. `[FILL HERE WITH REASON TWO FOR SECOND QUESTION]`
       1. `[FILL HERE WITH REASON THREE FOR SECOND QUESTION]`
