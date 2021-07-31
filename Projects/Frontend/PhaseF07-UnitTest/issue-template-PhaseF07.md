@@ -10,7 +10,7 @@ This issue template is based of [PhaseF07-UnitTest.md](./PhaseF07-UnitTest.md) c
 - [ ] Karma and Jasmine
   - [ ] Setup
   - [ ] Run sample test
-  - Unit Testing Tools
+  - [ ] Unit Testing Tools
     - [ ] Building Blocks of Test
     - [ ] Matcher
       - [ ] Equality Check
