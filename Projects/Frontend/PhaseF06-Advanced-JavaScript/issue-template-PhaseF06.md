@@ -17,5 +17,9 @@ This issue template is based of [PhaseF06-Advanced-JavaScript.md](./PhaseF06-Adv
   - [ ] History
   - [ ] npm
 - [ ] Project
+  - [ ] register
+  - [ ] login
+  - [ ] playlist
+  - [ ] song details
 
 
