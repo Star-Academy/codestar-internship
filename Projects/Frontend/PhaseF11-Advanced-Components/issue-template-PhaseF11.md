@@ -1,0 +1,12 @@
+- [ ] OGMA
+  - [ ] Introduction
+  - [ ] Setup
+  - [ ] Visualize fake data
+- [ ] Mapbox GL JS
+  - [ ] Introduction
+  - [ ] Setup
+  - [ ] Visualize fake data
+- [ ] Highcharts
+  - [ ] Introduction
+  - [ ] Setup
+  - [ ] Visualize fake data
