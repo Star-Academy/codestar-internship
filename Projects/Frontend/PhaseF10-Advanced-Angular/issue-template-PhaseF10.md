@@ -1,28 +1,11 @@
-This issue template is based of [PhaseF07-UnitTest.md](./PhaseF07-UnitTest.md) contents. Go to [Issue Repo](https://github.com/Star-Academy/codestar-intern-issues/issues/new/choose) and click on Get started for this phase.
+This issue template is based of [PhaseF10-PhaseF10-Advanced-Angular.md](./PhaseF10-PhaseF10-Advanced-Angular.md) contents. Go to [Issue Repo](https://github.com/Star-Academy/codestar-intern-issues/issues/new/choose) and click on Get started for this phase.
 
 - [ ] Introduction
-  - [ ] The importance of Unit Testing
-  - [ ] Code Coverage
-  - [ ] Solid and Unit Testing
-  - [ ] Mock
-  - [ ] Tdd
-  - [ ] Solid and Tdd
-- [ ] Karma and Jasmine
-  - [ ] Setup
-  - [ ] Run sample test
-  - [ ] Unit Testing Tools
-    - [ ] Building Blocks of Test
-    - [ ] Matcher
-      - [ ] Equality Check
-      - [ ] Boolean Check
-      - [ ] Sequential Check
-      - [ ] Null Check
-      - [ ] Inequality Check
-      - [ ] Not a Number Check
-      - [ ] Exception Check
-    - [ ] beforeEach
-    - [ ] afterEach
-    - [ ] Spies 
-  - [ ] Code Coverage
+  - [ ] Angular
+    - [ ] Routing
+    - [ ] Two-Way Binding
+    - [ ] Pipe
+    - [ ] RxJs
+  - [ ] Angular Material
 - [ ] Project
-    - [ ] Increase code coverage (line or statement coverage) to at least 90%
+    - [ ] Transfer your current code to Angular
