@@ -129,7 +129,7 @@
     <div dir="ltr">
 
     ```
-    npm install karma@latest –save-dev
+    npm install karma@latest -–save-dev
     ```
 
     </div>
