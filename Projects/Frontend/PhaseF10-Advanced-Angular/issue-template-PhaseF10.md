@@ -1,6 +1,7 @@
-This issue template is based of [PhaseF10-PhaseF10-Advanced-Angular.md](./PhaseF10-PhaseF10-Advanced-Angular.md) contents. Go to [Issue Repo](https://github.com/Star-Academy/codestar-intern-issues/issues/new/choose) and click on Get started for this phase.
+This issue template is based of [PhaseF10-Advanced-Angular.md](./PhaseF10-Advanced-Angular.md) contents. Go to [Issue Repo](https://github.com/Star-Academy/codestar-intern-issues/issues/new/choose) and click on Get started for this phase.
 
 - [ ] Introduction
+- [ ] Learning
   - [ ] Angular
     - [ ] Routing
     - [ ] Two-Way Binding
@@ -8,4 +9,4 @@ This issue template is based of [PhaseF10-PhaseF10-Advanced-Angular.md](./PhaseF
     - [ ] RxJs
   - [ ] Angular Material
 - [ ] Project
-    - [ ] Transfer your current code to Angular
+    - [ ] Transfer Your Current Code To Angular
