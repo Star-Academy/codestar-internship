@@ -11,7 +11,7 @@
 
 <br/>
 
-<p dir="rtl"><span style="font-size:18px">2- فایل کتاب‌خانه <strong>Ogma</strong> را دانلود کنید و در پوشه پروژه قرار دهید تا بتوانید کلاس <strong>Ogma</strong> را از آن دریافت کنید. (فایل <strong><a href="../Assets/scripts/ogma.min.rar">ogma.min.js</a></strong> را در همین ریپو موجود است.)</span></p>
+<p dir="rtl"><span style="font-size:18px">2- فایل کتاب‌خانه <strong>Ogma</strong> را دانلود کنید و در پوشه پروژه قرار دهید تا بتوانید کلاس <strong>Ogma</strong> را از آن دریافت کنید. (فایل <strong><a href="../Assets/Scripts/ogma.min.rar">ogma.min.js</a></strong> را در همین ریپو موجود است.)</span></p>
 
 <br/>
 
