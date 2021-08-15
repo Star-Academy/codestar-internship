@@ -20,13 +20,11 @@
 
 
 کتاب‌خانه‌های زیادی برای نمایش گراف وجود دارد، شما می‌توانید برای مطالعه
-بیشتر به این <a
-href="https://medium.com/@Elise_Deux/the-list-of-graph-visualization-libraries-7a7b89aab6a6">صفحه</a>
+بیشتر به [این صفحه](https://medium.com/@Elise_Deux/the-list-of-graph-visualization-libraries-7a7b89aab6a6)
 مراجعه کنید.
 
 
-با توجه به تحقیقات ما، بهترین کتاب‌خانه‌ی موجود برای پیاده‌سازی اهداف تیم ستاره کتاب‌خانه `OGMA` است. برای آشنایی بیشتر با این محصول می‌توانید به این <a
-href="https://doc.linkurio.us/ogma/latest/quickstart.html">سایت</a> مراجعه کنید.
+با توجه به تحقیقات ما، بهترین کتاب‌خانه‌ی موجود برای پیاده‌سازی اهداف تیم ستاره کتاب‌خانه `OGMA` است. برای آشنایی بیشتر با این محصول می‌توانید به این [این صفحه](https://doc.linkurio.us/ogma/latest/quickstart.html)  مراجعه کنید.
 
 در ابتدا `OGMA` را داخل `Angular` امتحان کنید و برای پیاده‌سازی آن به [providing-ogma](providing-ogma.md) مراجعه کنید.
 
