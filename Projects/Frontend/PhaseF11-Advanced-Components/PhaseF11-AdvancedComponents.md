@@ -16,7 +16,7 @@
 
 <img src="../Assets/Images/datawalk.png">
 
-### راه‌اندازی کامپوننت `OGMA`
+### راه‌اندازی کامپوننت OGMA
 
 
 کتاب‌خانه‌های زیادی برای نمایش گراف وجود دارد، شما می‌توانید برای مطالعه
@@ -45,13 +45,13 @@ href="https://doc.linkurio.us/ogma/latest/quickstart.html">سایت</a> مراج
 برای راه‌اندازی `Mapbox GL JS` لازم است دو پکیج را نصب کنید:
 <div dir="ltr">
 
-```
+```bash
 npm i mapbox-gl
 ```
 </div>
 <div dir="ltr">
 
-```
+```bash
 npm i @types/mapbox-gl
 ```
 </div>
