@@ -55,7 +55,7 @@
 
 ## آشنایی با ساختمان داده DataFrame 
 
-با استفاده از Dataframe در کتابخانه pandas می‌توان انواع عملیات ETL و Visualize داده را انجام داد. در این قسمت می‌خواهیم با استفاده از فایل‌های csv دیتاست های معروف دو تمرین دستگرمی انجام دهیم:
+با استفاده از DataFrame در کتابخانه pandas می‌توان انواع عملیات ETL و Visualize داده را انجام داد. در این قسمت می‌خواهیم با استفاده از فایل‌های csv دیتاست های معروف دو تمرین دستگرمی انجام دهیم:
 
 * [دستگرمی اول](https://colab.research.google.com/notebooks/mlcc/intro_to_pandas.ipynb) (Intro to pandas - California Housing CSV)
 * [دستگرمی دوم](https://colab.research.google.com/github/ChadFulton/sm-notebooks-2021/blob/main/001-etl-data-covid-19.ipynb) (ETL Data - COVID-19 datasets)
@@ -78,6 +78,8 @@
 برای راحتی بیشتر شما در انجام این پروژه یک notebook آماده و تحلیل‌ها و خروجی‌های مورد نظر در آن نشان داده شده‌است. سپس بخش‌هایی از کد را پاک کردیم تا شما پیاده‌سازی کنید. لینک زیر را باز کنید و سپس محتوایات خواسته شده را پر کنید و با اجرای مجدد از درستی کدتان مطمئن شوید:
 
 * [Iran-Covid-ETL-notebook.ipynb](https://colab.research.google.com/github/Star-Academy/codestar-internship/blob/feature%2FSE-phase20/Projects/Phase20-Colab/Iran-Covid-ETL-notebook.ipynb)
+
+یک منبع خوب برای دستورات مورد نیاز شما در کار با DataFrame فایل [Pandas_Cheat_Sheet.pdf](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf) هست.
 
 در پایان پروژه، notebook ویرایش شده‌ی خودتان را با استفاده از دگمه Share در گوشه‌ی بالا سمت راست صفحه‌ی Colab با دیگران به اشتراک بگذارید و دسترسی Comment گذاری به آن‌ها بدهید و لینک تولید شده را در ایشوی github تیم خودتان قرار دهید.
 
