@@ -16,17 +16,16 @@
 
 در این فاز میخواهیم با استفاده از زبان python و کتابخانه‌های معروف آن، روی دیتاستی که در پایان این مستند آمده است، کار های ساده‌ ETL انجام دهیم.
 
- برای این کار آشنایی مقدماتی با python لازم است. اگر با python آشنایی ندارید می‌توانید با مطالعه لینک‌های برای ادامه کار آماده شوید:
+ برای این کار آشنایی مقدماتی با python لازم است. اگر با python آشنایی ندارید می‌توانید با مطالعه لینک‌های زیر برای ادامه کار آماده شوید:
 
  * [Python Introduction](https://developers.google.com/edu/python/introduction)
- * [Python Strings](https://developers.google.com/edu/python/strings)
  * [Python Lists](https://developers.google.com/edu/python/lists)
  * [Python Sorting](https://developers.google.com/edu/python/sorting)
  * [Python Dict and File](https://developers.google.com/edu/python/dict-files)
   
 
 ## آشنایی با Colab
-محصول Google Colaboratory یا Colab یک ابزار بسیار راحت برای کار با داده ها به زبان python است. با استفاده از Colab می‌توانید کد های python را در مرورگر خود بنویسید و اجرای آن‌ها را به سرور بسپارید و بدون این که کامپیوتر خودتان درگیر اجرای کد روی داده شود نتیجه‌ی اجرا روی سرور در مرورگر به شما نشان داده‌شود.
+محصول Google Colaboratory یا Colab یک ابزار بسیار راحت برای کار با داده‌ها به زبان python است. با استفاده از Colab می‌توانید کد‌های python را در مرورگر خود بنویسید و اجرای آن‌ها را به سرور بسپارید و بدون این که کامپیوتر خودتان درگیر اجرای کد روی داده شود نتیجه‌ی اجرا روی سرور در مرورگر به شما نشان داده شود.
 
 برای این که بهتر متوجه شوید لینک زیر را باز کنید و با Colab کار کنید:
 
@@ -47,10 +46,16 @@
 
 * [Google Colab — Your Python workspace on cloud](https://towardsdatascience.com/google-colab-your-python-workspace-on-cloud-c3aed424de0d)
 
+برای آشنایی بیشتر با مفهوم notebook و معماری فنی آن لینک‌های زیر را بخوانید:
 
-## آشنایی با Dataframe
+* [Project Jupyter](https://en.wikipedia.org/wiki/Project_Jupyter)
+* [IPython](https://en.wikipedia.org/wiki/IPython)
+* [Read–eval–print loop](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)
 
-با استفاده از Dataframe در کتابخانه pandas می توان می توان انواع عملیات ETL و Visualize داده را انجام داد. در این قسمت می‌خواهیم با استفاده از فایل‌های csv دیتاست های معروف دو تمرین دستگرمی انجام دهیم:
+
+## آشنایی با ساختمان داده DataFrame 
+
+با استفاده از Dataframe در کتابخانه pandas می‌توان انواع عملیات ETL و Visualize داده را انجام داد. در این قسمت می‌خواهیم با استفاده از فایل‌های csv دیتاست های معروف دو تمرین دستگرمی انجام دهیم:
 
 * [دستگرمی اول](https://colab.research.google.com/notebooks/mlcc/intro_to_pandas.ipynb) (Intro to pandas - California Housing CSV)
 * [دستگرمی دوم](https://colab.research.google.com/github/ChadFulton/sm-notebooks-2021/blob/main/001-etl-data-covid-19.ipynb) (ETL Data - COVID-19 datasets)
