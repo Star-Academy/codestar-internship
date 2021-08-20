@@ -19,7 +19,7 @@ This issue template is based of [Phase20-Colab.md](./Phase20-Colab.md) contents.
       - [ ] Load vaccinations data
       - [ ] Filter vaccinations data by location
       - [ ] Replace Nan (null) values with zero
-      - [ ] Join "vaccination data" with "case & death data"
+      - [ ] Join "vaccination data" and "case & death data"
       - [ ] Calculate sum/avg/max/min MONTHLY Aggregation
 
 Link of your own notebook:
