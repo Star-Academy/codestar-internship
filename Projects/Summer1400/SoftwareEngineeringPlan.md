@@ -20,6 +20,8 @@
 -  [Phase11-Web](../Phase11-Web/Phase11-Web.md)
    *   (Optional, just for fast teams) => [Phase14-Apm](../Phase14-Apm/Phase14-Apm.md)
 
+-  [Phase17-ETL](../Phase17-ETL/Phase17-ETL.md)
+  
 ## Project 1 (SQL based ETL)
 
   - Getting Started with ETL
