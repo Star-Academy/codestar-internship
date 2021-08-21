@@ -16,7 +16,6 @@ This issue template is based of [Phase17-ETL.md](./Phase17-ETL.md) contents. Go 
     - [ ] Replace null values
     - [ ] Convert data type from string to Date
 - [ ] Aggregation
-    - [ ] Calculate weekly average
     - [ ] Calculate monthly sum
 - [ ] Join
     - [ ] Load location dataset
