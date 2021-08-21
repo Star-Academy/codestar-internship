@@ -1,4 +1,5 @@
 <div dir="rtl" align='justify'>
+
 [لیست تسک‌های مرتبط با این فاز به صورت issue template](issue-template-Phase17.md)
 
 # فاز هفده: آشنایی با ETL (Extract, Transform, Load)
