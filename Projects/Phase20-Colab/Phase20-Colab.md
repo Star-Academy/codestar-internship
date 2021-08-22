@@ -11,7 +11,7 @@
 احتمالاً تا کنون بار ها اسم این زبان را شنیده‌اید. این زبان محبوبیت زیادی بین Data Scientist ها دارد چون:
 
 *  ساده و نزدیک به زبان انسان هست.
-*  برای بسیاری از Data Scientist ها که ممکن است تجربه‌ی کار با زبان‌های اصلی Object Oriented  و مفاهیم پیشرفته دنیای مهندسی نرم افزار را نداشته باشند، یادگیری راحتی دارد.
+*  برای بسیاری از Data Scientist ها که ممکن است تجربه‌ی کار با زبان‌های اصلی Object Oriented  و مفاهیم پیشرفته دنیای مهندسی نرم‌افزار را نداشته باشند، یادگیری راحتی دارد.
 
 * کتابخانه‌های زیاد و متنوعی به زبان python در حوزه Data Science وجود دارد.
 
@@ -79,6 +79,10 @@
 برای راحتی بیشتر شما در انجام این پروژه یک notebook آماده و تحلیل‌ها و خروجی‌های مورد نظر در آن نشان داده شده‌است. سپس بخش‌هایی از کد را پاک کردیم تا شما پیاده‌سازی کنید. لینک زیر را باز کنید و سپس محتویات خواسته شده را پر کنید و با اجرای مجدد از درستی کدتان مطمئن شوید:
 
 * [Iran-Covid-ETL-notebook.ipynb](https://colab.research.google.com/github/Star-Academy/codestar-internship/blob/feature%2FSE-phase20/Projects/Phase20-Colab/Iran-Covid-ETL-notebook.ipynb)
+
+<!-- پاسخ نوتبوک بالا در لینک مقابل است: 
+https://colab.research.google.com/drive/1Hcypvr88pPmQmF0N4WUmffNSiSaQm9C6?usp=sharing
+ -->
 
 یک منبع خوب برای دستورات مورد نیاز شما در کار با DataFrame فایل [Pandas_Cheat_Sheet.pdf](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf) هست.
 
