@@ -51,10 +51,11 @@ khoobam: 1
 
 در سال‌های گذشته شرکت‌های مختلفی با چالش‌های مطرح شده در مقدمه مواجه شدند و پارادایم Map Reduce نگاه جدیدی بود که می‌توانست مشکلات را حل کند. یعنی با درگیر کردن تعداد زیادی کامپیوتر/سرور، انواع پردازش‌ها را روی حجم بالای داده‌ها در زمان معقولی انجام دهد. 
 
-برای آشنایی با جزئیات آن لینک‌های زیر را مطالعه کنید:
+برای آشنایی با جزئیات آن لینک‌های زیر را بررسی و مطالعه کنید:
 
 <div dir="ltr">
 
+* [What Is MapReduce? | What Is MapReduce In Hadoop? | Hadoop MapReduce Tutorial | Simplilearn Youtube](https://www.youtube.com/watch?v=b-IvmXoO0bU)
 
 * [What is MapReduce in Hadoop? Architecture | Example](https://www.guru99.com/introduction-to-mapreduce.html)
 
@@ -75,7 +76,9 @@ khoobam: 1
 
 ## آشنایی با مفاهیم Spark
 
-تحولی که Map Reduce ایجاد کرد بسیار بزرگ بود و استقبال زیادی از آن شد اما نیاز بود که ابزار‌ها و معماری‌های پیشرفته‌تری بر اساس همان الگو و پارادایم پیاده‌سازی شوند. بر همین مبنا Spark شکل گرفت. برای آشنایی با آن لینک‌های زیر را با دقت مطالعه کنید:
+تحولی که Map Reduce ایجاد کرد بسیار بزرگ بود و استقبال زیادی از آن شد اما نیاز بود که ابزار‌ها و معماری‌های پیشرفته‌تری بر اساس همان الگو و پارادایم پیاده‌سازی شوند. بر همین مبنا Spark شکل گرفت. برای آشنایی با آن لینک‌های زیر را با دقت بررسی و مطالعه کنید:
+
+* [Spark Tutorial For Beginners | Big Data Spark Tutorial | Apache Spark Tutorial | Simplilearn Youtube](https://www.youtube.com/watch?v=QaoJNXW6SQo)
 
 * [مقدمه‌ای بر Apache Spark](https://vrgl.ir/P9uxu)
 
