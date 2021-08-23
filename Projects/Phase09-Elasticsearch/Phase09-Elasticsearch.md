@@ -1156,9 +1156,12 @@ Bulk API
 Elasticsearch
 خود
 Doumentation
-آن است که در زیر لینک آن آمده است:
+ آن است که در زیر لینک آن آمده است:
 
 * [Elasticsearch Reference](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)
+
+همچنین اگر مایل به استفاده از ویدیو های آموزشی هستید، استفاده از دوره آموزشی زیر پیشنهاد می‌شود:
+* [Complete Guide to Elasticsearch](https://download.ir/complete-guide-to-elasticsearch/)
 
 
 اشعار از

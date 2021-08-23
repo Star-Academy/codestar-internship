@@ -10,17 +10,37 @@
 
 1. CI/CD چیست و چرا اهمیت دارد:
 
-    در این مرحله، در مورد مفهوم CI/CD
-    و اهمیت آن مطالعه کنید. در این بخش، مطالعه‌ی لینک‌های زیر پیشنهاد می‌شود.
+    1.  در این مرحله، در مورد مفهوم CI/CD
+      و اهمیت آن مطالعه کنید. در این بخش، مطالعه‌ی لینک‌های زیر پیشنهاد می‌شود.
 
-    <div dir="ltr">
+        <div dir="ltr">
 
-    - [What is CI/CD?(redhat) video](https://www.redhat.com/en/topics/devops/what-is-ci-cd)
-    - [What is CI/CD?](https://medium.com/tilicholabs/what-is-ci-cd-c7c047b80e6b)
-    - [What’s the Point of CI Anyway?](https://medium.com/swlh/whats-the-point-of-ci-anyway-ac3f9eaa244c)
-    - [The Journey to CI/CD](https://medium.com/driven-by-code/the-journey-to-ci-cd-b1872927c36b)
+        - [What is CI/CD?(redhat) video](https://www.redhat.com/en/topics/devops/what-is-ci-cd)
+        - [What is CI/CD?](https://medium.com/tilicholabs/what-is-ci-cd-c7c047b80e6b)
+        - [What’s the Point of CI Anyway?](https://medium.com/swlh/whats-the-point-of-ci-anyway-ac3f9eaa244c)
+        - [The Journey to CI/CD](https://medium.com/driven-by-code/the-journey-to-ci-cd-b1872927c36b)
 
-    </div>
+        </div>
+    1. برای آشنایی با مفهوم DevOps
+      تماشای ویدیوی زیر پیشنهاد می‌شود.
+        <div dir="ltr">
+
+        - [What is DevOps? In simple English](https://www.dideo.ir/v/yt/_I94-tJlovg/%D8%AA%D9%85%D8%A7%D8%B4%D8%A7%DB%8C-%D9%88%DB%8C%D8%AF%D8%A6%D9%88-%D8%A7%D8%B2-%D8%AF%DB%8C%D8%AF%D8%A6%D9%88-watch-video-from-dideo)
+        
+        </div>
+
+    1. همچنین اگر در مقالات بالا ذهنتان مشغول این شده است که docker
+      و AWS
+      چه چیزی هستند, دیدن ویدیو‌های زیر پیشنهاد می‌شود.
+
+        <div>
+
+        - [Docker tutorial for beginners](https://www.dideo.ir/v/yt/rOTqprHv1YE/%D8%AA%D9%85%D8%A7%D8%B4%D8%A7%DB%8C-%D9%88%DB%8C%D8%AF%D8%A6%D9%88-%D8%A7%D8%B2-%D8%AF%DB%8C%D8%AF%D8%A6%D9%88-watch-video-from-dideo)
+
+        - [What is AWS](https://www.dideo.ir/v/yt/a9__D53WsUs/%D8%AA%D9%85%D8%A7%D8%B4%D8%A7%DB%8C-%D9%88%DB%8C%D8%AF%D8%A6%D9%88-%D8%A7%D8%B2-%D8%AF%DB%8C%D8%AF%D8%A6%D9%88-watch-video-from-dideo)
+
+        </div>
+
 
 1. آشنایی با GitHub Actions و اضافه کردن CI/CD Pipeline به ریپازیتوری:
 
@@ -34,6 +54,11 @@
     می‌گنجد را به ریپازیتوری گیت‌هاب خود اضافه کنیم. این بخش شامل مراحل زیر است:
 
     1. فایل زیر را در مسیر زیر در ریپازیتوری خود می‌سازیم:
+        (اگر این فولدر‌ها در ریپو شما وجود ندارند  باید بسازید,
+        همچنین توجه کنید که اگر نمی‌توانید به صورت مستقیم فایل buildPipeline.yml
+        را بسازید, باید در قسمت view
+        فولدر اکسپلورر , چک file name extensions
+        را بزنید.)
 
         <div dir="ltr">
 
@@ -44,6 +69,7 @@
         </div>
 
     1. برای pipeline خود یک نام تعریف می‌کنیم: (به فایل `buildPipeline.yml` اضافه کنید.)
+        (توجه کنید که این نام اختیاری هست)
 
         <div dir="ltr">
 
@@ -54,6 +80,9 @@
         </div>
 
     1. مشخص می‌کنیم که pipeline در هنگام push و pull request روی master اجرا شود.
+        (این قسمت در واقع trigger
+        کل این عملیات هست و اگر فعال نشه با پوش کردن و پول ریکوست زدن به مستر هم, گیت هاب درک نمیکند که باید CI/CD
+        شما را انجام دهد)
 
         <div dir="ltr">
 
@@ -68,7 +97,8 @@
         </div>
 
     
-    1. مراحل Pipeline را به ترتیب تعریف می‌کنیم. در ابتدا مشخص می‌کنیم که pipeline روی آخرین ورژن ubuntu اجرا شود: (می‌توان آن را تغییر داد)
+    1. مراحل Pipeline را به ترتیب تعریف می‌کنیم. در ابتدا مشخص می‌کنیم که pipeline روی آخرین ورژن ubuntu اجرا شود: (می‌توان آن را تغییر داد, اگر برای این میخواهید تغییر دهید که file path
+    ها در ویندوز و لینوکس کمی متفاوت است, ترجیحا کدتان را درست کنید.)
 
         <div dir="ltr">
 
@@ -81,6 +111,7 @@
         </div>
     
     1. در این مرحله مشخص می‌کنیم که CI از agent ای به نام `actions/checkout@v2` استفاده کند: (برای مطالعه بیشتر [این](https://www.edwardthomson.com/blog/) لینک را بخوانید.)
+        (در واقع با این خط گیت هاب میفهمد که باید از فایل‌هایی شبیه فایل شما که از قبل درست شده هستند استفاده کند)
 
         <div dir="ltr">
 
@@ -92,6 +123,10 @@
         </div>
     
     1. در این مرحله مشخص می‌کنیم که .Net core 3.1 نصب شود.
+        (اگر در ساخت پروژه از dotnet core 5
+        استفاده کردید، به جای ورژن زیر باید
+        `<dotnet-version: 5.0.x>`
+        را وارد کنید)
 
         <div dir="ltr">
 
@@ -104,7 +139,8 @@
 
         </div>
     
-    1. سپس dependency های پروژه restore شوند:‌ (دقت کنید که به جای `<path to solution>` آدرس فولدر solution خود را مشخص کنید.)
+    1. سپس dependency های پروژه restore شوند:‌ (دقت کنید که به جای `<path to solution>` آدرس فولدر solution خود را مشخص کنید.
+        همچنین توجه کنید که باید از فولدر اصلی پروژه آدرس دهید)
 
         <div dir="ltr">
 
@@ -183,7 +219,10 @@
 
         </div>
     
-    1. بخش زیر را به فایل `buildPipeline.yml` اضافه کنید:
+    1. بخش زیر را به فایل `buildPipeline.yml` اضافه کنید:(توجه کنید که فیلد توکن که در زیر آمده, در هنگام لاگین کردن در سایت codecove
+    به اکانت گیت هاب شما در قسمت
+    secrets
+    اضافه شده است)
 
         <div dir="ltr">
 
@@ -284,7 +323,7 @@
         شمارهٔ تیم خود و به جای `[LibraryName]`
         نام پروژهٔ خود را قرار دهید. شماره تیم به این خاطر باید قرار داده شود که اگر نام پروژه دو تیم یکسان بود، publish
         دچار مشکل نشود و در نهایت `PackageId`
-        یکتا باشد.)
+        یکتا باشد. همچنین توجه کنید که از بعضی کاراکتر‌ها نمیتوان در نام‌گذاری‌ها استفاده کرد.)
 
         <div dir="ltr">
 
@@ -447,6 +486,6 @@
     کرده باشید، با اجرای این command،
     نسخه جدید پکیج به پروژه شما اضافه می‌شود.
 
-    حال با استفاده از پکیج کتابخانه سرچ‌تان، یک نرم‌افزار سرچ تحت کنسول پیاده‌سازی کنید.
+    حال با استفاده از پکیج کتابخانه سرچ‌تان، یک نرم‌افزار سرچ تحت کنسول پیاده‌سازی کنید.  
 
 </div>
