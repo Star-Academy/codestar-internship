@@ -61,4 +61,13 @@ ORM مخفف Object Reletional Mapping است که مترجم میان زبان�
 * [Delete Records in Entity Framework Core
 ](https://www.yogihosting.com/delete-records-entity-framework-core/)
 
+### Unit-test
+این لینک ها برای تست کلاس هایی که از دیتابیس استفاده می‌کنند مطالعه کنید
+* [Testing code that uses EF Core
+](https://docs.microsoft.com/en-us/ef/core/testing/)
+* [EF Core testing sample
+](https://docs.microsoft.com/en-us/ef/core/testing/testing-sample)
+* [Sharing databases between tests
+](https://docs.microsoft.com/en-us/ef/core/testing/sharing-databases)
+
 </div>
