@@ -49,4 +49,4 @@
 
 ### Final Project
 
-[Project definition](./General/ETLProject/ETLProject.md)
+[Project definition](../General/ETLProject/ETLProject.md)

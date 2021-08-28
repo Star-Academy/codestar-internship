@@ -29,7 +29,7 @@
   - Getting Started with YAML files
  
 
-- [Project definition](./General/ETLProject/ETLProject.md)
+- [Project definition](../General/ETLProject/ETLProject.md)
 
 
 ## Project 2 (Spark based ETL)
