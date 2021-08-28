@@ -1,8 +1,6 @@
 <div dir="rtl" align='justify'>
 
-[لیست تسک‌های مرتبط با این فاز به صورت issue template](issue-template-Phase18.md)
-
-# فاز هجده: نرم‌افزار ETL
+# پروژه
 
 ## مقدمه
 تا این جا با مفهوم
