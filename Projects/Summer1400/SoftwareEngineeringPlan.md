@@ -29,11 +29,7 @@
   - Getting Started with YAML files
  
 
-- Project One Definition
-
-    - Console based scenario executer (YAML file as scenario design)
-  
-    - Web based scenario executer
+- [Project definition](../General/ETLProject/ETLProject.md)
 
 
 ## Project 2 (Spark based ETL)
