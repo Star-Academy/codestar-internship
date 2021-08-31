@@ -46,3 +46,7 @@
 - Each music has a separate page which contains its information such as name, artist, release year and ...
 - User has a full control of their playlist in a way that they can create a new playlist or remove an existing one.
 - User can add musics in their desired playlist or remove them
+
+### Final Project
+
+[Project definition](../General/ETLProject/ETLProject.md)
