@@ -23,7 +23,7 @@
 ### Angular
 -  [PhaseF09-Angular](../Frontend/PhaseF09-Angular/PhaseF09-Angular.md)
 -  [PhaseF10-Advanced-Angular](../Frontend/PhaseF10-Advanced-Angular/PhaseF10-Advanced-Angular.md)
--  [PhaseF11-Graphs-And-Charts](../Frontend/PhaseF11-Graphs-And-Charts/PhaseF11-Graphs-And-Charts.md)
+-  [PhaseF11-Graphs-And-Charts](../Frontend/PhaseF11-Advanced-Components/PhaseF11-AdvancedComponents.md)
 
 ---
 
