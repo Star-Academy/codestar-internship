@@ -78,22 +78,35 @@ khoobam: 1
 
 تحولی که Map Reduce ایجاد کرد بسیار بزرگ بود و استقبال زیادی از آن شد اما نیاز بود که ابزار‌ها و معماری‌های پیشرفته‌تری بر اساس همان الگو و پارادایم پیاده‌سازی شوند. بر همین مبنا Spark شکل گرفت. برای آشنایی با آن لینک‌های زیر را با دقت بررسی و مطالعه کنید:
 
+<div dir="ltr">
+
 * [Spark Tutorial For Beginners | Big Data Spark Tutorial | Apache Spark Tutorial | Simplilearn Youtube](https://www.youtube.com/watch?v=QaoJNXW6SQo)
+
+* [Spark Tutorial – Learn Spark Programming](https://data-flair.training/blogs/spark-tutorial/)
+
+</div>
 
 * [مقدمه‌ای بر Apache Spark](https://vrgl.ir/P9uxu)
 
 * [معرفی و آشنایی با آپاچی اسپارک](https://bigdataworld.ir/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%88-%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%DB%8C-%D8%A8%D8%A7-%D8%A2%D9%BE%D8%A7%DA%86%DB%8C-%D8%A7%D8%B3%D9%BE%D8%A7%D8%B1%DA%A9/)
 
-* [Spark Tutorial – Learn Spark Programming](https://data-flair.training/blogs/spark-tutorial/)
 
 یکی از مفاهیم اصلی در معماری Spark مفهوم RDD (Resilient Distributed Dataset) است، در مورد آن به دقت مطالعه کنید:
 
+<div dir="ltr">
+
 * [Spark RDD – Introduction, Features & Operations of RDD](https://data-flair.training/blogs/spark-rdd-tutorial/)
+
+</div>
 
 حالا که با Spark آشنا شدید، در مورد طیف وسیع کاربرد‌های آن مطالعه کنید:
 
+<div dir="ltr">
+
+
 * [Apache Spark Use Cases in Real Time](https://data-flair.training/blogs/spark-use-cases/)
 
+</div>
 
 ## کار با Spark روی Colab
 
