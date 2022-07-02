@@ -141,7 +141,50 @@ var s = "hi";
 
 </div>
 
-## LINQ:
+## Extension Method
+
+برای اضافه کردن متد به تایپ‌های موجود، بدون تغییر تایپ اصلی، تعریف کلاس فرزند یا کامپایل مجدد کتاب‌خانه از Extension Method استفاده می‌شود. Extension method ها static هستند اما به نحوی صدا زده می‌شوند که گویا عضوی از تایپ مورد‌نظر می‌باشند.
+مثلا می‌خواهیم یک عملکرد برای تایپ string پیاده‌سازی کنیم به صورتی که تعداد کلمات یک  متن را برای ما شمارش کند:
+<div dir="ltr" align='justify'>
+
+```C#
+namespace ExtensionMethods
+{
+    public static class MyExtensions
+    {
+        public static int WordCount(string str)
+        {
+            return str.Split(new char[] { ' ', '.', '?' },
+                             StringSplitOptions.RemoveEmptyEntries).Length;
+        }
+    }
+} 
+```
+</div>
+
+استفاده از کد بالا به صورت زیر می باشد.
+
+<div dir="ltr" align='justify'>
+
+```C#
+String s = “Hello Extension Methods”
+Int i = MyExtensions.WordCount(s)
+```
+
+</div>
+
+حال اگر عبارت `public static int WordCount(string str)` را مانند `public static int WordCount(this string str)` بنویسیم. میتوانیم به این صورت از extension method استفاده کنیم.
+<div dir="ltr" align='justify'>
+
+```
+string s = "Hello Extension Methods";
+int i = s.WordCount();
+```
+</div>
+
+
+
+## LINQ
 
 LINQ مخفف عبارت Language-Integrated Query است توجه داشته باشید که آن را لینک (Link) تلفظ کنید. LINQ یک راه یکسان برای اتصال برقرار کردن به هر داده ساختار استاندارد را فراهم می‌کنه.
 برای درک بهتر و تمرین بیشتر می‌تونید لینک‌های زیر را مطالعه کنید:
