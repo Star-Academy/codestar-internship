@@ -147,8 +147,8 @@ var s = "hi";
 
 ### Extension Method
 
-برای اضافه کردن متد به کلاس‌های موجود بدون تغییر کلاس اصلی، تعریف کلاس فرزند یا کامپایل مجدد کتابخانه از Extension Method استفاده می‌شود. Extension methodها static هستند و خارج از کلاس مورد نظر پیاده سازی می‌شوند اما به نحوی صدا زده می‌شوند که گویا عضوی از آن کلاس می‌باشند.
-مثلا می‌خواهیم یک عملکرد برای کلاس string پیاده‌سازی کنیم به صورتی که تعداد کلمات یک  متن را برای ما شمارش کند:
+برای اضافه کردن متد به کلاس‌های موجود بدون تغییر کلاس اصلی، تعریف کلاس فرزند یا کامپایل مجدد کتابخانه، از Extension Method استفاده می‌شود. Extension methodها static هستند و خارج از کلاس مورد نظر پیاده سازی می‌شوند اما به نحوی صدا زده می‌شوند که گویا عضوی از آن کلاس می‌باشند.
+مثلا می‌خواهیم یک عملکرد برای کلاس string (به دلیل [sealed](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/sealed) بودن قابل ارث‌بری نیست) پیاده‌سازی کنیم به صورتی که تعداد کلمات یک  متن را برای ما شمارش کند:
 
 <div dir="ltr" align='justify'>
 
@@ -167,7 +167,7 @@ namespace ExtensionMethods
 
 </div>
 
-استفاده از کد بالا به صورت زیر می باشد.
+استفاده از کد بالا به صورت زیر می‌باشد.
 
 <div dir="ltr" align='justify'>
 
@@ -193,7 +193,7 @@ var i = s.WordCount();
 
 ### LINQ
 
-واژه LINQ (توجه داشته باشید که آن را Link تلفظ کنید) مخفف عبارت Language-Integrated Query است. LINQ یک راه یکسان را برای اتصال برقرار کردن به هر داده ساختار استاندارد فراهم می‌کند.
+واژه LINQ (توجه داشته باشید که آن را Link تلفظ کنید) مخفف عبارت Language-Integrated Query است. LINQ یک راه یکسان را برای اتصال برقرار کردن به هر داده‌ساختار استاندارد فراهم می‌کند.
 برای درک بهتر و تمرین بیشتر لینک‌های زیر را مطالعه کنید:
 
 <div dir="ltr" align='justify'>
@@ -206,7 +206,7 @@ var i = s.WordCount();
 
 ### C# Interactive
 
-گاهی نیاز داریم در محیطی تعاملی مانند زبان‌های مفسری (مثل javascript ،python یا ...) دستورات ad-hoc اجرا کنیم. C# نیز این امکان را با نام Net Interactive. در اختیار ما قرار داده است. برای استفاده از این ابزار اکستنشن [Net Interactive.](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode) را برای VS Code نصب کنید.
+گاهی نیاز داریم در محیطی تعاملی مانند زبان‌های مفسری (مثل javascript ،python یا ...) دستوراتی را اجرا کنیم. #C نیز این امکان را با نام Net Interactive. در اختیار ما قرار داده است. برای استفاده از این ابزار اکستنشن [Net Interactive.](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode) را برای VS Code نصب کنید.
 پس از نصب اکستنشن در محیط Net Interactive. این دستورات را اجرا کنید.
 
 <div dir="ltr" align='justify'>
@@ -227,7 +227,7 @@ System.IO.Directory.GetCurrentDirectory()
 برنامه‌ای بنویسید که دو فایل [دانشجویان](./Students.json) و [نمرات](./Scores.json) را بخواند و سپس نام، نام خانوادگی و معدل سه دانشجوی اول را چاپ کند.
 
 
-برای کار با زبان C# می‌توانید IDEهای [Visual Studio]("") یا [Rider]("") را نصب کنید و از امکاناتشان بهره‌مند شوید.
+برای کار با زبان #C می‌توانید IDEهای [Visual Studio]("") یا [Rider]("") را نصب کنید و از امکاناتشان بهره‌مند شوید.
 **برای کار روی پروژه‌ها پیشنهاد می‌شود حتما از IDE استفاده ‌‌‌‌کنید.**
 
 
