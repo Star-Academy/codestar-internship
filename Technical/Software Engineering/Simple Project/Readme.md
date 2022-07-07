@@ -4,7 +4,7 @@
 
 <div align='center'>
 
-**[⚡Issues⚡](./issue-template-simpleProject.md)**
+**[⚡Issues⚡](./issue-template.md)**
 
 </div>
 
