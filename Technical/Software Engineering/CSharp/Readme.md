@@ -22,7 +22,7 @@
 
 ## آشنایی با مبانی زبان #C
 
-بهتر است ابتدا با Solution و Project  در زبان C# آشنا شوید که برای درک این مفاهیم [?What is a C# solution and how to use it](https://stackoverflow.com/a/40400159/7498797) را مطالعه کنید؛ سپس در صورتی که با زبان Java آشنایی دارید [C# Crash Course for Java Developers](https://nerdparadise.com/programming/csharpforjavadevs) را مطالعه بفرمایید. در غیر این صورت از [این لینک](https://www.w3schools.com/cs/index.php) جهت یادگیری مبانی #C استفاده ‌‌‌‌‌‌‌کنید.
+بهتر است ابتدا با Solution و Project  در زبان #C آشنا شوید که برای درک این مفاهیم [?What is a C# solution and how to use it](https://stackoverflow.com/a/40400159/7498797) را مطالعه کنید؛ سپس در صورتی که با زبان Java آشنایی دارید [C# Crash Course for Java Developers](https://nerdparadise.com/programming/csharpforjavadevs) را مطالعه بفرمایید. در غیر این صورت از [این لینک](https://www.w3schools.com/cs/index.php) جهت یادگیری مبانی #C استفاده ‌‌‌‌‌‌‌کنید.
 
 ## اولین برنامه
    
@@ -224,7 +224,7 @@ System.IO.Directory.GetCurrentDirectory()
 
 ## پروژه
 
-برنامه‌ای بنویسید که دو فایل [دانشجویان](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Phase04-CSharp/Students.json) و [نمرات](https://github.com/Star-Academy/codestar-internship/blob/master/Projects/Phase04-CSharp/Scores.json) را بخواند و سپس نام، نام خانوادگی و معدل سه دانشجوی اول را چاپ کند.
+برنامه‌ای بنویسید که دو فایل [دانشجویان](./Students.json) و [نمرات](./Scores.json) را بخواند و سپس نام، نام خانوادگی و معدل سه دانشجوی اول را چاپ کند.
 
 
 برای کار با زبان C# می‌توانید IDEهای [Visual Studio]("") یا [Rider]("") را نصب کنید و از امکاناتشان بهره‌مند شوید.
